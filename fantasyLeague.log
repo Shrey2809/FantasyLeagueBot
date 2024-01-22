@@ -1,0 +1,546 @@
+2024-01-20 05:35:05,328 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:35:05,330 [INFO] logging in using static token
+2024-01-20 05:35:06,556 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0c19adc45f0959e88b3b7d5d4fe76cdd).
+2024-01-20 05:35:08,563 [INFO] -------------
+2024-01-20 05:35:08,563 [INFO] |Fantasy Bot|
+2024-01-20 05:35:08,564 [INFO] -------------
+2024-01-20 05:35:17,083 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 88, in on_message
+    with open(file_name, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'draft_order/.txt'
+2024-01-20 05:35:24,501 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fbf00b4ee30>
+2024-01-20 05:35:30,476 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:35:30,476 [INFO] logging in using static token
+2024-01-20 05:35:31,568 [INFO] Shard ID 0 has connected to Gateway (Session ID: 1e9818400daec759e4a383040a7d1c3b).
+2024-01-20 05:35:33,576 [INFO] -------------
+2024-01-20 05:35:33,576 [INFO] |Fantasy Bot|
+2024-01-20 05:35:33,576 [INFO] -------------
+2024-01-20 05:35:59,448 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f45ac91ae90>
+2024-01-20 05:36:02,368 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:36:02,369 [INFO] logging in using static token
+2024-01-20 05:36:03,604 [INFO] Shard ID 0 has connected to Gateway (Session ID: bc55c457ae55a74dd38678d4cac8988e).
+2024-01-20 05:36:05,611 [INFO] -------------
+2024-01-20 05:36:05,612 [INFO] |Fantasy Bot|
+2024-01-20 05:36:05,612 [INFO] -------------
+2024-01-20 05:36:48,634 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f017ca1ee30>
+2024-01-20 05:36:53,515 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:36:53,516 [INFO] logging in using static token
+2024-01-20 05:36:54,768 [INFO] Shard ID 0 has connected to Gateway (Session ID: 2e118b4070d60826cdf18856f52e86d7).
+2024-01-20 05:36:56,775 [INFO] -------------
+2024-01-20 05:36:56,775 [INFO] |Fantasy Bot|
+2024-01-20 05:36:56,775 [INFO] -------------
+2024-01-20 05:37:35,386 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f0925772e90>
+2024-01-20 05:37:37,938 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:37:37,939 [INFO] logging in using static token
+2024-01-20 05:37:39,046 [INFO] Shard ID 0 has connected to Gateway (Session ID: aa6bc4a17ebee6eeda7b9bf9e8b3fae7).
+2024-01-20 05:37:41,055 [INFO] -------------
+2024-01-20 05:37:41,055 [INFO] |Fantasy Bot|
+2024-01-20 05:37:41,055 [INFO] -------------
+2024-01-20 05:38:15,956 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f7e6c9abd30>
+2024-01-20 05:38:19,306 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:38:19,308 [INFO] logging in using static token
+2024-01-20 05:38:20,483 [INFO] Shard ID 0 has connected to Gateway (Session ID: a553f36bca2405d167d7daa37c7868b3).
+2024-01-20 05:38:22,495 [INFO] -------------
+2024-01-20 05:38:22,495 [INFO] |Fantasy Bot|
+2024-01-20 05:38:22,496 [INFO] -------------
+2024-01-20 05:38:47,979 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f653a60ee00>
+2024-01-20 05:48:30,010 [DEBUG] Using selector: EpollSelector
+2024-01-20 05:48:30,011 [INFO] logging in using static token
+2024-01-20 05:48:31,100 [INFO] Shard ID 0 has connected to Gateway (Session ID: 42f7ae59aaf22ce1348c021afd4c5600).
+2024-01-20 05:48:33,116 [INFO] -------------
+2024-01-20 05:48:33,116 [INFO] |Fantasy Bot|
+2024-01-20 05:48:33,117 [INFO] -------------
+2024-01-20 05:49:59,335 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe62e0deef0>
+2024-01-20 07:00:48,280 [DEBUG] Using selector: EpollSelector
+2024-01-20 07:00:48,281 [INFO] logging in using static token
+2024-01-20 07:00:50,720 [INFO] Shard ID 0 has connected to Gateway (Session ID: 742ec6546256225268078adb0f911ef2).
+2024-01-20 07:00:52,734 [INFO] -------------
+2024-01-20 07:00:52,735 [INFO] |Fantasy Bot|
+2024-01-20 07:00:52,735 [INFO] -------------
+2024-01-20 07:01:12,306 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 84, in on_message
+    current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2024-01-20 07:01:26,072 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff679302dd0>
+2024-01-20 07:01:29,022 [DEBUG] Using selector: EpollSelector
+2024-01-20 07:01:29,023 [INFO] logging in using static token
+2024-01-20 07:01:30,140 [INFO] Shard ID 0 has connected to Gateway (Session ID: f4a192e068ebdee6190eca6685793c9f).
+2024-01-20 07:01:32,149 [INFO] -------------
+2024-01-20 07:01:32,150 [INFO] |Fantasy Bot|
+2024-01-20 07:01:32,150 [INFO] -------------
+2024-01-21 06:22:02,628 [DEBUG] Using selector: EpollSelector
+2024-01-21 06:22:02,630 [INFO] logging in using static token
+2024-01-21 06:22:03,691 [INFO] Shard ID 0 has connected to Gateway (Session ID: b526e4fd456175bd13f2c395df03ddf5).
+2024-01-21 06:22:05,698 [INFO] -------------
+2024-01-21 06:22:05,698 [INFO] |Fantasy Bot|
+2024-01-21 06:22:05,699 [INFO] -------------
+2024-01-21 06:25:46,280 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2f7afceec0>
+2024-01-21 07:30:57,771 [DEBUG] Using selector: EpollSelector
+2024-01-21 07:30:57,774 [INFO] logging in using static token
+2024-01-21 07:30:58,865 [INFO] Shard ID 0 has connected to Gateway (Session ID: 84f277576622d72e7b79c5b5720cf416).
+2024-01-21 07:31:00,886 [INFO] -------------
+2024-01-21 07:31:00,887 [INFO] |Fantasy Bot|
+2024-01-21 07:31:00,887 [INFO] -------------
+2024-01-21 07:31:36,673 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fdb646d2b60>
+2024-01-21 07:32:12,116 [DEBUG] Using selector: EpollSelector
+2024-01-21 07:32:12,118 [INFO] logging in using static token
+2024-01-21 07:32:13,369 [INFO] Shard ID 0 has connected to Gateway (Session ID: 198b804f02964eb4d528593044eec108).
+2024-01-21 07:32:15,374 [INFO] -------------
+2024-01-21 07:32:15,375 [INFO] |Fantasy Bot|
+2024-01-21 07:32:15,375 [INFO] -------------
+2024-01-21 08:32:40,446 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9320332e00>
+2024-01-21 21:20:13,408 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:20:13,409 [INFO] logging in using static token
+2024-01-21 21:20:14,726 [INFO] Shard ID 0 has connected to Gateway (Session ID: 05971f498c17845c4b2dea579a2a844f).
+2024-01-21 21:20:16,734 [INFO] -------------
+2024-01-21 21:20:16,735 [INFO] |Fantasy Bot|
+2024-01-21 21:20:16,735 [INFO] -------------
+2024-01-21 21:20:28,645 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 72, in on_message
+    query = cursor.execute("""
+sqlite3.OperationalError: no such table: closed_game_teams
+2024-01-21 21:20:51,837 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 72, in on_message
+    query = cursor.execute("""
+sqlite3.OperationalError: no such table: closed_game_teams
+2024-01-21 21:21:21,370 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fada08af370>
+2024-01-21 21:22:03,157 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:22:03,158 [INFO] logging in using static token
+2024-01-21 21:22:04,223 [INFO] Shard ID 0 has connected to Gateway (Session ID: 42e13c448373619a0edf46a629a80205).
+2024-01-21 21:22:06,230 [INFO] -------------
+2024-01-21 21:22:06,231 [INFO] |Fantasy Bot|
+2024-01-21 21:22:06,231 [INFO] -------------
+2024-01-21 21:22:12,562 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+    columns = _validate_or_indexify_columns(contents, columns)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+    raise AssertionError(
+AssertionError: 1 columns passed, passed data had 2 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 81, in on_message
+    df = pd.DataFrame(data, columns=columns)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 809, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+    content, columns = _finalize_columns_and_data(arr, columns, dtype)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+    raise ValueError(err) from err
+ValueError: 1 columns passed, passed data had 2 columns
+2024-01-21 21:22:28,123 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe44b8b7340>
+2024-01-21 21:22:30,866 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:22:30,867 [INFO] logging in using static token
+2024-01-21 21:22:32,058 [INFO] Shard ID 0 has connected to Gateway (Session ID: 42893efdc39a239fef3f94fe60cec484).
+2024-01-21 21:22:43,512 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:22:43,512 [INFO] logging in using static token
+2024-01-21 21:22:44,641 [INFO] Shard ID 0 has connected to Gateway (Session ID: 6b97e209dd7862c957243eed11b5dccb).
+2024-01-21 21:22:46,658 [INFO] -------------
+2024-01-21 21:22:46,658 [INFO] |Fantasy Bot|
+2024-01-21 21:22:46,658 [INFO] -------------
+2024-01-21 21:23:05,489 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 80, in on_message
+    embed = discord.Embed(title=f"{message.author.name}'s team: ", color=self.generate_random_color())
+AttributeError: 'fantasyBotBackend' object has no attribute 'generate_random_color'
+2024-01-21 21:23:57,690 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f642c0ab310>
+2024-01-21 21:24:00,977 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:24:00,978 [INFO] logging in using static token
+2024-01-21 21:24:02,883 [INFO] Shard ID 0 has connected to Gateway (Session ID: ec31a02ff79bc2824d1736612c990ae6).
+2024-01-21 21:24:04,889 [INFO] -------------
+2024-01-21 21:24:04,890 [INFO] |Fantasy Bot|
+2024-01-21 21:24:04,890 [INFO] -------------
+2024-01-21 21:24:22,228 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff8830532e0>
+2024-01-21 21:24:50,898 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:24:50,900 [INFO] logging in using static token
+2024-01-21 21:24:52,108 [INFO] Shard ID 0 has connected to Gateway (Session ID: 687f76ca34c27177092acfc8d41ec229).
+2024-01-21 21:24:54,116 [INFO] -------------
+2024-01-21 21:24:54,116 [INFO] |Fantasy Bot|
+2024-01-21 21:24:54,116 [INFO] -------------
+2024-01-21 21:25:08,140 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f3bf1363370>
+2024-01-21 21:30:50,157 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:30:50,158 [INFO] logging in using static token
+2024-01-21 21:30:51,253 [INFO] Shard ID 0 has connected to Gateway (Session ID: 8a4e14d532ae6154ee86d2fb78db9c53).
+2024-01-21 21:30:53,278 [INFO] -------------
+2024-01-21 21:30:53,278 [INFO] |Fantasy Bot|
+2024-01-21 21:30:53,279 [INFO] -------------
+2024-01-21 21:31:05,511 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 85, in on_message
+    query = cursor.execute("""SELECT p.player_id, p.player_name, p.player_team, p.role, SUM(pdp.total_points) AS max_daily_score
+sqlite3.OperationalError: no such column: p.player_team
+2024-01-21 21:31:13,601 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fb82c593310>
+2024-01-21 21:31:56,866 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:31:56,866 [INFO] logging in using static token
+2024-01-21 21:31:57,992 [INFO] Shard ID 0 has connected to Gateway (Session ID: f129eb837adf92e3f7cba00cdcaa1648).
+2024-01-21 21:31:59,997 [INFO] -------------
+2024-01-21 21:31:59,998 [INFO] |Fantasy Bot|
+2024-01-21 21:31:59,998 [INFO] -------------
+2024-01-21 21:32:20,573 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 85, in on_message
+    query = cursor.execute("""SELECT p.player_id, p.player_name, p.team, p.role, SUM(pdp.total_points) AS max_daily_score
+sqlite3.OperationalError: no such column: p.team
+2024-01-21 21:32:38,197 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f89271273d0>
+2024-01-21 21:32:40,818 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:32:40,819 [INFO] logging in using static token
+2024-01-21 21:32:42,095 [INFO] Shard ID 0 has connected to Gateway (Session ID: 9daf20f7b4b2d0ffe955e51c731119dc).
+2024-01-21 21:32:44,100 [INFO] -------------
+2024-01-21 21:32:44,101 [INFO] |Fantasy Bot|
+2024-01-21 21:32:44,101 [INFO] -------------
+2024-01-21 21:32:46,993 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 85, in on_message
+    query = cursor.execute("""SELECT p.player_id, p.player_name, p.team, p.role, SUM(pdp.total_points) AS max_daily_score
+sqlite3.OperationalError: no such column: p.team
+2024-01-21 21:32:53,848 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6ecf45b2b0>
+2024-01-21 21:32:56,397 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:32:56,398 [INFO] logging in using static token
+2024-01-21 21:32:57,627 [INFO] Shard ID 0 has connected to Gateway (Session ID: 685beb24decaa4fe51b8f7f7d0812fbc).
+2024-01-21 21:32:59,635 [INFO] -------------
+2024-01-21 21:32:59,635 [INFO] |Fantasy Bot|
+2024-01-21 21:32:59,635 [INFO] -------------
+2024-01-21 21:33:02,586 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 102, in on_message
+    await message.channel.send(embed=embed)
+  File "/usr/local/lib/python3.10/dist-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.0.value: Must be 1024 or fewer in length.
+2024-01-21 21:33:09,396 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f8f2b9b72e0>
+2024-01-21 21:33:11,972 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:33:11,973 [INFO] logging in using static token
+2024-01-21 21:33:14,238 [INFO] Shard ID 0 has connected to Gateway (Session ID: ea15405bf08ad5770dd7300db8c60c2e).
+2024-01-21 21:33:16,247 [INFO] -------------
+2024-01-21 21:33:16,247 [INFO] |Fantasy Bot|
+2024-01-21 21:33:16,247 [INFO] -------------
+2024-01-21 21:34:25,334 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f3261cff340>
+2024-01-21 21:35:00,389 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:35:00,390 [INFO] logging in using static token
+2024-01-21 21:35:11,349 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:35:11,349 [INFO] logging in using static token
+2024-01-21 21:35:12,650 [INFO] Shard ID 0 has connected to Gateway (Session ID: 507c677c81b67e903242d27fa10ef7fd).
+2024-01-21 21:35:14,657 [INFO] -------------
+2024-01-21 21:35:14,658 [INFO] |Fantasy Bot|
+2024-01-21 21:35:14,658 [INFO] -------------
+2024-01-21 21:35:15,085 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f838efa7340>
+2024-01-21 21:35:27,101 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:35:27,101 [INFO] logging in using static token
+2024-01-21 21:35:28,159 [INFO] Shard ID 0 has connected to Gateway (Session ID: cb1c42ce5175e63acabfba2a3c63b364).
+2024-01-21 21:35:30,167 [INFO] -------------
+2024-01-21 21:35:30,168 [INFO] |Fantasy Bot|
+2024-01-21 21:35:30,168 [INFO] -------------
+2024-01-21 21:35:36,656 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+    columns = _validate_or_indexify_columns(contents, columns)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+    raise AssertionError(
+AssertionError: 4 columns passed, passed data had 5 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 97, in on_message
+    df = pd.DataFrame(data, columns=columns)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 809, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+    content, columns = _finalize_columns_and_data(arr, columns, dtype)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+    raise ValueError(err) from err
+ValueError: 4 columns passed, passed data had 5 columns
+2024-01-21 21:36:25,270 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff13a0cb370>
+2024-01-21 21:36:27,746 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:36:27,746 [INFO] logging in using static token
+2024-01-21 21:36:28,845 [INFO] Shard ID 0 has connected to Gateway (Session ID: d81422e6f894e5353e872f7548db67ab).
+2024-01-21 21:36:30,850 [INFO] -------------
+2024-01-21 21:36:30,851 [INFO] |Fantasy Bot|
+2024-01-21 21:36:30,851 [INFO] -------------
+2024-01-21 21:36:31,466 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 98, in on_message
+    support_df = df.filter('Role' == 'support').head(5)[['Player ID', 'Player Name', 'Team Name', 'Total Score']]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 5704, in filter
+    items = Index(items).intersection(labels)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 524, in __new__
+    raise cls._raise_scalar_data_error(data)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 5265, in _raise_scalar_data_error
+    raise TypeError(
+TypeError: Index(...) must be called with a collection of some kind, False was passed
+2024-01-21 21:37:18,814 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f916b6ff250>
+2024-01-21 21:37:21,625 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:37:21,625 [INFO] logging in using static token
+2024-01-21 21:37:22,733 [INFO] Shard ID 0 has connected to Gateway (Session ID: 1f19ce67d2643719f5468947c5f13863).
+2024-01-21 21:37:24,739 [INFO] -------------
+2024-01-21 21:37:24,739 [INFO] |Fantasy Bot|
+2024-01-21 21:37:24,739 [INFO] -------------
+2024-01-21 21:37:32,567 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 98, in on_message
+    support_df = df.filter('Role' == 'support').head(5)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 5704, in filter
+    items = Index(items).intersection(labels)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 524, in __new__
+    raise cls._raise_scalar_data_error(data)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 5265, in _raise_scalar_data_error
+    raise TypeError(
+TypeError: Index(...) must be called with a collection of some kind, False was passed
+2024-01-21 21:38:33,277 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2f4d7bb3a0>
+2024-01-21 21:38:35,727 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:38:35,727 [INFO] logging in using static token
+2024-01-21 21:38:36,837 [INFO] Shard ID 0 has connected to Gateway (Session ID: ea1fc541952c4ed0b4b4d01797010957).
+2024-01-21 21:38:38,845 [INFO] -------------
+2024-01-21 21:38:38,845 [INFO] |Fantasy Bot|
+2024-01-21 21:38:38,845 [INFO] -------------
+2024-01-21 21:38:45,594 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 98, in on_message
+    support_df = df.filter('Role' == 'support')
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 5704, in filter
+    items = Index(items).intersection(labels)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 524, in __new__
+    raise cls._raise_scalar_data_error(data)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 5265, in _raise_scalar_data_error
+    raise TypeError(
+TypeError: Index(...) must be called with a collection of some kind, False was passed
+2024-01-21 21:39:18,509 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f7b50693340>
+2024-01-21 21:39:20,948 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:39:20,949 [INFO] logging in using static token
+2024-01-21 21:39:22,007 [INFO] Shard ID 0 has connected to Gateway (Session ID: 77968ca103a7e7e7422133edeb99af12).
+2024-01-21 21:39:24,015 [INFO] -------------
+2024-01-21 21:39:24,015 [INFO] |Fantasy Bot|
+2024-01-21 21:39:24,015 [INFO] -------------
+2024-01-21 21:40:00,124 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f679c4ff370>
+2024-01-21 21:40:17,710 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:40:17,710 [INFO] logging in using static token
+2024-01-21 21:40:18,887 [INFO] Shard ID 0 has connected to Gateway (Session ID: 2f766e55ec5d1dfb04ecec6d3d144ebb).
+2024-01-21 21:40:20,894 [INFO] -------------
+2024-01-21 21:40:20,894 [INFO] |Fantasy Bot|
+2024-01-21 21:40:20,895 [INFO] -------------
+2024-01-21 21:40:46,092 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f768dec3340>
+2024-01-21 21:40:48,495 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:40:48,496 [INFO] logging in using static token
+2024-01-21 21:40:49,896 [INFO] Shard ID 0 has connected to Gateway (Session ID: 6ae09e796f3110961e867269b4e31b19).
+2024-01-21 21:40:51,906 [INFO] -------------
+2024-01-21 21:40:51,907 [INFO] |Fantasy Bot|
+2024-01-21 21:40:51,907 [INFO] -------------
+2024-01-21 21:41:01,469 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7febc58eb220>
+2024-01-21 21:41:04,539 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:41:04,539 [INFO] logging in using static token
+2024-01-21 21:41:05,815 [INFO] Shard ID 0 has connected to Gateway (Session ID: 599743def7bc5385e8a0b0219af01fbf).
+2024-01-21 21:41:07,822 [INFO] -------------
+2024-01-21 21:41:07,823 [INFO] |Fantasy Bot|
+2024-01-21 21:41:07,823 [INFO] -------------
+2024-01-21 21:41:22,482 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f4b1ff773d0>
+2024-01-21 21:43:45,982 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:43:45,983 [INFO] logging in using static token
+2024-01-21 21:43:47,988 [INFO] Shard ID 0 has connected to Gateway (Session ID: e4133d28028f7345b22e42d9a0151964).
+2024-01-21 21:43:49,995 [INFO] -------------
+2024-01-21 21:43:49,995 [INFO] |Fantasy Bot|
+2024-01-21 21:43:49,995 [INFO] -------------
+2024-01-21 21:45:51,331 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f14b18e32e0>
+2024-01-21 21:46:01,214 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:46:01,214 [INFO] logging in using static token
+2024-01-21 21:46:02,417 [INFO] Shard ID 0 has connected to Gateway (Session ID: 2b4fbfd4713a764bc322f6be5fe61654).
+2024-01-21 21:46:04,425 [INFO] -------------
+2024-01-21 21:46:04,425 [INFO] |Fantasy Bot|
+2024-01-21 21:46:04,426 [INFO] -------------
+2024-01-21 21:46:37,996 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fb94b0431c0>
+2024-01-21 21:46:40,493 [DEBUG] Using selector: EpollSelector
+2024-01-21 21:46:40,494 [INFO] logging in using static token
+2024-01-21 21:46:41,569 [INFO] Shard ID 0 has connected to Gateway (Session ID: b020c3d52bbdb8c8e74e67e097abeb35).
+2024-01-21 21:46:43,576 [INFO] -------------
+2024-01-21 21:46:43,576 [INFO] |Fantasy Bot|
+2024-01-21 21:46:43,577 [INFO] -------------
+2024-01-21 21:50:42,713 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f55888c3370>
+2024-01-21 23:54:53,236 [DEBUG] Using selector: EpollSelector
+2024-01-21 23:54:53,238 [INFO] logging in using static token
+2024-01-21 23:54:54,410 [INFO] Shard ID 0 has connected to Gateway (Session ID: 113ba2abb8b87e4b48347b658abc2ccd).
+2024-01-21 23:54:56,419 [INFO] -------------
+2024-01-21 23:54:56,420 [INFO] |Fantasy Bot|
+2024-01-21 23:54:56,420 [INFO] -------------
+2024-01-21 23:55:25,968 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f5338ddb250>
+2024-01-21 23:59:18,623 [DEBUG] Using selector: EpollSelector
+2024-01-21 23:59:18,624 [INFO] logging in using static token
+2024-01-21 23:59:19,719 [INFO] Shard ID 0 has connected to Gateway (Session ID: a62cd7f2f4ff74185e7c3f190a6ffb13).
+2024-01-21 23:59:21,726 [INFO] -------------
+2024-01-21 23:59:21,726 [INFO] |Fantasy Bot|
+2024-01-21 23:59:21,726 [INFO] -------------
+2024-01-21 23:59:38,024 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fdc9a63b3a0>
+2024-01-22 01:07:44,455 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:07:44,457 [INFO] logging in using static token
+2024-01-22 01:07:45,632 [INFO] Shard ID 0 has connected to Gateway (Session ID: c006b2708765f08ea51ad14c243288b6).
+2024-01-22 01:07:47,657 [INFO] -------------
+2024-01-22 01:07:47,658 [INFO] |Fantasy Bot|
+2024-01-22 01:07:47,658 [INFO] -------------
+2024-01-22 01:07:57,453 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 187, in on_message
+    df = pd.DataFrame(data, columns=columns)
+UnboundLocalError: local variable 'data' referenced before assignment
+2024-01-22 01:08:27,538 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff286947400>
+2024-01-22 01:08:32,137 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:08:32,138 [INFO] logging in using static token
+2024-01-22 01:08:33,393 [INFO] Shard ID 0 has connected to Gateway (Session ID: 5d670621a68a2d2a0cdb4e793195f6db).
+2024-01-22 01:08:35,401 [INFO] -------------
+2024-01-22 01:08:35,402 [INFO] |Fantasy Bot|
+2024-01-22 01:08:35,402 [INFO] -------------
+2024-01-22 01:08:40,033 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 194, in on_message
+    query = cursor.execute(f"""SELECT
+sqlite3.OperationalError: incomplete input
+2024-01-22 01:09:03,139 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f4b63ef3370>
+2024-01-22 01:09:06,740 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:09:06,741 [INFO] logging in using static token
+2024-01-22 01:09:07,892 [INFO] Shard ID 0 has connected to Gateway (Session ID: 76b8dc48cb649ab1d7822d0d80c0fcc8).
+2024-01-22 01:09:09,925 [INFO] -------------
+2024-01-22 01:09:09,925 [INFO] |Fantasy Bot|
+2024-01-22 01:09:09,925 [INFO] -------------
+2024-01-22 01:10:38,990 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f3ce8bff370>
+2024-01-22 01:12:04,429 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:12:04,429 [INFO] logging in using static token
+2024-01-22 01:12:05,465 [INFO] Shard ID 0 has connected to Gateway (Session ID: 7c0ed2545674a78096f9705d9067ac7c).
+2024-01-22 01:12:07,473 [INFO] -------------
+2024-01-22 01:12:07,473 [INFO] |Fantasy Bot|
+2024-01-22 01:12:07,474 [INFO] -------------
+2024-01-22 01:13:14,691 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f5f4305f3d0>
+2024-01-22 01:13:25,513 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:13:25,515 [INFO] logging in using static token
+2024-01-22 01:13:26,511 [INFO] Shard ID 0 has connected to Gateway (Session ID: 3d7e69e01b5464b2f7fec26229235992).
+2024-01-22 01:13:28,520 [INFO] -------------
+2024-01-22 01:13:28,520 [INFO] |Fantasy Bot|
+2024-01-22 01:13:28,520 [INFO] -------------
+2024-01-22 01:14:32,145 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f847ae43370>
+2024-01-22 01:14:35,974 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:14:35,975 [INFO] logging in using static token
+2024-01-22 01:14:37,303 [INFO] Shard ID 0 has connected to Gateway (Session ID: 464875dda79728ec8fe73acf93c44409).
+2024-01-22 01:14:39,310 [INFO] -------------
+2024-01-22 01:14:39,310 [INFO] |Fantasy Bot|
+2024-01-22 01:14:39,311 [INFO] -------------
+2024-01-22 01:14:42,794 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 208, in on_message
+    embed = discord.Embed(title=f"Incoming trade requests: ", color=self.generate_random_color(), text="To accept trade, use +trade accept <trade_id>")
+TypeError: Embed.__init__() got an unexpected keyword argument 'text'
+2024-01-22 01:15:24,859 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f73345d33a0>
+2024-01-22 01:15:33,833 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:15:33,834 [INFO] logging in using static token
+2024-01-22 01:15:34,978 [INFO] Shard ID 0 has connected to Gateway (Session ID: 224afc1ebf0e2db6333d9138aa38f317).
+2024-01-22 01:15:36,986 [INFO] -------------
+2024-01-22 01:15:36,986 [INFO] |Fantasy Bot|
+2024-01-22 01:15:36,986 [INFO] -------------
+2024-01-22 01:15:41,521 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 208, in on_message
+    embed = discord.Embed(title=f"Incoming trade requests: ", color=self.generate_random_color(), value="To accept trade, use +trade accept <trade_id>")
+TypeError: Embed.__init__() got an unexpected keyword argument 'value'
+2024-01-22 01:16:06,745 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fd278c47400>
+2024-01-22 01:16:09,178 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:16:09,179 [INFO] logging in using static token
+2024-01-22 01:16:10,250 [INFO] Shard ID 0 has connected to Gateway (Session ID: e8a43ee9b67882f785f9c8c29a069203).
+2024-01-22 01:16:12,264 [INFO] -------------
+2024-01-22 01:16:12,264 [INFO] |Fantasy Bot|
+2024-01-22 01:16:12,264 [INFO] -------------
+2024-01-22 01:17:11,686 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f13de0c7280>
+2024-01-22 01:17:33,402 [DEBUG] Using selector: EpollSelector
+2024-01-22 01:17:33,403 [INFO] logging in using static token
+2024-01-22 01:17:34,450 [INFO] Shard ID 0 has connected to Gateway (Session ID: c2298c0819df636d59e6446a998c34c4).
+2024-01-22 01:17:36,466 [INFO] -------------
+2024-01-22 01:17:36,466 [INFO] |Fantasy Bot|
+2024-01-22 01:17:36,466 [INFO] -------------
+2024-01-22 01:19:54,477 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f249066f3a0>
