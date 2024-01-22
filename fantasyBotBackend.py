@@ -237,13 +237,6 @@ class fantasyBotBackend(commands.AutoShardedBot):
             await message.channel.send(embed=embed)
             conn.close()
         
-        
-        
-        
-        
-        
-        
-        
         # ---------------------------------------------------------------------------------------------------------------------------
         # Utility commands
         # Upload a new file to the server
