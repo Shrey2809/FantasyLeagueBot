@@ -2,15 +2,12 @@ import discord
 from discord.ext import commands
 import logging
 import aiohttp
-import json
 import pandas as pd
 import random
-import csv
-import re
 import sqlite3
 import datetime
-import asyncio
 from tabulate import tabulate
+from fantasyCommandParser import *
 
 class fantasyBotBackend(commands.AutoShardedBot):
     # Initialize the bot
@@ -42,10 +39,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
         )
         self.logger = logging.getLogger(__name__)
     
+    # Generate a random hex color 
     def generate_random_color(self):
         color = random.randint(0, 0xFFFFFF)  # 0x000000 to 0xFFFFFF (0 to 16777215 in decimal)
         return color
-    
     
     # Message displayed when bot is started
     async def on_ready(self):
@@ -54,8 +51,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
         self.logger.info("|Fantasy Bot|")
         self.logger.info("-------------")
 
+    # Waiting for message
     async def on_message(self, message):
         # ---------------------------------------------------------------------------------------------------------------------------
+        # League agnostic commands
         # Get my current action team
         if message.content.startswith("+myteam"):
             userID = message.author.id
@@ -163,6 +162,31 @@ class fantasyBotBackend(commands.AutoShardedBot):
 
             conn.close()
 
+        # Find a specific player or team
+        if message.content.startswith("+find"):
+            userID = message.author.id
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            query = cursor.execute(f"""SELECT
+                                            p.player_id,
+                                            p.player_name,
+                                            p.team_name,
+                                            p.role,
+                                            p.eliminated
+                                        FROM players p
+                                        WHERE (LOWER(p.player_name) LIKE LOWER('%{message.content[6:]}%')) 
+                                        or (LOWER(p.team_name) LIKE LOWER('%{message.content[6:]}%'))""")
+            data = query.fetchall()
+            columns = ['ID', 'Name', 'Team', 'Role', 'Eliminated']
+            df = pd.DataFrame(data, columns=columns)
+            df['Eliminated'] = df['Eliminated'].map({1: True, 0: False})
+            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+            embed = discord.Embed(title=f"Search results for '{message.content[6:]}': ", color=self.generate_random_color())
+            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+            await message.channel.send(embed=embed)
+            conn.close()
+            
+        # Closed league commands    
         # Get my current open trades both sent and recieved
         if message.content.startswith("+mytrades"):
             userID = message.author.id
@@ -213,28 +237,93 @@ class fantasyBotBackend(commands.AutoShardedBot):
             await message.channel.send(embed=embed) 
             conn.close()
         
-        # Find a specific player
-        if message.content.startswith("+find"):
+        # Initiate a trade or accept a trade
+        if message.content.startswith("+trade"):
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
-            query = cursor.execute(f"""SELECT
-                                            p.player_id,
-                                            p.player_name,
-                                            p.team_name,
-                                            p.role,
-                                            p.region,
-                                            p.eliminated,
-                                            p.is_active
-                                        FROM players p
-                                        WHERE LOWER(p.player_name) LIKE LOWER('%{message.content[6:]}%')""")
-            data = query.fetchall()
-            columns = ['ID', 'Name', 'Team', 'Role', 'Region', 'Eliminated', 'Active']
-            df = pd.DataFrame(data, columns=columns)
-            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
-            embed = discord.Embed(title=f"Search results for '{message.content[6:]}': ", color=self.generate_random_color())
-            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
-            await message.channel.send(embed=embed)
+            trade = parse_trade(message.content)
+            if trade['Type'] == 'request':
+                myplayerid = trade['MyPlayer']
+                requestedplayerid = trade['TradeFor']
+                # Get the manager id of the user
+                query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
+                data = query.fetchone()
+                manager_id = data[0]
+                
+                # Get the player id of the player being traded
+                query = cursor.execute(f"""SELECT player_id FROM players WHERE player_id = '{myplayerid}'""")
+                data = query.fetchone()
+                requester_player_id = data[0]
+                
+                # Get the player id of the player being traded for
+                query = cursor.execute(f"""SELECT player_id, player_name FROM players WHERE player_id = '{requestedplayerid}'""")
+                data = query.fetchone()
+                requestee_player_id = data[0]
+                requestee_player_name = data[1]
+                
+                # Get the manager id of the manager being traded with
+                query = cursor.execute(f"""SELECT cgt.manager_id, m.manager_name, m.discord_user_id
+                                            FROM closed_game_teams cgt, managers m
+                                            WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id""")
+                data = query.fetchone()
+                if data is not None:
+                    requestee_id = data[0]
+                    requestee_name = data[1]
+                    requestee_discord_id = data[2]
+                    user = await self.fetch_user(requestee_discord_id)
+                    
+                    # Insert the trade into the trades table
+                    cursor.execute(f"""INSERT INTO trades (requester_id, requestee_id, requester_player_id, requestee_player_id) VALUES ({manager_id}, {requestee_id}, {requester_player_id}, {requestee_player_id})""")    
+                    trade_id = cursor.lastrowid
+                    await message.channel.send(f"Trade request sent to {requestee_name} for {requestee_player_name}")
+                    await user.send(f'Trade request with ID: {trade_id} for {requestee_player_name} from {message.author.name}. To accept, use **+trade accept *ID***')
+                else:
+                    print("Player not on a team, swap complete")
+                    
+                    cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({manager_id}, {requestee_player_id})""")
+                    cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
+                                ({manager_id}, {requester_player_id}, {requestee_player_id}, TRUE, FALSE)""")
+                    cursor.execute(f"""UPDATE closed_game_teams SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
+                    await message.channel.send(f"Player not on a team, swap complete")
+            elif trade['Type'] == 'accept':
+                trade_id = trade['TradeID']
+                query = cursor.execute(f"""SELECT requester_id, requestee_id, requester_player_id, requestee_player_id 
+                                       FROM trades WHERE trade_id = {trade_id} and is_open = TRUE""")
+                data = cursor.fetchone()
+                
+                # Set the trade to be accepted and closed
+                cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE WHERE trade_id = {trade_id}""")
+                
+                # Remove current players from both teams
+                cursor.execute(f"""UPDATE closed_game_teams SET is_active = False 
+                                        WHERE player_id = {data[2]} and manager_id = {data[0]}""")
+                cursor.execute(f"""UPDATE closed_game_teams SET is_active = False 
+                                        WHERE player_id = {data[3]} and manager_id = {data[1]}""")
+                
+                # Insert new players into both teams
+                cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({data[0]}, {data[3]})""")
+                cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({data[1]}, {data[2]})""")
+                await message.channel.send(f"Trade accepted")
+                
+            conn.commit()
+            conn.close()
+            
+        # Open league commands
+        if message.content.startswith("+pick"):
+            userID = message.author.id
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
+            data = query.fetchone()
+            manager_id = data[0]
+            player_id = message.content[6:]
+            query = cursor.execute(f"""SELECT player_id FROM players WHERE player_id = '{player_id}'""")
+            data = query.fetchone()
+            player_id = data[0]
+            cursor.execute(f"""INSERT INTO open_game_roster (manager_id, player_id) VALUES ({manager_id}, {player_id})""")
+            await message.channel.send(f"Player picked")
+            conn.commit()
             conn.close()
         
         # ---------------------------------------------------------------------------------------------------------------------------
