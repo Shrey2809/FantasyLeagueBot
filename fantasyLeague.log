@@ -887,3 +887,75 @@ client_session: <aiohttp.client.ClientSession object at 0x0000022E1217CB60>
 2024-01-21 22:58:25,251 [INFO] -------------
 2024-01-21 22:59:19,897 [ERROR] Unclosed client session
 client_session: <aiohttp.client.ClientSession object at 0x0000020B28946300>
+2024-01-22 17:19:42,326 [DEBUG] Using proactor: IocpProactor
+2024-01-22 17:19:42,331 [INFO] logging in using static token
+2024-01-22 17:19:43,608 [INFO] Shard ID 0 has connected to Gateway (Session ID: d138c4214211cc10d872b8dd90e3dabf).
+2024-01-22 17:19:45,634 [INFO] -------------
+2024-01-22 17:19:45,634 [INFO] |Fantasy Bot|
+2024-01-22 17:19:45,634 [INFO] -------------
+2024-01-22 17:20:57,350 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 66, in on_message
+    if closedCheck[0] == True:
+       ~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-01-22 17:21:11,410 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 338, in on_message
+    manager_id = data[0]
+                 ~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-01-22 17:21:47,499 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DA62442B70>
+2024-01-22 17:22:13,447 [DEBUG] Using proactor: IocpProactor
+2024-01-22 17:22:13,448 [INFO] logging in using static token
+2024-01-22 17:22:14,622 [INFO] Shard ID 0 has connected to Gateway (Session ID: b202ffc6e72920f49f2b4ab551c6c998).
+2024-01-22 17:22:16,636 [INFO] -------------
+2024-01-22 17:22:16,636 [INFO] |Fantasy Bot|
+2024-01-22 17:22:16,637 [INFO] -------------
+2024-01-22 17:22:28,067 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 74, in on_message
+    query = cursor.execute(f"""
+            ^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: is_active
+2024-01-22 17:25:31,706 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000013AB80D2060>
+2024-01-22 17:25:47,024 [DEBUG] Using proactor: IocpProactor
+2024-01-22 17:25:47,027 [INFO] logging in using static token
+2024-01-22 17:25:48,286 [INFO] Shard ID 0 has connected to Gateway (Session ID: 017ca846919a2e617377f6d5fc18cd27).
+2024-01-22 17:25:50,306 [INFO] -------------
+2024-01-22 17:25:50,306 [INFO] |Fantasy Bot|
+2024-01-22 17:25:50,307 [INFO] -------------
+2024-01-22 17:25:57,519 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 344, in on_message
+    player_id = data[0]
+                ~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-01-22 17:26:25,377 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001BBB88E07D0>
+2024-01-22 17:26:43,519 [DEBUG] Using proactor: IocpProactor
+2024-01-22 17:26:43,522 [INFO] logging in using static token
+2024-01-22 17:26:44,776 [INFO] Shard ID 0 has connected to Gateway (Session ID: 83301a977be4638bd886516e26e21296).
+2024-01-22 17:26:46,791 [INFO] -------------
+2024-01-22 17:26:46,791 [INFO] |Fantasy Bot|
+2024-01-22 17:26:46,791 [INFO] -------------
+2024-01-22 17:29:31,096 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000020C1B0C5BB0>
+2024-01-22 17:43:46,121 [DEBUG] Using proactor: IocpProactor
+2024-01-22 17:43:46,122 [INFO] logging in using static token
+2024-01-22 17:43:47,240 [INFO] Shard ID 0 has connected to Gateway (Session ID: 8a389ce91585959745ce5d4786879d94).
+2024-01-22 17:43:49,244 [INFO] -------------
+2024-01-22 17:43:49,244 [INFO] |Fantasy Bot|
+2024-01-22 17:43:49,244 [INFO] -------------
+2024-01-22 17:46:42,238 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002292006DD30>
