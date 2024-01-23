@@ -55,8 +55,12 @@ class fantasyBotBackend(commands.AutoShardedBot):
     async def on_message(self, message):
         # ---------------------------------------------------------------------------------------------------------------------------
         # League agnostic commands
-        # Get my current action team
+        # Log messages for logger
+        
+        
+        # Get my current active team
         if message.content.startswith("+myteam"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -89,6 +93,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # Get all my past scores for previous days
         if message.content.startswith("+myscore"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -128,6 +133,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # Get top 5 open fraggers and supports and send embed
         if message.content.startswith("+openplayers"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
             query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
@@ -164,6 +170,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
 
         # Find a specific player or team
         if message.content.startswith("+find"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -189,6 +196,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         # Closed league commands    
         # Get my current open trades both sent and recieved
         if message.content.startswith("+mytrades"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -239,6 +247,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # Initiate a trade or accept a trade
         if message.content.startswith("+trade"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -326,6 +335,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         # Open league commands
         # Sign up as a open league player +signup
         if message.content.startswith("+signup"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             username = message.author.name
             conn = sqlite3.connect(self.league_db)
@@ -342,6 +352,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # Pick a player for the open league
         if message.content.startswith("+pick"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -380,6 +391,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # Initiate a trade or accept a trade
         if message.content.startswith("+swap"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
@@ -432,6 +444,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         # Upload a new file to the server
         if (message.content.startswith("+upload") or message.content.startswith("+d") 
          or (message.channel.id == 1198778760120500284 and message.guild.id == 1042862967072501860)):
+            self.logger.info(f"Message from {message.author}: {message.content}")
             if message.attachments:
                 current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
                 file_name = f'stats//RAW_TOTALS_{current_datetime}.csv'
