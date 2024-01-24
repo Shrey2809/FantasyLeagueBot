@@ -25,11 +25,24 @@ class fantasyBotBackend(commands.AutoShardedBot):
         self.remove_command("help")
         self.messages = []
 
-        self.admin_users = ["axon319", "jessejchick", "sprabuni"]
+        self.admin_users = [400713084232138755, 219643727960866816, 127545629361569792]
         self.league_db = "SI_2024_FANTASY_LEAGUE.db"
 
         super().__init__(command_prefix="+help", status=discord.Status.online, intents=discord.Intents.all())
 
+        
+        
+        conn = sqlite3.connect(self.league_db)
+        cursor = conn.cursor()
+        query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
+        data = query.fetchone()
+        if data[0] == 0:
+            self.market_open = True
+        else:
+            self.market_open = False
+            
+        conn.close()
+        
         # Configure the logger
         logging.basicConfig(
             level=logging.DEBUG,
@@ -54,10 +67,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
     # Waiting for message
     async def on_message(self, message):
         # ---------------------------------------------------------------------------------------------------------------------------
-        # League agnostic commands
-        # Log messages for logger
-        
-        
+        # League agnostic commands     
         # Get my current active team
         if message.content.startswith("+myteam"):
             self.logger.info(f"Message from {message.author}: {message.content}")
@@ -91,7 +101,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             await message.channel.send(embed=embed)
             conn.close()
         
-        # Get all my past scores for previous days
+        # Get my total score and rank
         if message.content.startswith("+myscore"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
@@ -102,28 +112,65 @@ class fantasyBotBackend(commands.AutoShardedBot):
             closedCheck = closedCheck.fetchone()
             if closedCheck[0] == True:
                 query = cursor.execute(f"""
-                    SELECT 
-                        date, 
-                        closed_game_score 
-                    FROM managers m
-                    JOIN manager_daily_scores mds ON m.manager_id = mds.manager_id
-                    WHERE m.manager_id = (SELECT m2.manager_id FROM managers m2 WHERE m2.discord_user_id = '{userID}')
+                    WITH ClosedLeagueRank AS (
+                        SELECT
+                            m.manager_id,
+                            RANK() OVER (ORDER BY SUM(mds.closed_game_score) DESC) AS open_rank
+                        FROM
+                            manager_daily_scores mds
+                            JOIN managers m ON mds.manager_id = m.manager_id
+                        WHERE
+                            m.in_closed = TRUE 
+                        GROUP BY
+                            m.manager_id
+                    )
+                    SELECT
+                        m.manager_id,
+                        olr.open_rank AS open_league_rank,
+                        SUM(mds.closed_game_score) AS open_league_total_score
+                    FROM
+                        manager_daily_scores mds
+                        JOIN managers m ON mds.manager_id = m.manager_id
+                        JOIN ClosedLeagueRank olr ON m.manager_id = olr.manager_id
+                    WHERE
+                        m.in_closed = TRUE and m.discord_user_id = {userID}
+                    GROUP BY
+                        m.manager_id, olr.open_rank;
                 """)
                 data = query.fetchall()
             else:
                 query = cursor.execute(f"""
-                    SELECT 
-                        date, 
-                        open_game_score 
-                    FROM managers m
-                    JOIN manager_daily_scores mds ON m.manager_id = mds.manager_id
-                    WHERE m.manager_id = (SELECT m2.manager_id FROM managers m2 WHERE m2.discord_user_id = '{userID}')
+                    WITH OpenLeagueRanks AS (
+                        SELECT
+                            m.manager_id,
+                            RANK() OVER (ORDER BY SUM(mds.open_game_score) DESC) AS open_rank
+                        FROM
+                            manager_daily_scores mds
+                            JOIN managers m ON mds.manager_id = m.manager_id
+                        WHERE
+                            m.in_closed = false
+                        GROUP BY
+                            m.manager_id
+                    )
+                    SELECT
+                        m.manager_id,
+                        olr.open_rank AS open_league_rank,
+                        SUM(mds.open_game_score) AS open_league_total_score
+                    FROM
+                        manager_daily_scores mds
+                        JOIN managers m ON mds.manager_id = m.manager_id
+                        JOIN OpenLeagueRanks olr ON m.manager_id = olr.manager_id
+                    WHERE
+                        m.in_closed = false and m.discord_user_id = {userID}
+                    GROUP BY
+                        m.manager_id, olr.open_rank;
                 """)
                 data = query.fetchall()
 
             # Create a DataFrame with the fetched data
-            columns = ['Date', 'Score']
+            columns = ['ID', 'Rank', 'Score']
             df = pd.DataFrame(data, columns=columns)
+            df = df[['Rank', 'Score']]
             table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
             embed = discord.Embed(title=f"{message.author.name}'s scores: ", color=self.generate_random_color())
             embed.add_field(name='\u200b', value=f'```\n{table}\n```')
@@ -131,6 +178,86 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 
             conn.close()
         
+        # Current Standings for both leagues
+        if message.content.startswith("+standings"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            type = message.content[11:]
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            if type == "open":
+                df = get_open_table(cursor)
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                embed = discord.Embed(title=f"Open League Standings: ", color=self.generate_random_color())
+                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                await message.channel.send(embed=embed)
+            elif type == "closed":
+                df = get_closed_table(cursor)
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                embed = discord.Embed(title=f"Closed League Standings: ", color=self.generate_random_color())
+                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                await message.channel.send(embed=embed)
+            else:
+                userID = message.author.id
+                closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+                closedCheck = closedCheck.fetchone()
+                if closedCheck[0] == True:
+                    df = get_closed_table(cursor)
+                    table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                    embed = discord.Embed(title=f"Closed League Standings: ", color=self.generate_random_color())
+                    embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                    await message.channel.send(embed=embed)
+                else:
+                    df = get_open_table(cursor)
+                    table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                    embed = discord.Embed(title=f"Open League Standings: ", color=self.generate_random_color())
+                    embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                    await message.channel.send(embed=embed)
+            conn.close()
+                
+        # Find a specific player or team
+        if message.content.startswith("+find"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            userID = message.author.id
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            player_data = cursor.execute(f"""SELECT player_id FROM players WHERE 
+                                         LOWER(player_name) = LOWER('{message.content[6:]}') or LOWER(team_name) = LOWER('{message.content[6:]}')""")
+            player_data = player_data.fetchall()
+            simple_list = str([item[0] for item in player_data]).replace('[', '(').replace(']', ')')
+            roles = ['Fragger', 'Support']
+            for role in roles:
+                queryTest = f"""
+                        SELECT * FROM (          
+                        SELECT
+                            p.player_id,
+                            p.player_name,
+                            p.team_name,
+                            p.role,
+                            SUM(pdp.total_points) AS max_daily_score,
+                            RANK() OVER (ORDER BY SUM(pdp.total_points) DESC) AS player_rank
+                        FROM
+                            players p
+                            LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
+                        WHERE
+                            p.eliminated = FALSE and p.role = '{role}'
+                        GROUP BY
+                            p.player_id
+                        ) WHERE 
+                            player_id in {simple_list};
+                        """
+                query = cursor.execute(queryTest)
+                data = query.fetchall()
+                columns = ['ID', 'Name', 'Team', 'Role', 'Total Score', 'Rank']
+                df = pd.DataFrame(data, columns=columns)
+                df = df[['Rank', 'ID', 'Name', 'Team', 'Total Score']]
+                if len(df) == 0:
+                    return
+                embed = discord.Embed(title=f"Search results for {message.content[6:].upper()} for {role}s: ", color=self.generate_random_color())
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                await message.channel.send(embed=embed)
+            conn.close()
+            
         # Get top 5 open fraggers and supports and send embed
         if message.content.startswith("+openplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
@@ -165,34 +292,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
             embed.add_field(name='\u200b', value=f'```\n{table}\n```')
             await message.channel.send(embed=embed)
 
-
             conn.close()
-
-        # Find a specific player or team
-        if message.content.startswith("+find"):
-            self.logger.info(f"Message from {message.author}: {message.content}")
-            userID = message.author.id
-            conn = sqlite3.connect(self.league_db)
-            cursor = conn.cursor()
-            query = cursor.execute(f"""SELECT
-                                            p.player_id,
-                                            p.player_name,
-                                            p.team_name,
-                                            p.role,
-                                            p.eliminated
-                                        FROM players p
-                                        WHERE (LOWER(p.player_name) LIKE LOWER('%{message.content[6:]}%')) 
-                                        or (LOWER(p.team_name) LIKE LOWER('%{message.content[6:]}%'))""")
-            data = query.fetchall()
-            columns = ['ID', 'Name', 'Team', 'Role', 'Eliminated']
-            df = pd.DataFrame(data, columns=columns)
-            df['Eliminated'] = df['Eliminated'].map({1: True, 0: False})
-            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
-            embed = discord.Embed(title=f"Search results for '{message.content[6:]}': ", color=self.generate_random_color())
-            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
-            await message.channel.send(embed=embed)
-            conn.close()
-            
+        
+        # ---------------------------------------------------------------------------------------------------------------------------   
         # Closed league commands    
         # Get my current open trades both sent and recieved
         if message.content.startswith("+mytrades"):
@@ -200,6 +302,12 @@ class fantasyBotBackend(commands.AutoShardedBot):
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
+            closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+            closedCheck = closedCheck.fetchone()
+            if closedCheck[0] == False:
+                conn.close() 
+                await message.channel.send(f"You don't need to trade, just swap players using +swap *ID1* *ID2*")
+                return
             
             # Outgoing trades
             query = cursor.execute(f"""SELECT
@@ -244,13 +352,20 @@ class fantasyBotBackend(commands.AutoShardedBot):
             embed.add_field(name='\u200b', value=f'```\n{table}\n```')
             await message.channel.send(embed=embed) 
             conn.close()
-        
+               
         # Initiate a trade or accept a trade
-        if message.content.startswith("+trade"):
+        if message.content.startswith("+trade") and self.market_open == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
+            closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+            closedCheck = closedCheck.fetchone()
+            if closedCheck[0] == False:
+                conn.close()
+                await message.channel.send(f"You don't need to trade, just swap players using **+swap *ID1* *ID2***")
+                return
+        
             trade = parse_trade(message.content)
             if trade['Type'] == 'request':
                 myplayerid = trade['MyPlayer']
@@ -337,9 +452,16 @@ class fantasyBotBackend(commands.AutoShardedBot):
         if message.content.startswith("+signup"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
-            username = message.author.name
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
+            closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+            closedCheck = closedCheck.fetchone()
+            if closedCheck[0] == True:
+                conn.close()
+                await message.channel.send(f"You're already in the closed league!")
+                return
+            
+            username = message.author.name
             query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
             data = query.fetchone()
             if data is None:
@@ -351,14 +473,18 @@ class fantasyBotBackend(commands.AutoShardedBot):
             conn.close()
         
         # Pick a player for the open league
-        if message.content.startswith("+pick"):
+        if message.content.startswith("+pick") and self.market_open == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
-            query = cursor.execute(f"""SELECT manager_id, FROM managers WHERE discord_user_id = '{userID}'""")
+            query = cursor.execute(f"""SELECT manager_id, in_closed FROM managers WHERE discord_user_id = '{userID}'""")
             data = query.fetchone()
             manager_id = data[0]
+            if data[1] == True:
+                conn.close()
+                await message.channel.send(f"For closed league, your picks are done in a draft!")
+                return
             player_data = message.content[6:]
             query = cursor.execute(f"""SELECT player_id, role FROM players WHERE player_id = '{player_data}' or LOWER(player_name) = LOWER('{player_data}')""")
             data = query.fetchone()
@@ -390,11 +516,18 @@ class fantasyBotBackend(commands.AutoShardedBot):
             conn.close()
         
         # Initiate a trade or accept a trade
-        if message.content.startswith("+swap"):
+        if message.content.startswith("+swap") and self.market_open == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
+            closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+            closedCheck = closedCheck.fetchone()
+            if closedCheck[0] == True:
+                conn.close()
+                await message.channel.send(f"Use the **+trade request *ID1/Name* *ID2/Name*** command for closed league trades")
+                return
+            
             trade = parse_swap(message.content)
             if trade['Type'] == 'request':
                 myplayerid = trade['MyPlayer']
@@ -437,8 +570,6 @@ class fantasyBotBackend(commands.AutoShardedBot):
             conn.commit()
             conn.close()
         
-        
-        
         # ---------------------------------------------------------------------------------------------------------------------------
         # Utility commands
         # Upload a new file to the server
@@ -453,8 +584,37 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     await attachment.save(file_name)
                     print(f"File '{attachment.filename}' downloaded from {message.author}. Saved as {file_name}.")  
             
-          
-             
+        # Get the current market status or open/close the market 
+        if message.content.startswith("+market"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            if len(message.content) == 7:
+                conn = sqlite3.connect(self.league_db)
+                cursor = conn.cursor()
+                query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
+                data = query.fetchone()
+                if data[0] == 0:
+                    await message.channel.send(f"Market is closed, please wait for the end of the playday to trade or swap players!")
+                else:
+                    await message.channel.send(f"Market is open, you can trade or swap players!")
+            else:
+                if message.content[8:] == "open" and message.author.id in self.admin_users:
+                    conn = sqlite3.connect(self.league_db)
+                    cursor = conn.cursor()
+                    cursor.execute(f"""UPDATE market_status SET is_open = 1 WHERE market_id = 1""")
+                    await message.channel.send(f"Market is now open!")
+                    self.market_open = True
+                    conn.commit()
+                    conn.close()
+                elif message.content[8:] == "close" and message.author.id in self.admin_users:
+                    conn = sqlite3.connect(self.league_db)
+                    cursor = conn.cursor()
+                    cursor.execute(f"""UPDATE market_status SET is_open = 0 WHERE market_id = 1""")
+                    await message.channel.send(f"Market is now closed!")
+                    self.market_open = False
+                    conn.commit()
+                    conn.close()
+                else:
+                    await message.channel.send(f"Invalid market command")
 
 
     # Start the bot

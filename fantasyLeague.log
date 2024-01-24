@@ -959,3 +959,538 @@ client_session: <aiohttp.client.ClientSession object at 0x0000020C1B0C5BB0>
 2024-01-22 17:43:49,244 [INFO] -------------
 2024-01-22 17:46:42,238 [ERROR] Unclosed client session
 client_session: <aiohttp.client.ClientSession object at 0x000002292006DD30>
+2024-01-23 18:05:51,697 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:05:51,701 [INFO] logging in using static token
+2024-01-23 18:05:52,853 [INFO] Shard ID 0 has connected to Gateway (Session ID: 96b211f3f238d78eaa8585c771a24054).
+2024-01-23 18:05:53,776 [INFO] Message from axon319: +myscore
+2024-01-23 18:05:53,793 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\internals\construction.py", line 939, in _finalize_columns_and_data
+    columns = _validate_or_indexify_columns(contents, columns)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\internals\construction.py", line 986, in _validate_or_indexify_columns
+    raise AssertionError(
+AssertionError: 1 columns passed, passed data had 2 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 125, in on_message
+    df = pd.DataFrame(data, columns=columns)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\frame.py", line 840, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\internals\construction.py", line 845, in to_arrays
+    content, columns = _finalize_columns_and_data(arr, columns, dtype)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\internals\construction.py", line 942, in _finalize_columns_and_data
+    raise ValueError(err) from err
+ValueError: 1 columns passed, passed data had 2 columns
+2024-01-23 18:05:54,884 [INFO] -------------
+2024-01-23 18:05:54,884 [INFO] |Fantasy Bot|
+2024-01-23 18:05:54,884 [INFO] -------------
+2024-01-23 18:06:06,986 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000014B81071D00>
+2024-01-23 18:06:10,308 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:06:10,309 [INFO] logging in using static token
+2024-01-23 18:06:11,279 [INFO] Shard ID 0 has connected to Gateway (Session ID: e269e703ebc21081311bbc07d4a3087b).
+2024-01-23 18:06:13,319 [INFO] -------------
+2024-01-23 18:06:13,319 [INFO] |Fantasy Bot|
+2024-01-23 18:06:13,319 [INFO] -------------
+2024-01-23 18:06:31,648 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E4675EFFB0>
+2024-01-23 18:06:35,222 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:06:35,223 [INFO] logging in using static token
+2024-01-23 18:06:36,253 [INFO] Shard ID 0 has connected to Gateway (Session ID: f3228a5f70ea2df60791e2121539a599).
+2024-01-23 18:06:37,350 [INFO] Message from axon319: +myscore
+2024-01-23 18:06:38,437 [INFO] -------------
+2024-01-23 18:06:38,438 [INFO] |Fantasy Bot|
+2024-01-23 18:06:38,438 [INFO] -------------
+2024-01-23 18:08:43,827 [INFO] Message from axon319: +myscore
+2024-01-23 18:10:24,897 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000199F695A210>
+2024-01-23 18:10:32,838 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:10:32,840 [INFO] logging in using static token
+2024-01-23 18:10:33,891 [INFO] Shard ID 0 has connected to Gateway (Session ID: cad2bb61bb343c1437a5463f1604c5ed).
+2024-01-23 18:10:35,922 [INFO] -------------
+2024-01-23 18:10:35,922 [INFO] |Fantasy Bot|
+2024-01-23 18:10:35,922 [INFO] -------------
+2024-01-23 18:10:43,092 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002D37E99C170>
+2024-01-23 18:10:57,285 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:10:57,286 [INFO] logging in using static token
+2024-01-23 18:10:58,396 [INFO] Shard ID 0 has connected to Gateway (Session ID: 190a20f9c2f861148a503e743000050d).
+2024-01-23 18:11:00,445 [INFO] -------------
+2024-01-23 18:11:00,445 [INFO] |Fantasy Bot|
+2024-01-23 18:11:00,445 [INFO] -------------
+2024-01-23 18:11:06,616 [INFO] Message from axon319: +myscore
+2024-01-23 18:11:06,619 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 104, in on_message
+    query = cursor.execute(f"""
+            ^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such function: ROWNUMBER
+2024-01-23 18:11:39,724 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E7D23D4170>
+2024-01-23 18:11:52,276 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:11:52,279 [INFO] logging in using static token
+2024-01-23 18:11:53,347 [INFO] Shard ID 0 has connected to Gateway (Session ID: f058afd2981d834334569d7efc33ce8a).
+2024-01-23 18:11:55,377 [INFO] -------------
+2024-01-23 18:11:55,377 [INFO] |Fantasy Bot|
+2024-01-23 18:11:55,377 [INFO] -------------
+2024-01-23 18:12:19,169 [INFO] Message from axon319: +myscore
+2024-01-23 18:12:19,170 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 104, in on_message
+    query = cursor.execute(f"""
+            ^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such function: ROWNUMBER
+2024-01-23 18:12:49,413 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001B74423B290>
+2024-01-23 18:12:52,771 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:12:52,773 [INFO] logging in using static token
+2024-01-23 18:12:53,799 [INFO] Shard ID 0 has connected to Gateway (Session ID: 636cac33e48409fb9bd388c94534512d).
+2024-01-23 18:12:55,826 [INFO] -------------
+2024-01-23 18:12:55,826 [INFO] |Fantasy Bot|
+2024-01-23 18:12:55,826 [INFO] -------------
+2024-01-23 18:13:12,170 [INFO] Message from axon319: +myscore
+2024-01-23 18:13:12,171 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 104, in on_message
+    query = cursor.execute(f"""
+            ^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such function: ROWNUMBER
+2024-01-23 18:13:30,370 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001EF00CD23F0>
+2024-01-23 18:13:33,719 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:13:33,720 [INFO] logging in using static token
+2024-01-23 18:13:35,076 [INFO] Shard ID 0 has connected to Gateway (Session ID: bfe87339db310a1e2b88d26bb3c51db3).
+2024-01-23 18:13:37,119 [INFO] -------------
+2024-01-23 18:13:37,119 [INFO] |Fantasy Bot|
+2024-01-23 18:13:37,119 [INFO] -------------
+2024-01-23 18:13:56,954 [INFO] Message from axon319: +myscore
+2024-01-23 18:15:05,106 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002B7C12CFDD0>
+2024-01-23 18:21:22,183 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:21:22,185 [INFO] logging in using static token
+2024-01-23 18:21:23,259 [INFO] Shard ID 0 has connected to Gateway (Session ID: 5c34f9bd4e87a1176584a38867c253e2).
+2024-01-23 18:21:25,179 [INFO] Message from axon319: +myscore
+2024-01-23 18:21:25,285 [INFO] -------------
+2024-01-23 18:21:25,285 [INFO] |Fantasy Bot|
+2024-01-23 18:21:25,285 [INFO] -------------
+2024-01-23 18:21:47,084 [INFO] Message from axon319: +myscore
+2024-01-23 18:35:08,609 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DC8121C080>
+2024-01-23 18:37:32,452 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:37:32,454 [INFO] logging in using static token
+2024-01-23 18:37:33,759 [INFO] Shard ID 0 has connected to Gateway (Session ID: 9192de7854d6eee1c73c7f80a252fc8e).
+2024-01-23 18:37:35,775 [INFO] -------------
+2024-01-23 18:37:35,775 [INFO] |Fantasy Bot|
+2024-01-23 18:37:35,775 [INFO] -------------
+2024-01-23 18:37:37,291 [INFO] Message from axon319: +myscore
+2024-01-23 18:38:02,223 [INFO] Message from axon319: +myscore
+2024-01-23 18:38:10,512 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000017D7ECC73E0>
+2024-01-23 18:38:51,850 [DEBUG] Using proactor: IocpProactor
+2024-01-23 18:38:51,851 [INFO] logging in using static token
+2024-01-23 18:38:53,122 [INFO] Shard ID 0 has connected to Gateway (Session ID: c3a0b9ec2ae92c6f30ba3d39164022b1).
+2024-01-23 18:38:55,150 [INFO] -------------
+2024-01-23 18:38:55,150 [INFO] |Fantasy Bot|
+2024-01-23 18:38:55,150 [INFO] -------------
+2024-01-23 18:38:57,354 [INFO] Message from axon319: +myscore
+2024-01-23 18:39:38,020 [INFO] Message from axon319: +myscore
+2024-01-23 18:42:09,927 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000024CA5582BA0>
+2024-01-23 19:02:34,980 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:02:34,981 [INFO] logging in using static token
+2024-01-23 19:02:36,066 [INFO] Shard ID 0 has connected to Gateway (Session ID: ea4faf8ddd87ac1149b26d13c5761bcd).
+2024-01-23 19:02:38,114 [INFO] -------------
+2024-01-23 19:02:38,114 [INFO] |Fantasy Bot|
+2024-01-23 19:02:38,114 [INFO] -------------
+2024-01-23 19:02:39,774 [INFO] Message from axon319: +standings
+2024-01-23 19:02:39,775 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 190, in on_message
+    closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+                                                                                             ^^^^^^
+UnboundLocalError: cannot access local variable 'userID' where it is not associated with a value
+2024-01-23 19:03:05,787 [INFO] Message from axon319: +standings open
+2024-01-23 19:03:18,597 [INFO] Message from axon319: +standings close
+2024-01-23 19:03:18,597 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 190, in on_message
+    userID = message.author.id
+                               
+UnboundLocalError: cannot access local variable 'userID' where it is not associated with a value
+2024-01-23 19:03:26,627 [INFO] Message from axon319: +standings closed
+2024-01-23 19:03:31,523 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000276F355A090>
+2024-01-23 19:04:22,958 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:04:22,960 [INFO] logging in using static token
+2024-01-23 19:04:24,154 [INFO] Shard ID 0 has connected to Gateway (Session ID: 4c743a6f47713bdeab2a9b58bf4817b1).
+2024-01-23 19:04:26,209 [INFO] -------------
+2024-01-23 19:04:26,209 [INFO] |Fantasy Bot|
+2024-01-23 19:04:26,209 [INFO] -------------
+2024-01-23 19:04:31,649 [INFO] Message from axon319: +standings
+2024-01-23 19:04:50,178 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000024CEAA33320>
+2024-01-23 19:20:37,833 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:20:37,834 [INFO] logging in using static token
+2024-01-23 19:20:39,021 [INFO] Shard ID 0 has connected to Gateway (Session ID: eabade4f9d9f5d01c19fc24d5ea529fb).
+2024-01-23 19:20:41,046 [INFO] -------------
+2024-01-23 19:20:41,046 [INFO] |Fantasy Bot|
+2024-01-23 19:20:41,046 [INFO] -------------
+2024-01-23 19:20:47,863 [INFO] Message from axon319: +find Beaulo
+2024-01-23 19:20:47,864 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 210, in on_message
+    query = cursor.execute(f"""WITH PlayerRanking AS (
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: pr.eliminated
+2024-01-23 19:21:00,065 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000020880763800>
+2024-01-23 19:21:06,669 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:21:06,670 [INFO] logging in using static token
+2024-01-23 19:21:07,662 [INFO] Shard ID 0 has connected to Gateway (Session ID: 04a9046ac99c56f17e0943d36d4365cc).
+2024-01-23 19:21:09,697 [INFO] -------------
+2024-01-23 19:21:09,697 [INFO] |Fantasy Bot|
+2024-01-23 19:21:09,697 [INFO] -------------
+2024-01-23 19:21:13,119 [INFO] Message from axon319: +find Beaulo
+2024-01-23 19:22:46,625 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:24:40,624 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000223171ADF10>
+2024-01-23 19:24:43,490 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:24:43,491 [INFO] logging in using static token
+2024-01-23 19:24:44,650 [INFO] Shard ID 0 has connected to Gateway (Session ID: 32a4b02e1406683680b0a03fe9adbd97).
+2024-01-23 19:24:46,668 [INFO] -------------
+2024-01-23 19:24:46,668 [INFO] |Fantasy Bot|
+2024-01-23 19:24:46,668 [INFO] -------------
+2024-01-23 19:24:49,171 [INFO] Message from axon319: +find Beaulo
+2024-01-23 19:24:55,089 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:25:43,334 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000023F4A013320>
+2024-01-23 19:26:15,265 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:26:15,266 [INFO] logging in using static token
+2024-01-23 19:26:16,299 [INFO] Shard ID 0 has connected to Gateway (Session ID: fd900b7eeab44b487cd172656b8ad4c8).
+2024-01-23 19:26:18,326 [INFO] -------------
+2024-01-23 19:26:18,326 [INFO] |Fantasy Bot|
+2024-01-23 19:26:18,326 [INFO] -------------
+2024-01-23 19:26:21,247 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:34:29,183 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AF39A4B770>
+2024-01-23 19:34:36,665 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:34:36,666 [INFO] logging in using static token
+2024-01-23 19:34:37,752 [INFO] Shard ID 0 has connected to Gateway (Session ID: 099feeaa19f48eb972a68374afc5934b).
+2024-01-23 19:34:39,786 [INFO] -------------
+2024-01-23 19:34:39,786 [INFO] |Fantasy Bot|
+2024-01-23 19:34:39,786 [INFO] -------------
+2024-01-23 19:34:46,256 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:34:46,258 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 213, in on_message
+    query = cursor.execute(
+            ^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: pr.max_daily_score
+2024-01-23 19:34:59,090 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000027F7BA1CF80>
+2024-01-23 19:35:01,763 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:35:01,764 [INFO] logging in using static token
+2024-01-23 19:35:02,901 [INFO] Shard ID 0 has connected to Gateway (Session ID: 3241343810b3accf56a74e899ccf5de0).
+2024-01-23 19:35:04,936 [INFO] -------------
+2024-01-23 19:35:04,936 [INFO] |Fantasy Bot|
+2024-01-23 19:35:04,936 [INFO] -------------
+2024-01-23 19:35:05,195 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:35:38,345 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000206A95286E0>
+2024-01-23 19:35:41,310 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:35:41,311 [INFO] logging in using static token
+2024-01-23 19:35:42,528 [INFO] Shard ID 0 has connected to Gateway (Session ID: 48a08f1da54eb3094c7ad4211995beed).
+2024-01-23 19:35:44,557 [INFO] -------------
+2024-01-23 19:35:44,557 [INFO] |Fantasy Bot|
+2024-01-23 19:35:44,558 [INFO] -------------
+2024-01-23 19:35:45,171 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:36:18,932 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000015301562BA0>
+2024-01-23 19:37:48,753 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:37:48,754 [INFO] logging in using static token
+2024-01-23 19:37:49,806 [INFO] Shard ID 0 has connected to Gateway (Session ID: df9295c5c819e52d6576d4481c9ea69c).
+2024-01-23 19:37:51,848 [INFO] -------------
+2024-01-23 19:37:51,848 [INFO] |Fantasy Bot|
+2024-01-23 19:37:51,848 [INFO] -------------
+2024-01-23 19:38:01,503 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:38:01,504 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 212, in on_message
+    query = cursor.execute(
+            ^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "GROUP": syntax error
+2024-01-23 19:39:01,118 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001CCFF045220>
+2024-01-23 19:39:04,438 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:39:04,439 [INFO] logging in using static token
+2024-01-23 19:39:05,492 [INFO] Shard ID 0 has connected to Gateway (Session ID: fae666c64e7d6078ab1d5a62e0e3d479).
+2024-01-23 19:39:07,519 [INFO] -------------
+2024-01-23 19:39:07,519 [INFO] |Fantasy Bot|
+2024-01-23 19:39:07,519 [INFO] -------------
+2024-01-23 19:39:15,661 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:39:15,662 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 233, in on_message
+    (LOWER(subquery.player_name) LIKE LOWER('%{message.content[6:]}%') OR subquery.player_id = '{player_id}')
+                                                                                                 ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'player_id' where it is not associated with a value
+2024-01-23 19:39:36,472 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001384B1DAB70>
+2024-01-23 19:39:45,047 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:39:45,049 [INFO] logging in using static token
+2024-01-23 19:39:46,096 [INFO] Shard ID 0 has connected to Gateway (Session ID: e02093f22c8e30e04aeb14c01c1b3747).
+2024-01-23 19:39:48,126 [INFO] -------------
+2024-01-23 19:39:48,126 [INFO] |Fantasy Bot|
+2024-01-23 19:39:48,126 [INFO] -------------
+2024-01-23 19:39:49,441 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:41:58,616 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000021C2B46EFF0>
+2024-01-23 19:42:01,443 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:42:01,444 [INFO] logging in using static token
+2024-01-23 19:42:02,428 [INFO] Shard ID 0 has connected to Gateway (Session ID: 60c5f949c34d65f8defe5f26eaf5c54b).
+2024-01-23 19:42:12,569 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:42:12,571 [INFO] logging in using static token
+2024-01-23 19:42:13,568 [INFO] Shard ID 0 has connected to Gateway (Session ID: c54171c99016e990d543f8535bfefa27).
+2024-01-23 19:42:15,599 [INFO] -------------
+2024-01-23 19:42:15,599 [INFO] |Fantasy Bot|
+2024-01-23 19:42:15,599 [INFO] -------------
+2024-01-23 19:42:17,729 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:42:17,730 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 212, in on_message
+    query = cursor.execute(
+            ^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: subquery.player_name
+2024-01-23 19:42:41,661 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AB758BE060>
+2024-01-23 19:42:44,509 [DEBUG] Using proactor: IocpProactor
+2024-01-23 19:42:44,510 [INFO] logging in using static token
+2024-01-23 19:42:45,474 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0b85ed936c07137e65e8996010a34a72).
+2024-01-23 19:42:47,511 [INFO] -------------
+2024-01-23 19:42:47,511 [INFO] |Fantasy Bot|
+2024-01-23 19:42:47,511 [INFO] -------------
+2024-01-23 19:42:53,640 [INFO] Message from axon319: +find darkzero
+2024-01-23 19:42:57,679 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000296FFAA94C0>
+2024-01-23 20:01:46,891 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:01:46,892 [INFO] logging in using static token
+2024-01-23 20:01:47,923 [INFO] Shard ID 0 has connected to Gateway (Session ID: de36a3e8b623119b30235648097f7880).
+2024-01-23 20:01:49,952 [INFO] -------------
+2024-01-23 20:01:49,952 [INFO] |Fantasy Bot|
+2024-01-23 20:01:49,952 [INFO] -------------
+2024-01-23 20:01:50,116 [INFO] Message from axon319: +find darkzero
+2024-01-23 20:01:50,117 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 210, in on_message
+    player_data = cursor.execute(f"""SELECT player_idFROM players WHERE
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: player_idFROM
+2024-01-23 20:01:56,190 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002094DD7EBD0>
+2024-01-23 20:01:59,183 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:01:59,185 [INFO] logging in using static token
+2024-01-23 20:02:00,379 [INFO] Shard ID 0 has connected to Gateway (Session ID: 2fe95c004a1310020f68ceeeea23b3d7).
+2024-01-23 20:02:02,428 [INFO] -------------
+2024-01-23 20:02:02,428 [INFO] |Fantasy Bot|
+2024-01-23 20:02:02,428 [INFO] -------------
+2024-01-23 20:02:04,238 [INFO] Message from axon319: +find darkzero
+2024-01-23 20:02:45,329 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001844BA6C830>
+2024-01-23 20:02:48,320 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:02:48,321 [INFO] logging in using static token
+2024-01-23 20:02:49,316 [INFO] Shard ID 0 has connected to Gateway (Session ID: 28e0b38702912b69e9877d84420de259).
+2024-01-23 20:02:51,353 [INFO] -------------
+2024-01-23 20:02:51,353 [INFO] |Fantasy Bot|
+2024-01-23 20:02:51,353 [INFO] -------------
+2024-01-23 20:02:52,691 [INFO] Message from axon319: +find darkzero
+2024-01-23 20:03:39,769 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001A49A3B83B0>
+2024-01-23 20:03:44,822 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:03:44,823 [INFO] logging in using static token
+2024-01-23 20:03:45,885 [INFO] Shard ID 0 has connected to Gateway (Session ID: f3f450dd4aa728ae383dd17dac86cd52).
+2024-01-23 20:03:47,929 [INFO] -------------
+2024-01-23 20:03:47,930 [INFO] |Fantasy Bot|
+2024-01-23 20:03:47,930 [INFO] -------------
+2024-01-23 20:03:58,375 [INFO] Message from axon319: +find Darkzero
+2024-01-23 20:03:58,376 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 216, in on_message
+    query = cursor.execute(
+            ^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: 131, 132, 133, 134, 135
+2024-01-23 20:04:48,754 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001C0F1DD2AE0>
+2024-01-23 20:04:51,715 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:04:51,716 [INFO] logging in using static token
+2024-01-23 20:04:52,832 [INFO] Shard ID 0 has connected to Gateway (Session ID: edc423623d0c3941b5b9dfdafa8cf2af).
+2024-01-23 20:04:54,858 [INFO] -------------
+2024-01-23 20:04:54,858 [INFO] |Fantasy Bot|
+2024-01-23 20:04:54,858 [INFO] -------------
+2024-01-23 20:04:57,831 [INFO] Message from axon319: +find Darkzero
+2024-01-23 20:04:57,833 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 216, in on_message
+    query = cursor.execute(
+            ^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: 131, 132, 133, 134, 135
+2024-01-23 20:05:28,415 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002A07EC3EFF0>
+2024-01-23 20:05:31,303 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:05:31,304 [INFO] logging in using static token
+2024-01-23 20:05:32,444 [INFO] Shard ID 0 has connected to Gateway (Session ID: 23c5dcfea921f1a0b19edc3c1505c0b0).
+2024-01-23 20:05:34,463 [INFO] -------------
+2024-01-23 20:05:34,463 [INFO] |Fantasy Bot|
+2024-01-23 20:05:34,463 [INFO] -------------
+2024-01-23 20:05:36,437 [INFO] Message from axon319: +find Darkzero
+2024-01-23 20:05:36,441 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 236, in on_message
+    query = cursor.execute(queryTest)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: 131, 132, 133, 134, 135
+2024-01-23 20:06:33,592 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000204C1959EB0>
+2024-01-23 20:06:36,545 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:06:36,546 [INFO] logging in using static token
+2024-01-23 20:06:37,624 [INFO] Shard ID 0 has connected to Gateway (Session ID: 8f5b37262e89cd86fb5a150f5bb8ac8e).
+2024-01-23 20:06:39,646 [INFO] -------------
+2024-01-23 20:06:39,646 [INFO] |Fantasy Bot|
+2024-01-23 20:06:39,646 [INFO] -------------
+2024-01-23 20:06:45,674 [INFO] Message from axon319: +find Darkzero
+2024-01-23 20:06:45,678 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 236, in on_message
+    query = cursor.execute(queryTest)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "<": syntax error
+2024-01-23 20:07:13,559 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000024ED1AA3770>
+2024-01-23 20:07:16,293 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:07:16,294 [INFO] logging in using static token
+2024-01-23 20:07:17,266 [INFO] Shard ID 0 has connected to Gateway (Session ID: d76ff4414c43a8fc092ed2f2c976c07f).
+2024-01-23 20:07:19,310 [INFO] -------------
+2024-01-23 20:07:19,310 [INFO] |Fantasy Bot|
+2024-01-23 20:07:19,310 [INFO] -------------
+2024-01-23 20:07:19,631 [INFO] Message from axon319: +find Darkzero
+2024-01-23 20:07:25,842 [INFO] Message from axon319: +find W7m
+2024-01-23 20:07:42,204 [INFO] Message from axon319: +find beaulo
+2024-01-23 20:08:29,123 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002863E6A66F0>
+2024-01-23 20:08:44,631 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:08:44,632 [INFO] logging in using static token
+2024-01-23 20:08:45,744 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0bc44ab87417fd6b19c057979456e42d).
+2024-01-23 20:08:47,817 [INFO] -------------
+2024-01-23 20:08:47,817 [INFO] |Fantasy Bot|
+2024-01-23 20:08:47,817 [INFO] -------------
+2024-01-23 20:08:48,727 [INFO] Message from axon319: +find beaulo
+2024-01-23 20:08:48,730 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 239, in on_message
+    df = df[['Rank', 'ID' 'Name', 'Team', 'Total Score']]
+         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\indexes\base.py", line 6199, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\indexes\base.py", line 6251, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['IDName'] not in index"
+2024-01-23 20:08:55,334 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002ABA6C694C0>
+2024-01-23 20:08:58,235 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:08:58,236 [INFO] logging in using static token
+2024-01-23 20:08:59,393 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0352d8916b0643f0a080faba55889733).
+2024-01-23 20:09:01,485 [INFO] -------------
+2024-01-23 20:09:01,485 [INFO] |Fantasy Bot|
+2024-01-23 20:09:01,485 [INFO] -------------
+2024-01-23 20:09:03,162 [INFO] Message from axon319: +find beaulo
+2024-01-23 20:09:09,432 [INFO] Message from axon319: +find Bleed
+2024-01-23 20:09:41,498 [INFO] Message from axon319: +find Reeps
+2024-01-23 20:09:45,264 [INFO] Message from axon319: +find Bleed
+2024-01-23 20:09:48,588 [INFO] Message from axon319: +standings
+2024-01-23 20:09:54,838 [INFO] Message from axon319: +standings closed
+2024-01-23 20:09:59,934 [INFO] Message from axon319: +standings open
+2024-01-23 20:10:15,612 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001CEFFE1B770>
+2024-01-23 20:10:22,940 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:10:22,941 [INFO] logging in using static token
+2024-01-23 20:10:24,072 [INFO] Shard ID 0 has connected to Gateway (Session ID: c8eabfde131ebb974918f5caadce6ae8).
+2024-01-23 20:10:26,098 [INFO] -------------
+2024-01-23 20:10:26,098 [INFO] |Fantasy Bot|
+2024-01-23 20:10:26,098 [INFO] -------------
+2024-01-23 20:10:30,800 [INFO] Message from axon319: +myscore
+2024-01-23 20:10:43,891 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002304DF74D70>
+2024-01-23 20:16:19,963 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:16:19,964 [INFO] logging in using static token
+2024-01-23 20:16:21,055 [INFO] Shard ID 0 has connected to Gateway (Session ID: b02961515e2338d8d0a943070ab292e5).
+2024-01-23 20:16:23,161 [INFO] -------------
+2024-01-23 20:16:23,161 [INFO] |Fantasy Bot|
+2024-01-23 20:16:23,161 [INFO] -------------
+2024-01-23 20:16:40,940 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001A918DD39B0>
+2024-01-23 20:16:43,647 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:16:43,648 [INFO] logging in using static token
+2024-01-23 20:16:44,992 [INFO] Shard ID 0 has connected to Gateway (Session ID: 73b67d5cf93e79d62280c36946eb866c).
+2024-01-23 20:16:47,014 [INFO] -------------
+2024-01-23 20:16:47,014 [INFO] |Fantasy Bot|
+2024-01-23 20:16:47,014 [INFO] -------------
+2024-01-23 20:16:47,793 [INFO] Message from axon319: +market
+2024-01-23 20:16:51,988 [INFO] Message from axon319: +market close
+2024-01-23 20:17:12,345 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001F1E3EC94C0>
+2024-01-23 20:17:15,231 [DEBUG] Using proactor: IocpProactor
+2024-01-23 20:17:15,233 [INFO] logging in using static token
+2024-01-23 20:17:16,276 [INFO] Shard ID 0 has connected to Gateway (Session ID: 111536838813b69d54e3ce174c364cf5).
+2024-01-23 20:17:18,305 [INFO] -------------
+2024-01-23 20:17:18,305 [INFO] |Fantasy Bot|
+2024-01-23 20:17:18,305 [INFO] -------------
+2024-01-23 20:17:22,533 [INFO] Message from axon319: +market open
+2024-01-23 20:17:26,547 [INFO] Message from axon319: +market close
+2024-01-23 20:18:03,601 [INFO] Message from axon319: +market open
+2024-01-23 20:18:40,222 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000014B278D3F50>

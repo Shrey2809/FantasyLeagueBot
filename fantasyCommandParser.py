@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 
 def parse_trade(command):
     # Define the pattern for the trade request command
@@ -35,3 +36,75 @@ def parse_swap(command):
         # Return None if the command doesn't match the expected pattern
         return None
 
+
+def get_open_table(cursor):
+    query = cursor.execute(f"""
+                WITH OpenLeagueRanks AS (
+                        SELECT
+                            m.manager_id,
+                            RANK() OVER (ORDER BY SUM(mds.open_game_score) DESC) AS open_rank
+                        FROM
+                            manager_daily_scores mds
+                            JOIN managers m ON mds.manager_id = m.manager_id
+                        WHERE
+                            m.in_closed = false
+                        GROUP BY
+                            m.manager_id
+                    )
+                    SELECT
+                        m.manager_id, m.manager_name,
+                        olr.open_rank AS open_league_rank,
+                        SUM(mds.open_game_score) AS open_league_total_score
+                    FROM
+                        manager_daily_scores mds
+                        JOIN managers m ON mds.manager_id = m.manager_id
+                        JOIN OpenLeagueRanks olr ON m.manager_id = olr.manager_id
+                    WHERE
+                        m.in_closed = false
+                    GROUP BY
+                        m.manager_id, olr.open_rank
+                    ORDER BY
+                        olr.open_rank ASC;
+                """)
+    data = query.fetchall()
+    columns = ["Manager ID", "Manager Name", "Rank", "Total Score"]
+    df = pd.DataFrame(data, columns=columns)
+    df = df[['Rank', 'Manager Name', 'Total Score']]
+    return df
+
+def get_closed_table(cursor):
+    query = cursor.execute(f"""
+                    WITH ClosedLeagueRank AS (
+                        SELECT
+                            m.manager_id,
+                            RANK() OVER (ORDER BY SUM(mds.closed_game_score) DESC) AS open_rank
+                        FROM
+                            manager_daily_scores mds
+                            JOIN managers m ON mds.manager_id = m.manager_id
+                        WHERE
+                            m.in_closed = TRUE 
+                        GROUP BY
+                            m.manager_id
+                    )
+                    SELECT
+                        m.manager_id, m.manager_name,
+                        olr.open_rank AS open_league_rank,
+                        SUM(mds.closed_game_score) AS open_league_total_score
+                    FROM
+                        manager_daily_scores mds
+                        JOIN managers m ON mds.manager_id = m.manager_id
+                        JOIN ClosedLeagueRank olr ON m.manager_id = olr.manager_id
+                    WHERE
+                        m.in_closed = TRUE
+                    GROUP BY
+                        m.manager_id, olr.open_rank
+                    ORDER BY
+                        olr.open_rank ASC;
+                """)
+    data = query.fetchall()
+    columns = ["Manager ID", "Manager Name", "Rank", "Total Score"]
+    df = pd.DataFrame(data, columns=columns)
+    df = df[['Rank', 'Manager Name', 'Total Score']]
+    return df 
+    
+    
