@@ -1494,3 +1494,12 @@ client_session: <aiohttp.client.ClientSession object at 0x000001F1E3EC94C0>
 2024-01-23 20:18:03,601 [INFO] Message from axon319: +market open
 2024-01-23 20:18:40,222 [ERROR] Unclosed client session
 client_session: <aiohttp.client.ClientSession object at 0x0000014B278D3F50>
+2024-01-24 17:02:14,117 [DEBUG] Using proactor: IocpProactor
+2024-01-24 17:02:14,120 [INFO] logging in using static token
+2024-01-24 17:02:15,327 [INFO] Shard ID 0 has connected to Gateway (Session ID: b32ccee145b600779221cf600d71fc5d).
+2024-01-24 17:02:17,399 [INFO] -------------
+2024-01-24 17:02:17,399 [INFO] |Fantasy Bot|
+2024-01-24 17:02:17,399 [INFO] -------------
+2024-01-24 18:56:16,116 [INFO] Shard ID 0 has successfully RESUMED session b32ccee145b600779221cf600d71fc5d.
+2024-01-24 19:59:05,574 [INFO] Shard ID 0 has successfully RESUMED session b32ccee145b600779221cf600d71fc5d.
+2024-01-24 22:55:12,886 [INFO] Shard ID 0 has successfully RESUMED session b32ccee145b600779221cf600d71fc5d.

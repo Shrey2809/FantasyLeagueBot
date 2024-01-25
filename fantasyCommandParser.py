@@ -24,18 +24,31 @@ def parse_trade(command):
     
 def parse_swap(command):
     # Define the pattern for the trade request command
-    request_pattern = r'\+swap\s+(\d+)\s+(\d+)'
+    request_pattern = r'\+swap\s+(\w+)\s+(\w+)'
     pattern_match = re.match(request_pattern, command)
     if pattern_match:
         # Extract player IDs from the matched groups
-        requester_player_id, requestee_player_id = map(int, pattern_match.groups())
+        requester_player_id, requestee_player_id = pattern_match.groups()
 
-        # Return a tuple containing the parsed player IDs
+        # Return a dictionary containing the parsed player IDs
         return {'Type': 'request', 'MyPlayer': requester_player_id, 'TradeFor': requestee_player_id}
     else:
         # Return None if the command doesn't match the expected pattern
         return None
 
+def parse_request(command):
+    # Define the pattern for the trade request command
+    request_pattern = r'\+request\s+(\w+)\s+(\w+)'
+    pattern_match = re.match(request_pattern, command)
+    if pattern_match:
+        # Extract player IDs from the matched groups
+        requester_player_id, requestee_player_id = pattern_match.groups()
+
+        # Return a dictionary containing the parsed player IDs
+        return {'Type': 'request', 'MyPlayer': requester_player_id, 'TradeFor': requestee_player_id}
+    else:
+        # Return None if the command doesn't match the expected pattern
+        return None
 
 def get_open_table(cursor):
     query = cursor.execute(f"""
@@ -70,6 +83,7 @@ def get_open_table(cursor):
     columns = ["Manager ID", "Manager Name", "Rank", "Total Score"]
     df = pd.DataFrame(data, columns=columns)
     df = df[['Rank', 'Manager Name', 'Total Score']]
+    df = df.head(10)
     return df
 
 def get_closed_table(cursor):
@@ -105,6 +119,7 @@ def get_closed_table(cursor):
     columns = ["Manager ID", "Manager Name", "Rank", "Total Score"]
     df = pd.DataFrame(data, columns=columns)
     df = df[['Rank', 'Manager Name', 'Total Score']]
+    df = df.head(10)
     return df 
     
     

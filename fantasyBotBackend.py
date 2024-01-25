@@ -296,8 +296,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Closed league commands    
-        # Get my current open trades both sent and recieved
-        if message.content.startswith("+mytrades"):
+        # Get my current open requests
+        if message.content.startswith("+myrequests"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
@@ -312,49 +312,26 @@ class fantasyBotBackend(commands.AutoShardedBot):
             # Outgoing trades
             query = cursor.execute(f"""SELECT
                                             trades.trade_id,
-                                            requestee.manager_name AS requestee_name,
                                             requester_player.player_name AS requester_player_name,
                                             requestee_player.player_name AS requestee_player_name
                                         FROM trades
                                         JOIN managers AS requester ON trades.requester_id = requester.manager_id
-                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
                                         JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
                                         JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
                                         WHERE trades.is_open = TRUE
                                         AND LOWER(requester.discord_user_id) = LOWER('{userID}'); """)
             data = query.fetchall() 
             
-            columns = ['ID', 'To', 'My Player', 'Trade For']
+            columns = ['ID', 'My Player', 'Trade For']
             df = pd.DataFrame(data, columns=columns)
             table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
             embed = discord.Embed(title=f"Outgoing trade requests: ", color=self.generate_random_color())
             embed.add_field(name='\u200b', value=f'```\n{table}\n```')
             await message.channel.send(embed=embed)
-            
-            # Incoming trades
-            query = cursor.execute(f"""SELECT
-                                            trades.trade_id,
-                                            requester.manager_name AS requester_name,
-                                            requester_player.player_name AS requester_player_name,
-                                            requestee_player.player_name AS requestee_player_name
-                                        FROM trades
-                                        JOIN managers AS requester ON trades.requester_id = requester.manager_id
-                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
-                                        JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
-                                        JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
-                                        WHERE trades.is_open = TRUE
-                                        AND LOWER(requestee.discord_user_id) = LOWER('{userID}')"""); 
-            data = query.fetchall()
-            columns = ['ID', 'From', 'Trade For', 'My Player']
-            df = pd.DataFrame(data, columns=columns)
-            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
-            embed = discord.Embed(title=f"Incoming trade requests: ", color=self.generate_random_color(), description="**To accept trade, use +trade accept *ID***")
-            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
-            await message.channel.send(embed=embed) 
             conn.close()
                
-        # Initiate a trade or accept a trade
-        if message.content.startswith("+trade") and self.market_open == True:
+        # Request a player swap
+        if message.content.startswith("+request") and self.market_open == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
             conn = sqlite3.connect(self.league_db)
@@ -363,89 +340,56 @@ class fantasyBotBackend(commands.AutoShardedBot):
             closedCheck = closedCheck.fetchone()
             if closedCheck[0] == False:
                 conn.close()
-                await message.channel.send(f"You don't need to trade, just swap players using **+swap *ID1* *ID2***")
+                await message.channel.send(f"You don't need to request swaps, just swap players using **+swap *ID1/Name* *ID2/Name***")
                 return
-        
-            trade = parse_trade(message.content)
-            if trade['Type'] == 'request':
-                myplayerid = trade['MyPlayer']
-                requestedplayerid = trade['TradeFor']
-                if myplayerid == requestedplayerid:
-                    # Can't trade for the same player
-                    await message.channel.send(f"Can't pull a -Laxing +Laxing right away")
-                    return
-                
-                # Get the manager id of the user
-                query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
-                data = query.fetchone()
-                manager_id = data[0]
-                
-                # Get the player id of the player being traded
-                query = cursor.execute(f"""SELECT player_id, role FROM players WHERE player_id = '{myplayerid}' or LOWER(player_name) = LOWER('{myplayerid}')""")
-                data = query.fetchone()
-                requester_player_id = data[0]
-                out_player_role = data[1]
-                
-                # Get the player id of the player being traded for
-                query = cursor.execute(f"""SELECT player_id, player_name, role FROM players WHERE player_id = '{requestedplayerid}' or LOWER(player_name) = LOWER('{myplayerid}')""")
-                data = query.fetchone()
-                requestee_player_id = data[0]
-                requestee_player_name = data[1]
-                in_player_role = data[2]
-                
-                if out_player_role != in_player_role:
-                    await message.channel.send(f"Can't trade a player with differing roles. Please trade for the same roles")
-                    return
-                
-                # Get the manager id of the manager being traded with
-                query = cursor.execute(f"""SELECT cgt.manager_id, m.manager_name, m.discord_user_id
-                                            FROM closed_game_teams cgt, managers m
-                                            WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id""")
-                data = query.fetchone()
-                if data is not None:
-                    requestee_id = data[0]
-                    requestee_name = data[1]
-                    requestee_discord_id = data[2]
-                    user = await self.fetch_user(requestee_discord_id)
-                    
-                    # Insert the trade into the trades table
-                    cursor.execute(f"""INSERT INTO trades (requester_id, requestee_id, requester_player_id, requestee_player_id) VALUES ({manager_id}, {requestee_id}, {requester_player_id}, {requestee_player_id})""")    
-                    trade_id = cursor.lastrowid
-                    await message.channel.send(f"Trade request sent to {requestee_name} for {requestee_player_name}")
-                    await user.send(f'Trade request with ID: {trade_id} for {requestee_player_name} from {message.author.name}. To accept, use **+trade accept *ID***')
-                else:
-                    print("Player not on a team, swap complete")
-                    
-                    cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({manager_id}, {requestee_player_id})""")
-                    cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
-                                ({manager_id}, {requester_player_id}, {requestee_player_id}, TRUE, FALSE)""")
-                    cursor.execute(f"""UPDATE closed_game_teams SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
-                    await message.channel.send(f"Player not on a team, swap complete")
-            elif trade['Type'] == 'accept':
-                trade_id = trade['TradeID']
-                query = cursor.execute(f"""SELECT requester_id, requestee_id, requester_player_id, requestee_player_id 
-                                       FROM trades WHERE trade_id = {trade_id} and is_open = TRUE""")
-                data = cursor.fetchone()
-                
-                # Set the trade to be accepted and closed
-                cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE WHERE trade_id = {trade_id}""")
-                
-                # tarade initated (requester): date[0]; player: data[2]
-                # trade sent to (requestee)  : date[1]; player: data[3]
-                # Remove current players from both teams
-                cursor.execute(f"""UPDATE closed_game_teams SET is_active = False 
-                                        WHERE player_id = {data[2]} and manager_id = {data[0]}""")
-                cursor.execute(f"""UPDATE closed_game_teams SET is_active = False 
-                                        WHERE player_id = {data[3]} and manager_id = {data[1]}""")
-                
-                # Insert new players into both teams
-                cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({data[0]}, {data[3]})""")
-                cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({data[1]}, {data[2]})""")
-                await message.channel.send(f"Trade accepted")
-                
+            
+            request_data = parse_request(message.content)
+            
+            myPlayerQuery = cursor.execute(f"""SELECT player_id, role FROM players WHERE player_id = '{request_data['MyPlayer']}' or LOWER(player_name) = LOWER('{request_data['MyPlayer']}')""")
+            myPlayerData = myPlayerQuery.fetchone()
+            myPlayerID = myPlayerData[0]
+            myPlayerRole = myPlayerData[1]
+            
+            # Query to check if my player is actually on my team
+            myTeamCheck = cursor.execute(f"""SELECT player_id FROM closed_game_teams WHERE player_id = {myPlayerID} and manager_id = (SELECT manager_id FROM managers WHERE discord_user_id = {userID})""")
+            myTeamCheck = myTeamCheck.fetchone()
+            if myTeamCheck is None:
+                await message.channel.send(f"Can't request to swap out a player that isn't on your team!")
+                return
+            
+            requestedPlayerQuery = cursor.execute(f"""SELECT player_id, role FROM players WHERE player_id = '{request_data['TradeFor']}' or LOWER(player_name) = LOWER('{request_data['TradeFor']}')""")
+            requestedPlayerData = requestedPlayerQuery.fetchone()
+            requestedPlayerID = requestedPlayerData[0]
+            requestedPlayerRole = requestedPlayerData[1]
+
+            # Query to check if the requested player is not on a team
+            requestedTeamCheck = cursor.execute(f"""SELECT player_id FROM closed_game_teams WHERE player_id = {requestedPlayerID} and is_active = TRUE""")
+            requestedTeamCheck = requestedTeamCheck.fetchone()
+            if requestedTeamCheck is None:
+                await message.channel.send(f"Can't request to swap in a player that is already on a team!")
+                return
+            
+            if requestedPlayerRole != myPlayerRole:
+                await message.channel.send(f"Can't request to swap players with differing roles. Please swap for the same roles")
+                return
+            
+            # Get the manager id of the user
+            query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
+            data = query.fetchone()
+            manager_id = data[0]
+            
+            # Insert data into the trades table
+            cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
+                        ({manager_id}, {myPlayerID}, {requestedPlayerID}, FALSE, TRUE)""")
+            
+            trade_id = cursor.lastrowid
+            user = await self.fetch_user(400713084232138755)
+            await message.channel.send(f"Swap request submitted")
+            await user.send(f'Trade request with ID: {trade_id} for {requestedPlayerID} from {message.author.name}.')
+            
             conn.commit()
             conn.close()
-        
+               
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Open league commands
         # Sign up as a open league player +signup
@@ -571,7 +515,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             conn.close()
         
         # ---------------------------------------------------------------------------------------------------------------------------
-        # Utility commands
+        # Admin Controls
         # Upload a new file to the server
         if (message.content.startswith("+upload") or message.content.startswith("+d") 
          or (message.channel.id == 1198778760120500284 and message.guild.id == 1042862967072501860)):
@@ -615,6 +559,236 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     conn.close()
                 else:
                     await message.channel.send(f"Invalid market command")
+                    
+        # Get all open trades
+        if message.content.startswith("+opentrades") and message.author.id in self.admin_users:
+            self.logger.info(f"Message from {message.author}: {message.content}")   
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            # Query to get open trades by ID and get the scores of the manager that is requesting the trade
+            query = cursor.execute(f"""SELECT
+                                            trades.trade_id,
+                                            requester.manager_name AS requester_name,
+                                            requester_player.player_name AS requester_player_name,
+                                            requestee_player.player_name AS requestee_player_name
+                                        FROM trades
+                                        JOIN managers AS requester ON trades.requester_id = requester.manager_id
+                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
+                                        JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
+                                        JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
+                                        WHERE trades.is_open = TRUE""")
+            data = query.fetchall()
+            columns = ['ID', 'From', 'Trade For', 'My Player']
+            df = pd.DataFrame(data, columns=columns)
+            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+            embed = discord.Embed(title=f"Open trade requests: ", color=self.generate_random_color())
+            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+            await message.channel.send(embed=embed)
+            
+            
+            df = get_closed_table(cursor)
+            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+            embed = discord.Embed(title=f"Closed League Standings: ", color=self.generate_random_color())
+            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+            await message.channel.send(embed=embed)
+            conn.close()
+            
+        # Execute a swap
+        if message.content.startswith("+accept") and message.author.id in self.admin_users:
+            tradeID = message.content[8:]
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            query = cursor.execute(f"""SELECT requester_id, requester_player_id, requestee_player_id 
+                                       FROM trades WHERE trade_id = {tradeID} and is_open = TRUE""")
+            data = cursor.fetchone()
+            manager_id = data[0]
+            requester_player_id = data[1]
+            requested_player_id = data[2]
+            
+            # Set the trade to be accepted and closed
+            cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE WHERE trade_id = {tradeID}""")
+            cursor.execute(f"""UPDATE closed_game_roster SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
+            cursor.execute(f"""INSERT into closed_game_roster (manager_id, player_id) VALUES ({manager_id}, {requested_player_id})""")
+            conn.commit()
+            conn.close()
+            await message.channel.send(f"Swap complete!")
+              
+        # Team eleminated update
+        if message.content.startswith("+eliminate") and message.author.id in self.admin_users:
+            teamName = message.content[11:]
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            cursor.execute(f"""UPDATE players SET eliminated = TRUE WHERE team_name = '{teamName}'""")
+            
+            # Go through closed team roster and send DMs to those managers who's team lost players
+            manager_ids = cursor.execute(f"""SELECT manager_id FROM closed_game_teams WHERE player_id IN (SELECT player_id FROM players WHERE eliminated = TRUE)""")
+            for manager_id in manager_ids:
+                mid = manager_id[0]
+                
+                user = await self.fetch_user(cursor.execute(f"""SELECT discord_user_id FROM managers WHERE manager_id = {mid}""").fetchone()[0])
+                
+                # Get the players that were eliminated
+                players = cursor.execute(f"""SELECT player_name FROM players WHERE player_id IN (SELECT player_id FROM closed_game_teams WHERE manager_id = {mid} and is_active = TRUE) and eliminated = TRUE""")
+                players = players.fetchall()
+                columns = ['Player Name']
+                df = pd.DataFrame(players, columns=columns)
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                embed = discord.Embed(title=f"Swap these players out: ", color=self.generate_random_color())
+                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                await message.channel.send(embed=embed)
+            
+            
+        # ---------------------------------------------------------------------------------------------------------------------------
+        # Hidden commands not supposed to work now
+        # Initiate a trade or accept a trade - Not supposed to work
+        if message.content.startswith("+trade") and self.market_open == True and 4 == 3:
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            userID = message.author.id
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+            closedCheck = closedCheck.fetchone()
+            if closedCheck[0] == False:
+                conn.close()
+                await message.channel.send(f"You don't need to trade, just swap players using **+swap *ID1* *ID2***")
+                return
+        
+            trade = parse_trade(message.content)
+            if trade['Type'] == 'request':
+                myplayerid = trade['MyPlayer']
+                requestedplayerid = trade['TradeFor']
+                if myplayerid == requestedplayerid:
+                    # Can't trade for the same player
+                    await message.channel.send(f"Can't pull a -Laxing +Laxing right away")
+                    return
+                
+                # Get the manager id of the user
+                query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
+                data = query.fetchone()
+                manager_id = data[0]
+                
+                # Get the player id of the player being traded
+                query = cursor.execute(f"""SELECT player_id, role FROM players WHERE player_id = '{myplayerid}' or LOWER(player_name) = LOWER('{myplayerid}')""")
+                data = query.fetchone()
+                requester_player_id = data[0]
+                out_player_role = data[1]
+                
+                # Get the player id of the player being traded for
+                query = cursor.execute(f"""SELECT player_id, player_name, role FROM players WHERE player_id = '{requestedplayerid}' or LOWER(player_name) = LOWER('{myplayerid}')""")
+                data = query.fetchone()
+                requestee_player_id = data[0]
+                requestee_player_name = data[1]
+                in_player_role = data[2]
+                
+                if out_player_role != in_player_role:
+                    await message.channel.send(f"Can't trade a player with differing roles. Please trade for the same roles")
+                    return
+                
+                # Get the manager id of the manager being traded with
+                query = cursor.execute(f"""SELECT cgt.manager_id, m.manager_name, m.discord_user_id
+                                            FROM closed_game_teams cgt, managers m
+                                            WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id""")
+                data = query.fetchone()
+                if data is not None:
+                    requestee_id = data[0]
+                    requestee_name = data[1]
+                    requestee_discord_id = data[2]
+                    user = await self.fetch_user(requestee_discord_id)
+                    
+                    # Insert the trade into the trades table
+                    cursor.execute(f"""INSERT INTO trades (requester_id, requestee_id, requester_player_id, requestee_player_id) VALUES ({manager_id}, {requestee_id}, {requester_player_id}, {requestee_player_id})""")    
+                    trade_id = cursor.lastrowid
+                    await message.channel.send(f"Trade request sent to {requestee_name} for {requestee_player_name}")
+                    await user.send(f'Trade request with ID: {trade_id} for {requestee_player_name} from {message.author.name}. To accept, use **+trade accept *ID***')
+                else:
+                    print("Player not on a team, swap complete")
+                    
+                    cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({manager_id}, {requestee_player_id})""")
+                    cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
+                                ({manager_id}, {requester_player_id}, {requestee_player_id}, TRUE, FALSE)""")
+                    cursor.execute(f"""UPDATE closed_game_teams SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
+                    await message.channel.send(f"Player not on a team, swap complete")
+            elif trade['Type'] == 'accept':
+                trade_id = trade['TradeID']
+                query = cursor.execute(f"""SELECT requester_id, requestee_id, requester_player_id, requestee_player_id 
+                                       FROM trades WHERE trade_id = {trade_id} and is_open = TRUE""")
+                data = cursor.fetchone()
+                
+                # Set the trade to be accepted and closed
+                cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE WHERE trade_id = {trade_id}""")
+                
+                # tarade initated (requester): date[0]; player: data[2]
+                # trade sent to (requestee)  : date[1]; player: data[3]
+                # Remove current players from both teams
+                cursor.execute(f"""UPDATE closed_game_teams SET is_active = False 
+                                        WHERE player_id = {data[2]} and manager_id = {data[0]}""")
+                cursor.execute(f"""UPDATE closed_game_teams SET is_active = False 
+                                        WHERE player_id = {data[3]} and manager_id = {data[1]}""")
+                
+                # Insert new players into both teams
+                cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({data[0]}, {data[3]})""")
+                cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({data[1]}, {data[2]})""")
+                await message.channel.send(f"Trade accepted")
+                
+            conn.commit()
+            conn.close()       
+            
+        # Get my current open trades both sent and recieved - Not supposed to work
+        if message.content.startswith("+mytrades") and 4 == 3:
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            userID = message.author.id
+            conn = sqlite3.connect(self.league_db)
+            cursor = conn.cursor()
+            closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+            closedCheck = closedCheck.fetchone()
+            if closedCheck[0] == False:
+                conn.close() 
+                await message.channel.send(f"You don't need to trade, just swap players using +swap *ID1* *ID2*")
+                return
+            
+            # Outgoing trades
+            query = cursor.execute(f"""SELECT
+                                            trades.trade_id,
+                                            requestee.manager_name AS requestee_name,
+                                            requester_player.player_name AS requester_player_name,
+                                            requestee_player.player_name AS requestee_player_name
+                                        FROM trades
+                                        JOIN managers AS requester ON trades.requester_id = requester.manager_id
+                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
+                                        JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
+                                        JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
+                                        WHERE trades.is_open = TRUE
+                                        AND LOWER(requester.discord_user_id) = LOWER('{userID}'); """)
+            data = query.fetchall() 
+            
+            columns = ['ID', 'To', 'My Player', 'Trade For']
+            df = pd.DataFrame(data, columns=columns)
+            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+            embed = discord.Embed(title=f"Outgoing trade requests: ", color=self.generate_random_color())
+            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+            await message.channel.send(embed=embed)
+            
+            # Incoming trades
+            query = cursor.execute(f"""SELECT
+                                            trades.trade_id,
+                                            requester.manager_name AS requester_name,
+                                            requester_player.player_name AS requester_player_name,
+                                            requestee_player.player_name AS requestee_player_name
+                                        FROM trades
+                                        JOIN managers AS requester ON trades.requester_id = requester.manager_id
+                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
+                                        JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
+                                        JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
+                                        WHERE trades.is_open = TRUE
+                                        AND LOWER(requestee.discord_user_id) = LOWER('{userID}')"""); 
+            data = query.fetchall()
+            columns = ['ID', 'From', 'Trade For', 'My Player']
+            df = pd.DataFrame(data, columns=columns)
+            table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+            embed = discord.Embed(title=f"Incoming trade requests: ", color=self.generate_random_color(), description="**To accept trade, use +trade accept *ID***")
+            embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+            await message.channel.send(embed=embed) 
+            conn.close()
 
 
     # Start the bot
