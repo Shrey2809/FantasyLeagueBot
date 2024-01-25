@@ -544,7 +544,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 if message.content[8:] == "open" and message.author.id in self.admin_users:
                     conn = sqlite3.connect(self.league_db)
                     cursor = conn.cursor()
-                    cursor.execute(f"""UPDATE market_status SET is_open = 1 WHERE market_id = 1""")
+                    cursor.execute(f"""UPDATE market_statusSET is_open = 1, updated_at = NOW()  WHERE market_id = 1""")
                     await message.channel.send(f"Market is now open!")
                     self.market_open = True
                     conn.commit()
@@ -552,6 +552,30 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 elif message.content[8:] == "close" and message.author.id in self.admin_users:
                     conn = sqlite3.connect(self.league_db)
                     cursor = conn.cursor()
+                    # Get all the trades that happaned since the market last opened
+                    cursor.execute(f"""SELECT updated_at FROM market_status WHERE market_id = 1""")
+                    last_market_open = cursor.fetchone()[0]
+                    
+                    # Get all player in and player out trades per manager
+                    trades = cursor.execute(f"""SELECT
+                                            trades.trade_id,
+                                            requester.manager_name AS requester_name,
+                                            requester_player.player_name AS requester_player_name,
+                                            requestee_player.player_name AS requestee_player_name
+                                        FROM trades
+                                        JOIN managers AS requester ON trades.requester_id = requester.manager_id
+                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
+                                        JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
+                                        JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
+                                        WHERE trades.is_open = FALSE AND is_accepted = TRUE AND updated_at > '{last_market_open}'""")
+                    trades = trades.fetchall()
+                    columns = ['ID', 'For', 'Player Out', 'Player In']
+                    trades_df = pd.DataFrame(trades, columns=columns)
+                    trades_df = trades_df.head(5)
+                    trades_table = tabulate(trades_df, headers='keys', tablefmt="simple_outline", showindex="never")
+                    embed = discord.Embed(title=f"Swaps since last market open: ", color=self.generate_random_color())
+                    embed.add_field(name='\u200b', value=f'```\n{trades_table}\n```')
+                    await message.channel.send(embed=embed)
                     cursor.execute(f"""UPDATE market_status SET is_open = 0 WHERE market_id = 1""")
                     await message.channel.send(f"Market is now closed!")
                     self.market_open = False
@@ -606,8 +630,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
             requested_player_id = data[2]
             
             # Set the trade to be accepted and closed
-            cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE WHERE trade_id = {tradeID}""")
-            cursor.execute(f"""UPDATE closed_game_roster SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
+            cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE, updated_at = NOW() WHERE trade_id = {tradeID}""")
+            cursor.execute(f"""UPDATE closed_game_roster SET is_active = False, updated_at = NOW() WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
             cursor.execute(f"""INSERT into closed_game_roster (manager_id, player_id) VALUES ({manager_id}, {requested_player_id})""")
             conn.commit()
             conn.close()
@@ -618,7 +642,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             teamName = message.content[11:]
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
-            cursor.execute(f"""UPDATE players SET eliminated = TRUE WHERE team_name = '{teamName}'""")
+            cursor.execute(f"""UPDATE players SET eliminated = TRUE, updated_at = NOW() WHERE team_name = '{teamName}'""")
             
             # Go through closed team roster and send DMs to those managers who's team lost players
             manager_ids = cursor.execute(f"""SELECT manager_id FROM closed_game_teams WHERE player_id IN (SELECT player_id FROM players WHERE eliminated = TRUE)""")
