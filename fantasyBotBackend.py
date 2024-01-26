@@ -36,7 +36,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         cursor = conn.cursor()
         query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
         data = query.fetchone()
-        if data[0] == 0:
+        if data[0] == 1:
             self.market_open = True
         else:
             self.market_open = False
@@ -351,7 +351,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             myPlayerRole = myPlayerData[1]
             
             # Query to check if my player is actually on my team
-            myTeamCheck = cursor.execute(f"""SELECT player_id FROM closed_game_teams WHERE player_id = {myPlayerID} and manager_id = (SELECT manager_id FROM managers WHERE discord_user_id = {userID})""")
+            myTeamCheck = cursor.execute(f"""SELECT player_id FROM closed_game_teams WHERE player_id = {myPlayerID} and is_active = TRUE and manager_id = (SELECT manager_id FROM managers WHERE discord_user_id = {userID})""")
             myTeamCheck = myTeamCheck.fetchone()
             if myTeamCheck is None:
                 await message.channel.send(f"Can't request to swap out a player that isn't on your team!")
@@ -365,7 +365,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             # Query to check if the requested player is not on a team
             requestedTeamCheck = cursor.execute(f"""SELECT player_id FROM closed_game_teams WHERE player_id = {requestedPlayerID} and is_active = TRUE""")
             requestedTeamCheck = requestedTeamCheck.fetchone()
-            if requestedTeamCheck is None:
+            if requestedTeamCheck is not None:
                 await message.channel.send(f"Can't request to swap in a player that is already on a team!")
                 return
             
@@ -400,10 +400,11 @@ class fantasyBotBackend(commands.AutoShardedBot):
             cursor = conn.cursor()
             closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
             closedCheck = closedCheck.fetchone()
-            if closedCheck[0] == True:
-                conn.close()
-                await message.channel.send(f"You're already in the closed league!")
-                return
+            if closedCheck is not None:
+                if closedCheck[0] == True:
+                    conn.close()
+                    await message.channel.send(f"You're already in the closed league!")
+                    return
             
             username = message.author.name
             query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
@@ -444,7 +445,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             query2 = cursor.execute(f"""
                     SELECT p.player_id, p.player_name, p.team_name, p.region, p.role
                     FROM open_game_roster ogr, players p, managers m 
-                    WHERE ogr.manager_id = m.manager_id and p.player_id = ogr.player_id and is_active = TRUE AND og.discord_user_id = {userID}
+                    WHERE ogr.manager_id = m.manager_id and p.player_id = ogr.player_id and is_active = TRUE AND m.discord_user_id = {userID}
                 """)
             data2 = query2.fetchall()
             if role.lower() == 'support' and len(data) >= 2:
@@ -521,7 +522,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
          or (message.channel.id == 1198778760120500284 and message.guild.id == 1042862967072501860)):
             self.logger.info(f"Message from {message.author}: {message.content}")
             if message.attachments:
-                current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
+                current_datetime = datetime.datetime.datetime('now').strftime("%Y%m%d%H%M")
                 file_name = f'stats//RAW_TOTALS_{current_datetime}.csv'
 
                 for attachment in message.attachments:
@@ -538,13 +539,15 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 data = query.fetchone()
                 if data[0] == 0:
                     await message.channel.send(f"Market is closed, please wait for the end of the playday to trade or swap players!")
+                    conn.close()
                 else:
                     await message.channel.send(f"Market is open, you can trade or swap players!")
+                    conn.close()
             else:
                 if message.content[8:] == "open" and message.author.id in self.admin_users:
                     conn = sqlite3.connect(self.league_db)
                     cursor = conn.cursor()
-                    cursor.execute(f"""UPDATE market_statusSET is_open = 1, updated_at = NOW()  WHERE market_id = 1""")
+                    cursor.execute(f"""UPDATE market_statusSET is_open = 1, updated_at = datetime('now')  WHERE market_id = 1""")
                     await message.channel.send(f"Market is now open!")
                     self.market_open = True
                     conn.commit()
@@ -583,7 +586,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     conn.close()
                 else:
                     await message.channel.send(f"Invalid market command")
-                    
+                        
         # Get all open trades
         if message.content.startswith("+opentrades") and message.author.id in self.admin_users:
             self.logger.info(f"Message from {message.author}: {message.content}")   
@@ -597,12 +600,11 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                             requestee_player.player_name AS requestee_player_name
                                         FROM trades
                                         JOIN managers AS requester ON trades.requester_id = requester.manager_id
-                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
                                         JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
                                         JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
                                         WHERE trades.is_open = TRUE""")
             data = query.fetchall()
-            columns = ['ID', 'From', 'Trade For', 'My Player']
+            columns = ['ID', 'From', 'Remove', 'Add']
             df = pd.DataFrame(data, columns=columns)
             table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
             embed = discord.Embed(title=f"Open trade requests: ", color=self.generate_random_color())
@@ -630,9 +632,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
             requested_player_id = data[2]
             
             # Set the trade to be accepted and closed
-            cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE, updated_at = NOW() WHERE trade_id = {tradeID}""")
-            cursor.execute(f"""UPDATE closed_game_roster SET is_active = False, updated_at = NOW() WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
-            cursor.execute(f"""INSERT into closed_game_roster (manager_id, player_id) VALUES ({manager_id}, {requested_player_id})""")
+            cursor.execute(f"""UPDATE trades SET is_accepted = TRUE, is_open = FALSE, date = datetime('now') WHERE trade_id = {tradeID} or requestee_player_id = {requested_player_id}""")
+            cursor.execute(f"""UPDATE closed_game_teams SET is_active = False, updated_at = datetime('now') WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
+            cursor.execute(f"""INSERT into closed_game_teams (manager_id, player_id) VALUES ({manager_id}, {requested_player_id})""")
             conn.commit()
             conn.close()
             await message.channel.send(f"Swap complete!")
@@ -642,7 +644,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             teamName = message.content[11:]
             conn = sqlite3.connect(self.league_db)
             cursor = conn.cursor()
-            cursor.execute(f"""UPDATE players SET eliminated = TRUE, updated_at = NOW() WHERE team_name = '{teamName}'""")
+            cursor.execute(f"""UPDATE players SET eliminated = TRUE, updated_at = datetime('now') WHERE LOWER(team_name) = LOWER('{teamName}')""")
             
             # Go through closed team roster and send DMs to those managers who's team lost players
             manager_ids = cursor.execute(f"""SELECT manager_id FROM closed_game_teams WHERE player_id IN (SELECT player_id FROM players WHERE eliminated = TRUE)""")
@@ -652,14 +654,16 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 user = await self.fetch_user(cursor.execute(f"""SELECT discord_user_id FROM managers WHERE manager_id = {mid}""").fetchone()[0])
                 
                 # Get the players that were eliminated
-                players = cursor.execute(f"""SELECT player_name FROM players WHERE player_id IN (SELECT player_id FROM closed_game_teams WHERE manager_id = {mid} and is_active = TRUE) and eliminated = TRUE""")
+                players = cursor.execute(f"""SELECT player_id, player_name FROM players WHERE player_id IN (SELECT player_id FROM closed_game_teams WHERE manager_id = {mid} and is_active = TRUE) and eliminated = TRUE""")
                 players = players.fetchall()
-                columns = ['Player Name']
+                columns = ['ID', 'Player Name']
                 df = pd.DataFrame(players, columns=columns)
                 table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
                 embed = discord.Embed(title=f"Swap these players out: ", color=self.generate_random_color())
                 embed.add_field(name='\u200b', value=f'```\n{table}\n```')
-                await message.channel.send(embed=embed)
+                await user.send(embed=embed)
+            conn.commit()
+            conn.close()
             
             
         # ---------------------------------------------------------------------------------------------------------------------------
