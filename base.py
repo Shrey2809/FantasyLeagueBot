@@ -11,12 +11,11 @@ def insert_players_from_csv(csv_file):
     with open(csv_file, 'r', encoding='utf-8-sig') as file:
         csv_reader = csv.DictReader(file)
         for row in csv_reader:
-            player_name = row['Player'].lower()
-            team_name = row['Team'].lower()
-            role = row['Role'].lower()
-            region = row['Region'].lower()
+            player_name = row['Player']
+            team_name = row['Team']
+            role = row['Role']
             
-            print(f"Player: {player_name}, Team: {team_name}, Role: {role}, Region: {region}")
+            print(f"Player: {player_name}, Team: {team_name}, Role: {role}")
             
             # Check if player_name and team_name are present in the row
             if player_name and team_name:
@@ -24,11 +23,11 @@ def insert_players_from_csv(csv_file):
                 print(f"Inserting {player_name.lower()} from {team_name.lower()}")
                 cursor.execute(f'''
                     INSERT INTO players (player_name, team_name, role, region)
-                    VALUES ('{player_name}', '{team_name}', '{role}', '{region}')
+                    VALUES ('{player_name}', '{team_name}', '{role}', 'BR')
                 ''')
 
 # Replace 'your_csv_file.csv' with the actual CSV file containing player names and team names
-csv_file_path = 'stats//Players.csv'
+csv_file_path = 'stats//Day_1.csv'
 
 # Call the function to insert players from the CSV file
 insert_players_from_csv(csv_file_path)
