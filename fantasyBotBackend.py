@@ -454,7 +454,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 data = query.fetchone()
                 if data is None:
                     cursor.execute(f"""INSERT INTO managers (manager_name, discord_user_id, in_closed) VALUES ('{username}', '{userID}', FALSE)""")
-                    await message.channel.send(f"Signed up as {username}, to pick players, use +pick *ID* or +pick *name*")
+                    await message.channel.send(f"Signed up as {username}, go to DMs to pick players, use +pick *ID* or +pick *name*")
+                    user = await self.fetch_user(userID)
+                    await user.send(f"Welcome to the open league! Use +pick *ID* or +pick *name* to pick players")
                 else:
                     await message.channel.send(f"Already signed up as {username}")
                 conn.commit()
