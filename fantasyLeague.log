@@ -1,0 +1,19 @@
+2024-01-31 15:15:40,306 [DEBUG] Using proactor: IocpProactor
+2024-01-31 15:15:40,308 [INFO] logging in using static token
+2024-01-31 15:15:41,834 [INFO] Shard ID 0 has connected to Gateway (Session ID: 389eb09dd555a911dbd0f17cad6d1e60).
+2024-01-31 15:15:43,899 [INFO] -------------
+2024-01-31 15:15:43,899 [INFO] |Fantasy Bot|
+2024-01-31 15:15:43,899 [INFO] -------------
+2024-01-31 15:15:48,085 [INFO] Message from axon319: +signup
+2024-01-31 15:15:57,270 [INFO] Message from axon319: +pick Reeps
+2024-01-31 15:16:04,720 [INFO] Message from axon319: +pick Yass
+2024-01-31 15:16:47,517 [INFO] Message from axon319: +pick 84
+2024-01-31 15:16:53,436 [INFO] Message from axon319: +pick 46
+2024-01-31 15:16:57,648 [INFO] Message from axon319: +pick 71
+2024-01-31 15:17:05,023 [INFO] Message from axon319: +pick 88
+2024-01-31 15:17:11,040 [INFO] Message from axon319: +pick 66
+2024-01-31 15:17:20,570 [INFO] Message from axon319: +pick 21
+2024-01-31 15:17:27,593 [INFO] Message from axon319: +pick 31
+2024-01-31 15:17:31,291 [INFO] Message from axon319: +myteam
+2024-01-31 15:17:58,611 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000025E64921580>
