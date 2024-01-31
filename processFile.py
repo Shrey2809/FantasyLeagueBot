@@ -29,7 +29,7 @@ def insert_data_from_csv(csv_file):
             # Extract relevant data from the CSV row
             player_name = row['Player'].lower()
             team_name = row['Team'].lower()
-              # Assuming you want to use the current date
+            # Assuming you want to use the current date
             body_shot_kills = int(row['Body Shot Kills'])
             headshot_kills = int(row['Entry Kills'])
             utility_kills = int(row.get('Utility Kills', 0))  # Assuming 'Utility Kills' may not be present in every row
@@ -38,18 +38,23 @@ def insert_data_from_csv(csv_file):
             opening_deaths = int(row['Entry Deaths'])
             round_wins = int(row['Round Wins'])
             plant_points = int(row['Plants'])
+            current_datetime = datetime.now()
             
             # Calculate total points and points per round
             total_points = int(row['Points'])
-            points_per_round = total_points / int(row['Rounds'])
+            if total_points == 0:
+                points_per_round = 0
+            else:
+                points_per_round = total_points / int(row['Rounds'])
             
+            print(player_name, total_points, points_per_round)
             # Insert data into player_daily_performance table
             cursor.execute('''
                 INSERT INTO player_daily_performance 
                     (player_id, date, body_shot_kills, headshot_kills, utility_kills, opening_kills, deaths, opening_deaths, round_wins, plant_points, total_points, points_per_round, created_at, updated_at) 
                 VALUES 
-                    ((SELECT player_id FROM players WHERE player_name = ? AND team_name = ?), ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
-            ''', (player_name, team_name, date, body_shot_kills, headshot_kills, utility_kills, opening_kills, deaths, opening_deaths, round_wins, plant_points, total_points, points_per_round))
+                    ((SELECT player_id FROM players WHERE LOWER(player_name) = ?), ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (player_name, date, body_shot_kills, headshot_kills, utility_kills, opening_kills, deaths, opening_deaths, round_wins, plant_points, total_points, points_per_round, current_datetime, current_datetime))
             
             
     # Get all the managers' score for the day and insert it into the managers_daily_scores table
@@ -64,8 +69,8 @@ def insert_data_from_csv(csv_file):
             INSERT INTO managers_daily_scores 
                 (manager_id, date, closed_game_score, created_at, updated_at) 
             VALUES 
-                (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
-        ''', (manager_id, date, manager_score))
+                (?, ?, ?, ?, ?)
+        ''', (manager_id, date, manager_score, current_datetime, current_datetime))
     all_open_manager_ids = cursor.execute('SELECT manager_id FROM managers WHERE in_closed = FALSE').fetchall()
     for manager_id in all_open_manager_ids:
         manager_id = manager_id[0]
@@ -77,8 +82,8 @@ def insert_data_from_csv(csv_file):
             INSERT INTO managers_daily_scores 
                 (manager_id, date, open_game_roster, created_at, updated_at) 
             VALUES 
-                (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
-        ''', (manager_id, date, manager_score))
+                (?, ?, ?, ?, ?)
+        ''', (manager_id, date, manager_score, current_datetime, current_datetime))
             
     # Commit changes and close the connection
     conn.commit()

@@ -96,3 +96,6 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 cel
+
+
+__pycache__/

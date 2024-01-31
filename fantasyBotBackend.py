@@ -9,6 +9,22 @@ import datetime
 from tabulate import tabulate
 from fantasyCommandParser import *
 
+"""
+Docstring for all the commands with markdown formatting:
+Both closed and open league:
+    **+myteam**: Get my current active team
+    **+myscore**: Get my total score and rank
+    **+standings**: Current Standings for my league
+    **+find *Name/Team***: Find a specific player or team
+Closed league:
+    **+openplayers**: Get top 5 open fraggers and supports 
+    **+myrequests**: Get my current open requests
+    **+request *ID1/Name1* *ID2/Name2***: Request a player swap
+Open league:
+    **+signup**: Sign up as a open league player
+    **+pick *ID/Name***: Pick a player for the open league
+    **+swap *ID1/Name1* *ID2/Name2***: Initiate a trade or accept a trade
+"""
 class fantasyBotBackend(commands.AutoShardedBot):
     # Initialize the bot
     def __init__(self, config):
@@ -560,7 +576,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
          or (message.channel.id == 1198778760120500284 and message.guild.id == 1042862967072501860)):
             self.logger.info(f"Message from {message.author}: {message.content}")
             if message.attachments:
-                current_datetime = datetime.datetime.datetime('now').strftime("%Y%m%d%H%M")
+                current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
+
                 file_name = f'stats//RAW_TOTALS_{current_datetime}.csv'
 
                 for attachment in message.attachments:

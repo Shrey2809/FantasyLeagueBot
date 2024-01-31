@@ -1,0 +1,48 @@
+2024-01-31 11:40:50,439 [DEBUG] Using proactor: IocpProactor
+2024-01-31 11:40:50,440 [INFO] logging in using static token
+2024-01-31 11:40:51,989 [INFO] Shard ID 0 has connected to Gateway (Session ID: a2a3f35f19c277042bb860e5dde13197).
+2024-01-31 11:40:54,043 [INFO] -------------
+2024-01-31 11:40:54,043 [INFO] |Fantasy Bot|
+2024-01-31 11:40:54,044 [INFO] -------------
+2024-01-31 11:41:11,654 [INFO] Message from axon319: 
+2024-01-31 11:41:11,654 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 579, in on_message
+    current_datetime = datetime.datetime.datetime('now').strftime("%Y%m%d%H%M")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2024-01-31 11:41:44,816 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000018881962AE0>
+2024-01-31 11:41:48,002 [DEBUG] Using proactor: IocpProactor
+2024-01-31 11:41:48,003 [INFO] logging in using static token
+2024-01-31 11:41:49,441 [INFO] Shard ID 0 has connected to Gateway (Session ID: 4325c69b91c7b8f158f74335e209294f).
+2024-01-31 11:41:51,490 [INFO] -------------
+2024-01-31 11:41:51,491 [INFO] |Fantasy Bot|
+2024-01-31 11:41:51,491 [INFO] -------------
+2024-01-31 11:41:55,450 [INFO] Shard ID 0 has successfully RESUMED session 4325c69b91c7b8f158f74335e209294f.
+2024-01-31 11:42:06,445 [INFO] Message from axon319: 
+2024-01-31 11:42:06,445 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 579, in on_message
+    current_datetime = datetime.datetime('now').strftime("%Y%m%d%H%M")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+2024-01-31 11:42:41,625 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000028C258200B0>
+2024-01-31 11:42:45,669 [DEBUG] Using proactor: IocpProactor
+2024-01-31 11:42:45,670 [INFO] logging in using static token
+2024-01-31 11:42:47,201 [INFO] Shard ID 0 has connected to Gateway (Session ID: dc97902a8335530418b112cfa7430ead).
+2024-01-31 11:42:49,239 [INFO] -------------
+2024-01-31 11:42:49,239 [INFO] |Fantasy Bot|
+2024-01-31 11:42:49,239 [INFO] -------------
+2024-01-31 11:42:50,690 [INFO] Message from axon319: 
+2024-01-31 11:43:50,743 [INFO] Message from axon319: 
+2024-01-31 11:46:51,821 [INFO] Message from axon319: 
+2024-01-31 11:48:31,324 [INFO] Message from axon319: 
+2024-01-31 11:49:32,332 [INFO] Message from axon319: 
+2024-01-31 11:50:34,732 [INFO] Message from axon319: 
+2024-01-31 11:53:24,381 [INFO] Message from axon319: 
