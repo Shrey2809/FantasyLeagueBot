@@ -327,6 +327,36 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 self.logger.error(e)
             finally:
                 conn.close()
+                
+                
+        if message.content.startswith("+allplayers"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            try:
+                conn = sqlite3.connect(self.league_db)
+                cursor = conn.cursor()
+                query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
+                                            FROM players p
+                                            LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
+                                            WHERE p.eliminated = FALSE AND
+                                                p.player_id NOT IN (
+                                                SELECT cgt.player_id
+                                                FROM closed_game_teams cgt
+                                            )
+                                            GROUP BY p.player_id
+                                            ORDER BY max_daily_score DESC;""")
+                data = query.fetchall()
+                columns = ['Player ID', 'Player Name', 'Team Name', 'Role', 'Total Score']
+                df = pd.DataFrame(data, columns=columns)
+                support_df = df[df['Role'] == 'Support']
+                support_df = support_df[['Player ID', 'Player Name', 'Team Name', 'Total Score']]
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                with open('playerStats.md', 'a', encoding="utf-8") as f:
+                    f.write(table)
+                await message.channel.send(file=discord.File('playerStats.md'))
+            except Exception as e:
+                self.logger.error(e)
+            finally:
+                conn.close()           
         
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Closed league commands    
