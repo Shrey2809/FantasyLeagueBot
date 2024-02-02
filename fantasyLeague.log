@@ -17,3 +17,80 @@
 2024-01-31 15:17:31,291 [INFO] Message from axon319: +myteam
 2024-01-31 15:17:58,611 [ERROR] Unclosed client session
 client_session: <aiohttp.client.ClientSession object at 0x0000025E64921580>
+2024-02-01 16:51:00,843 [DEBUG] Using proactor: IocpProactor
+2024-02-01 16:51:00,845 [INFO] logging in using static token
+2024-02-01 16:51:02,242 [INFO] Shard ID 0 has connected to Gateway (Session ID: 4d7fc483bc2dac93f175f80073ad4c3b).
+2024-02-01 16:51:04,276 [INFO] -------------
+2024-02-01 16:51:04,276 [INFO] |Fantasy Bot|
+2024-02-01 16:51:04,276 [INFO] -------------
+2024-02-01 16:51:37,791 [INFO] Shard ID 0 has successfully RESUMED session 4d7fc483bc2dac93f175f80073ad4c3b.
+2024-02-01 16:52:24,607 [INFO] Message from sprabuni: +signup
+2024-02-01 16:52:35,198 [INFO] Message from sprabuni: +pick nafe
+2024-02-01 16:52:46,422 [INFO] Message from sprabuni: +pick mowwwgli
+2024-02-01 16:52:50,233 [INFO] Message from sprabuni: +pick spoit
+2024-02-01 16:52:54,679 [INFO] Message from sprabuni: +pick nesk
+2024-02-01 16:52:56,762 [INFO] Message from sprabuni: +pick paluh
+2024-02-01 16:53:04,982 [INFO] Message from sprabuni: +pick brid
+2024-02-01 16:53:04,983 [ERROR] 'NoneType' object is not subscriptable
+2024-02-01 16:53:27,717 [INFO] Message from sprabuni: +pick envytaylor
+2024-02-01 16:53:27,719 [ERROR] 'NoneType' object is not subscriptable
+2024-02-01 16:53:32,986 [INFO] Message from sprabuni: +pick herdz
+2024-02-01 16:53:40,701 [INFO] Message from sprabuni: +pick soulz
+2024-02-01 16:53:44,440 [INFO] Message from axon319: +myteam
+2024-02-01 16:54:28,345 [INFO] Message from sprabuni: +pick vitaking
+2024-02-01 16:54:33,755 [INFO] Message from sprabuni: +myteam
+2024-02-01 16:54:48,185 [INFO] Message from sprabuni: +myteam
+2024-02-01 16:55:30,826 [INFO] Message from sprabuni: +swap 84 30
+2024-02-01 16:55:42,423 [INFO] Message from sprabuni: +swap 66 30
+2024-02-01 16:56:16,522 [INFO] Message from sprabuni: +swap 31 13
+2024-02-01 16:56:28,689 [INFO] Message from sprabuni: +swap 98 71
+2024-02-01 16:56:33,981 [INFO] Message from sprabuni: +myteam
+2024-02-01 16:56:52,295 [INFO] Message from axon319: +myteam
+2024-02-01 16:58:21,145 [INFO] Message from sprabuni: +myteam
+2024-02-01 16:58:23,105 [INFO] Message from sprabuni: +swap 98 71
+2024-02-01 16:58:30,089 [INFO] Message from sprabuni: +myteam
+2024-02-01 16:58:42,214 [INFO] Message from sprabuni: +swap 30 30
+2024-02-01 16:59:14,656 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AA4EB1E630>
+2024-02-01 16:59:17,898 [DEBUG] Using proactor: IocpProactor
+2024-02-01 16:59:17,899 [INFO] logging in using static token
+2024-02-01 16:59:19,292 [INFO] Shard ID 0 has connected to Gateway (Session ID: 17237956f891bca9ba995b375e4203e6).
+2024-02-01 16:59:21,351 [INFO] -------------
+2024-02-01 16:59:21,351 [INFO] |Fantasy Bot|
+2024-02-01 16:59:21,351 [INFO] -------------
+2024-02-01 16:59:30,131 [INFO] Message from sprabuni: +pick 51
+2024-02-01 16:59:42,711 [INFO] Message from sprabuni: +pick 50
+2024-02-01 16:59:46,470 [INFO] Message from sprabuni: +pick 52
+2024-02-01 16:59:51,069 [INFO] Message from sprabuni: +myteam
+2024-02-01 17:00:40,781 [INFO] Message from sprabuni: +myteam
+2024-02-01 17:00:48,550 [INFO] Message from sprabuni: +pick iconic
+2024-02-01 17:00:54,155 [INFO] Message from sprabuni: +pick reeps
+2024-02-01 17:01:04,273 [INFO] Message from sprabuni: +myteam
+2024-02-01 17:01:27,028 [INFO] Message from sprabuni: +swap 4 2
+2024-02-01 17:01:35,492 [INFO] Message from sprabuni: +swap 4 53
+2024-02-01 17:01:38,912 [INFO] Message from sprabuni: +myteam
+2024-02-01 17:02:45,328 [INFO] Message from sprabuni: +find darkzero esports
+2024-02-01 17:02:51,110 [INFO] Message from sprabuni: +find darkzero
+2024-02-01 17:03:42,141 [INFO] Message from sprabuni: +find shureap
+2024-02-01 17:03:50,597 [INFO] Message from sprabuni: +find canadian
+2024-02-01 17:10:34,913 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FA3270F4A0>
+2024-02-01 17:43:21,770 [DEBUG] Using proactor: IocpProactor
+2024-02-01 17:43:21,771 [INFO] logging in using static token
+2024-02-01 17:43:23,288 [INFO] Shard ID 0 has connected to Gateway (Session ID: 1a5b087aa1039d7d97a9b7ee390f9e22).
+2024-02-01 17:43:25,337 [INFO] -------------
+2024-02-01 17:43:25,337 [INFO] |Fantasy Bot|
+2024-02-01 17:43:25,337 [INFO] -------------
+2024-02-01 17:43:38,104 [INFO] Message from axon319: +find Darkzero
+2024-02-01 17:43:38,115 [ERROR] "['Rank'] not in index"
+2024-02-01 17:44:51,793 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000195493A2720>
+2024-02-01 17:44:54,668 [DEBUG] Using proactor: IocpProactor
+2024-02-01 17:44:54,670 [INFO] logging in using static token
+2024-02-01 17:44:56,114 [INFO] Shard ID 0 has connected to Gateway (Session ID: 6df6af927fe5a79807ade09f19353ec7).
+2024-02-01 17:44:58,183 [INFO] -------------
+2024-02-01 17:44:58,183 [INFO] |Fantasy Bot|
+2024-02-01 17:44:58,183 [INFO] -------------
+2024-02-01 17:45:01,177 [INFO] Message from axon319: +find Darkzero
+2024-02-01 17:52:47,844 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002253605E8D0>

@@ -261,8 +261,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                 p.player_name,
                                 p.team_name,
                                 p.role,
-                                SUM(pdp.total_points) AS max_daily_score,
-                                RANK() OVER (ORDER BY SUM(pdp.total_points) DESC) AS player_rank
+                                SUM(pdp.total_points) AS max_daily_score
                             FROM
                                 players p
                                 LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
@@ -275,8 +274,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
                             """
                     query = cursor.execute(queryTest)
                     data = query.fetchall()
-                    columns = ['ID', 'Name', 'Team', 'Role', 'Total Score', 'Rank']
+                    columns = ['ID', 'Name', 'Team', 'Role', 'Total Score']
                     df = pd.DataFrame(data, columns=columns)
+                    df['Rank'] = df['Total Score'].rank(ascending=False).astype(int)
                     df = df[['Rank', 'ID', 'Name', 'Team', 'Total Score']]
                     if len(df) == 0:
                         return
@@ -289,7 +289,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             finally:
                 conn.close()
             
-        # Get top 5 open fraggers and supports and send embed
+        # Get top 5 open fraggers and supports and send file
         if message.content.startswith("+openplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
@@ -308,27 +308,18 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 data = query.fetchall()
                 columns = ['Player ID', 'Player Name', 'Team Name', 'Role', 'Total Score']
                 df = pd.DataFrame(data, columns=columns)
-                support_df = df[df['Role'] == 'Support']
-                support_df = support_df.head(5)
-                support_df = support_df[['Player ID', 'Player Name', 'Team Name', 'Total Score']]
-                table = tabulate(support_df, headers='keys', tablefmt="simple_outline", showindex="never")
-                embed = discord.Embed(title=f"Open Supports: ", color=self.generate_random_color())
-                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
-                await message.channel.send(embed=embed)
-                
-                fragger_df = df[df['Role'] == 'Fragger']
-                fragger_df = fragger_df.head(5)
-                fragger_df = fragger_df[['Player ID', 'Player Name', 'Team Name', 'Total Score']]
-                table = tabulate(fragger_df, headers='keys', tablefmt="simple_outline", showindex="never")
-                embed = discord.Embed(title=f"Open Fraggers: ", color=self.generate_random_color())
-                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
-                await message.channel.send(embed=embed)
+                df1 = df[:50]
+                df2 = df[50:]
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                with open('openPlayerStats.md', 'a', encoding="utf-8") as f:
+                    f.write(table)
+                await message.channel.send(file=discord.File('openPlayerStats.md'))
             except Exception as e:
                 self.logger.error(e)
             finally:
                 conn.close()
-                
-                
+           
+        # Get all players and their scores and send file             
         if message.content.startswith("+allplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
@@ -337,18 +328,14 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
                                             FROM players p
                                             LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
-                                            WHERE p.eliminated = FALSE AND
-                                                p.player_id NOT IN (
-                                                SELECT cgt.player_id
-                                                FROM closed_game_teams cgt
-                                            )
+                                            WHERE p.eliminated = FALSE
                                             GROUP BY p.player_id
                                             ORDER BY max_daily_score DESC;""")
                 data = query.fetchall()
                 columns = ['Player ID', 'Player Name', 'Team Name', 'Role', 'Total Score']
                 df = pd.DataFrame(data, columns=columns)
-                support_df = df[df['Role'] == 'Support']
-                support_df = support_df[['Player ID', 'Player Name', 'Team Name', 'Total Score']]
+                df1 = df[:50]
+                df2 = df[50:]
                 table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
                 with open('playerStats.md', 'a', encoding="utf-8") as f:
                     f.write(table)
@@ -533,6 +520,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     await message.channel.send(f"Already have 3 fraggers, pick a support")
                 elif len(data2) >= 5:
                     await message.channel.send(f"Already have 5 players, swap a player using +swap **OldPlayerID** **NewPlayerID**")
+                elif data2[0] == player_id:
+                    await message.channel.send(f"Can't pick the same player twice")
                 else:
                     cursor.execute(f"""INSERT INTO open_game_roster (manager_id, player_id, is_active) VALUES ({manager_id}, {player_id}, TRUE)""")
                     await message.channel.send(f"Player picked! Check your team with +myteam")
@@ -583,11 +572,18 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     requestee_player_name = data[1]
                     in_player_role = data[2]
                     
+                    # Check if outgoing player is actually on the team
+                    myTeamCheck = cursor.execute(f"""SELECT player_id FROM open_game_roster WHERE player_id = {requester_player_id} and is_active = TRUE and manager_id = {manager_id}""")
+                    myTeamCheck = myTeamCheck.fetchone()
+                    if myTeamCheck is None:
+                        await message.channel.send(f"Can't trade a player that isn't on your team!")
+                        return
+                    
                     if out_player_role != in_player_role:
                         await message.channel.send(f"Can't trade a player with differing roles. Please trade for the same roles")
                         return
                     
-                    cursor.execute(f"""INSERT INTO open_game_roster (manager_id, player_id) VALUES ({manager_id}, {requestee_player_id})""")
+                    cursor.execute(f"""INSERT INTO open_game_roster (manager_id, player_id, is_active) VALUES ({manager_id}, {requestee_player_id}, TRUE)""")
                     cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
                                 ({manager_id}, {requester_player_id}, {requestee_player_id}, TRUE, FALSE)""")
                     cursor.execute(f"""UPDATE open_game_roster SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
