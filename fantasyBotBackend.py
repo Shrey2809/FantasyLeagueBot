@@ -8,6 +8,7 @@ import sqlite3
 import datetime
 from tabulate import tabulate
 from fantasyCommandParser import *
+from processFile import *
 
 """
 Docstring for all the commands with markdown formatting:
@@ -70,7 +71,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
     
     # Generate a random hex color 
     def generate_random_color(self):
-        color = random.randint(0, 0xFFFFFF)  # 0x000000 to 0xFFFFFF (0 to 16777215 in decimal)
+        pick_from = [0xbf202f, 0xd77028, 0x254623, 0x0c4257, 0x478b41, 0x0e799f]
+        color = random.choice(pick_from)
         return color
     
     # Message displayed when bot is started
@@ -256,27 +258,34 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 for role in roles:
                     queryTest = f"""
                             SELECT * FROM (          
-                            SELECT
-                                p.player_id,
-                                p.player_name,
-                                p.team_name,
-                                p.role,
-                                SUM(pdp.total_points) AS max_daily_score
-                            FROM
-                                players p
-                                LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
-                            WHERE
-                                p.eliminated = FALSE and p.role = '{role}'
-                            GROUP BY
-                                p.player_id
+                                    SELECT
+                                        player_id,
+                                        player_name,
+                                        team_name,
+                                        role,
+                                        max_daily_score,
+                                        ROW_NUMBER() OVER (ORDER BY max_daily_score DESC) AS rank
+                                    FROM
+                                        (SELECT
+                                            p.player_id,
+                                            p.player_name,
+                                            p.team_name,
+                                            p.role,
+                                            SUM(pdp.total_points) AS max_daily_score
+                                        FROM
+                                            players p
+                                            LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
+                                        WHERE
+                                            p.eliminated = FALSE AND p.role = '{role}'
+                                        GROUP BY
+                                            p.player_id) AS subquery
                             ) WHERE 
                                 player_id in {simple_list};
                             """
                     query = cursor.execute(queryTest)
                     data = query.fetchall()
-                    columns = ['ID', 'Name', 'Team', 'Role', 'Total Score']
+                    columns = ['ID', 'Name', 'Team', 'Role', 'Total Score', 'Rank']
                     df = pd.DataFrame(data, columns=columns)
-                    df['Rank'] = df['Total Score'].rank(ascending=False).astype(int)
                     df = df[['Rank', 'ID', 'Name', 'Team', 'Total Score']]
                     if len(df) == 0:
                         return
@@ -514,13 +523,19 @@ class fantasyBotBackend(commands.AutoShardedBot):
                         WHERE ogr.manager_id = m.manager_id and p.player_id = ogr.player_id and is_active = TRUE AND m.discord_user_id = {userID}
                     """)
                 data2 = query2.fetchall()
+                query3 = cursor.execute(f"""
+                        SELECT p.player_id, p.player_name, p.team_name, p.region, p.role
+                        FROM open_game_roster ogr, players p, managers m 
+                        WHERE ogr.manager_id = m.manager_id and p.player_id = ogr.player_id and is_active = TRUE AND m.discord_user_id = {userID} AND p.player_id = {player_id}
+                    """)
+                data3 = query3.fetchall()
                 if role.lower() == 'support' and len(data) >= 2:
                     await message.channel.send(f"Already have 2 supports, pick a fragger")
                 elif role.lower() == 'fragger' and len(data) >= 3:
                     await message.channel.send(f"Already have 3 fraggers, pick a support")
                 elif len(data2) >= 5:
                     await message.channel.send(f"Already have 5 players, swap a player using +swap **OldPlayerID** **NewPlayerID**")
-                elif data2[0] == player_id:
+                elif len(data3) > 0:
                     await message.channel.send(f"Can't pick the same player twice")
                 else:
                     cursor.execute(f"""INSERT INTO open_game_roster (manager_id, player_id, is_active) VALUES ({manager_id}, {player_id}, TRUE)""")
@@ -542,7 +557,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 closedCheck = closedCheck.fetchone()
                 if closedCheck[0] == True:
                     conn.close()
-                    await message.channel.send(f"Use the **+trade request *ID1/Name* *ID2/Name*** command for closed league trades")
+                    await message.channel.send(f"Use the **+request *ID1/Name* *ID2/Name*** command for closed league trades")
                     return
                 
                 trade = parse_swap(message.content)
@@ -564,13 +579,15 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     data = query.fetchone()
                     requester_player_id = data[0]
                     out_player_role = data[1]
+                    print(data)
                     
                     # Get the player id of the player being traded for
-                    query = cursor.execute(f"""SELECT player_id, player_name, role FROM players WHERE player_id = '{requestedplayerid}' or LOWER(player_name) = LOWER('{myplayerid}')""")
+                    query = cursor.execute(f"""SELECT player_id, player_name, role FROM players WHERE player_id = '{requestedplayerid}' or LOWER(player_name) = LOWER('{requestedplayerid}')""")
                     data = query.fetchone()
                     requestee_player_id = data[0]
                     requestee_player_name = data[1]
                     in_player_role = data[2]
+                    print(requestedplayerid, data)
                     
                     # Check if outgoing player is actually on the team
                     myTeamCheck = cursor.execute(f"""SELECT player_id FROM open_game_roster WHERE player_id = {requester_player_id} and is_active = TRUE and manager_id = {manager_id}""")
@@ -611,6 +628,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 for attachment in message.attachments:
                     await attachment.save(file_name)
                     print(f"File '{attachment.filename}' downloaded from {message.author}. Saved as {file_name}.")  
+                
+                # Process the file
+                insert_data_from_csv(file_name)
+                await message.channel.send(f"File processed and uploaded to the database")
             
         # Get the current market status or open/close the market 
         if message.content.startswith("+market"):

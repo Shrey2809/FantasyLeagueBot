@@ -94,3 +94,173 @@ client_session: <aiohttp.client.ClientSession object at 0x00000195493A2720>
 2024-02-01 17:45:01,177 [INFO] Message from axon319: +find Darkzero
 2024-02-01 17:52:47,844 [ERROR] Unclosed client session
 client_session: <aiohttp.client.ClientSession object at 0x000002253605E8D0>
+2024-02-01 19:02:02,190 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:02:02,192 [INFO] logging in using static token
+2024-02-01 19:02:03,716 [INFO] Shard ID 0 has connected to Gateway (Session ID: af8b04d7ad6397a32b77908d04e29141).
+2024-02-01 19:02:05,732 [INFO] -------------
+2024-02-01 19:02:05,732 [INFO] |Fantasy Bot|
+2024-02-01 19:02:05,732 [INFO] -------------
+2024-02-01 19:02:12,268 [INFO] Message from axon319: +myteam
+2024-02-01 19:02:20,794 [INFO] Message from axon319: +swap Arukaze Vitaking
+2024-02-01 19:02:23,847 [INFO] Message from axon319: +myteam
+2024-02-01 19:02:34,571 [INFO] Message from axon319: +myteam
+2024-02-01 19:04:25,218 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002335146DF10>
+2024-02-01 19:04:29,111 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:04:29,112 [INFO] logging in using static token
+2024-02-01 19:04:30,560 [INFO] Shard ID 0 has connected to Gateway (Session ID: 2e5f3c4823103736928694729683bbb3).
+2024-02-01 19:04:32,635 [INFO] -------------
+2024-02-01 19:04:32,635 [INFO] |Fantasy Bot|
+2024-02-01 19:04:32,635 [INFO] -------------
+2024-02-01 19:04:36,452 [INFO] Message from axon319: +swap Arukaze Vitaking
+2024-02-01 19:04:39,551 [INFO] Message from axon319: +myteam
+2024-02-01 19:04:51,823 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000016023C5AB40>
+2024-02-01 19:05:21,462 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:05:21,464 [INFO] logging in using static token
+2024-02-01 19:05:22,965 [INFO] Shard ID 0 has connected to Gateway (Session ID: ddc9ecf5a87068b6ba5d25676e485a3f).
+2024-02-01 19:05:25,049 [INFO] -------------
+2024-02-01 19:05:25,049 [INFO] |Fantasy Bot|
+2024-02-01 19:05:25,049 [INFO] -------------
+2024-02-01 19:05:30,420 [INFO] Message from axon319: +myteam
+2024-02-01 19:05:32,426 [INFO] Shard ID 0 has successfully RESUMED session ddc9ecf5a87068b6ba5d25676e485a3f.
+2024-02-01 19:05:38,417 [INFO] Message from axon319: +swap Arukaze Vitaking
+2024-02-01 19:05:43,921 [INFO] Message from axon319: +myteam
+2024-02-01 19:06:30,316 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000258A325A510>
+2024-02-01 19:06:34,316 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:06:34,317 [INFO] logging in using static token
+2024-02-01 19:06:35,625 [INFO] Shard ID 0 has connected to Gateway (Session ID: 5438f7c41772a2b40a84c127dd26a487).
+2024-02-01 19:06:37,685 [INFO] -------------
+2024-02-01 19:06:37,685 [INFO] |Fantasy Bot|
+2024-02-01 19:06:37,685 [INFO] -------------
+2024-02-01 19:06:44,878 [INFO] Message from axon319: +myteam
+2024-02-01 19:06:52,414 [INFO] Message from axon319: +swap Arukaze Vitaking
+2024-02-01 19:06:56,164 [INFO] Message from axon319: +myteam
+2024-02-01 19:07:22,167 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E0815369F0>
+2024-02-01 19:09:01,378 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:09:01,379 [INFO] logging in using static token
+2024-02-01 19:09:03,007 [INFO] Shard ID 0 has connected to Gateway (Session ID: 3621a4ea85627e726c893dc41e69724e).
+2024-02-01 19:09:05,148 [INFO] -------------
+2024-02-01 19:09:05,148 [INFO] |Fantasy Bot|
+2024-02-01 19:09:05,148 [INFO] -------------
+2024-02-01 19:09:06,697 [INFO] Message from axon319: +myteam
+2024-02-01 19:09:06,697 [ERROR] 'NoneType' object is not subscriptable
+2024-02-01 19:09:19,708 [INFO] Message from axon319: +signup
+2024-02-01 19:09:48,579 [INFO] Message from axon319: +pick 87
+2024-02-01 19:09:48,581 [ERROR] list index out of range
+2024-02-01 19:10:41,237 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000208D7B5AF60>
+2024-02-01 19:11:45,525 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:11:45,526 [INFO] logging in using static token
+2024-02-01 19:11:46,996 [INFO] Shard ID 0 has connected to Gateway (Session ID: cc3b3ddbb63ff899724903082c1c5b84).
+2024-02-01 19:11:49,013 [INFO] -------------
+2024-02-01 19:11:49,013 [INFO] |Fantasy Bot|
+2024-02-01 19:11:49,013 [INFO] -------------
+2024-02-01 19:11:56,271 [INFO] Message from axon319: +myteam
+2024-02-01 19:12:00,747 [INFO] Message from axon319: +pick 87
+2024-02-01 19:12:03,410 [INFO] Message from axon319: +pick 89
+2024-02-01 19:12:08,345 [INFO] Message from axon319: +pick 27
+2024-02-01 19:12:10,979 [INFO] Message from axon319: +pick 22
+2024-02-01 19:12:14,968 [INFO] Message from axon319: +pick 75
+2024-02-01 19:12:25,474 [INFO] Message from axon319: +pick 79
+2024-02-01 19:12:29,374 [INFO] Message from axon319: +pick 81
+2024-02-01 19:12:34,947 [INFO] Message from axon319: +myteam
+2024-02-01 19:12:49,343 [INFO] Message from axon319: +swap 75 30
+2024-02-01 19:13:00,407 [INFO] Message from axon319: +swap 32 75
+2024-02-01 19:13:05,996 [INFO] Message from axon319: +swap 75 32
+2024-02-01 19:13:08,817 [INFO] Message from axon319: +myteam
+2024-02-01 19:13:20,160 [INFO] Message from axon319: +find Fear
+2024-02-01 19:17:30,321 [INFO] Message from axon319: +find fear
+2024-02-01 19:20:34,244 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001A077972690>
+2024-02-01 19:20:37,080 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:20:37,081 [INFO] logging in using static token
+2024-02-01 19:20:38,573 [INFO] Shard ID 0 has connected to Gateway (Session ID: ffe43304971f1c98d23006bda1b0becb).
+2024-02-01 19:20:40,599 [INFO] -------------
+2024-02-01 19:20:40,599 [INFO] |Fantasy Bot|
+2024-02-01 19:20:40,599 [INFO] -------------
+2024-02-01 19:20:44,122 [INFO] Message from axon319: +find fear
+2024-02-01 19:20:54,112 [INFO] Message from axon319: +find Beaulo
+2024-02-01 19:20:58,215 [INFO] Message from axon319: +allplayers
+2024-02-01 19:25:58,788 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000022821F184D0>
+2024-02-01 19:26:01,938 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:26:01,939 [INFO] logging in using static token
+2024-02-01 19:26:03,403 [INFO] Shard ID 0 has connected to Gateway (Session ID: ca80fce877c8fc6cb5db1487487fedd9).
+2024-02-01 19:26:05,462 [INFO] -------------
+2024-02-01 19:26:05,462 [INFO] |Fantasy Bot|
+2024-02-01 19:26:05,462 [INFO] -------------
+2024-02-01 19:26:09,095 [INFO] Message from axon319: +myteam
+2024-02-01 19:26:15,890 [INFO] Message from axon319: +openplayers
+2024-02-01 19:26:22,511 [INFO] Message from axon319: +myscore
+2024-02-01 19:26:35,583 [INFO] Message from axon319: +standings open
+2024-02-01 19:29:05,445 [INFO] Message from axon319: +standings closed
+2024-02-01 19:34:03,301 [INFO] Message from axon319: 
+2024-02-01 19:35:04,518 [INFO] Message from axon319: 
+2024-02-01 19:39:00,583 [INFO] Message from axon319: 
+2024-02-01 19:40:42,212 [INFO] Message from axon319: 
+2024-02-01 19:41:42,874 [INFO] Message from axon319: 
+2024-02-01 19:43:09,382 [INFO] Message from axon319: 
+2024-02-01 19:44:03,513 [INFO] Message from axon319: 
+2024-02-01 19:44:43,793 [INFO] Message from axon319: +standings
+2024-02-01 19:45:00,921 [INFO] Message from axon319: +standings closed
+2024-02-01 19:45:19,686 [INFO] Message from axon319: +myscore
+2024-02-01 19:48:21,034 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000027254A6E0F0>
+2024-02-01 19:48:55,446 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:48:55,447 [INFO] logging in using static token
+2024-02-01 19:48:56,902 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0b199e298da2c833bf326f3174e9df19).
+2024-02-01 19:48:58,973 [INFO] -------------
+2024-02-01 19:48:58,973 [INFO] |Fantasy Bot|
+2024-02-01 19:48:58,973 [INFO] -------------
+2024-02-01 19:49:17,384 [INFO] Message from axon319: +standings
+2024-02-01 19:49:24,039 [INFO] Message from axon319: 
+2024-02-01 19:49:24,040 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 624, in on_message
+    current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
+                       ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2024-02-01 19:49:48,648 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000207CBAEC7A0>
+2024-02-01 19:50:08,768 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:50:08,770 [INFO] logging in using static token
+2024-02-01 19:50:10,157 [INFO] Shard ID 0 has connected to Gateway (Session ID: c68fc51787d73173c060827f0955dcb6).
+2024-02-01 19:50:12,232 [INFO] -------------
+2024-02-01 19:50:12,232 [INFO] |Fantasy Bot|
+2024-02-01 19:50:12,232 [INFO] -------------
+2024-02-01 19:50:21,675 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000010E014061B0>
+2024-02-01 19:50:44,243 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:50:44,244 [INFO] logging in using static token
+2024-02-01 19:50:45,746 [INFO] Shard ID 0 has connected to Gateway (Session ID: eddb12f04bc1c0a8b0731b98f2ab66a1).
+2024-02-01 19:50:47,827 [INFO] -------------
+2024-02-01 19:50:47,827 [INFO] |Fantasy Bot|
+2024-02-01 19:50:47,827 [INFO] -------------
+2024-02-01 19:51:06,937 [INFO] Message from axon319: 
+2024-02-01 19:51:07,280 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Axon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\fantasyBotBackend.py", line 633, in on_message
+    insert_data_from_csv(file_name)
+  File "C:\Users\Axon\Desktop\Personal\Projects\Discord Bot\Poll-Bot\FantasyBot\FantasyLeagueBot\processFile.py", line 19, in insert_data_from_csv
+    date = datetime.datetime.now().date()
+           ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+2024-02-01 19:51:47,837 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001CE02489880>
+2024-02-01 19:51:50,927 [DEBUG] Using proactor: IocpProactor
+2024-02-01 19:51:50,928 [INFO] logging in using static token
+2024-02-01 19:51:52,430 [INFO] Shard ID 0 has connected to Gateway (Session ID: 001e7d78e2d4909b42445820710b7f84).
+2024-02-01 19:51:54,502 [INFO] -------------
+2024-02-01 19:51:54,502 [INFO] |Fantasy Bot|
+2024-02-01 19:51:54,502 [INFO] -------------
+2024-02-01 19:51:57,180 [INFO] Message from axon319: 
+2024-02-01 19:51:57,962 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-02-01 19:52:46,037 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DB73B40770>
