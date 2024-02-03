@@ -1131,3 +1131,20 @@
 2024-02-03 21:55:55,922 [ERROR] 'NoneType' object is not subscriptable
 2024-02-03 22:14:00,509 [INFO] Message from zygecks: +myteam
 2024-02-03 22:14:53,615 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
+2024-02-03 23:01:34,545 [INFO] Message from illuzionz9822: +signup
+2024-02-03 23:04:00,538 [INFO] Message from illuzionz9822: +pick Beaulo
+2024-02-03 23:04:07,898 [INFO] Message from illuzionz9822: +pick cameraman
+2024-02-03 23:04:14,239 [INFO] Message from illuzionz9822: +pick Gryxr
+2024-02-03 23:04:21,428 [INFO] Message from illuzionz9822: +pick Maia
+2024-02-03 23:04:31,437 [INFO] Message from illuzionz9822: +pick Shaiiko
+2024-02-03 23:04:31,439 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 23:04:47,847 [INFO] Message from illuzionz9822: +pick shaiko
+2024-02-03 23:04:47,849 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 23:05:48,043 [INFO] Message from illuzionz9822: +pick cyber
+2024-02-03 23:05:51,563 [INFO] Message from illuzionz9822: +myteam
+2024-02-03 23:31:02,208 [DEBUG] Using selector: EpollSelector
+2024-02-03 23:31:02,209 [INFO] logging in using static token
+2024-02-03 23:31:03,331 [INFO] Shard ID 0 has connected to Gateway (Session ID: 33b5db2b0669c7fdab993f5eded0ef36).
+2024-02-03 23:31:05,407 [INFO] -------------
+2024-02-03 23:31:05,408 [INFO] |Fantasy Bot|
+2024-02-03 23:31:05,408 [INFO] -------------

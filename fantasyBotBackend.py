@@ -524,6 +524,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 player_data = message.content[6:]
                 query = cursor.execute(f"""SELECT player_id, role FROM players WHERE player_id = '{player_data}' or LOWER(player_name) = LOWER('{player_data}')""")
                 data = query.fetchone()
+                if data is None:
+                    await message.channel.send(f"Invalid player ID")
+                    return
                 player_id = data[0]
                 role = data[1]
                 
