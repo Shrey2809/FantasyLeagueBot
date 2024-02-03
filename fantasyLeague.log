@@ -823,3 +823,57 @@
 2024-02-03 07:44:53,559 [INFO] Message from caster_maddox: +myteam
 2024-02-03 07:50:05,186 [INFO] Message from caster_maddox: +myteam
 2024-02-03 07:50:12,538 [INFO] Message from caster_maddox: +signup
+2024-02-03 08:42:35,951 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
+2024-02-03 08:46:45,485 [INFO] Message from ockywaydave: +signup
+2024-02-03 08:49:28,101 [INFO] Message from ockywaydave: +pick 14
+2024-02-03 08:50:13,214 [INFO] Message from ockywaydave: +pick 77
+2024-02-03 08:52:34,455 [INFO] Message from ockywaydave: +pick 94
+2024-02-03 08:53:46,167 [INFO] Message from ockywaydave: +pick 45
+2024-02-03 08:54:03,048 [INFO] Message from das_percy: +pick panba
+2024-02-03 08:54:05,651 [INFO] Message from ockywaydave: +pick 61
+2024-02-03 08:54:07,740 [INFO] Message from das_percy: +delete
+2024-02-03 08:54:14,529 [INFO] Message from das_percy: +deleteteam
+2024-02-03 08:55:06,604 [INFO] Message from ockywaydave: +pick 79
+2024-02-03 08:56:01,319 [INFO] Message from das_percy: +swap panba terdsta
+2024-02-03 08:56:07,930 [INFO] Message from ockywaydave: +pick 67
+2024-02-03 08:56:10,807 [INFO] Message from das_percy: +swap terdsta panba
+2024-02-03 08:56:13,731 [INFO] Message from ockywaydave: +myteam
+2024-02-03 08:56:14,126 [INFO] Message from das_percy: +myteam
+2024-02-03 08:56:43,788 [INFO] Message from ockywaydave: +myteam
+2024-02-03 09:00:49,540 [INFO] Message from xenoszn.: +signup
+2024-02-03 09:01:57,868 [INFO] Message from das_percy: +swap nafe sheppard
+2024-02-03 09:02:01,588 [INFO] Message from das_percy: +myteam
+2024-02-03 09:03:25,622 [INFO] Message from xenoszn.: +pick 45
+2024-02-03 09:03:45,347 [INFO] Message from xenoszn.: +pick 14
+2024-02-03 09:04:45,819 [INFO] Message from xenoszn.: +pick 92
+2024-02-03 09:05:16,264 [INFO] Message from xenoszn.: +pick 64
+2024-02-03 09:05:31,466 [INFO] Message from xenoszn.: +pick 68
+2024-02-03 09:05:43,088 [INFO] Message from xenoszn.: +myteam
+2024-02-03 09:22:11,510 [INFO] Message from bruh_uzii: +signup
+2024-02-03 09:23:52,387 [INFO] Message from bruh_uzii: +pick ID 43
+2024-02-03 09:23:52,390 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 09:25:04,616 [INFO] Message from bruh_uzii: +pick ID 94
+2024-02-03 09:25:04,619 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 09:25:25,318 [INFO] Message from bruh_uzii: +pick ID 92
+2024-02-03 09:25:25,319 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 09:26:12,835 [INFO] Message from bruh_uzii: +pick ID 55
+2024-02-03 09:26:12,837 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 09:28:53,936 [INFO] Message from bruh_uzii: +pick ID 45
+2024-02-03 09:28:53,939 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 09:30:21,607 [INFO] Message from bruh_uzii: +pick 43
+2024-02-03 09:30:31,330 [INFO] Message from bruh_uzii: +pick 94
+2024-02-03 09:30:49,461 [INFO] Message from bruh_uzii: +pick 92
+2024-02-03 09:30:53,872 [INFO] Message from bruh_uzii: +pick 55
+2024-02-03 09:31:01,304 [INFO] Message from bruh_uzii: +pick 45
+2024-02-03 09:32:28,477 [INFO] Message from bruh_uzii: +pick 93
+2024-02-03 09:32:36,096 [INFO] Message from bruh_uzii: +myteam
+2024-02-03 09:42:40,216 [INFO] Message from semtex2.0: +signup
+2024-02-03 09:43:20,285 [INFO] Message from enryco: +signup
+2024-02-03 09:45:27,053 [INFO] Message from enryco: +pick 93
+2024-02-03 09:46:27,851 [INFO] Message from enryco: +pick mowwwgli
+2024-02-03 09:47:19,406 [INFO] Message from enryco: +pick doki
+2024-02-03 09:47:31,421 [INFO] Message from enryco: +pick lobin
+2024-02-03 09:47:34,565 [INFO] Message from enryco: +myteam
+2024-02-03 09:48:46,424 [INFO] Message from enryco: +pick 79
+2024-02-03 09:50:00,813 [INFO] Message from enryco: +myteam
+2024-02-03 09:54:49,669 [INFO] Message from zchh: +signup
