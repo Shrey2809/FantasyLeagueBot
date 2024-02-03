@@ -1029,3 +1029,36 @@
 2024-02-03 15:43:50,145 [INFO] Message from kevln.: +pick kheyze
 2024-02-03 15:43:55,070 [INFO] Message from kevln.: +myteam
 2024-02-03 15:44:28,301 [INFO] Message from kevln.: +myteam
+2024-02-03 16:25:15,719 [INFO] Message from jakegen: +signup
+2024-02-03 16:28:25,191 [INFO] Message from rokunmeister: +signup
+2024-02-03 16:28:28,114 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
+2024-02-03 16:29:01,427 [INFO] Message from jakegen: +pick 41
+2024-02-03 16:29:19,822 [INFO] Message from jakegen: +pick 80
+2024-02-03 16:30:45,599 [INFO] Message from jakegen: +pick 28
+2024-02-03 16:30:58,982 [INFO] Message from jakegen: +pick 93
+2024-02-03 16:32:06,741 [INFO] Message from jakegen: +pick 15
+2024-02-03 16:32:11,636 [INFO] Message from jakegen: +myteam
+2024-02-03 16:33:56,819 [INFO] Message from rokunmeister: +pick 93
+2024-02-03 16:34:10,619 [INFO] Message from rokunmeister: +pick doki
+2024-02-03 16:34:28,117 [INFO] Message from rokunmeister: +pick alem4o
+2024-02-03 16:34:28,118 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 16:34:41,650 [INFO] Message from rokunmeister: +pick alemao
+2024-02-03 16:34:45,357 [INFO] Message from jakegen: +pick 79
+2024-02-03 16:34:55,524 [INFO] Message from jakegen: +myteam
+2024-02-03 16:35:17,341 [INFO] Message from rokunmeister: +pick 98
+2024-02-03 16:36:42,884 [INFO] Message from rokunmeister: +pick 66
+2024-02-03 16:36:46,242 [INFO] Message from rokunmeister: +myteam
+2024-02-03 16:37:03,308 [INFO] Message from rokunmeister: +myteam
+2024-02-03 16:39:37,786 [INFO] Message from jakegen: +pick 15
+2024-02-03 16:41:43,726 [INFO] Message from jakegen: +delete
+2024-02-03 16:41:58,373 [INFO] Message from jakegen: +delete 28
+2024-02-03 16:42:10,248 [INFO] Message from jakegen: +myteam
+2024-02-03 16:47:18,279 [INFO] Message from Alas#8589: +signup
+2024-02-03 17:01:36,590 [INFO] Message from tact_.: +myteam
+2024-02-03 17:05:50,575 [INFO] Message from tact_.: +swap Virtue NJR
+2024-02-03 17:06:32,266 [INFO] Message from tact_.: +swap Panba Benja
+2024-02-03 17:06:50,442 [INFO] Message from tact_.: +swap Benja Alemao
+2024-02-03 17:06:56,304 [INFO] Message from tact_.: +myteam
+2024-02-03 17:07:17,964 [INFO] Message from tact_.: +swap Cyber Soulz
+2024-02-03 17:07:23,910 [INFO] Message from tact_.: +myteam
+2024-02-03 17:32:36,457 [INFO] Message from forgottenchav: +signup
