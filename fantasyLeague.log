@@ -934,3 +934,71 @@
 +pick Hoven
 2024-02-03 12:11:45,196 [ERROR] 'NoneType' object is not subscriptable
 2024-02-03 12:12:15,372 [INFO] Message from zygecks: +myteam
+2024-02-03 12:16:49,024 [INFO] Message from zygecks: +pick 92
++pick 93
++pick 79
++pick 42
++pick 43
+2024-02-03 12:16:49,028 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 12:17:19,885 [INFO] Message from zygecks: +myteam
+2024-02-03 12:20:18,546 [INFO] Message from brifps: +signup
+2024-02-03 12:20:42,655 [INFO] Message from zygecks: +myteam
+2024-02-03 12:21:00,134 [INFO] Message from zygecks: +pick 92
++pick 93
++pick 79
++pick 42
++pick 43
+2024-02-03 12:21:00,136 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 12:23:33,045 [INFO] Message from zygecks: +myteam
+2024-02-03 12:24:22,461 [INFO] Message from zygecks: +signup
+2024-02-03 12:25:35,371 [INFO] Message from zygecks: +pick 92
++pick 93
++pick 79
++pick 55
++pick 43
+2024-02-03 12:25:35,374 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 12:26:44,818 [INFO] Message from zygecks: +myteam
+2024-02-03 12:27:12,017 [INFO] Message from zygecks: +pick 92
++pick 93
++pick 79
++pick 55
++pick 43
+2024-02-03 12:27:12,021 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 12:27:46,303 [INFO] Message from zygecks: +myteam
+2024-02-03 12:28:04,404 [INFO] Message from zygecks: +pick 92
+2024-02-03 12:28:15,633 [INFO] Message from zygecks: +pick 93
+2024-02-03 12:28:20,036 [INFO] Message from zygecks: +pick 70
+2024-02-03 12:28:24,696 [INFO] Message from zygecks: +swap 70
+2024-02-03 12:28:24,698 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 12:28:48,342 [INFO] Message from zygecks: +swap 70/79
+2024-02-03 12:28:48,345 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 12:28:52,422 [INFO] Message from zygecks: +swap 70 79
+2024-02-03 12:28:58,002 [INFO] Message from zygecks: +myteam
+2024-02-03 12:29:07,226 [INFO] Message from zygecks: +pick 55
+2024-02-03 12:29:09,319 [INFO] Message from zygecks: +pick 43
+2024-02-03 12:29:21,262 [INFO] Message from zygecks: +myteam
+2024-02-03 12:32:19,424 [INFO] Message from zygecks: +swap 55 5
+2024-02-03 12:32:25,375 [INFO] Message from zygecks: +myteam
+2024-02-03 12:38:45,413 [INFO] Message from bruh_uzii: +pick 77
+2024-02-03 12:41:20,773 [INFO] Message from bruh_uzii: +myteam
+2024-02-03 13:33:58,234 [INFO] Message from yaboimadman: +signup
+2024-02-03 13:34:21,752 [INFO] Message from yaboimadman: +pick lobin
+2024-02-03 13:34:42,158 [INFO] Message from yaboimadman: +pick njr
+2024-02-03 13:34:52,312 [INFO] Message from yaboimadman: +pick jv92
+2024-02-03 13:35:23,603 [INFO] Message from yaboimadman: +pick j90
+2024-02-03 13:35:32,546 [INFO] Message from yaboimadman: +pick gmz
+2024-02-03 13:35:38,593 [INFO] Message from yaboimadman: +myteam
+2024-02-03 13:35:59,180 [INFO] Message from yaboimadman: +myteam
+2024-02-03 13:36:11,203 [INFO] Message from rickandmhorti: +myteam
+2024-02-03 13:37:57,395 [INFO] Message from shrikel: +myteam
+2024-02-03 13:56:51,061 [INFO] Message from anonymoose._.: +pick Virtue
+2024-02-03 13:57:01,385 [INFO] Message from anonymoose._.: +myteam
+2024-02-03 14:03:07,771 [INFO] Message from anonymoose._.: +pick Herdsz
+2024-02-03 14:03:07,774 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 14:03:38,047 [INFO] Message from anonymoose._.: +pick Herdz
+2024-02-03 14:04:26,768 [INFO] Message from anonymoose._.: +pick Hoven
+2024-02-03 14:04:33,567 [INFO] Message from anonymoose._.: +myteam
+2024-02-03 14:04:48,157 [INFO] Message from anonymoose._.: +pick Beaulo
+2024-02-03 14:05:24,562 [INFO] Message from anonymoose._.: +pick Cyber
+2024-02-03 14:05:37,178 [INFO] Message from anonymoose._.: +myteam
+2024-02-03 14:08:41,688 [INFO] Message from anonymoose._.: +myteam
