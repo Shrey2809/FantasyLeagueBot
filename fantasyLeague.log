@@ -1124,3 +1124,10 @@
 2024-02-03 20:52:37,984 [INFO] Message from g0ldb0y12: +myteam
 2024-02-03 20:53:30,298 [INFO] Message from g0ldb0y12: +pick 92
 2024-02-03 20:53:35,833 [INFO] Message from g0ldb0y12: +myteam
+2024-02-03 21:36:07,021 [INFO] Message from e1ated: +signup
+2024-02-03 21:36:48,971 [INFO] Message from tayranger: +signup
+2024-02-03 21:40:13,410 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
+2024-02-03 21:55:55,910 [INFO] Message from e1ated: +pick name Herdz
+2024-02-03 21:55:55,922 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 22:14:00,509 [INFO] Message from zygecks: +myteam
+2024-02-03 22:14:53,615 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
