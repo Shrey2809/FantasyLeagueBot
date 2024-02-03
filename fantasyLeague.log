@@ -1,0 +1,729 @@
+2024-02-02 02:58:08,709 [DEBUG] Using selector: EpollSelector
+2024-02-02 02:58:08,710 [INFO] logging in using static token
+2024-02-02 02:58:09,837 [INFO] Shard ID 0 has connected to Gateway (Session ID: a3dff54e49a0e318329ceb19a8af1cd3).
+2024-02-02 02:58:11,910 [INFO] -------------
+2024-02-02 02:58:11,911 [INFO] |Fantasy Bot|
+2024-02-02 02:58:11,911 [INFO] -------------
+2024-02-02 06:25:48,097 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 08:58:22,564 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 09:28:46,030 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 11:54:22,859 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 14:34:37,658 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 15:29:12,715 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 16:09:55,927 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 18:33:30,618 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 19:07:26,860 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 21:40:20,488 [INFO] Message from axon319: +allplayers
+2024-02-02 21:41:26,911 [INFO] Shard ID 0 has successfully RESUMED session a3dff54e49a0e318329ceb19a8af1cd3.
+2024-02-02 21:42:15,669 [INFO] Message from axon319: +allplayers
+2024-02-02 21:42:56,341 [INFO] Message from axon319: +allplayers
+2024-02-02 21:43:39,442 [DEBUG] Using selector: EpollSelector
+2024-02-02 21:43:39,443 [INFO] logging in using static token
+2024-02-02 21:43:40,464 [INFO] Shard ID 0 has connected to Gateway (Session ID: 5fc1a843ded9b3ce8ea5035c3b3c50b0).
+2024-02-02 21:43:42,611 [INFO] -------------
+2024-02-02 21:43:42,611 [INFO] |Fantasy Bot|
+2024-02-02 21:43:42,611 [INFO] -------------
+2024-02-02 21:44:37,828 [INFO] Message from axon319: +myteam
+2024-02-02 21:44:37,831 [INFO] Message from axon319: +myteam
+2024-02-02 21:45:42,402 [INFO] Message from axon319: +myteam
+2024-02-02 21:46:07,596 [DEBUG] Using selector: EpollSelector
+2024-02-02 21:46:07,598 [INFO] logging in using static token
+2024-02-02 21:46:08,666 [INFO] Shard ID 0 has connected to Gateway (Session ID: d9b7a416a31aa8e7a2ef88db8fb14bfc).
+2024-02-02 21:46:10,737 [INFO] -------------
+2024-02-02 21:46:10,738 [INFO] |Fantasy Bot|
+2024-02-02 21:46:10,738 [INFO] -------------
+2024-02-02 21:46:26,511 [INFO] Message from axon319: +myteam
+2024-02-02 21:46:45,826 [INFO] Message from axon319: +myscore
+2024-02-02 21:46:59,314 [INFO] Message from axon319: +standings
+2024-02-02 21:47:12,929 [INFO] Message from axon319: +standings closed
+2024-02-02 21:47:50,469 [INFO] Message from axon319: +allplayers
+2024-02-02 21:52:46,732 [DEBUG] Using selector: EpollSelector
+2024-02-02 21:52:46,733 [INFO] logging in using static token
+2024-02-02 21:52:47,945 [INFO] Shard ID 0 has connected to Gateway (Session ID: 039178a6907328c6161c8bc0aaabdea4).
+2024-02-02 21:52:50,037 [INFO] -------------
+2024-02-02 21:52:50,037 [INFO] |Fantasy Bot|
+2024-02-02 21:52:50,038 [INFO] -------------
+2024-02-02 21:55:08,299 [INFO] Message from boomerdoom: +signup
+2024-02-02 21:55:17,516 [INFO] Message from fnjl: +signup
+2024-02-02 21:55:19,398 [INFO] Message from trayofashley: +signup
+2024-02-02 21:55:24,414 [ERROR] database is locked
+2024-02-02 21:55:24,430 [INFO] Message from myst3rykarp: +signup
+2024-02-02 21:55:36,114 [INFO] Message from trayofashley: +signup
+2024-02-02 21:56:20,573 [INFO] Message from boomerdoom: +pick 56
+2024-02-02 21:56:29,354 [INFO] Message from boomerdoom: +myteam
+2024-02-02 21:56:33,327 [INFO] Message from trayofashley: +pick Ashn
+2024-02-02 21:56:51,638 [INFO] Message from trayofashley: +pick lobin
+2024-02-02 21:57:02,157 [INFO] Message from boomerdoom: +pick 11
+2024-02-02 21:57:09,592 [INFO] Message from trayofashley: +pick Cameraman
+2024-02-02 21:57:20,554 [INFO] Message from boomerdoom: +pick 60
+2024-02-02 21:57:30,664 [INFO] Message from bennthebean: +signup
+2024-02-02 21:57:39,455 [INFO] Message from trayofashley: +pick Herdz
+2024-02-02 21:57:46,677 [INFO] Message from boomerdoom: +pick reeps
+2024-02-02 21:57:51,312 [INFO] Message from boomerdoom: +myteam
+2024-02-02 21:57:53,364 [INFO] Message from trayofashley: +pick Gryxr
+2024-02-02 21:57:56,874 [INFO] Message from trayofashley: +myteam
+2024-02-02 21:58:03,538 [INFO] Message from extraa.: +signup
+2024-02-02 21:58:08,433 [INFO] Message from artosduhlord: +signup
+2024-02-02 21:58:13,625 [INFO] Message from bennthebean: +pick Panba
+2024-02-02 21:58:23,246 [INFO] Message from boomerdoom: +pick 45
+2024-02-02 21:58:26,007 [INFO] Message from myst3rykarp: +pick 22
+2024-02-02 21:58:31,478 [INFO] Message from bennthebean: +pick NJR
+2024-02-02 21:58:31,712 [INFO] Message from boomerdoom: +myteam
+2024-02-02 21:58:32,066 [INFO] Message from artosduhlord: +pick kheyze
+2024-02-02 21:58:39,852 [INFO] Message from artosduhlord: +pick nade
+2024-02-02 21:58:46,060 [INFO] Message from fnjl: +pick Herdz
+2024-02-02 21:58:49,060 [INFO] Message from extraa.: +pick ID
+2024-02-02 21:58:49,063 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 21:58:51,737 [INFO] Message from bennthebean: +pick Reeps
+2024-02-02 21:59:05,656 [INFO] Message from bennthebean: +pick Lobin
+2024-02-02 21:59:10,568 [INFO] Message from blkout: +signup
+2024-02-02 21:59:13,155 [INFO] Message from extraa.: +pick Panba
+2024-02-02 21:59:18,172 [ERROR] database is locked
+2024-02-02 21:59:18,174 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-02 21:59:18,176 [INFO] Message from bennthebean: +pick Nade
+2024-02-02 21:59:26,029 [INFO] Message from blkout: +pick forrest
+2024-02-02 21:59:26,031 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 21:59:40,208 [INFO] Message from myst3rykarp: +pick 78
+2024-02-02 21:59:53,435 [INFO] Message from myst3rykarp: +pick 15
+2024-02-02 22:00:07,149 [INFO] Message from artosduhlord: +pick soulz
+2024-02-02 22:00:15,692 [INFO] Message from artosduhlord: +pick herdz
+2024-02-02 22:00:29,342 [INFO] Message from artosduhlord: +pick gryxr
+2024-02-02 22:00:32,455 [INFO] Message from artosduhlord: +myteam
+2024-02-02 22:00:33,420 [INFO] Message from extraa.: +myteam
+2024-02-02 22:00:39,036 [INFO] Message from extraa.: +pickPanba
+2024-02-02 22:00:39,037 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 22:00:46,158 [INFO] Message from extraa.: +myteam
+2024-02-02 22:01:03,638 [INFO] Message from eenaz: +signup
+2024-02-02 22:01:23,594 [INFO] Message from itsjustducky: +signup
+2024-02-02 22:01:25,280 [INFO] Message from fnjl: +pick maia
+2024-02-02 22:01:30,298 [ERROR] database is locked
+2024-02-02 22:01:30,854 [INFO] Message from fnjl: +myteam
+2024-02-02 22:01:50,750 [INFO] Message from extraa.: +pickReeps
+2024-02-02 22:01:50,752 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 22:02:00,711 [INFO] Message from myst3rykarp: +pick 5
+2024-02-02 22:02:12,468 [INFO] Message from myst3rykarp: +pick 42
+2024-02-02 22:02:13,949 [INFO] Message from fnjl: +pick maia
+2024-02-02 22:02:21,485 [INFO] Message from myst3rykarp: +myteam
+2024-02-02 22:02:53,795 [INFO] Message from cashcity: +signup
+2024-02-02 22:03:10,753 [INFO] Message from fnjl: +pick Gryxr
+2024-02-02 22:03:28,307 [INFO] Message from extraa.: +pick Reeps
+2024-02-02 22:04:04,595 [INFO] Message from fnjl: +myteam
+2024-02-02 22:04:06,577 [INFO] Message from extraa.: +myteam
+2024-02-02 22:04:15,919 [INFO] Message from woksippalite.: +signup
+2024-02-02 22:04:17,781 [INFO] Message from extraa.: +pick Panba
+2024-02-02 22:04:23,115 [INFO] Message from tommy4.: +signup
+2024-02-02 22:04:34,018 [INFO] Message from itsjustducky: +pick name
+2024-02-02 22:04:34,020 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 22:04:45,119 [INFO] Message from extraa.: +pick Lobin
+2024-02-02 22:04:58,583 [INFO] Message from fnjl: +pick Njr
+2024-02-02 22:05:14,760 [INFO] Message from extraa.: +pick Nade
+2024-02-02 22:05:43,647 [INFO] Message from woksippalite.: +pick herdz
+2024-02-02 22:05:57,367 [INFO] Message from imkeratik: +signup
+2024-02-02 22:05:57,954 [INFO] Message from itsjustducky: +pick Njr
+2024-02-02 22:06:02,970 [ERROR] database is locked
+2024-02-02 22:06:04,367 [INFO] Message from itsjustducky: +pick Herdz
+2024-02-02 22:06:09,387 [ERROR] database is locked
+2024-02-02 22:06:11,234 [INFO] Message from itsjustducky: +pick Doki
+2024-02-02 22:06:41,274 [INFO] Message from itsjustducky: +pick J90
+2024-02-02 22:06:42,059 [INFO] Message from kittyowo: +signup
+2024-02-02 22:06:47,321 [INFO] Message from itsjustducky: +myteam
+2024-02-02 22:06:52,759 [INFO] Message from itsjustducky: +pick iconic
+2024-02-02 22:07:03,748 [INFO] Message from itsjustducky: +pick herdz
+2024-02-02 22:07:10,656 [INFO] Message from imkeratik: +pick Nade
+2024-02-02 22:07:17,816 [INFO] Message from itsjustducky: +pick njr
+2024-02-02 22:07:19,740 [INFO] Message from imkeratik: +pick jv92
+2024-02-02 22:07:24,567 [INFO] Message from itsjustducky: +myteam
+2024-02-02 22:07:37,985 [INFO] Message from imkeratik: +pick ambi
+2024-02-02 22:07:48,809 [INFO] Message from woksippalite.: +pick sheppard
+2024-02-02 22:07:58,238 [INFO] Message from extraa.: +pick Handy
+2024-02-02 22:08:05,104 [INFO] Message from extraa.: +myteam
+2024-02-02 22:08:13,874 [INFO] Message from woksippalite.: +pick maia
+2024-02-02 22:08:17,591 [INFO] Message from fnjl: +pick soulz
+2024-02-02 22:09:03,711 [INFO] Message from imkeratik: +pick muzi
+2024-02-02 22:09:47,519 [INFO] Message from imkeratik: +pick Panba
+2024-02-02 22:10:39,585 [INFO] Message from extraa.: +swap Handy/Njr
+2024-02-02 22:10:39,590 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 22:12:09,597 [INFO] Message from woksippalite.: +pick gryxr
+2024-02-02 22:12:47,750 [INFO] Message from extraa.: +swap Handy/ Njr
+2024-02-02 22:12:47,755 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 22:12:49,811 [INFO] Message from fnjl: +myteam
+2024-02-02 22:13:08,083 [INFO] Message from happiaka: +signup
+2024-02-02 22:13:13,356 [INFO] Message from extraa.: +swap Handy Njr
+2024-02-02 22:13:20,591 [INFO] Message from extraa.: +myteam
+2024-02-02 22:13:57,314 [INFO] Message from extraa.: +myteam
+2024-02-02 22:14:01,903 [INFO] Message from myst3rykarp: +myteam
+2024-02-02 22:14:09,307 [INFO] Message from tommy4.: +pick 54
+2024-02-02 22:14:56,270 [INFO] Message from axon319: +myteam
+2024-02-02 22:14:59,337 [INFO] Message from tommy4.: +pick 59
+2024-02-02 22:15:13,882 [INFO] Message from tommy4.: +pick 79
+2024-02-02 22:15:41,751 [INFO] Message from tommy4.: +pick 100
+2024-02-02 22:16:04,510 [INFO] Message from tommy4.: +pick 46
+2024-02-02 22:16:25,394 [INFO] Message from tommy4.: +pick 53
+2024-02-02 22:16:29,304 [INFO] Message from tommy4.: +myteam
+2024-02-02 22:17:25,851 [INFO] Message from tommy4.: +myteam
+2024-02-02 22:17:40,390 [INFO] Message from axon319: +find Falcons
+2024-02-02 22:21:17,895 [INFO] Message from tommy4.: +swap 46 94
+2024-02-02 22:21:21,745 [INFO] Message from tommy4.: +myteam
+2024-02-02 22:23:07,423 [INFO] Message from myst3rykarp: +swap 22 93
+2024-02-02 22:23:15,428 [INFO] Message from myst3rykarp: +myteam
+2024-02-02 22:24:09,257 [INFO] Message from endertheboi: +signup
+2024-02-02 22:25:21,618 [INFO] Message from endertheboi: +pick 11
+2024-02-02 22:25:43,554 [INFO] Message from endertheboi: +pick63
+2024-02-02 22:26:21,813 [INFO] Message from endertheboi: +pick 81
+2024-02-02 22:26:38,834 [INFO] Message from endertheboi: +pick 94
+2024-02-02 22:26:57,632 [INFO] Message from endertheboi: +pick kds
+2024-02-02 22:27:23,761 [INFO] Message from endertheboi: +pick 29
+2024-02-02 22:27:42,358 [INFO] Message from endertheboi: +pick resetz
+2024-02-02 22:27:49,072 [INFO] Message from endertheboi: +myteam
+2024-02-02 22:28:36,806 [INFO] Message from seishi.: +signup
+2024-02-02 22:28:41,937 [INFO] Message from endertheboi: +pick 78
+2024-02-02 22:29:11,894 [INFO] Message from seishi.: +pick Jv92
+2024-02-02 22:29:25,925 [INFO] Message from seishi.: +myteam
+2024-02-02 22:34:14,919 [INFO] Message from bev1701: +signup
+2024-02-02 22:36:44,488 [INFO] Message from wolfie._._: +signup
+2024-02-02 22:39:02,443 [INFO] Message from seishi.: +pick nesk
+2024-02-02 22:39:26,462 [INFO] Message from seishi.: +pick kheyze
+2024-02-02 22:39:33,520 [INFO] Message from seishi.: +myteam
+2024-02-02 22:39:53,959 [INFO] Message from timbehr: +signup
+2024-02-02 22:40:05,114 [INFO] Message from wolfie._._: +pick 92
+2024-02-02 22:40:13,703 [INFO] Message from wolfie._._: +myteam
+2024-02-02 22:40:59,302 [INFO] Message from Bright#5812: +signup
+2024-02-02 22:41:10,511 [INFO] Message from wolfie._._: +pick 93
+2024-02-02 22:41:22,823 [INFO] Message from wolfie._._: +pick 94
+2024-02-02 22:41:32,276 [INFO] Message from wolfie._._: +pick 95
+2024-02-02 22:41:41,396 [INFO] Message from wolfie._._: +pick 91
+2024-02-02 22:41:46,617 [INFO] Message from wolfie._._: +myteam
+2024-02-02 22:41:54,661 [INFO] Message from Bright#5812: +pick benja
+2024-02-02 22:42:11,221 [INFO] Message from Bright#5812: +pick Alemao
+2024-02-02 22:42:28,604 [INFO] Message from blkout: +signup
+2024-02-02 22:42:29,853 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-02 22:43:12,817 [INFO] Message from Bright#5812: +pick Sheppard
+2024-02-02 22:43:13,759 [INFO] Message from seishi.: +pick ashn
+2024-02-02 22:43:29,386 [INFO] Message from Bright#5812: +pick Kheyze
+2024-02-02 22:43:34,165 [INFO] Message from seishi.: +pick dias
+2024-02-02 22:43:38,443 [INFO] Message from seishi.: +myteam
+2024-02-02 22:43:47,362 [INFO] Message from seishi.: +pick j90
+2024-02-02 22:43:51,564 [INFO] Message from blkout: +signup
+2024-02-02 22:43:54,671 [INFO] Message from Bright#5812: +pick Gryxr
+2024-02-02 22:43:59,868 [INFO] Message from Bright#5812: +myteam
+2024-02-02 22:44:14,514 [INFO] Shard ID 0 has successfully RESUMED session 039178a6907328c6161c8bc0aaabdea4.
+2024-02-02 22:44:26,296 [INFO] Message from seishi.: +pick Virtue
+2024-02-02 22:44:39,177 [INFO] Message from blkout: +pick J90
+2024-02-02 22:45:02,508 [INFO] Message from blkout: +pick jv92
+2024-02-02 22:45:03,436 [INFO] Message from geekdafreak: +signup
+2024-02-02 22:45:18,969 [INFO] Message from blkout: +pick vitaking
+2024-02-02 22:45:28,491 [INFO] Message from blkout: +pick forrest
+2024-02-02 22:46:02,362 [INFO] Message from blkout: +pick terdsta
+2024-02-02 22:46:13,369 [INFO] Message from blkout: +pick deadshot
+2024-02-02 22:46:17,980 [INFO] Message from blkout: +myteam
+2024-02-02 22:47:24,681 [INFO] Message from farmergerald: +signup
+2024-02-02 22:48:35,160 [INFO] Message from realnoctish: +signup
+2024-02-02 22:50:08,644 [INFO] Message from farmergerald: +pick 13
+2024-02-02 22:50:20,039 [INFO] Message from farmergerald: +myteam
+2024-02-02 22:51:28,792 [INFO] Message from farmergerald: +pick 93
+2024-02-02 22:52:42,324 [INFO] Message from farmergerald: +pick 94
+2024-02-02 22:53:10,013 [INFO] Message from farmergerald: +pick 52
+2024-02-02 22:53:41,742 [INFO] Message from winterofworld: +signup
+2024-02-02 22:54:00,885 [INFO] Message from bymousie: +signup
+2024-02-02 22:54:11,516 [INFO] Message from farmergerald: +pick 60
+2024-02-02 22:54:19,851 [INFO] Message from farmergerald: +myteam
+2024-02-02 22:54:22,903 [INFO] Message from bymousie: +pick Reeps
+2024-02-02 22:54:44,664 [INFO] Message from deandiamond: +signup
+2024-02-02 22:55:20,922 [INFO] Message from timbehr: +pick 100
+2024-02-02 22:55:28,152 [INFO] Message from skylarswrld_kix: +signup
+2024-02-02 22:55:28,215 [INFO] Message from timbehr: +pick Jv92
+2024-02-02 22:55:33,233 [ERROR] database is locked
+2024-02-02 22:55:35,440 [INFO] Message from timbehr: +pick j90
+2024-02-02 22:55:40,457 [ERROR] database is locked
+2024-02-02 22:55:43,794 [INFO] Message from scatterplotz: +signup
+2024-02-02 22:55:45,402 [INFO] Message from timbehr: +pick panba
+2024-02-02 22:55:50,417 [ERROR] database is locked
+2024-02-02 22:56:03,026 [INFO] Message from timbehr: +pick 79
+2024-02-02 22:56:16,345 [INFO] Message from timbehr: +pick 93
+2024-02-02 22:56:25,418 [INFO] Message from timbehr: +myteam
+2024-02-02 22:56:33,982 [INFO] Message from scatterplotz: +pick Beaulo
+2024-02-02 22:56:41,659 [INFO] Message from bymousie: +pick Herdz
+2024-02-02 22:57:03,709 [INFO] Message from scatterplotz: +pick Herdz
+2024-02-02 22:57:12,080 [INFO] Message from bymousie: +pick JV92
+2024-02-02 22:57:24,778 [INFO] Message from timbehr: +swap 79 93
+2024-02-02 22:57:28,522 [INFO] Message from bymousie: +myteam
+2024-02-02 22:57:52,658 [INFO] Message from timbehr: +pick 85
+2024-02-02 22:57:53,400 [INFO] Message from bymousie: +pick Doki
+2024-02-02 22:58:04,777 [INFO] Message from timbehr: +pick 15
+2024-02-02 22:58:08,170 [INFO] Message from timbehr: +myteam
+2024-02-02 22:58:16,066 [INFO] Message from bymousie: +pick Shiinka
+2024-02-02 22:58:16,070 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 22:58:34,605 [INFO] Message from cu3b0ne: +signup
+2024-02-02 22:58:49,605 [INFO] Message from winterofworld: +pick  92
+2024-02-02 22:58:51,231 [INFO] Message from bymousie: +pick Shinka
+2024-02-02 22:58:56,504 [INFO] Message from bymousie: +myteam
+2024-02-02 22:59:39,165 [INFO] Message from timbehr: +pick 59
+2024-02-02 22:59:42,717 [INFO] Message from timbehr: +myteam
+2024-02-02 23:00:00,554 [INFO] Message from scatterplotz: +pick J90
+2024-02-02 23:00:01,022 [INFO] Message from deandiamond: +pick 95
+2024-02-02 23:00:06,070 [INFO] Message from scatterplotz: +pick Canadian
+2024-02-02 23:00:15,168 [INFO] Message from winterofworld: +pick 41
+2024-02-02 23:00:18,803 [INFO] Message from scatterplotz: +pick Felipox
+2024-02-02 23:00:52,728 [INFO] Message from skylarswrld_kix: +pick Beaulo
+2024-02-02 23:00:58,189 [INFO] Message from skylarswrld_kix: +myteam
+2024-02-02 23:01:02,697 [INFO] Message from scatterplotz: +pick njr
+2024-02-02 23:01:15,832 [INFO] Message from skylarswrld_kix: +pick canadian
+2024-02-02 23:01:18,848 [INFO] Message from scatterplotz: +pick cameraman
+2024-02-02 23:01:22,791 [INFO] Message from scatterplotz: +myteam
+2024-02-02 23:01:28,296 [INFO] Message from skylarswrld_kix: +pick Reeps
+2024-02-02 23:01:32,603 [INFO] Message from skylarswrld_kix: +myteam
+2024-02-02 23:01:32,886 [INFO] Message from theschmiddy: +signup
+2024-02-02 23:02:39,633 [INFO] Message from skylarswrld_kix: +pick Jv92
+2024-02-02 23:02:51,282 [INFO] Shard ID 0 has successfully RESUMED session 039178a6907328c6161c8bc0aaabdea4.
+2024-02-02 23:03:05,503 [INFO] Message from winterofworld: +pick 59
+2024-02-02 23:03:19,473 [INFO] Message from deandiamond: +pick 87
+2024-02-02 23:03:50,891 [INFO] Message from .gugz: +signup
+2024-02-02 23:03:51,395 [INFO] Message from skylarswrld_kix: +pick Lagonis
+2024-02-02 23:03:56,412 [ERROR] database is locked
+2024-02-02 23:03:58,440 [INFO] Message from skylarswrld_kix: +myteam
+2024-02-02 23:04:16,411 [INFO] Message from skylarswrld_kix: +pick 51
+2024-02-02 23:04:24,828 [INFO] Message from skylarswrld_kix: +myteam
+2024-02-02 23:05:05,351 [INFO] Message from deandiamond: +pick 80
+2024-02-02 23:05:11,311 [INFO] Message from scatterplotz: +pick Hashom
+2024-02-02 23:05:13,117 [INFO] Message from winterofworld: +pick 15
+2024-02-02 23:05:25,862 [INFO] Message from deandiamond: +myteam
+2024-02-02 23:05:43,292 [INFO] Message from pronestarz: +signup
+2024-02-02 23:05:47,666 [INFO] Message from .gugz: +pick Fishoguy
+2024-02-02 23:06:00,083 [INFO] Message from skylarswrld_kix: +pick camerman
+2024-02-02 23:06:00,087 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 23:06:01,502 [INFO] Message from marwanmoussa: +signup
+2024-02-02 23:06:08,997 [INFO] Message from pronestarz: +pick shaikko
+2024-02-02 23:06:08,999 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 23:06:14,471 [INFO] Message from skylarswrld_kix: +pick 56
+2024-02-02 23:06:30,168 [INFO] Message from winterofworld: +pick 95
+2024-02-02 23:06:39,160 [INFO] Message from .gugz: +pick Gryxr
+2024-02-02 23:06:41,861 [INFO] Message from pronestarz: +pick njr
+2024-02-02 23:06:49,736 [INFO] Message from pronestarz: +myteam
+2024-02-02 23:07:24,027 [INFO] Message from .gugz: +pick Reeps
+2024-02-02 23:07:32,126 [INFO] Message from deandiamond: +pick 14
+2024-02-02 23:07:38,163 [INFO] Message from deandiamond: +myteam
+2024-02-02 23:07:39,323 [INFO] Message from winterofworld: +pick 79
+2024-02-02 23:07:40,329 [INFO] Message from .gugz: +pick lobin
+2024-02-02 23:07:53,712 [INFO] Message from winterofworld: +myteam
+2024-02-02 23:08:05,684 [INFO] Message from winterofworld: +pick 1
+2024-02-02 23:08:27,876 [INFO] Message from .gugz: +pick Benja
+2024-02-02 23:08:33,716 [INFO] Message from .gugz: +myteam
+2024-02-02 23:09:12,617 [INFO] Message from deandiamond: +pick 28
+2024-02-02 23:09:16,871 [INFO] Message from deandiamond: +myteam
+2024-02-02 23:09:30,936 [INFO] Message from .gugz: +pick spoit
+2024-02-02 23:09:38,275 [INFO] Message from lynx64: +signup
+2024-02-02 23:09:45,745 [INFO] Message from .gugz: +pick nace
+2024-02-02 23:09:45,746 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 23:09:51,074 [INFO] Message from .gugz: +pick nafe
+2024-02-02 23:10:16,314 [INFO] Message from tact_.: +signup
+2024-02-02 23:10:43,823 [INFO] Message from marwanmoussa: +find w7m
+2024-02-02 23:12:25,723 [INFO] Message from mannysmg: +signup
+2024-02-02 23:12:42,687 [INFO] Message from General-canoli#6420: +signup
+2024-02-02 23:12:56,292 [INFO] Message from mannysmg: +pick jv92
+2024-02-02 23:14:29,912 [INFO] Message from braxxy.: +signup
+2024-02-02 23:15:08,830 [INFO] Message from tact_.: +pick Cyber
+2024-02-02 23:15:16,970 [INFO] Message from deandiamond: +standings
+2024-02-02 23:15:35,648 [INFO] Message from martyrpmike: +signup
+2024-02-02 23:15:38,926 [INFO] Message from tact_.: +pick Kondz
+2024-02-02 23:15:49,744 [INFO] Message from braxxy.: +pick J90
+2024-02-02 23:15:59,386 [INFO] Message from braxxy.: +pick njr
+2024-02-02 23:16:19,258 [INFO] Message from braxxy.: +pick Kheyze
+2024-02-02 23:16:25,300 [INFO] Message from marwanmoussa: +pick 95
+2024-02-02 23:16:34,123 [INFO] Message from tact_.: +pick Volpz
+2024-02-02 23:16:48,397 [INFO] Message from marwanmoussa: +pick 5
+2024-02-02 23:16:48,496 [INFO] Message from braxxy.: +pick Doki
+2024-02-02 23:16:53,512 [ERROR] database is locked
+2024-02-02 23:16:55,673 [INFO] Message from tact_.: +pick Virtue
+2024-02-02 23:17:14,279 [INFO] Message from marwanmoussa: +pick 48
+2024-02-02 23:17:17,881 [INFO] Message from tact_.: +pick Panba
+2024-02-02 23:17:20,144 [INFO] Message from braxxy.: +pick Beaulo
+2024-02-02 23:17:23,648 [INFO] Message from tact_.: +myteam
+2024-02-02 23:17:26,094 [INFO] Message from braxxy.: +myteam
+2024-02-02 23:17:44,823 [INFO] Message from braxxy.: +pick jv92
+2024-02-02 23:17:50,281 [INFO] Message from braxxy.: +myteam
+2024-02-02 23:18:43,677 [INFO] Message from marwanmoussa: +pick 92
+2024-02-02 23:19:01,163 [INFO] Message from tact_.: +pick Jv92
+2024-02-02 23:19:50,526 [INFO] Message from deandiamond: +swap 87 60
+2024-02-02 23:19:55,891 [INFO] Message from tact_.: +pick Herdz
+2024-02-02 23:19:57,529 [INFO] Message from deandiamond: +myteam
+2024-02-02 23:20:30,261 [INFO] Message from tact_.: +myteam
+2024-02-02 23:20:37,400 [INFO] Message from marwanmoussa: +pick 45
+2024-02-02 23:20:44,480 [INFO] Message from marwanmoussa: +myteam
+2024-02-02 23:21:11,583 [INFO] Message from med1cz: +signup
+2024-02-02 23:22:34,541 [INFO] Message from geekdafreak: +pick Jv92
+2024-02-02 23:23:05,985 [INFO] Message from geekdafreak: +pick Doki
+2024-02-02 23:23:15,463 [INFO] Message from geekdafreak: +pick NJR
+2024-02-02 23:23:21,084 [INFO] Message from geekdafreak: +myteam
+2024-02-02 23:23:26,555 [INFO] Message from seishi.: +myteam
+2024-02-02 23:23:49,812 [INFO] Message from geekdafreak: +pick Cyber
+2024-02-02 23:24:06,363 [INFO] Message from boomerdoom: +myteam
+2024-02-02 23:25:40,596 [INFO] Message from geekdafreak: +pick Benja
+2024-02-02 23:25:46,600 [INFO] Message from geekdafreak: +myteam
+2024-02-02 23:26:17,689 [INFO] Message from blkout: +myteam
+2024-02-02 23:27:13,282 [INFO] Message from geekdafreak: +myteam
+2024-02-02 23:28:15,922 [INFO] Message from mannysmg: +pick dan
+2024-02-02 23:31:11,014 [INFO] Message from med1cz: +pick 26
+2024-02-02 23:31:57,615 [INFO] Message from med1cz: +pick 59
+2024-02-02 23:32:13,170 [INFO] Message from med1cz: +pick 43
+2024-02-02 23:32:21,646 [INFO] Message from med1cz: +pick 29
+2024-02-02 23:32:25,508 [INFO] Message from med1cz: +myteam
+2024-02-02 23:32:48,483 [INFO] Message from med1cz: +pick 93
+2024-02-02 23:32:56,929 [INFO] Message from med1cz: +pick 90
+2024-02-02 23:33:07,353 [INFO] Message from med1cz: +myteam
+2024-02-02 23:33:09,381 [INFO] Message from steveonator: +signup
+2024-02-02 23:33:28,486 [INFO] Message from jazzman: +signup
+2024-02-02 23:33:30,011 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-02 23:35:24,817 [INFO] Message from klukephoenix: +myteam
+2024-02-02 23:35:24,821 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 23:36:26,911 [INFO] Message from steveonator: +pick Alemao
+2024-02-02 23:36:30,811 [INFO] Message from klukephoenix: +signup
+2024-02-02 23:36:48,418 [INFO] Message from steveonator: +pick Herdsz
+2024-02-02 23:36:48,421 [ERROR] 'NoneType' object is not subscriptable
+2024-02-02 23:36:53,878 [INFO] Message from demonymo: +signup
+2024-02-02 23:36:55,799 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-02 23:37:09,828 [INFO] Message from steveonator: +pick Herdz
+2024-02-02 23:37:18,549 [INFO] Message from mannysmg: +myteam
+2024-02-02 23:37:20,738 [INFO] Message from steveonator: +pick Jv92
+2024-02-02 23:37:47,726 [INFO] Message from steveonator: +pick Nafe
+2024-02-02 23:37:52,173 [INFO] Message from mannysmg: +pick nudl
+2024-02-02 23:38:11,414 [INFO] Message from demonymo: +signup
+2024-02-02 23:38:12,736 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-02 23:38:22,031 [INFO] Message from mannysmg: +pick benja
+2024-02-02 23:38:24,552 [INFO] Message from steveonator: +pick Doki
+2024-02-02 23:38:27,243 [INFO] Message from mannysmg: +pick sheppard
+2024-02-02 23:38:30,442 [INFO] Message from mannysmg: +myteam
+2024-02-02 23:39:06,308 [INFO] Message from steveonator: +myteam
+2024-02-02 23:40:50,000 [INFO] Message from bonce_: +signup
+2024-02-02 23:41:46,564 [INFO] Message from das_percy: +signup
+2024-02-02 23:42:27,157 [INFO] Message from bonce_: +pick nudl
+2024-02-02 23:42:55,127 [INFO] Message from bonce_: +pick herdz
+2024-02-02 23:43:21,892 [INFO] Message from bonce_: +pick Mowwwgli
+2024-02-02 23:43:52,087 [INFO] Message from bonce_: +pick Benja
+2024-02-02 23:44:01,979 [INFO] Message from artosduhlord: +myteam
+2024-02-02 23:44:58,495 [INFO] Message from bonce_: +pick Lagonis
+2024-02-02 23:45:36,255 [INFO] Message from demonymo: +signup
+2024-02-02 23:45:36,661 [INFO] Message from das_percy: +pick 15
+2024-02-02 23:45:41,678 [ERROR] database is locked
+2024-02-02 23:45:42,889 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-02 23:45:48,279 [INFO] Message from fnjl: +myteam
+2024-02-02 23:45:56,958 [INFO] Message from das_percy: +pick15
+2024-02-02 23:46:02,207 [INFO] Message from das_percy: +myteam
+2024-02-02 23:47:06,082 [INFO] Message from bonce_: +swap Mowwwgli Jv92
+2024-02-02 23:50:11,235 [INFO] Message from vinlannd: +signup
+2024-02-02 23:53:06,097 [INFO] Message from bonce_: +myteam
+2024-02-02 23:53:54,076 [INFO] Message from bonce_: +pick Jv92
+2024-02-03 00:01:25,266 [INFO] Message from vinlannd: +pick 92
+2024-02-03 00:01:25,277 [INFO] Message from rhysxv: +signup
+2024-02-03 00:01:30,293 [ERROR] database is locked
+2024-02-03 00:01:37,856 [INFO] Message from vinlannd: +myteam
+2024-02-03 00:02:02,226 [INFO] Message from vinlannd: +pick 60
+2024-02-03 00:02:21,624 [INFO] Message from rhysxv: +signup
+2024-02-03 00:02:30,284 [INFO] Message from vinlannd: +pick 56
+2024-02-03 00:02:51,631 [INFO] Message from azazel.exe: +signup
+2024-02-03 00:03:09,324 [INFO] Message from vinlannd: +pick 27
+2024-02-03 00:03:26,600 [INFO] Message from vinlannd: +pick 85
+2024-02-03 00:03:32,980 [INFO] Message from vinlannd: +myteam
+2024-02-03 00:04:57,809 [INFO] Message from rhysxv: +pick Mowwwgli
+2024-02-03 00:05:06,192 [INFO] Message from rhysxv: +pick doki
+2024-02-03 00:05:34,143 [INFO] Message from rhysxv: +pick Jv92
+2024-02-03 00:05:47,550 [INFO] Message from vinlannd: +myteam
+2024-02-03 00:06:00,043 [INFO] Message from hylix.: +signup
+2024-02-03 00:06:36,845 [INFO] Message from rhysxv: +pick Virtue
+2024-02-03 00:07:12,150 [INFO] Message from rhysxv: +pick joysick
+2024-02-03 00:07:12,155 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 00:07:19,144 [INFO] Message from rhysxv: +pick joystick
+2024-02-03 00:07:25,706 [INFO] Message from rhysxv: +myteam
+2024-02-03 00:08:50,233 [INFO] Message from fenrir361: +signup
+2024-02-03 00:09:37,834 [INFO] Message from rickandmhorti: +signup
+2024-02-03 00:10:16,579 [INFO] Message from rickandmhorti: +pick Benja
+2024-02-03 00:10:22,668 [INFO] Message from rickandmhorti: +myteam
+2024-02-03 00:10:35,958 [INFO] Message from rickandmhorti: +pick Kheyze
+2024-02-03 00:11:02,416 [INFO] Message from fenrir361: +pick Njr
+2024-02-03 00:11:36,865 [INFO] Message from rickandmhorti: +pick Geometrics
+2024-02-03 00:11:36,867 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 00:11:41,278 [INFO] Message from rickandmhorti: +pick Geo
+2024-02-03 00:11:45,974 [INFO] Message from rickandmhorti: +myteam
+2024-02-03 00:12:47,960 [INFO] Message from rickandmhorti: +pick Joystick
+2024-02-03 00:13:06,986 [INFO] Message from rickandmhorti: +pick Nafe
+2024-02-03 00:13:10,862 [INFO] Message from rickandmhorti: +myteam
+2024-02-03 00:15:30,310 [INFO] Message from iamsaint_: +signup
+2024-02-03 00:16:47,953 [INFO] Message from fenrir361: +myteam
+2024-02-03 00:17:41,897 [INFO] Message from fenrir361: +pick 92
+2024-02-03 00:24:17,577 [INFO] Message from itsjustducky: +myteam
+2024-02-03 00:27:06,709 [DEBUG] Using selector: EpollSelector
+2024-02-03 00:27:06,710 [INFO] logging in using static token
+2024-02-03 00:27:08,679 [INFO] Shard ID 0 has connected to Gateway (Session ID: 8c4132ac61502082cd3ae2b448369858).
+2024-02-03 00:27:10,742 [INFO] -------------
+2024-02-03 00:27:10,743 [INFO] |Fantasy Bot|
+2024-02-03 00:27:10,743 [INFO] -------------
+2024-02-03 00:32:03,292 [INFO] Message from fenrir361: +pick 15
+2024-02-03 00:33:51,174 [INFO] Message from fenrir361: +pick Gryxr
+2024-02-03 00:34:11,167 [INFO] Message from fenrir361: +myteam
+2024-02-03 00:39:15,573 [INFO] Message from fenrir361: +pick Maia
+2024-02-03 00:39:26,394 [INFO] Message from fenrir361: +myteam
+2024-02-03 00:55:44,997 [INFO] Message from l4tur: +signup
+2024-02-03 00:56:26,200 [INFO] Message from l4tur: +pick Shinka
+2024-02-03 00:56:31,315 [INFO] Message from kidshifteh: +signup
+2024-02-03 00:58:07,284 [INFO] Message from l4tur: +pick Reeps
+2024-02-03 00:59:00,421 [INFO] Message from l4tur: +pick nudl
+2024-02-03 00:59:24,998 [INFO] Message from meatninja57000: +signup
+2024-02-03 00:59:29,130 [INFO] Message from kidshifteh: +pick reeps
+2024-02-03 00:59:37,120 [INFO] Message from l4tur: +pick handy
+2024-02-03 00:59:57,605 [INFO] Message from l4tur: +pick lobin
+2024-02-03 01:00:05,844 [INFO] Message from l4tur: +myteam
+2024-02-03 01:00:08,180 [INFO] Message from kidshifteh: +pick joystick
+2024-02-03 01:01:03,364 [INFO] Message from kidshifteh: +pick nudl
+2024-02-03 01:01:04,587 [INFO] Message from meatninja57000: +pickname
+2024-02-03 01:01:04,590 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 01:01:25,995 [INFO] Message from kidshifteh: +pick jv92
+2024-02-03 01:01:32,382 [INFO] Message from kidshifteh: +myteam
+2024-02-03 01:01:41,436 [INFO] Message from meatninja57000: +pickbeaulo
+2024-02-03 01:01:41,438 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 01:02:15,620 [INFO] Message from dk6011: +signup
+2024-02-03 01:04:17,453 [INFO] Message from kidshifteh: +pick lycolis
+2024-02-03 01:04:20,085 [INFO] Message from 46.ryan: +signup
+2024-02-03 01:04:23,281 [INFO] Message from kidshifteh: +myteam
+2024-02-03 01:07:16,204 [INFO] Message from 46.ryan: +pick Sheppard
+2024-02-03 01:07:32,769 [INFO] Message from das_percy: +delete
+2024-02-03 01:07:58,513 [INFO] Message from das_percy: +pick ashn
+2024-02-03 01:08:03,433 [INFO] Message from das_percy: +myteam
+2024-02-03 01:08:41,372 [INFO] Message from das_percy: +pick kheyze
+2024-02-03 01:08:56,761 [INFO] Message from das_percy: +pick nafe
+2024-02-03 01:09:25,374 [INFO] Message from das_percy: +pick cameraman
+2024-02-03 01:09:28,404 [INFO] Message from das_percy: +myteam
+2024-02-03 01:09:35,105 [INFO] Message from 46.ryan: +pick Herdz
+2024-02-03 01:11:17,843 [INFO] Message from shrikel: +signup
+2024-02-03 01:11:18,067 [INFO] Message from 46.ryan: +pick Doki
+2024-02-03 01:11:23,087 [ERROR] database is locked
+2024-02-03 01:11:46,309 [INFO] Message from 46.ryan: +myteam
+2024-02-03 01:11:57,887 [INFO] Message from 46.ryan: +pick Doki
+2024-02-03 01:12:23,132 [INFO] Message from shrikel: +pick Doki
+2024-02-03 01:12:31,438 [INFO] Message from shrikel: +pick Paluh
+2024-02-03 01:13:27,150 [INFO] Message from shrikel: +pick Kheyze
+2024-02-03 01:13:37,282 [INFO] Message from 46.ryan: +pick Lagonis
+2024-02-03 01:13:38,227 [INFO] Message from blizzard1330: +signup
+2024-02-03 01:13:40,969 [INFO] Message from shrikel: +myteam
+2024-02-03 01:13:46,841 [INFO] Message from 46.ryan: +myteam
+2024-02-03 01:14:15,533 [INFO] Message from shrikel: +pick Cameraman
+2024-02-03 01:14:47,490 [INFO] Message from shrikel: +pick Resetz
+2024-02-03 01:14:54,239 [INFO] Message from shrikel: +myteam
+2024-02-03 01:15:26,316 [INFO] Message from shrikel: +pick Herdz
+2024-02-03 01:15:34,284 [INFO] Message from blizzard1330: +pick 45
+2024-02-03 01:15:34,838 [INFO] Message from shrikel: +pick Nade
+2024-02-03 01:15:41,714 [INFO] Message from 46.ryan: +pick Reeps
+2024-02-03 01:15:51,705 [INFO] Message from 46.ryan: +myteam
+2024-02-03 01:16:24,425 [INFO] Message from blizzard1330: +pick 93
+2024-02-03 01:16:30,163 [INFO] Message from blizzard1330: +myteam
+2024-02-03 01:17:11,344 [INFO] Message from shrikel: +swap Paluh Fishlike
+2024-02-03 01:17:15,432 [INFO] Message from shrikel: +myteam
+2024-02-03 01:17:39,947 [INFO] Message from shrikel: +swap Cameraman Sheppard
+2024-02-03 01:17:55,691 [INFO] Message from shrikel: +myteam
+2024-02-03 01:20:42,087 [INFO] Message from shrikel: +swap Sheppard Nafe
+2024-02-03 01:20:47,222 [INFO] Message from shrikel: +myteam
+2024-02-03 01:23:20,853 [INFO] Message from blizzard1330: +pick Dotz
+2024-02-03 01:25:04,454 [INFO] Message from blizzard1330: +pick 92
+2024-02-03 01:25:10,984 [INFO] Message from blizzard1330: +myteam
+2024-02-03 01:25:59,272 [INFO] Message from blizzard1330: +pick 85
+2024-02-03 01:26:17,861 [INFO] Message from anonymoose._.: +signup
+2024-02-03 01:26:48,197 [INFO] Message from blizzard1330: +pick 41
+2024-02-03 01:26:50,515 [INFO] Message from blizzard1330: +myteam
+2024-02-03 01:28:25,796 [INFO] Message from eregt: +signup
+2024-02-03 01:29:16,986 [INFO] Message from eregt: +pick Benja
+2024-02-03 01:29:47,351 [INFO] Message from eregt: +pick Cyber
+2024-02-03 01:30:04,650 [INFO] Message from eregt: +pick Nudl
+2024-02-03 01:30:38,477 [INFO] Message from eregt: +pick Jv92
+2024-02-03 01:30:58,779 [INFO] Message from eregt: +pick Virtue
+2024-02-03 01:31:04,882 [INFO] Message from eregt: +myteam
+2024-02-03 01:32:06,060 [INFO] Message from eregt: +pick lobin
+2024-02-03 01:32:22,365 [INFO] Message from eregt: +delete Cyber
+2024-02-03 01:41:45,409 [INFO] Message from blizzard1330: +swap 45 61
+2024-02-03 01:41:51,650 [INFO] Message from blizzard1330: +myteam
+2024-02-03 01:51:16,770 [INFO] Message from o1iver.: +signup
+2024-02-03 01:51:51,132 [INFO] Message from o1iver.: +pick FartingMan420
+2024-02-03 01:51:51,135 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 01:52:09,646 [INFO] Message from o1iver.: +pick o1iver
+2024-02-03 01:52:09,649 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 01:52:38,167 [INFO] Message from o1iver.: +pick Beaulo
+2024-02-03 01:52:45,765 [INFO] Message from o1iver.: +myteam
+2024-02-03 01:53:34,527 [INFO] Message from o1iver.: +pick spoit
+2024-02-03 01:53:55,532 [INFO] Message from o1iver.: +pick Canadian
+2024-02-03 01:54:05,713 [INFO] Message from o1iver.: +pick Dias
+2024-02-03 01:54:11,433 [INFO] Message from o1iver.: +pick yoggah
+2024-02-03 01:54:24,323 [INFO] Message from o1iver.: +pick geo
+2024-02-03 01:54:30,217 [INFO] Message from o1iver.: +myteam
+2024-02-03 01:54:50,499 [INFO] Message from o1iver.: +myteam
+2024-02-03 02:09:32,456 [INFO] Message from random_fps: +signup
+2024-02-03 02:10:18,852 [INFO] Message from random_fps: +pick Njr
+2024-02-03 02:11:09,334 [INFO] Message from random_fps: +pick J9O
+2024-02-03 02:11:09,338 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 02:11:22,708 [INFO] Message from random_fps: +pick J90
+2024-02-03 02:12:47,273 [INFO] Message from random_fps: +pick gryxr
+2024-02-03 02:12:50,242 [INFO] Message from tact_.: +swap Volpz
+2024-02-03 02:12:50,243 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 02:13:09,032 [INFO] Message from random_fps: +pick paluh
+2024-02-03 02:13:32,105 [INFO] Message from random_fps: +pick felipox
+2024-02-03 02:13:40,211 [INFO] Message from random_fps: +myteam
+2024-02-03 02:14:57,648 [INFO] Message from random_fps: +myteam
+2024-02-03 02:15:16,824 [INFO] Message from darkwastaken.: +signup
+2024-02-03 02:16:43,015 [INFO] Message from darkwastaken.: +pick 63
+2024-02-03 02:17:12,848 [INFO] Message from darkwastaken.: +pick 79
+2024-02-03 02:17:33,503 [INFO] Message from darkwastaken.: +pick 85
+2024-02-03 02:17:58,088 [INFO] Message from darkwastaken.: +pick 92
+2024-02-03 02:18:35,425 [INFO] Message from darkwastaken.: +pick 26
+2024-02-03 02:18:40,706 [INFO] Message from darkwastaken.: +myteam
+2024-02-03 02:37:32,314 [INFO] Message from azazel.exe: +pick Canadian
+2024-02-03 02:38:17,652 [INFO] Message from azazel.exe: +pick Virtue
+2024-02-03 02:38:33,133 [INFO] Message from azazel.exe: +pick Panba
+2024-02-03 02:39:11,471 [INFO] Message from azazel.exe: +pick spoit
+2024-02-03 02:39:32,239 [INFO] Message from azazel.exe: +pick rexen
+2024-02-03 02:41:38,853 [INFO] Message from azazel.exe: +pick virtue
+2024-02-03 02:41:55,801 [INFO] Message from azazel.exe: +pick cameraman
+2024-02-03 02:46:20,818 [INFO] Message from qfrisk: +signup
+2024-02-03 02:47:22,913 [INFO] Message from qfrisk: +pick Beaulo
+2024-02-03 02:47:51,569 [INFO] Message from qfrisk: +pick coted
+2024-02-03 02:48:42,483 [INFO] Message from qfrisk: +pick Sheppard
+2024-02-03 02:49:11,911 [INFO] Message from qfrisk: +pick jv92
+2024-02-03 02:49:18,859 [INFO] Message from qfrisk: +pick merc
+2024-02-03 02:49:18,861 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 02:49:31,233 [INFO] Message from qfrisk: +pick Merc
+2024-02-03 02:49:31,235 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 02:50:20,828 [INFO] Message from qfrisk: +pick Diaz
+2024-02-03 02:50:20,832 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 02:50:38,623 [INFO] Message from qfrisk: +myteam
+2024-02-03 02:50:59,085 [INFO] Message from qfrisk: +pick Canadian
+2024-02-03 02:51:05,205 [INFO] Message from qfrisk: +myteam
+2024-02-03 02:53:28,564 [INFO] Message from .rabang.: +signup
+2024-02-03 02:55:01,981 [INFO] Message from .rabang.: +pick Kheyze
+2024-02-03 02:55:44,633 [INFO] Message from .rabang.: +pick Cyber
+2024-02-03 02:57:08,775 [INFO] Message from .rabang.: +pick Doki
+2024-02-03 02:58:55,962 [INFO] Message from .rabang.: +pick Soulz
+2024-02-03 02:59:30,652 [INFO] Message from .rabang.: +pick Sheppard
+2024-02-03 02:59:31,501 [INFO] Message from resa._.a: +signup
+2024-02-03 03:00:08,016 [INFO] Message from .rabang.: +pick Geo
+2024-02-03 03:00:17,419 [INFO] Message from .rabang.: +myteam
+2024-02-03 03:06:56,240 [INFO] Message from neonlight762: +signup
+2024-02-03 03:07:45,375 [INFO] Message from neonlight762: +pick 4
+2024-02-03 03:08:14,983 [INFO] Message from neonlight762: +pick ashn
+2024-02-03 03:08:18,232 [INFO] Message from neonlight762: +pick ambi
+2024-02-03 03:08:45,640 [INFO] Message from neonlight762: +pick jv92
+2024-02-03 03:09:14,591 [INFO] Message from neonlight762: +drop ashn
+2024-02-03 03:09:18,590 [INFO] Message from neonlight762: +myteam
+2024-02-03 03:09:26,151 [INFO] Message from neonlight762: +pick 81
+2024-02-03 03:11:03,016 [INFO] Message from neonlight762: +pick njr
+2024-02-03 03:11:08,688 [INFO] Message from neonlight762: +myteam
+2024-02-03 03:16:55,116 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
+2024-02-03 03:36:40,327 [INFO] Message from w_lf: +signup
+2024-02-03 03:37:09,426 [INFO] Message from w_lf: +pick Ambi
+2024-02-03 03:37:30,979 [INFO] Message from w_lf: +pick Doki
+2024-02-03 03:37:45,283 [INFO] Message from w_lf: +pick Handy
+2024-02-03 03:37:49,895 [INFO] Message from w_lf: +myteam
+2024-02-03 03:38:02,360 [INFO] Message from scatterplotz: +myteam
+2024-02-03 03:38:08,660 [INFO] Message from w_lf: +pick Nade
+2024-02-03 03:38:12,429 [INFO] Message from bymousie: +myteam
+2024-02-03 03:38:21,232 [INFO] Message from w_lf: +pick Herdz
+2024-02-03 03:38:27,884 [INFO] Message from w_lf: +myteam
+2024-02-03 03:38:39,070 [INFO] Message from .rabang.: +myteam
+2024-02-03 03:41:02,028 [INFO] Message from akunders: +signup
+2024-02-03 03:41:25,692 [INFO] Message from Astra👻็็็#0842: +signup
+2024-02-03 03:42:39,437 [INFO] Message from akunders: +pick Beaulo
+2024-02-03 03:45:28,321 [INFO] Message from akunders: +myteam
+2024-02-03 03:56:37,724 [INFO] Message from bambuu.: +signup
+2024-02-03 03:57:27,608 [INFO] Message from the_tary: +signup
+2024-02-03 03:59:09,754 [INFO] Message from the_tary: +pick panbazou
+2024-02-03 03:59:09,757 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 03:59:10,085 [INFO] Message from bambuu.: +pick 93
+2024-02-03 03:59:20,648 [INFO] Message from koolfromdc: +signup
+2024-02-03 04:00:09,897 [INFO] Message from the_tary: +pick Panba
+2024-02-03 04:00:39,733 [INFO] Message from the_tary: +pick Benja
+2024-02-03 04:00:50,186 [INFO] Message from the_tary: +pick Geo
+2024-02-03 04:00:59,948 [INFO] Message from the_tary: +pick Sheppard
+2024-02-03 04:01:09,624 [INFO] Message from the_tary: +pick Reeps
+2024-02-03 04:01:27,357 [INFO] Message from the_tary: +myteam
+2024-02-03 04:03:43,651 [INFO] Message from bambuu.: +pick 15
+2024-02-03 04:04:47,125 [INFO] Message from bambuu.: +pick 79
+2024-02-03 04:06:18,987 [INFO] Message from bambuu.: +myteam
+2024-02-03 04:07:10,367 [INFO] Message from opussums: +signup
+2024-02-03 04:09:50,098 [INFO] Message from imkeratik: +swap jv92 vitaking
+2024-02-03 04:10:02,452 [INFO] Message from opussums: +dooo
+2024-02-03 04:10:10,417 [INFO] Message from opussums: +doki
+2024-02-03 04:10:23,080 [INFO] Message from opussums: +pick doki
+2024-02-03 04:10:26,334 [INFO] Message from imkeratik: +swap muzi lobin
+2024-02-03 04:10:33,873 [INFO] Message from bambuu.: +pick 59
+2024-02-03 04:11:07,895 [INFO] Message from opussums: +pick pasha
+2024-02-03 04:11:28,884 [INFO] Message from opussums: +pick jv92
+2024-02-03 04:11:44,460 [INFO] Message from koolfromdc: +pick vitaking
+2024-02-03 04:11:45,269 [INFO] Message from opussums: +pick herdz
+2024-02-03 04:11:49,938 [INFO] Message from koolfromdc: +pick njr
+2024-02-03 04:11:54,368 [INFO] Message from bambuu.: +myteam
+2024-02-03 04:12:16,938 [INFO] Message from opussums: +pick njr
+2024-02-03 04:12:38,272 [INFO] Message from opussums: +pick reeps
+2024-02-03 04:12:45,726 [INFO] Message from opussums: +myteam
+2024-02-03 04:13:03,674 [INFO] Message from koolfromdc: +pick Herdsz
+2024-02-03 04:13:03,677 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 04:14:23,554 [INFO] Message from koolfromdc: +swap njr gryxr
+2024-02-03 04:15:08,111 [INFO] Message from koolfromdc: +pick Terdsta
+2024-02-03 04:15:15,235 [INFO] Message from bambuu.: +pick 41
+2024-02-03 04:15:19,228 [INFO] Message from bambuu.: +myteam
+2024-02-03 04:18:02,823 [INFO] Message from koolfromdc: +pick CTZN
+2024-02-03 04:18:18,485 [INFO] Message from koolfromdc: +myteam
+2024-02-03 04:18:37,337 [INFO] Message from bambuu.: +swap 15 92
+2024-02-03 04:18:42,952 [INFO] Message from bambuu.: +myteam
+2024-02-03 04:19:15,422 [INFO] Message from koolfromdc: +pick HerdsZ
+2024-02-03 04:19:15,425 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 04:19:31,973 [INFO] Message from koolfromdc: +pick 92
+2024-02-03 04:19:44,478 [INFO] Message from koolfromdc: +myteam
+2024-02-03 04:21:53,122 [INFO] Message from tyrobosauros: +signup
+2024-02-03 04:34:36,836 [INFO] Message from rackafornia: +signup
+2024-02-03 04:35:50,644 [INFO] Message from flankit: +signup
+2024-02-03 04:36:24,771 [INFO] Message from rackafornia: +pick nafe
+2024-02-03 04:36:32,761 [INFO] Message from rackafornia: +myteam
+2024-02-03 04:36:38,031 [INFO] Message from shlaxxn: +signup
+2024-02-03 04:37:17,544 [INFO] Message from flankit: +pick doki
+2024-02-03 04:37:54,958 [INFO] Message from flankit: +pick gryxr
+2024-02-03 04:38:19,576 [INFO] Message from rackafornia: +pick herdzs
+2024-02-03 04:38:19,579 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 04:38:32,641 [INFO] Message from rackafornia: +pick herdsZ
+2024-02-03 04:38:32,642 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 04:38:34,567 [INFO] Message from flankit: +pick panba
+2024-02-03 04:38:50,704 [INFO] Message from flankit: +myteam
+2024-02-03 04:38:50,763 [INFO] Message from rackafornia: +pick herdz
+2024-02-03 04:39:12,341 [INFO] Message from rackafornia: +pick deadshot
+2024-02-03 04:39:13,963 [INFO] Message from flankit: +pick beaulo
+2024-02-03 04:39:29,184 [INFO] Message from flankit: +pick 41
+2024-02-03 04:39:34,982 [INFO] Message from flankit: +myteam
+2024-02-03 04:39:39,562 [INFO] Message from rackafornia: +pick srsly
+2024-02-03 04:39:50,509 [INFO] Shard ID 0 has successfully RESUMED session 8c4132ac61502082cd3ae2b448369858.
+2024-02-03 04:39:52,103 [INFO] Message from rackafornia: +myteam
+2024-02-03 04:40:26,323 [INFO] Message from rackafornia: +pick iconic
+2024-02-03 04:41:38,503 [INFO] Message from flankit: +pick 92
+2024-02-03 04:41:53,887 [INFO] Message from flankit: +pick 93
+2024-02-03 04:42:02,589 [INFO] Message from flankit: +myteam
+2024-02-03 04:42:39,369 [INFO] Message from flankit: +myteam
+2024-02-03 04:54:16,584 [INFO] Message from austinszn: +signup
+2024-02-03 04:55:21,961 [INFO] Message from austinszn: +pick cyber
+2024-02-03 04:55:31,849 [INFO] Message from martyrpmike: +pick 11
+2024-02-03 04:55:34,294 [INFO] Message from austinszn: +myteam
+2024-02-03 04:55:49,294 [INFO] Message from martyrpmike: +pick 12
+2024-02-03 04:56:02,081 [INFO] Message from austinszn: +pick doki
+2024-02-03 04:56:03,613 [INFO] Message from martyrpmike: +pick 44
+2024-02-03 04:56:30,659 [INFO] Message from austinszn: +pick herdz
+2024-02-03 04:56:32,116 [INFO] Message from martyrpmike: +pick 85
+2024-02-03 04:56:36,364 [INFO] Message from austinszn: +pick keyzhe
+2024-02-03 04:56:36,366 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 04:56:52,548 [INFO] Message from austinszn: +pick kheyze
+2024-02-03 04:56:55,433 [INFO] Message from martyrpmike: +pick 83
+2024-02-03 04:57:02,659 [INFO] Message from martyrpmike: +pick 82
+2024-02-03 04:57:04,651 [INFO] Message from austinszn: +pick njr
+2024-02-03 04:57:21,027 [INFO] Message from austinszn: +pick jv92
+2024-02-03 04:57:31,641 [INFO] Message from austinszn: +myteam
+2024-02-03 04:57:50,797 [INFO] Message from austinszn: +pick fultz
+2024-02-03 04:58:10,893 [INFO] Message from austinszn: +myteam
+2024-02-03 04:58:22,778 [INFO] Message from martyrpmike: +pick 44
+2024-02-03 04:59:02,061 [INFO] Message from martyrpmike: +pick 81
+2024-02-03 05:00:17,942 [INFO] Message from martyrpmike: +swap 44 82
+2024-02-03 05:00:22,465 [INFO] Message from akunders: +pick Spoit
+2024-02-03 05:00:41,895 [INFO] Message from martyrpmike: +myteam
+2024-02-03 05:01:04,183 [INFO] Message from akunders: +pick Kheyze
+2024-02-03 05:01:17,681 [INFO] Message from akunders: +pick Shinka
+2024-02-03 05:01:45,941 [INFO] Message from akunders: +pick Lagonis
+2024-02-03 05:01:51,382 [INFO] Message from akunders: +myteam

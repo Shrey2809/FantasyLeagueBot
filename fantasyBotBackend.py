@@ -320,7 +320,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 df1 = df[:50]
                 df2 = df[50:]
                 table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
-                with open('openPlayerStats.md', 'a', encoding="utf-8") as f:
+                with open('openPlayerStats.md', 'w', encoding="utf-8") as f:
                     f.write(table)
                 await message.channel.send(file=discord.File('openPlayerStats.md'))
             except Exception as e:
@@ -346,7 +346,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 df1 = df[:50]
                 df2 = df[50:]
                 table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
-                with open('playerStats.md', 'a', encoding="utf-8") as f:
+                with open('playerStats.md', 'w', encoding="utf-8") as f:
                     f.write(table)
                 await message.channel.send(file=discord.File('playerStats.md'))
             except Exception as e:
@@ -480,9 +480,25 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 data = query.fetchone()
                 if data is None:
                     cursor.execute(f"""INSERT INTO managers (manager_name, discord_user_id, in_closed) VALUES ('{username}', '{userID}', FALSE)""")
-                    await message.channel.send(f"Signed up as {username}, go to DMs to pick players, use +pick *ID* or +pick *name*")
+                    
                     user = await self.fetch_user(userID)
-                    await user.send(f"Welcome to the open league! Use +pick *ID* or +pick *name* to pick players")
+                    
+                    query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
+                                                FROM players p
+                                                LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
+                                                WHERE p.eliminated = FALSE
+                                                GROUP BY p.player_id
+                                                ORDER BY max_daily_score DESC;""")
+                    data = query.fetchall()
+                    columns = ['Player ID', 'Player Name', 'Team Name', 'Role', 'Total Score']
+                    df = pd.DataFrame(data, columns=columns)
+                    df1 = df[:50]
+                    df2 = df[50:]
+                    table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                    with open('playerStats.md', 'w', encoding="utf-8") as f:
+                        f.write(table)
+                    await message.channel.send(f"Signed up as {username}, go to DMs to pick players, use +pick *ID* or +pick *name*")
+                    await user.send(f"Welcome to the open league! Use +pick *ID* or +pick *name* to pick players", file=discord.File('playerStats.md'))
                 else:
                     await message.channel.send(f"Already signed up as {username}")
                 conn.commit()
