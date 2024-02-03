@@ -785,3 +785,41 @@
 2024-02-03 06:13:28,875 [INFO] Message from pastadcasta: +signup
 2024-02-03 06:13:41,053 [INFO] Message from umbralamia: +pick mowwwgli
 2024-02-03 06:14:35,891 [INFO] Message from umbralamia: +pick benja
+2024-02-03 06:17:00,046 [INFO] Message from umbralamia: +swap mowwwgli pino
+2024-02-03 06:17:50,826 [INFO] Message from umbralamia: +swap benja j90
+2024-02-03 06:17:59,396 [INFO] Message from umbralamia: +myteam
+2024-02-03 06:18:53,272 [INFO] Message from phanji_: +signup
+2024-02-03 06:19:14,681 [INFO] Message from phanji_: +pick 12
+2024-02-03 06:19:52,293 [INFO] Message from phanji_: +pick 27
+2024-02-03 06:20:24,708 [INFO] Message from umbralamia: +myteam
+2024-02-03 06:20:46,077 [INFO] Message from phanji_: +pick 96
+2024-02-03 06:21:54,679 [INFO] Message from phanji_: +pick 84
+2024-02-03 06:22:56,881 [INFO] Message from phanji_: +pick 67
+2024-02-03 06:23:02,408 [INFO] Message from phanji_: +myteam
+2024-02-03 06:23:36,003 [INFO] Message from phanji_: +myteam
+2024-02-03 06:56:37,807 [INFO] Message from ejb_01: +signup
+2024-02-03 06:56:55,792 [INFO] Message from ejb_01: +myteam
+2024-02-03 06:57:28,924 [INFO] Message from shriimpp: +signup
+2024-02-03 06:58:14,014 [INFO] Message from shriimpp: +pick Terdsta
+2024-02-03 06:58:35,516 [INFO] Message from shriimpp: +pick cyber
+2024-02-03 06:58:47,915 [INFO] Message from shriimpp: +pick doki
+2024-02-03 06:59:51,297 [INFO] Message from shriimpp: +pick virtue
+2024-02-03 07:02:00,646 [INFO] Message from shriimpp: +pick nafe
+2024-02-03 07:02:05,921 [INFO] Message from shriimpp: +myteam
+2024-02-03 07:04:38,808 [INFO] Message from shriimpp: +standings
+2024-02-03 07:05:05,413 [INFO] Message from shriimpp: +find darkzero
+2024-02-03 07:35:04,852 [INFO] Message from caster_maddox: +signup
+2024-02-03 07:37:17,475 [INFO] Message from caster_maddox: +pick Jv92
+2024-02-03 07:37:33,254 [INFO] Message from caster_maddox: +pick dmaly
+2024-02-03 07:37:40,369 [INFO] Message from caster_maddox: +myteam
+2024-02-03 07:38:08,054 [INFO] Message from caster_maddox: +pick reeps96
+2024-02-03 07:38:08,056 [ERROR] 'NoneType' object is not subscriptable
+2024-02-03 07:38:42,515 [INFO] Message from caster_maddox: +pick Reeps
+2024-02-03 07:39:00,182 [INFO] Message from caster_maddox: +pick beaulo
+2024-02-03 07:39:08,226 [INFO] Message from caster_maddox: +pick yass
+2024-02-03 07:39:14,025 [INFO] Message from caster_maddox: +myteam
+2024-02-03 07:44:38,105 [INFO] Message from caster_maddox: +pick Doki
+2024-02-03 07:44:48,231 [INFO] Message from caster_maddox: +delete
+2024-02-03 07:44:53,559 [INFO] Message from caster_maddox: +myteam
+2024-02-03 07:50:05,186 [INFO] Message from caster_maddox: +myteam
+2024-02-03 07:50:12,538 [INFO] Message from caster_maddox: +signup
