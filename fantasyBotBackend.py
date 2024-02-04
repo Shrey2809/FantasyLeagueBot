@@ -633,6 +633,18 @@ class fantasyBotBackend(commands.AutoShardedBot):
             finally:
                 conn.close()
         
+        
+        # Help command
+        if message.content.startswith("+help"):
+            await message.channel.send(f"""## The commands you can use for the bot are:
+                                                - **+myteam**: View your current active team
+                                                - **+myscore**: View your total score and rank
+                                                - **+standings**: Current Standings for your league
+                                                - **+find *Name/Team***: Find a specific player or team (eg **+find Beaulo** or **+find Darkzero**)
+                                                - **+signup**: One time command to signup to the the open league, a confirmation will be a message in this channel as well as a DM. If you don't get a DM, check your DM perms.
+                                                - **+pick *ID/Name***: Pick your player using their name or ID (refer to the names from the stats sheet) (eg **+pick Beaulo**)
+                                                - **+swap *MyPlayerName/ID* *RequestedPlayerName/ID***: Initiate a trade or accept a trade (eg **+swap Pyon Canadian**)""")
+
         # ---------------------------------------------------------------------------------------------------------------------------
         # Admin Controls
         # Upload a new file to the server
