@@ -78,6 +78,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
     # Message displayed when bot is started
     async def on_ready(self):
         self.http_session = aiohttp.ClientSession()
+        await self.change_presence(activity=discord.Game(name="use +help for more info"))
         self.logger.info("-------------")
         self.logger.info("|Fantasy Bot|")
         self.logger.info("-------------")
