@@ -1296,3 +1296,6 @@
 2024-02-04 15:31:40,590 [INFO] Message from theschmiddy: +pick 75
 2024-02-04 15:31:45,146 [INFO] Message from theschmiddy: +myteam
 2024-02-04 15:32:47,558 [INFO] Message from theschmiddy: +myscore
+2024-02-04 16:17:40,672 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-04 17:13:22,736 [INFO] Message from jazzman: +signup
+2024-02-04 17:13:24,669 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
