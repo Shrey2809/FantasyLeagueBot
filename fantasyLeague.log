@@ -1278,3 +1278,13 @@
 2024-02-04 09:20:41,458 [INFO] Message from ejb_01: +pick dmaly
 2024-02-04 09:20:46,977 [INFO] Message from ejb_01: +myteam
 2024-02-04 10:08:22,648 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-04 10:22:14,083 [INFO] Message from caster_maddox: +swap Beaulo Alem4o
+2024-02-04 10:22:14,088 [ERROR] 'NoneType' object is not subscriptable
+2024-02-04 10:22:39,646 [INFO] Message from caster_maddox: +swap Beaulo Alemao
+2024-02-04 11:54:47,766 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-04 11:56:26,149 [INFO] Message from umbralamia: +find bleed
+2024-02-04 11:57:31,793 [INFO] Message from umbralamia: +find ssg
+2024-02-04 11:57:48,647 [INFO] Message from umbralamia: +find darkzero
+2024-02-04 11:58:29,193 [INFO] Message from umbralamia: +find bliss
+2024-02-04 11:59:05,701 [INFO] Message from umbralamia: +find scarz
+2024-02-04 11:59:40,266 [INFO] Message from umbralamia: +find virtus pro
