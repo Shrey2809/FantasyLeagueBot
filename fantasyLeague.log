@@ -1381,3 +1381,61 @@
 2024-02-05 12:52:22,763 [INFO] Message from cassidy.74: +swap iconic jv92
 2024-02-05 12:52:35,330 [INFO] Message from cassidy.74: +myteam
 2024-02-05 13:35:28,403 [INFO] Message from enryco: +myscore
+2024-02-05 14:21:47,362 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-05 14:41:12,862 [INFO] Message from Pasty#8602: +signup
+2024-02-05 14:42:21,666 [INFO] Message from Pasty#8602: +pick ID
+2024-02-05 14:47:52,163 [INFO] Message from Pasty#8602: +myteam
+2024-02-05 14:48:27,659 [INFO] Message from Pasty#8602: +pick 14
+2024-02-05 14:48:53,351 [INFO] Message from Pasty#8602: +pick 85
+2024-02-05 14:49:19,309 [INFO] Message from Pasty#8602: +pick 79
+2024-02-05 14:49:39,911 [INFO] Message from Pasty#8602: +pick 64
+2024-02-05 14:50:06,698 [INFO] Message from Pasty#8602: +pick 11
+2024-02-05 14:50:14,192 [INFO] Message from Pasty#8602: +myteam
+2024-02-05 15:01:39,313 [INFO] Message from marwanmoussa: +find G2
+2024-02-05 15:02:28,914 [INFO] Message from marwanmoussa: +swap nudl/Benja
+2024-02-05 15:02:28,916 [ERROR] 'NoneType' object is not subscriptable
+2024-02-05 15:03:56,954 [INFO] Message from marwanmoussa: +pick 42
+2024-02-05 15:04:10,760 [INFO] Message from marwanmoussa: +myteam
+2024-02-05 15:04:22,670 [INFO] Message from marwanmoussa: +pick44
+2024-02-05 15:04:28,258 [INFO] Message from marwanmoussa: +pick 44
+2024-02-05 15:04:41,733 [INFO] Message from marwanmoussa: +swap 48/42
+2024-02-05 15:04:41,734 [ERROR] 'NoneType' object is not subscriptable
+2024-02-05 15:06:21,016 [INFO] Message from marwanmoussa: +swap Nudl/48
+2024-02-05 15:06:21,020 [ERROR] 'NoneType' object is not subscriptable
+2024-02-05 15:06:24,949 [INFO] Message from yaboimadman: +myteam
+2024-02-05 15:06:37,465 [INFO] Message from yaboimadman: +swap 59 4
+2024-02-05 15:06:40,216 [INFO] Message from marwanmoussa: +swap Nudl/48 Benja/42
+2024-02-05 15:06:40,217 [ERROR] 'NoneType' object is not subscriptable
+2024-02-05 15:06:45,898 [INFO] Message from yaboimadman: +swap 4 59
+2024-02-05 15:06:52,247 [INFO] Message from yaboimadman: +myteam
+2024-02-05 15:07:13,763 [INFO] Message from marwanmoussa: +swap 48 42
+2024-02-05 15:07:30,531 [INFO] Message from marwanmoussa: +myteam
+2024-02-05 15:14:38,991 [INFO] Message from marwanmoussa: +swap 5 48
+2024-02-05 15:14:43,218 [INFO] Message from marwanmoussa: +myteam
+2024-02-05 15:24:08,102 [INFO] Message from beopa15: +signup
+2024-02-05 15:25:56,162 [INFO] Message from beopa15: +pick 12
+2024-02-05 15:26:30,872 [INFO] Message from beopa15: +pick 41
+2024-02-05 15:32:44,132 [INFO] Message from beopa15: +pick 5
+2024-02-05 15:33:06,507 [INFO] Message from beopa15: +pick 55
+2024-02-05 15:33:28,593 [INFO] Message from beopa15: +myteam
+2024-02-05 15:34:15,719 [INFO] Message from beopa15: +pick 90
+2024-02-05 15:34:43,468 [INFO] Message from beopa15: +pick 51
+2024-02-05 15:34:52,011 [INFO] Message from beopa15: +myteam
+2024-02-05 15:36:01,246 [INFO] Message from beopa15: +swap 12 55
+2024-02-05 15:36:10,314 [INFO] Message from beopa15: +myteam
+2024-02-05 15:37:33,451 [INFO] Message from beopa15: +swap 51 61
+2024-02-05 15:38:37,312 [INFO] Message from beopa15: +swap 90 83
+2024-02-05 15:38:55,512 [INFO] Message from beopa15: +swap 5 76
+2024-02-05 15:39:00,231 [INFO] Message from beopa15: +myteam
+2024-02-05 15:51:38,790 [INFO] Message from nxrway: +signup
+2024-02-05 15:53:45,486 [INFO] Message from nxrway: +pick cyber
+2024-02-05 15:53:54,736 [INFO] Message from nxrway: +pick handy
+2024-02-05 15:54:06,212 [INFO] Message from nxrway: +pick soulz
+2024-02-05 15:54:14,517 [INFO] Message from nxrway: +pick KDS
+2024-02-05 15:54:24,330 [INFO] Message from nxrway: +pick vitaking
+2024-02-05 15:54:45,627 [INFO] Message from nxrway: +myteam
+2024-02-05 15:59:16,015 [INFO] Message from beopa15: +swap 41 15
+2024-02-05 16:01:01,174 [INFO] Message from beopa15: +swap 55 12
+2024-02-05 16:01:09,556 [INFO] Message from beopa15: +myteam
+2024-02-05 16:07:33,520 [INFO] Message from beopa15: +swap 12 81
+2024-02-05 16:07:39,151 [INFO] Message from beopa15: +myteam
