@@ -498,13 +498,15 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
                     with open('playerStats.md', 'w', encoding="utf-8") as f:
                         f.write(table)
-                    await message.channel.send(f"Signed up as {username}, go to DMs to pick players, use +pick *ID* or +pick *name*")
+                    
                     await user.send(f"Welcome to the open league! Use +pick *ID* or +pick *name* to pick players", file=discord.File('playerStats.md'))
+                    await message.channel.send(f"Signed up as {username}, go to DMs to pick players, use +pick *ID* or +pick *name*")
                 else:
                     await message.channel.send(f"Already signed up as {username}")
                 conn.commit()
             except Exception as e:
                 self.logger.error(e)
+                await message.channel.send(f"Error signing up, please try again after opening your DMs from this server")
             finally:
                 conn.close()
         
