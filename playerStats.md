@@ -9,7 +9,7 @@
 │           6 │ Brendo        │ Bliss       │ Fragger │             0 │
 │           7 │ Fishoguy      │ Bliss       │ Support │             0 │
 │           8 │ Odah          │ Bliss       │ Fragger │             0 │
-│           9 │ Sagon         │ Bliss       │ Fragger │             0 │
+│           9 │ Sageon        │ Bliss       │ Fragger │             0 │
 │          10 │ Wettables     │ Bliss       │ Support │             0 │
 │          11 │ Beaulo        │ DarkZero    │ Fragger │             0 │
 │          12 │ Canadian      │ DarkZero    │ Fragger │             0 │
