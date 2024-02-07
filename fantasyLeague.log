@@ -1675,3 +1675,35 @@
 2024-02-07 18:04:32,777 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
 2024-02-07 18:05:37,434 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
 2024-02-07 18:16:26,423 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-07 18:56:54,905 [INFO] Message from bjelven: +swap Wizard Wettables
+2024-02-07 18:59:06,332 [INFO] Message from bjelven: +myteam
+2024-02-07 19:24:18,899 [INFO] Message from basik.: +signup
+2024-02-07 19:27:21,650 [INFO] Message from basik.: +pick 93
++pick 77
++pick 13
++pick 52
++pick 60
+2024-02-07 19:28:02,151 [INFO] Message from basik.: +pick93
++pick77
++pick13
++pick52
++pick60
+2024-02-07 19:29:45,797 [INFO] Message from basik.: +pick Nesk
++pick Maia
++pick Nafe
++pick Kheyze
++pick Ctzn
+2024-02-07 19:31:48,395 [INFO] Message from basik.: +pick Nesk
++pick Maia
++pick Nafe
++pick Kheyze
++pick Ctzn
+2024-02-07 19:32:05,559 [INFO] Message from basik.: +pick Nesk
+2024-02-07 19:33:00,218 [INFO] Message from basik.: +pick Maia
+2024-02-07 19:33:08,385 [INFO] Message from basik.: +pick Ctzn
+2024-02-07 19:33:21,217 [INFO] Message from basik.: +pick Nafe
+2024-02-07 19:33:35,964 [INFO] Message from basik.: +pick Kheyze
+2024-02-07 19:35:11,118 [INFO] Message from basik.: +swap Nesk Kheyze
+2024-02-07 19:36:31,895 [INFO] Message from basik.: +pick Jv92
+2024-02-07 19:36:49,043 [INFO] Message from basik.: +myteam
+2024-02-07 19:54:04,097 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
