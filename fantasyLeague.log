@@ -2217,3 +2217,62 @@
 2024-02-08 14:17:49,215 [INFO] Message from tyrobosauros: +myteam
 2024-02-08 14:28:59,952 [INFO] Message from slothamen: +signup
 2024-02-08 14:29:30,338 [INFO] Message from undersiegeg: +signup
+2024-02-08 14:36:11,577 [INFO] Message from undersiegeg: +pick 11
++pick 43
++pick 64
++pick 78
++pick 14
+2024-02-08 14:37:14,290 [INFO] Message from undersiegeg: +pick 11
+2024-02-08 14:37:27,868 [INFO] Message from undersiegeg: +pick 43
+2024-02-08 14:37:41,809 [INFO] Message from undersiegeg: +pick 64
+2024-02-08 14:38:00,172 [INFO] Message from undersiegeg: +pick 78
+2024-02-08 14:38:11,539 [INFO] Message from undersiegeg: +pick 14
+2024-02-08 14:38:24,437 [INFO] Message from undersiegeg: +myteam
+2024-02-08 14:48:57,438 [INFO] Message from slothamen: +pick 76
+2024-02-08 14:49:14,463 [INFO] Message from slothamen: +pick 79
+2024-02-08 14:50:19,252 [INFO] Message from slothamen: +pick 82
+2024-02-08 14:50:29,727 [INFO] Message from slothamen: +myteam
+2024-02-08 14:51:22,698 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 14:51:52,649 [INFO] Message from slothamen: +pick 11
+2024-02-08 14:51:59,256 [INFO] Message from slothamen: +pick 42
+2024-02-08 14:52:11,527 [INFO] Message from slothamen: +myteam
+2024-02-08 15:13:04,586 [INFO] Message from kbomb18: +signup
+2024-02-08 15:13:59,216 [INFO] Message from kbomb18: +pick Panba
+2024-02-08 15:14:38,547 [INFO] Message from kbomb18: +pick FelipoX
+2024-02-08 15:14:51,128 [INFO] Message from kbomb18: +pick Herdz
+2024-02-08 15:14:56,906 [INFO] Message from kbomb18: +pick JV92
+2024-02-08 15:15:12,951 [INFO] Message from kbomb18: +pick Kheyze
+2024-02-08 15:15:45,423 [INFO] Message from kbomb18: +swap Panba
+2024-02-08 15:15:45,426 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 15:16:16,740 [INFO] Message from kbomb18: +swap Panba/Kheyze
+2024-02-08 15:16:16,741 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 15:16:39,201 [INFO] Message from kbomb18: +myteam
+2024-02-08 15:17:46,604 [INFO] Message from kbomb18: +swap Panba Kheyze
+2024-02-08 15:17:51,941 [INFO] Message from beopa15: +swap 61 30
+2024-02-08 15:17:59,758 [INFO] Message from beopa15: +swap 83 43
+2024-02-08 15:18:05,617 [INFO] Message from kbomb18: +pick Nade
+2024-02-08 15:18:12,873 [INFO] Message from kbomb18: +myteam
+2024-02-08 15:18:14,118 [INFO] Message from beopa15: +swap 83 59
+2024-02-08 15:18:26,177 [INFO] Message from beopa15: +swap 83 51
+2024-02-08 15:18:36,290 [INFO] Message from beopa15: +swap 76 43
+2024-02-08 15:18:51,052 [INFO] Message from beopa15: +swap 15 59
+2024-02-08 15:19:03,200 [INFO] Message from beopa15: +swap 81 92
+2024-02-08 15:19:08,461 [INFO] Message from beopa15: +myteam
+2024-02-08 15:47:04,553 [INFO] Message from imurasame: +signup
+2024-02-08 16:01:52,838 [INFO] Message from imurasame: +pick shinka
+2024-02-08 16:02:40,645 [INFO] Message from imurasame: +pick jv92
+2024-02-08 16:02:46,180 [INFO] Message from imurasame: +pick beaulo
+2024-02-08 16:04:29,455 [INFO] Message from imurasame: +pick lobin
+2024-02-08 16:04:35,324 [INFO] Message from imurasame: +myteam
+2024-02-08 16:08:18,402 [INFO] Message from imurasame: +swap jv92 nade
+2024-02-08 16:10:05,435 [INFO] Message from imurasame: +swap shinka geo
+2024-02-08 16:12:12,087 [INFO] Message from imurasame: +pick doki
+2024-02-08 16:12:18,156 [INFO] Message from imurasame: +myteam
+2024-02-08 16:12:23,853 [INFO] Message from woahka: +signup
+2024-02-08 16:17:59,231 [INFO] Message from woahka: +pick yoggah
+2024-02-08 16:19:14,567 [INFO] Message from woahka: +pick nafe
+2024-02-08 16:20:03,115 [INFO] Message from woahka: +pick herdz
+2024-02-08 16:20:58,715 [INFO] Message from woahka: +pick ambi
+2024-02-08 16:21:30,839 [INFO] Message from woahka: +pick doki
+2024-02-08 16:22:05,292 [INFO] Message from woahka: +pick njr
+2024-02-08 16:22:18,471 [INFO] Message from woahka: +myteam
