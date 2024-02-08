@@ -2045,3 +2045,40 @@
 2024-02-08 05:38:46,238 [INFO] Message from salee: +swap Jv92 Sheppard
 2024-02-08 06:30:20,408 [INFO] Message from nalonn: +signup
 2024-02-08 06:33:40,701 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 06:36:44,863 [INFO] Message from nalonn: +pick Spoit
+2024-02-08 06:36:51,171 [INFO] Message from nalonn: +myteam
+2024-02-08 06:37:24,923 [INFO] Message from nalonn: +pick 11
+2024-02-08 06:37:31,217 [INFO] Message from nalonn: +myteam
+2024-02-08 06:37:35,594 [INFO] Message from seishi.: +myteam
+2024-02-08 06:42:15,665 [INFO] Message from nalonn: +pick 93
+2024-02-08 06:42:29,342 [INFO] Message from nalonn: +pick 59
+2024-02-08 06:45:47,635 [INFO] Message from nalonn: +myteam
+2024-02-08 06:55:00,110 [INFO] Message from nalonn: +pick 66
+2024-02-08 06:55:07,516 [INFO] Message from nalonn: +myteam
+2024-02-08 07:04:52,582 [INFO] Message from nalonn: +swap Kondz Nade
+2024-02-08 07:04:58,542 [INFO] Message from nalonn: +myteam
+2024-02-08 07:05:36,819 [INFO] Message from nalonn: +swap Jv92 Gryxr
+2024-02-08 07:05:41,901 [INFO] Message from nalonn: +myteam
+2024-02-08 07:08:03,966 [INFO] Message from nalonn: +swap Gryxr Kondz
+2024-02-08 07:08:17,063 [INFO] Message from nalonn: +myteam
+2024-02-08 07:25:57,898 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 08:03:53,913 [INFO] Message from lm4014: +signup
+2024-02-08 08:05:27,949 [INFO] Message from lm4014: +pick benja
+2024-02-08 08:05:42,444 [INFO] Message from lm4014: +pick brid
+2024-02-08 08:06:26,768 [INFO] Message from lm4014: +pick spoit
+2024-02-08 08:07:02,336 [INFO] Message from lm4014: +pick shinka
+2024-02-08 08:07:40,048 [INFO] Message from lm4014: +pick asphy
+2024-02-08 08:08:29,371 [INFO] Message from lm4014: +pick Sheppard
+2024-02-08 08:08:36,343 [INFO] Message from lm4014: +myteam
+2024-02-08 08:11:30,224 [INFO] Message from koolfromdc: +myteam
+2024-02-08 08:18:39,556 [INFO] Message from koolfromdc: +standings
+2024-02-08 08:18:46,642 [INFO] Message from qluo.: +signup
+2024-02-08 08:19:03,249 [INFO] Message from koolfromdc: +myscore
+2024-02-08 08:27:21,804 [INFO] Message from qluo.: +pick jv92
+2024-02-08 08:27:32,546 [INFO] Message from qluo.: +pick reeps
+2024-02-08 08:28:53,781 [INFO] Message from qluo.: +pick doki
+2024-02-08 08:30:21,599 [INFO] Message from qluo.: +pick soulz
+2024-02-08 08:30:36,362 [INFO] Message from qluo.: +myteam
+2024-02-08 08:30:59,691 [INFO] Message from qluo.: +pick kds
+2024-02-08 08:31:17,926 [INFO] Message from qluo.: +pick Sheppard
+2024-02-08 08:31:23,426 [INFO] Message from qluo.: +myteam
