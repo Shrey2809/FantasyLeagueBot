@@ -2082,3 +2082,95 @@
 2024-02-08 08:30:59,691 [INFO] Message from qluo.: +pick kds
 2024-02-08 08:31:17,926 [INFO] Message from qluo.: +pick Sheppard
 2024-02-08 08:31:23,426 [INFO] Message from qluo.: +myteam
+2024-02-08 08:37:35,773 [INFO] Message from gabrielesevergnini_: +signup
+2024-02-08 08:40:23,181 [INFO] Message from gabrielesevergnini_: +pick nade
+2024-02-08 08:40:30,411 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 08:41:46,276 [INFO] Message from gabrielesevergnini_: +pick beaulo
+2024-02-08 08:42:04,366 [INFO] Message from gabrielesevergnini_: +pick soulz1
+2024-02-08 08:42:10,435 [INFO] Message from gabrielesevergnini_: +pick soulz
+2024-02-08 08:42:16,227 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 08:43:07,299 [INFO] Message from Alas#8589: +pick 95
+2024-02-08 08:44:56,439 [INFO] Message from Alas#8589: +pick 30
+2024-02-08 08:45:37,411 [INFO] Message from gabrielesevergnini_: +pick paluh
+2024-02-08 08:45:48,790 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 08:47:15,373 [INFO] Message from triipn: +signup
+2024-02-08 08:47:34,767 [INFO] Message from triipn: +pick reeps
+2024-02-08 08:48:08,566 [INFO] Message from Alas#8589: +pick 15
+2024-02-08 08:48:23,221 [INFO] Message from gabrielesevergnini_: +pick herdz
+2024-02-08 08:48:34,493 [INFO] Message from triipn: +pick joystick
+2024-02-08 08:48:51,100 [INFO] Message from Alas#8589: +pick 76
+2024-02-08 08:48:59,183 [INFO] Message from triipn: +pick ctzn
+2024-02-08 08:49:19,768 [INFO] Message from triipn: +pick sheppard
+2024-02-08 08:49:25,789 [INFO] Message from Alas#8589: +pick 84
+2024-02-08 08:49:32,112 [INFO] Message from Alas#8589: +myteam
+2024-02-08 08:51:05,578 [INFO] Message from triipn: +pick hoven
+2024-02-08 09:09:45,770 [INFO] Message from gabrielesevergnini_: +pick lodz
+2024-02-08 09:09:57,550 [INFO] Message from gabrielesevergnini_: +pick lobin
+2024-02-08 09:11:07,212 [INFO] Message from gabrielesevergnini_: +pick shiinka
+2024-02-08 09:11:12,051 [INFO] Message from gabrielesevergnini_: +pick shinka
+2024-02-08 09:11:17,868 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:13:17,749 [INFO] Message from gabrielesevergnini_: +swap soulz lobin
+2024-02-08 09:13:23,394 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:14:07,555 [INFO] Message from gabrielesevergnini_: +swap shinka nade
+2024-02-08 09:14:12,617 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:14:43,251 [INFO] Message from gabrielesevergnini_: +swap nade lagonis
+2024-02-08 09:14:49,520 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:15:11,959 [INFO] Message from gabrielesevergnini_: +swap beaulo shinka
+2024-02-08 09:15:58,321 [INFO] Message from gabrielesevergnini_: +pick herdsz
+2024-02-08 09:16:03,197 [INFO] Message from gabrielesevergnini_: +pick shinka
+2024-02-08 09:16:43,243 [INFO] Message from gabrielesevergnini_: +swap lagonis nade
+2024-02-08 09:16:47,460 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:18:21,491 [INFO] Message from gabrielesevergnini_: +swap lobin herdsz
+2024-02-08 09:18:21,494 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 09:18:36,859 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:18:51,352 [INFO] Message from gabrielesevergnini_: +swap lobin nesk
+2024-02-08 09:18:56,278 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:19:54,192 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 09:20:19,637 [INFO] Message from gabrielesevergnini_: +swap shinka felipo
+2024-02-08 09:20:19,639 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 09:20:24,135 [INFO] Message from gabrielesevergnini_: +swap shinka felipox
+2024-02-08 09:21:23,505 [INFO] Message from gabrielesevergnini_: +swap nesk herdsz
+2024-02-08 09:21:23,509 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 09:22:01,095 [INFO] Message from gabrielesevergnini_: +find w7m
+2024-02-08 09:22:34,104 [INFO] Message from gabrielesevergnini_: +swap shinka jv92
+2024-02-08 09:22:41,038 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:26:09,703 [INFO] Message from gabrielesevergnini_: +find liquid
+2024-02-08 09:26:17,259 [INFO] Message from gabrielesevergnini_: +find g2
+2024-02-08 09:29:07,187 [INFO] Message from gabrielesevergnini_: +swap jv92 lagonis
+2024-02-08 09:29:15,969 [INFO] Message from gabrielesevergnini_: +swap paluh herdz
+2024-02-08 09:29:20,889 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:31:06,419 [INFO] Message from gabrielesevergnini_: +find los
+2024-02-08 09:31:42,443 [INFO] Message from gabrielesevergnini_: +swap lagonis jv92
+2024-02-08 09:34:01,529 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:36:38,223 [INFO] Message from gabrielesevergnini_: +swap beaulo alem4o
+2024-02-08 09:36:38,228 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 09:36:47,612 [INFO] Message from gabrielesevergnini_: +find g2
+2024-02-08 09:37:02,064 [INFO] Message from gabrielesevergnini_: +swap beaulo alemao
+2024-02-08 09:37:07,134 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:37:46,215 [INFO] Message from gabrielesevergnini_: +swap alemao beaulo
+2024-02-08 09:37:52,072 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:38:39,061 [INFO] Message from zygecks: +myteam
+2024-02-08 09:40:51,351 [INFO] Message from gabrielesevergnini_: +swap jv92 shinka
+2024-02-08 09:44:14,111 [INFO] Message from gabrielesevergnini_: +swap beaulo lobin
+2024-02-08 09:44:17,848 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:46:01,372 [INFO] Message from gabrielesevergnini_: +swap nesk gryxr
+2024-02-08 09:47:31,160 [INFO] Message from gabrielesevergnini_: +find soniqs
+2024-02-08 09:47:58,935 [INFO] Message from gabrielesevergnini_: +swap shinka gryxr
+2024-02-08 09:48:13,832 [INFO] Message from gabrielesevergnini_: +swap nesk beaulo
+2024-02-08 09:48:17,821 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:49:46,753 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-08 09:56:41,294 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 09:59:12,461 [INFO] Message from mcknz: +signup
+2024-02-08 10:02:59,847 [INFO] Message from mcknz: +pick98
+2024-02-08 10:03:31,109 [INFO] Message from mcknz: +pick48
+2024-02-08 10:04:39,594 [INFO] Message from mcknz: +myteam
+2024-02-08 10:06:39,787 [INFO] Message from mcknz: +pick 98
+2024-02-08 10:06:48,962 [INFO] Message from mcknz: +pick 48
+2024-02-08 10:07:52,527 [INFO] Message from mcknz: +swap 8 59
+2024-02-08 10:09:08,409 [INFO] Message from mcknz: +pick 95
+2024-02-08 10:09:24,568 [INFO] Message from mcknz: +pick 83
+2024-02-08 10:09:34,505 [INFO] Message from mcknz: +myteam
+2024-02-08 10:27:49,829 [INFO] Message from zygecks: +swap Volpz J9O
+2024-02-08 10:27:49,834 [ERROR] 'NoneType' object is not subscriptable
+2024-02-08 10:28:12,881 [INFO] Message from zygecks: +swap 55 85
+2024-02-08 10:28:19,277 [INFO] Message from zygecks: +myteam
