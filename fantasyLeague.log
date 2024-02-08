@@ -2174,3 +2174,25 @@
 2024-02-08 10:27:49,834 [ERROR] 'NoneType' object is not subscriptable
 2024-02-08 10:28:12,881 [INFO] Message from zygecks: +swap 55 85
 2024-02-08 10:28:19,277 [INFO] Message from zygecks: +myteam
+2024-02-08 10:59:22,758 [INFO] Message from bridzy: +pick fishoguy
+2024-02-08 11:05:13,994 [INFO] Message from bridzy: +pick gryxr
+2024-02-08 11:05:45,028 [INFO] Message from bridzy: +pick herdz
+2024-02-08 11:06:11,629 [INFO] Message from bridzy: +pick njr
+2024-02-08 11:09:01,696 [INFO] Message from bridzy: +swap fishoguy njr
+2024-02-08 11:09:30,397 [INFO] Message from bridzy: +pick paluh
+2024-02-08 11:09:53,134 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 11:10:05,739 [INFO] Message from bridzy: +pick doki
+2024-02-08 11:10:11,960 [INFO] Message from bridzy: +myteam
+2024-02-08 11:18:34,857 [INFO] Message from bridzy: +myteam
+2024-02-08 12:06:10,551 [INFO] Shard ID 0 has successfully RESUMED session 619606a67ff2578e065ca38103e22cbc.
+2024-02-08 12:19:32,177 [INFO] Message from anshxo: +signup
+2024-02-08 12:19:33,227 [ERROR] 403 Forbidden (error code: 50007): Cannot send messages to this user
+2024-02-08 12:21:17,880 [INFO] Message from anshxo: +signup
+2024-02-08 12:22:17,792 [INFO] Message from anshxo: +pick Beaulo
+2024-02-08 12:22:25,916 [INFO] Message from anshxo: +pick Hashom
+2024-02-08 12:22:45,545 [INFO] Message from anshxo: +pick Geo
+2024-02-08 12:24:06,521 [INFO] Message from anshxo: +pick Sheppard
+2024-02-08 12:24:42,620 [INFO] Message from anshxo: +pick Ambi
+2024-02-08 12:27:13,363 [INFO] Message from hairlinemaster: +myteam
+2024-02-08 12:28:02,475 [INFO] Message from hairlinemaster: +myscore
+2024-02-08 12:28:33,996 [INFO] Message from hairlinemaster: +standings
