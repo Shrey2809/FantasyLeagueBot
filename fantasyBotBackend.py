@@ -111,6 +111,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
                         WHERE ogr.manager_id = m.manager_id and p.player_id = ogr.player_id and is_active = TRUE AND m.discord_user_id = {userID}
                     """)
                     data = query.fetchall()
+                
+                if data is None:
+                    await message.channel.send(f"You don't have a team yet, use +signup to get started")
+                    return
 
                 # Create a DataFrame with the fetched data
                 columns = ['ID', 'Name', 'Team', 'Region', 'Role']
@@ -120,6 +124,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 embed.add_field(name='\u200b', value=f'```\n{table}\n```')
                 await message.channel.send(embed=embed)
             except Exception as e:
+                await message.channel.send(f"Error getting your team, please try again")
                 self.logger.error(e)
             finally:
                 conn.close()
@@ -295,6 +300,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     embed.add_field(name='\u200b', value=f'```\n{table}\n```')
                     await message.channel.send(embed=embed)
             except Exception as e:
+                await message.channel.send(f"Error finding player or team, please try again")
                 self.logger.error(e)
             finally:
                 conn.close()
@@ -564,6 +570,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     await message.channel.send(f"Player picked! Check your team with +myteam")
                     conn.commit()
             except Exception as e:
+                await message.channel.send("Pick failed. Try again or contact a mod")
                 self.logger.error(e)
             finally:
                 conn.close()
@@ -622,6 +629,13 @@ class fantasyBotBackend(commands.AutoShardedBot):
                         await message.channel.send(f"Can't trade a player with differing roles. Please trade for the same roles")
                         return
                     
+                    # Check if incoming player isn't already on my team
+                    requestedTeamCheck = cursor.execute(f"""SELECT player_id FROM open_game_roster WHERE player_id = {requestee_player_id} and manager_id = {manager_id} and is_active = TRUE""")
+                    requestedTeamCheck = requestedTeamCheck.fetchone()
+                    if requestedTeamCheck is not None:
+                        await message.channel.send(f"Can't trade in a player that is already on your team!")
+                        return
+                    
                     cursor.execute(f"""INSERT INTO open_game_roster (manager_id, player_id, is_active) VALUES ({manager_id}, {requestee_player_id}, TRUE)""")
                     cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
                                 ({manager_id}, {requester_player_id}, {requestee_player_id}, TRUE, FALSE)""")
@@ -632,10 +646,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     
                 conn.commit()
             except Exception as e:
+                await message.channel.send("Swap failed. Try again or contact a mod")
                 self.logger.error(e)
             finally:
                 conn.close()
-        
         
         # Help command
         if message.content.startswith("+help"):
