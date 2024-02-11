@@ -2608,3 +2608,38 @@
 2024-02-11 17:33:23,953 [INFO] Message from ramon2403: +signup
 2024-02-11 18:09:36,462 [INFO] Shard ID 0 has successfully RESUMED session d7072fe441d5bed5ea47b111869ec96d.
 2024-02-11 18:18:03,554 [INFO] Message from oxabolt: +signup
+2024-02-11 18:45:44,522 [INFO] Message from ramon2403: +pick Doki
+2024-02-11 18:47:20,086 [INFO] Message from ramon2403: +pick mowwwgli
+2024-02-11 18:47:35,438 [INFO] Message from ramon2403: +myteam
+2024-02-11 18:48:39,069 [INFO] Message from ramon2403: +pick nafe
+2024-02-11 18:50:43,801 [INFO] Message from ramon2403: +swap 98 maia
+2024-02-11 18:50:54,602 [INFO] Message from ramon2403: +myteam
+2024-02-11 18:51:48,909 [INFO] Message from ramon2403: +pick J90
+2024-02-11 18:53:22,815 [INFO] Message from ramon2403: +swap j90 Herdsz
+2024-02-11 18:53:23,180 [ERROR] 'NoneType' object is not subscriptable
+2024-02-11 18:53:44,524 [INFO] Message from ramon2403: +swap J90 Herdsz
+2024-02-11 18:53:44,845 [ERROR] 'NoneType' object is not subscriptable
+2024-02-11 18:54:01,611 [INFO] Message from ramon2403: +swap J9o Herdsz
+2024-02-11 18:54:02,052 [ERROR] 'NoneType' object is not subscriptable
+2024-02-11 18:54:06,420 [INFO] Message from ramon2403: +myteam
+2024-02-11 18:54:21,880 [INFO] Message from ramon2403: +swap J90 Herdsz
+2024-02-11 18:54:22,133 [ERROR] 'NoneType' object is not subscriptable
+2024-02-11 18:54:50,731 [INFO] Message from ramon2403: +swap 85 92
+2024-02-11 18:56:25,998 [INFO] Message from ramon2403: +pick nade
+2024-02-11 18:56:30,252 [INFO] Message from ramon2403: +myteam
+2024-02-11 19:00:06,458 [INFO] Message from ramon2403: +swap nafe shiinka
+2024-02-11 19:00:06,789 [ERROR] 'NoneType' object is not subscriptable
+2024-02-11 19:00:24,655 [INFO] Message from ramon2403: +swap 13 Shiinka
+2024-02-11 19:00:25,283 [ERROR] 'NoneType' object is not subscriptable
+2024-02-11 19:00:44,703 [INFO] Message from ramon2403: +swap 13 100
+2024-02-11 19:00:51,036 [INFO] Message from ramon2403: +myteam
+2024-02-11 19:12:34,327 [INFO] Shard ID 0 has successfully RESUMED session d7072fe441d5bed5ea47b111869ec96d.
+2024-02-11 19:40:11,167 [INFO] Shard ID 0 has successfully RESUMED session d7072fe441d5bed5ea47b111869ec96d.
+2024-02-11 19:40:46,906 [INFO] Message from axon319: +myscore
+2024-02-11 19:40:55,204 [INFO] Message from axon319: +myteam
+2024-02-11 19:57:18,912 [DEBUG] Using selector: EpollSelector
+2024-02-11 19:57:18,915 [INFO] logging in using static token
+2024-02-11 19:57:19,943 [INFO] Shard ID 0 has connected to Gateway (Session ID: d6ecff17219ccab05b6d98a310ae9fee).
+2024-02-11 19:57:22,037 [INFO] -------------
+2024-02-11 19:57:22,037 [INFO] |Fantasy Bot|
+2024-02-11 19:57:22,038 [INFO] -------------
