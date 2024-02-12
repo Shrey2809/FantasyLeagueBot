@@ -59,6 +59,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.market_open = False
             
         conn.close()
+        self.allow_commands = True
+        
+        self.commands_to_disable = ["+signup", "+pick", "+swap", "+request"]
         
         # Configure the logger
         logging.basicConfig(
@@ -84,8 +87,15 @@ class fantasyBotBackend(commands.AutoShardedBot):
         self.logger.info("-------------")
 
     # Waiting for message
-    async def on_message(self, message):
-        # ---------------------------------------------------------------------------------------------------------------------------
+    async def on_message(self, message):      
+        # ---------------------------------------------------------------------------------------------------------------------------\
+            
+        # Check if the message is for the bot and needs to be blocked
+        if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.allow_commands:
+            await message.channel.send("Commands are disabled for now, please try again later")
+            return
+        
+        
         # League agnostic commands     
         # Get my current active team
         if message.content.startswith("+myteam"):
@@ -402,7 +412,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 conn.close()
                
         # Request a player swap
-        if message.content.startswith("+request") and self.market_open == True:
+        if message.content.startswith("+request") and self.market_open == True and self.allow_commands == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try: 
                 userID = message.author.id
@@ -468,7 +478,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Open league commands
         # Sign up as a open league player +signup
-        if message.content.startswith("+signup"):
+        if message.content.startswith("+signup") and self.market_open == True and self.allow_commands == True:
             try:
                 self.logger.info(f"Message from {message.author}: {message.content}")
                 userID = message.author.id
@@ -517,7 +527,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 conn.close()
         
         # Pick a player for the open league
-        if message.content.startswith("+pick") and self.market_open == True:
+        if message.content.startswith("+pick") and self.market_open == True and self.allow_commands == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
@@ -576,7 +586,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 conn.close()
         
         # Initiate a trade or accept a trade
-        if message.content.startswith("+swap") and self.market_open == True:
+        if message.content.startswith("+swap") and self.market_open == True and self.allow_commands == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
@@ -722,7 +732,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                         JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
                                         JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
                                         JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
-                                        WHERE trades.is_open = FALSE AND is_accepted = TRUE AND updated_at > '{last_market_open}'""")
+                                        WHERE trades.is_open = FALSE AND is_accepted = TRUE AND updated_at > '{last_market_open}' and requester.in_closed = TRUE""")
                     trades = trades.fetchall()
                     columns = ['ID', 'For', 'Player Out', 'Player In']
                     trades_df = pd.DataFrame(trades, columns=columns)
@@ -816,6 +826,19 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 await user.send(embed=embed)
             conn.commit()
             conn.close()
+        
+        # Pause the bot for DB Updates
+        if message.content.startswith("+pause") and message.author.id in self.admin_users:
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            self.allow_commands = False
+            await message.channel.send(f"Bot paused!")
+        
+        # Unpause the bot after DB updates    
+        if message.content.startswith("+resume") and message.author.id in self.admin_users:
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            self.allow_commands = True
+            await message.channel.send(f"Bot resumed!")
+            
             
         # ---------------------------------------------------------------------------------------------------------------------------
         # Hidden commands not supposed to work now

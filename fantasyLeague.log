@@ -2810,3 +2810,26 @@
 2024-02-12 20:18:50,624 [INFO] Message from nerfsledge#5781: +myteam
 2024-02-12 20:19:05,657 [INFO] Message from nerfsledge#5781: +pick doki
 2024-02-12 20:19:18,261 [INFO] Message from nerfsledge#5781: +myteam
+2024-02-12 21:07:13,798 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
+2024-02-12 21:11:14,959 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
+2024-02-12 21:48:10,928 [DEBUG] Using selector: EpollSelector
+2024-02-12 21:48:10,930 [INFO] logging in using static token
+2024-02-12 21:48:11,968 [INFO] Shard ID 0 has connected to Gateway (Session ID: c277b7ed5ce30f847d4267a84376bdf6).
+2024-02-12 21:48:14,062 [INFO] -------------
+2024-02-12 21:48:14,063 [INFO] |Fantasy Bot|
+2024-02-12 21:48:14,063 [INFO] -------------
+2024-02-12 21:48:22,602 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 94, in on_message
+    if message.content.startswith(self.commands_to_disable) and not self.allow_commands:
+TypeError: startswith first arg must be str or a tuple of str, not list
+2024-02-12 21:49:56,830 [DEBUG] Using selector: EpollSelector
+2024-02-12 21:49:56,830 [INFO] logging in using static token
+2024-02-12 21:49:57,663 [INFO] Shard ID 0 has connected to Gateway (Session ID: e4c937cfc1a61dc3ab954c2896ccdb81).
+2024-02-12 21:49:59,724 [INFO] -------------
+2024-02-12 21:49:59,724 [INFO] |Fantasy Bot|
+2024-02-12 21:49:59,724 [INFO] -------------
+2024-02-12 21:50:09,955 [INFO] Message from axon319: +myteam
+2024-02-12 21:50:20,718 [INFO] Message from axon319: +find falcons
