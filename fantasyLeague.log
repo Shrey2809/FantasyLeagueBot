@@ -2652,3 +2652,33 @@
 2024-02-11 23:19:33,107 [INFO] Message from pascalthecurator: +pick kheyze
 2024-02-11 23:20:23,311 [INFO] Message from pascalthecurator: +pick paluh
 2024-02-12 00:04:34,454 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
+2024-02-12 00:47:27,693 [INFO] Message from vspades: +signup
+2024-02-12 00:50:42,243 [INFO] Message from vspades: +pick NJR
+2024-02-12 00:51:03,217 [INFO] Message from vspades: +pick Beaulo
+2024-02-12 00:52:02,389 [INFO] Message from vspades: +pick Paluh
+2024-02-12 00:52:38,181 [INFO] Message from vspades: +pick yoggah
+2024-02-12 00:54:12,668 [INFO] Message from vspades: +pick Gryxr
+2024-02-12 00:54:34,245 [INFO] Message from vspades: +myteam
+2024-02-12 00:55:04,921 [INFO] Message from vspades: +myteam
+2024-02-12 01:04:40,084 [INFO] Message from axon319: +myteam
+2024-02-12 01:05:04,965 [INFO] Message from axon319: +find G2
+2024-02-12 01:05:20,421 [INFO] Message from axon319: +swap 32 45
+2024-02-12 01:05:35,224 [INFO] Message from axon319: +swap 32 27
+2024-02-12 01:06:01,651 [INFO] Message from axon319: +swap 32 43
+2024-02-12 01:11:45,752 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
+2024-02-12 01:55:27,618 [INFO] Message from 3rror__: +signup
+2024-02-12 01:59:33,521 [INFO] Message from 3rror__: +pick Shaiiko
+2024-02-12 02:00:19,764 [INFO] Message from 3rror__: +pick Kheyze
+2024-02-12 02:00:26,655 [INFO] Message from 3rror__: +myteam
+2024-02-12 02:00:38,342 [INFO] Message from 3rror__: +pick doki
+2024-02-12 02:00:48,946 [INFO] Message from 3rror__: +pick alem4o
+2024-02-12 02:01:29,531 [INFO] Message from 3rror__: +pick alemao
+2024-02-12 02:02:02,128 [INFO] Message from 3rror__: +pick beaulo
+2024-02-12 02:02:25,943 [INFO] Message from 3rror__: +pick cameraman
+2024-02-12 02:02:31,919 [INFO] Message from 3rror__: +myteam
+2024-02-12 02:03:43,240 [INFO] Message from 3rror__: +swap alemao
+2024-02-12 02:03:43,671 [ERROR] 'NoneType' object is not subscriptable
+2024-02-12 02:11:06,660 [INFO] Message from 3rror__: +swap alemao maia
+2024-02-12 02:11:14,274 [INFO] Message from 3rror__: +myteam
+2024-02-12 02:17:15,324 [INFO] Message from 3rror__: +pick virtue
+2024-02-12 02:17:22,383 [INFO] Message from 3rror__: +myteam
