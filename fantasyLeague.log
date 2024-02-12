@@ -2770,3 +2770,43 @@
 2024-02-12 18:30:23,095 [INFO] Message from cashcity: +swap soulz lobin
 2024-02-12 18:30:49,748 [INFO] Message from cashcity: +swap nade jv92
 2024-02-12 18:33:52,180 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
+2024-02-12 18:37:58,672 [INFO] Message from cashcity: +myteam
+2024-02-12 18:39:57,326 [INFO] Message from standby75: +find DZ
+2024-02-12 18:40:07,469 [INFO] Message from standby75: +find DarkZero
+2024-02-12 18:42:02,269 [INFO] Message from standby75: +find DarkZero
+2024-02-12 18:49:57,430 [INFO] Message from yaboimadman: +myteam
+2024-02-12 18:53:36,765 [INFO] Message from yaboimadman: +swap j90 / panbazou
+2024-02-12 18:53:37,120 [ERROR] 'NoneType' object is not subscriptable
+2024-02-12 18:53:54,493 [INFO] Message from yaboimadman: +swap j90 / panba
+2024-02-12 18:53:54,834 [ERROR] 'NoneType' object is not subscriptable
+2024-02-12 18:55:04,794 [INFO] Message from yaboimadman: +swap j90 panba
+2024-02-12 19:19:26,620 [INFO] Message from foxa3: +signup
+2024-02-12 19:20:13,563 [INFO] Message from foxa3: +pick ambi
+2024-02-12 19:21:11,893 [INFO] Message from foxa3: +pick panbazou
+2024-02-12 19:21:37,837 [INFO] Message from foxa3: +pick panba
+2024-02-12 19:21:59,068 [INFO] Message from foxa3: +pick cyber
+2024-02-12 19:23:06,197 [INFO] Message from foxa3: +pick geo
+2024-02-12 19:23:13,253 [INFO] Message from foxa3: +myteam
+2024-02-12 19:24:18,904 [INFO] Message from foxa3: +pick jv92
+2024-02-12 19:25:04,540 [INFO] Message from foxa3: +swap geo with handy
+2024-02-12 19:25:04,792 [ERROR] 'NoneType' object is not subscriptable
+2024-02-12 19:26:49,077 [INFO] Message from foxa3: +swap geo handy
+2024-02-12 19:26:58,117 [INFO] Message from foxa3: +myteam
+2024-02-12 19:32:41,045 [INFO] Message from prim3z.: +signup
+2024-02-12 19:34:45,045 [INFO] Message from prim3z.: +pick Beaulo
+2024-02-12 19:36:55,156 [INFO] Message from prim3z.: +pick Spoit
+2024-02-12 19:37:52,639 [INFO] Message from prim3z.: +pick Ambi
+2024-02-12 19:46:02,360 [INFO] Message from prim3z.: +pick Dias
+2024-02-12 19:46:12,117 [INFO] Message from prim3z.: +pick Nafe
+2024-02-12 19:46:22,924 [INFO] Message from prim3z.: +myteam
+2024-02-12 20:09:54,543 [INFO] Message from nerfsledge#5781: +signup
+2024-02-12 20:15:53,464 [INFO] Message from nerfsledge#5781: +pickbeaulo
+2024-02-12 20:16:16,045 [INFO] Message from bev1701: +myteam
+2024-02-12 20:16:16,715 [INFO] Message from nerfsledge#5781: +pickBeaulo
+2024-02-12 20:16:30,384 [INFO] Message from nerfsledge#5781: +pick Beaulo
+2024-02-12 20:17:28,210 [INFO] Message from nerfsledge#5781: +pick geo
+2024-02-12 20:17:48,654 [INFO] Message from nerfsledge#5781: +pick njr
+2024-02-12 20:18:35,813 [INFO] Message from nerfsledge#5781: +pick Spoit
+2024-02-12 20:18:50,624 [INFO] Message from nerfsledge#5781: +myteam
+2024-02-12 20:19:05,657 [INFO] Message from nerfsledge#5781: +pick doki
+2024-02-12 20:19:18,261 [INFO] Message from nerfsledge#5781: +myteam
