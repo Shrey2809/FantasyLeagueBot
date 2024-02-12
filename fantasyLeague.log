@@ -2702,3 +2702,21 @@
 2024-02-12 08:09:28,330 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
 2024-02-12 10:01:56,242 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
 2024-02-12 10:27:30,154 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
+2024-02-12 10:55:52,893 [INFO] Message from ejb_01: +standings
+2024-02-12 11:22:02,854 [INFO] Message from ejb_01: +myteam
+2024-02-12 11:22:17,194 [INFO] Message from ejb_01: +swap doki herdsz
+2024-02-12 11:22:17,509 [ERROR] 'NoneType' object is not subscriptable
+2024-02-12 11:22:34,649 [INFO] Message from ejb_01: +swap Doki Herdsz
+2024-02-12 11:22:34,895 [ERROR] 'NoneType' object is not subscriptable
+2024-02-12 11:23:04,927 [INFO] Message from ejb_01: +pick Herdsz
+2024-02-12 11:23:16,204 [INFO] Message from ejb_01: +pick 3
+2024-02-12 11:23:40,205 [INFO] Message from ejb_01: +swap 43 Herdz
+2024-02-12 11:23:46,791 [INFO] Message from ejb_01: +myteam
+2024-02-12 11:24:08,011 [INFO] Message from ejb_01: +swap dmaly muzi
+2024-02-12 11:24:21,821 [INFO] Message from ejb_01: +swap beaulo muzi
+2024-02-12 11:24:32,727 [INFO] Message from ejb_01: +swap odah doki
+2024-02-12 11:24:36,444 [INFO] Message from ejb_01: +myteam
+2024-02-12 11:33:51,881 [INFO] Message from ejb_01: +swap dmaly handy
+2024-02-12 11:34:05,646 [INFO] Message from ejb_01: +swap pyon gryxr
+2024-02-12 11:34:12,453 [INFO] Message from ejb_01: +myteam
+2024-02-12 12:34:42,623 [INFO] Shard ID 0 has successfully RESUMED session d6ecff17219ccab05b6d98a310ae9fee.
