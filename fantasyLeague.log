@@ -3019,3 +3019,24 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-13 08:12:38,811 [INFO] Message from forgottenchav: +pick Sheppard
 2024-02-13 08:12:45,707 [INFO] Message from forgottenchav: +pick Jv92
 2024-02-13 08:12:53,301 [INFO] Message from forgottenchav: +myteam
+2024-02-13 08:40:26,424 [INFO] Message from zygecks: +myteam
+2024-02-13 08:49:01,095 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 08:56:49,664 [INFO] Message from whitehavenn: +signup
+2024-02-13 09:10:24,820 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 09:16:29,309 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 09:45:46,097 [INFO] Message from cozy_raza: +signup
+2024-02-13 09:47:27,196 [INFO] Message from cozy_raza: +pick 61
+2024-02-13 09:47:34,841 [INFO] Message from cozy_raza: +pick 53
+2024-02-13 09:47:41,361 [INFO] Message from cozy_raza: +pick 56
+2024-02-13 09:47:49,282 [INFO] Message from cozy_raza: +pick 69
+2024-02-13 09:47:55,270 [INFO] Message from cozy_raza: +pick 77
+2024-02-13 09:48:37,475 [INFO] Message from cozy_raza: +myteam
+2024-02-13 10:27:19,969 [INFO] Message from sassy6095: +myteam
+2024-02-13 10:30:16,966 [INFO] Message from sum_ting_wong0398: +signup
+2024-02-13 10:33:48,357 [INFO] Message from sum_ting_wong0398: +pick 11
+2024-02-13 10:34:02,535 [INFO] Message from sum_ting_wong0398: +myteam
+2024-02-13 10:34:41,046 [INFO] Message from sum_ting_wong0398: +pick 64
+2024-02-13 10:35:06,399 [INFO] Message from sum_ting_wong0398: +pick 42
+2024-02-13 10:37:16,421 [INFO] Message from sum_ting_wong0398: +pick 56
+2024-02-13 10:37:59,781 [INFO] Message from sum_ting_wong0398: +pick 78
+2024-02-13 10:38:22,590 [INFO] Message from sum_ting_wong0398: +myteam
