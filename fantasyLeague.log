@@ -2833,3 +2833,32 @@ TypeError: startswith first arg must be str or a tuple of str, not list
 2024-02-12 21:49:59,724 [INFO] -------------
 2024-02-12 21:50:09,955 [INFO] Message from axon319: +myteam
 2024-02-12 21:50:20,718 [INFO] Message from axon319: +find falcons
+2024-02-12 23:16:47,046 [INFO] Message from braindead_ace: +signup
+2024-02-12 23:17:58,238 [INFO] Message from braindead_ace: +pick 92
+2024-02-12 23:18:02,762 [INFO] Message from braindead_ace: +pick 82
+2024-02-12 23:18:05,525 [INFO] Message from braindead_ace: +myteam
+2024-02-12 23:18:22,432 [INFO] Message from braindead_ace: +pick 60
+2024-02-12 23:18:30,459 [INFO] Message from braindead_ace: +myteam
+2024-02-12 23:19:01,444 [INFO] Message from braindead_ace: +pick 43
+2024-02-12 23:19:05,512 [INFO] Message from braindead_ace: +pick 44
+2024-02-12 23:19:07,799 [INFO] Message from braindead_ace: +myteam
+2024-02-12 23:20:19,113 [INFO] Message from braindead_ace: +standings
+2024-02-12 23:39:03,640 [INFO] Message from espress0.: +signup
+2024-02-12 23:39:15,259 [INFO] Message from espress0.: +pick ambi
+2024-02-12 23:39:18,493 [INFO] Message from espress0.: +pick gryxr
+2024-02-12 23:39:24,206 [INFO] Message from espress0.: +pick rexen
+2024-02-12 23:39:29,941 [INFO] Message from espress0.: +pick geometrics
+2024-02-12 23:39:33,425 [INFO] Message from espress0.: +pick geo
+2024-02-12 23:39:39,993 [INFO] Message from espress0.: +pick ctzn
+2024-02-12 23:39:43,496 [INFO] Message from espress0.: +pick gunnar
+2024-02-12 23:39:47,112 [INFO] Message from espress0.: +myteam
+2024-02-12 23:47:08,561 [INFO] Shard ID 0 has successfully RESUMED session e4c937cfc1a61dc3ab954c2896ccdb81.
+2024-02-12 23:54:08,691 [INFO] Message from jonasb6771: +signup
+2024-02-12 23:55:11,347 [INFO] Message from jonasb6771: +pick 15
+2024-02-12 23:55:45,670 [INFO] Message from jonasb6771: +pick Cyber
+2024-02-12 23:56:06,734 [INFO] Message from jonasb6771: +pick Gryxr
+2024-02-12 23:57:19,218 [INFO] Message from jonasb6771: +pick VITAKING
+2024-02-12 23:57:44,435 [INFO] Message from jonasb6771: +pick njr
+2024-02-12 23:58:40,749 [INFO] Message from jonasb6771: +swap VITAKING njr
+2024-02-12 23:59:14,148 [INFO] Message from jonasb6771: +pick herdz
+2024-02-12 23:59:28,321 [INFO] Message from jonasb6771: +myteam
