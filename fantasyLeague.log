@@ -2957,3 +2957,50 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-13 04:24:23,499 [INFO] Message from _bencato: +standings
 2024-02-13 04:25:36,743 [INFO] Message from _bencato: +swap 11 42
 2024-02-13 04:25:45,175 [INFO] Message from _bencato: +myteam
+2024-02-13 04:42:58,112 [INFO] Message from mietch: +signup
+2024-02-13 04:52:48,370 [INFO] Message from spideydork: +signup
+2024-02-13 04:54:29,684 [INFO] Message from spideydork: +pick Canadian
+2024-02-13 04:54:38,816 [INFO] Message from spideydork: +pick Wettables
+2024-02-13 04:54:51,284 [INFO] Message from spideydork: +pick 0killz
+2024-02-13 04:55:06,927 [INFO] Message from spideydork: +pick Okillz
+2024-02-13 04:55:26,302 [INFO] Message from spideydork: +pick Woogiman
+2024-02-13 04:55:53,465 [INFO] Message from spideydork: +pick Cameraman
+2024-02-13 04:56:03,205 [INFO] Message from spideydork: +myteam
+2024-02-13 05:03:57,615 [INFO] Message from zaythorr: +signup
+2024-02-13 05:05:49,751 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 05:06:01,247 [INFO] Message from spideydork: +swap woogiman doki
+2024-02-13 05:06:10,720 [INFO] Message from spideydork: +myteam
+2024-02-13 05:06:13,032 [INFO] Message from mietch: +pick Doki
+2024-02-13 05:06:33,901 [INFO] Message from mietch: +pick Panba
+2024-02-13 05:07:09,615 [INFO] Message from mietch: +pick Ctzn
+2024-02-13 05:07:33,001 [INFO] Message from mietch: +pick Njr
+2024-02-13 05:07:40,416 [INFO] Message from mietch: +pick Gryxr
+2024-02-13 05:08:50,739 [INFO] Message from spideydork: +find team SCARZ
+2024-02-13 05:09:00,721 [INFO] Message from spideydork: +find scarz
+2024-02-13 05:10:31,188 [INFO] Message from spideydork: +find support
+2024-02-13 05:11:41,157 [INFO] Message from swampydog: +signup
+2024-02-13 05:13:07,614 [INFO] Message from spideydork: +swap wettables biboo
+2024-02-13 05:13:10,527 [INFO] Message from zaythorr: +pick Beaulo
+2024-02-13 05:13:13,906 [INFO] Message from spideydork: +myteam
+2024-02-13 05:13:24,467 [INFO] Message from zaythorr: +pick Doki
+2024-02-13 05:13:29,035 [INFO] Message from zaythorr: +pick Ashn
+2024-02-13 05:13:35,969 [INFO] Message from zaythorr: +pick Geo
+2024-02-13 05:13:41,711 [INFO] Message from zaythorr: +pick cameraman
+2024-02-13 05:13:45,033 [INFO] Message from zaythorr: +myteam
+2024-02-13 05:14:26,882 [INFO] Message from spideydork: +myteam
+2024-02-13 05:14:35,323 [INFO] Message from zaythorr: +myteam
+2024-02-13 05:18:18,641 [INFO] Message from mietch: +myteam
+2024-02-13 05:21:53,073 [INFO] Message from swampydog: +pick Doki
+2024-02-13 05:22:05,275 [INFO] Message from swampydog: +pick Njr
+2024-02-13 05:22:13,719 [INFO] Message from swampydog: +pick Vitaking
+2024-02-13 05:22:29,066 [INFO] Message from swampydog: +pick Psycho
+2024-02-13 05:22:35,169 [INFO] Message from swampydog: +pick Ctzn
+2024-02-13 05:22:48,544 [INFO] Message from swampydog: +myteam
+2024-02-13 05:24:19,275 [INFO] Message from swampydog: +myteam
+2024-02-13 05:32:46,397 [INFO] Message from 46.ryan: +myteam
+2024-02-13 06:11:05,932 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 06:13:32,429 [INFO] Message from spideydork: +myteam
+2024-02-13 06:13:55,901 [INFO] Message from spideydork: +swap 0killz Beaulo
+2024-02-13 06:13:56,195 [ERROR] 'NoneType' object is not subscriptable
+2024-02-13 06:14:22,117 [INFO] Message from spideydork: +swap Okillz Beaulo
+2024-02-13 06:14:40,177 [INFO] Message from julian.9951: +myteam
