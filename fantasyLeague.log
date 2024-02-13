@@ -3076,3 +3076,28 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-13 14:26:21,960 [INFO] Message from bymousie: +myscore
 2024-02-13 14:26:37,101 [INFO] Message from bymousie: +myteam
 2024-02-13 14:39:20,231 [INFO] Message from jazzman: +myteam
+2024-02-13 14:52:56,331 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 14:57:28,281 [INFO] Message from tweedy19: +myteam
+2024-02-13 15:09:21,778 [INFO] Message from myst3rykarp: +myteam
+2024-02-13 15:09:29,144 [INFO] Message from spideydork: +myteam
+2024-02-13 15:09:36,077 [INFO] Message from spideydork: +myscore
+2024-02-13 15:09:46,264 [INFO] Message from lemeow_.: +myteam
+2024-02-13 15:14:57,180 [INFO] Message from bymousie: +myscore
+2024-02-13 15:24:53,855 [INFO] Message from Ashlock#8242: +myscore
+2024-02-13 15:25:15,744 [INFO] Message from ten245_: +myscore
+2024-02-13 15:35:11,504 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-13 15:36:44,987 [INFO] Message from mietch: +myteam
+2024-02-13 15:41:19,061 [INFO] Message from eden_se: +myteam
+2024-02-13 15:48:31,270 [INFO] Message from marwanmoussa: +myscore
+2024-02-13 15:49:11,642 [INFO] Message from spideydork: +myteam
+2024-02-13 15:49:23,185 [INFO] Message from spideydork: +myscore
+2024-02-13 15:58:18,769 [INFO] Message from private_pastry: +myteam
+2024-02-13 15:59:26,611 [INFO] Message from private_pastry: +myscore
+2024-02-13 16:07:07,221 [INFO] Message from jobestar123: +myteam
+2024-02-13 16:07:19,239 [INFO] Message from jobestar123: +myscore
+2024-02-13 16:10:43,567 [INFO] Message from rhysxv: +myscore
+2024-02-13 16:27:24,495 [INFO] Message from nutberry69: +myscore
+2024-02-13 16:28:36,303 [INFO] Message from yaboimadman: +myteam
+2024-02-13 16:31:23,486 [INFO] Message from jobestar123: +myscore
+2024-02-13 16:31:37,163 [INFO] Message from jobestar123: +standings
+2024-02-13 16:37:44,121 [INFO] Message from cassidy.74: +myscore
