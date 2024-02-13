@@ -694,60 +694,76 @@ class fantasyBotBackend(commands.AutoShardedBot):
         # Get the current market status or open/close the market 
         if message.content.startswith("+market"):
             self.logger.info(f"Message from {message.author}: {message.content}")
-            if len(message.content) == 7:
-                conn = sqlite3.connect(self.league_db)
-                cursor = conn.cursor()
-                query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
-                data = query.fetchone()
-                if data[0] == 0:
-                    await message.channel.send(f"Market is closed, please wait for the end of the playday to trade or swap players!")
-                    conn.close()
+            try:
+                if len(message.content) == 7:
+                    conn = sqlite3.connect(self.league_db)
+                    cursor = conn.cursor()
+                    query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
+                    data = query.fetchone()
+                    if data[0] == 0:
+                        await message.channel.send(f"Market is closed, please wait for the end of the playday to trade or swap players!")
+                        conn.close()
+                    else:
+                        await message.channel.send(f"Market is open, you can trade or swap players!")
                 else:
-                    await message.channel.send(f"Market is open, you can trade or swap players!")
-                    conn.close()
-            else:
-                if message.content[8:] == "open" and message.author.id in self.admin_users:
-                    conn = sqlite3.connect(self.league_db)
-                    cursor = conn.cursor()
-                    cursor.execute(f"""UPDATE market_statusSET is_open = 1, updated_at = datetime('now')  WHERE market_id = 1""")
-                    await message.channel.send(f"Market is now open!")
-                    self.market_open = True
-                    conn.commit()
-                    conn.close()
-                elif message.content[8:] == "close" and message.author.id in self.admin_users:
-                    conn = sqlite3.connect(self.league_db)
-                    cursor = conn.cursor()
-                    # Get all the trades that happaned since the market last opened
-                    cursor.execute(f"""SELECT updated_at FROM market_status WHERE market_id = 1""")
-                    last_market_open = cursor.fetchone()[0]
+                    if message.content[8:] == "open" and message.author.id in self.admin_users:
+                        conn = sqlite3.connect(self.league_db)
+                        cursor = conn.cursor()
+                        cursor.execute(f"""UPDATE market_status SET is_open = 1, updated_at = datetime('now')  WHERE market_id = 1""")
+                        await message.channel.send(f"Market is now open!")
+                        open_league_channel = self.get_channel(840243454537891851)
+                        closed_league_channel = self.get_channel(1199868176519925861)
+                        await open_league_channel.send(f"Market is now open!")
+                        await closed_league_channel.send(f"Market is now open!")
+                        self.market_open = True
+                        conn.commit()
+                    elif message.content[8:] == "close" and message.author.id in self.admin_users:
+                        conn = sqlite3.connect(self.league_db)
+                        cursor = conn.cursor()
+                        # Get all the trades that happaned since the market last opened
+                        cursor.execute(f"""SELECT updated_at FROM market_status WHERE market_id = 1""")
+                        last_market_open = cursor.fetchone()[0]
+                        
+                        # Get all player in and player out trades per manager
+                        trades = cursor.execute(f"""SELECT
+                                                trades.trade_id,
+                                                requester.manager_name AS requester_name,
+                                                requester_player.player_name AS requester_player_name,
+                                                requestee_player.player_name AS requestee_player_name
+                                            FROM trades
+                                            JOIN managers AS requester ON trades.requester_id = requester.manager_id
+                                            JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
+                                            JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
+                                            JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
+                                            WHERE trades.is_open = FALSE AND is_accepted = TRUE AND trades.updated_at > '{last_market_open}' and requester.in_closed = TRUE""")
+                        trades = trades.fetchall()
+                        columns = ['ID', 'For', 'Player Out', 'Player In']
+                        trades_df = pd.DataFrame(trades, columns=columns)
+                        trades_df = trades_df.head(5)
+                        trades_table = tabulate(trades_df, headers='keys', tablefmt="simple_outline", showindex="never")
+                        embed = discord.Embed(title=f"Swaps since last market open (Top 5): ", color=self.generate_random_color())
+                        embed.add_field(name='\u200b', value=f'```\n{trades_table}\n```')
+                        cursor.execute(f"""UPDATE market_status SET is_open = 0, updated_at = datetime('now') WHERE market_id = 1""")
+                        
+                        open_league_channel = self.get_channel(840243454537891851)
+                        closed_league_channel = self.get_channel(1199868176519925861)
+                        if len(trades_df) == 0:
+                            await closed_league_channel.send(f"Market is now closed!")
+                        else:
+                            await closed_league_channel.send(embed=embed)
+                            await closed_league_channel.send(f"Market is now closed!")
                     
-                    # Get all player in and player out trades per manager
-                    trades = cursor.execute(f"""SELECT
-                                            trades.trade_id,
-                                            requester.manager_name AS requester_name,
-                                            requester_player.player_name AS requester_player_name,
-                                            requestee_player.player_name AS requestee_player_name
-                                        FROM trades
-                                        JOIN managers AS requester ON trades.requester_id = requester.manager_id
-                                        JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
-                                        JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
-                                        JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
-                                        WHERE trades.is_open = FALSE AND is_accepted = TRUE AND updated_at > '{last_market_open}' and requester.in_closed = TRUE""")
-                    trades = trades.fetchall()
-                    columns = ['ID', 'For', 'Player Out', 'Player In']
-                    trades_df = pd.DataFrame(trades, columns=columns)
-                    trades_df = trades_df.head(5)
-                    trades_table = tabulate(trades_df, headers='keys', tablefmt="simple_outline", showindex="never")
-                    embed = discord.Embed(title=f"Swaps since last market open: ", color=self.generate_random_color())
-                    embed.add_field(name='\u200b', value=f'```\n{trades_table}\n```')
-                    await message.channel.send(embed=embed)
-                    cursor.execute(f"""UPDATE market_status SET is_open = 0 WHERE market_id = 1""")
-                    await message.channel.send(f"Market is now closed!")
-                    self.market_open = False
-                    conn.commit()
-                    conn.close()
-                else:
-                    await message.channel.send(f"Invalid market command")
+                        await message.channel.send(f"Market is now closed!")
+                        await open_league_channel.send(f"Market is now closed!")
+                        self.market_open = False
+                        conn.commit()
+                        
+                    else:
+                        await message.channel.send(f"Invalid market command")
+            except Exception as e:
+                await message.channel.send(f"Error changing market status, please try again (error: {e})")
+            finally:
+                conn.close()
                         
         # Get all open trades
         if message.content.startswith("+opentrades") and message.author.id in self.admin_users:

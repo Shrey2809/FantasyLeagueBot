@@ -101,4 +101,7 @@
 │          98 │ Mowwwgli      │ Wolves      │ Fragger │             0 │
 │          99 │ P4            │ Wolves      │ Fragger │             0 │
 │         100 │ Shinka        │ Wolves      │ Support │             0 │
+│         101 │ Leadr         │ Falcons     │ Support │           nan │
+│         102 │ Valentino     │ Falcons     │ Fragger │           nan │
+│         103 │ Bersa         │ Falcons     │ Fragger │           nan │
 └─────────────┴───────────────┴─────────────┴─────────┴───────────────┘
