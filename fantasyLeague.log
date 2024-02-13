@@ -2862,3 +2862,73 @@ TypeError: startswith first arg must be str or a tuple of str, not list
 2024-02-12 23:58:40,749 [INFO] Message from jonasb6771: +swap VITAKING njr
 2024-02-12 23:59:14,148 [INFO] Message from jonasb6771: +pick herdz
 2024-02-12 23:59:28,321 [INFO] Message from jonasb6771: +myteam
+2024-02-13 01:22:46,613 [INFO] Message from imkeratik: +myteam
+2024-02-13 01:30:18,462 [INFO] Message from bambuu.: +swap alemao j90
+2024-02-13 01:30:23,725 [INFO] Message from bambuu.: +myteam
+2024-02-13 01:48:37,102 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:48:37,103 [INFO] logging in using static token
+2024-02-13 01:48:37,951 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0e378b23fc0c707f12d1aee1dc845a3a).
+2024-02-13 01:48:40,021 [INFO] -------------
+2024-02-13 01:48:40,022 [INFO] |Fantasy Bot|
+2024-02-13 01:48:40,023 [INFO] -------------
+2024-02-13 01:48:45,346 [INFO] Message from axon319: +market close
+2024-02-13 01:49:32,993 [INFO] Shard ID 0 has successfully RESUMED session 0e378b23fc0c707f12d1aee1dc845a3a.
+2024-02-13 01:50:36,181 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2573020100>
+2024-02-13 01:50:41,225 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:50:41,226 [INFO] logging in using static token
+2024-02-13 01:50:42,322 [INFO] Shard ID 0 has connected to Gateway (Session ID: def1dfe1ffb43470953dab0cd21da8af).
+2024-02-13 01:50:44,391 [INFO] -------------
+2024-02-13 01:50:44,391 [INFO] |Fantasy Bot|
+2024-02-13 01:50:44,391 [INFO] -------------
+2024-02-13 01:50:47,454 [INFO] Message from axon319: +market close
+2024-02-13 01:51:38,339 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f628dd74160>
+2024-02-13 01:51:42,487 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:51:42,487 [INFO] logging in using static token
+2024-02-13 01:51:43,395 [INFO] Shard ID 0 has connected to Gateway (Session ID: a03278cdef8c6ea41aa9a731aafed7fc).
+2024-02-13 01:51:45,467 [INFO] -------------
+2024-02-13 01:51:45,467 [INFO] |Fantasy Bot|
+2024-02-13 01:51:45,467 [INFO] -------------
+2024-02-13 01:51:47,876 [INFO] Message from axon319: +market close
+2024-02-13 01:51:54,823 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7face478c0d0>
+2024-02-13 01:52:01,548 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:52:01,548 [INFO] logging in using static token
+2024-02-13 01:52:02,556 [INFO] Shard ID 0 has connected to Gateway (Session ID: 203d067ae035c7589e2ebfb7ad46e8e6).
+2024-02-13 01:52:04,213 [INFO] Message from axon319: +market close
+2024-02-13 01:52:04,633 [INFO] -------------
+2024-02-13 01:52:04,633 [INFO] |Fantasy Bot|
+2024-02-13 01:52:04,634 [INFO] -------------
+2024-02-13 01:52:14,813 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f978bed0b20>
+2024-02-13 01:52:19,092 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:52:19,093 [INFO] logging in using static token
+2024-02-13 01:52:20,016 [INFO] Shard ID 0 has connected to Gateway (Session ID: 1184eff8c7fb662cf3b391bd7453c982).
+2024-02-13 01:52:22,093 [INFO] -------------
+2024-02-13 01:52:22,094 [INFO] |Fantasy Bot|
+2024-02-13 01:52:22,094 [INFO] -------------
+2024-02-13 01:52:25,027 [INFO] Message from axon319: +market close
+2024-02-13 01:52:31,733 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f47eca00100>
+2024-02-13 01:52:48,888 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:52:48,889 [INFO] logging in using static token
+2024-02-13 01:52:49,722 [INFO] Shard ID 0 has connected to Gateway (Session ID: d1a0d4767c7f8b47f5d7268b7e41ce7f).
+2024-02-13 01:52:51,532 [INFO] Message from axon319: +market
+2024-02-13 01:52:51,797 [INFO] -------------
+2024-02-13 01:52:51,798 [INFO] |Fantasy Bot|
+2024-02-13 01:52:51,798 [INFO] -------------
+2024-02-13 01:52:54,740 [INFO] Message from axon319: +market open
+2024-02-13 01:52:58,035 [INFO] Message from axon319: +market
+2024-02-13 01:53:08,607 [INFO] Message from axon319: +market close
+2024-02-13 01:53:15,918 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
+2024-02-13 01:55:04,175 [DEBUG] Using selector: EpollSelector
+2024-02-13 01:55:04,177 [INFO] logging in using static token
+2024-02-13 01:55:05,065 [INFO] Shard ID 0 has connected to Gateway (Session ID: 0ef810cc0710d49f2ce3b5c1112fa1f9).
+2024-02-13 01:55:07,137 [INFO] -------------
+2024-02-13 01:55:07,138 [INFO] |Fantasy Bot|
+2024-02-13 01:55:07,138 [INFO] -------------
+2024-02-13 01:55:15,571 [INFO] Message from axon319: +market
+2024-02-13 01:55:19,058 [INFO] Message from axon319: +market open
+2024-02-13 02:35:59,343 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
