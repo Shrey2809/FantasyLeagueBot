@@ -3625,3 +3625,116 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-14 06:37:21,720 [INFO] Message from thebig4l.: +swap 78 93
 2024-02-14 06:38:23,079 [INFO] Message from thebig4l.: +swap 68  48
 2024-02-14 06:39:36,365 [INFO] Message from thebig4l.: +swap 59 97
+2024-02-14 06:40:03,308 [INFO] Message from thebig4l.: +swap 60 92
+2024-02-14 06:40:11,111 [INFO] Message from thebig4l.: +myteam
+2024-02-14 06:40:23,650 [INFO] Message from ejb_01: +myscore
+2024-02-14 06:41:50,094 [INFO] Message from thebig4l.: +swap 48 41
+2024-02-14 06:42:28,231 [INFO] Message from thebig4l.: +swap 79 45
+2024-02-14 06:42:33,508 [INFO] Message from thebig4l.: +myteam
+2024-02-14 06:46:20,330 [INFO] Message from bruh_uzii: +myscore
+2024-02-14 06:52:13,903 [INFO] Message from Alas#8589: +myscore
+2024-02-14 06:59:01,634 [INFO] Message from anshxo: +myscore
+2024-02-14 07:00:42,735 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-14 07:05:23,532 [INFO] Message from oxabolt: +myscore
+2024-02-14 07:06:25,702 [INFO] Message from oxabolt: +myteam
+2024-02-14 07:08:17,705 [INFO] Message from whatsthemotta: +myscore
+2024-02-14 07:08:18,348 [INFO] Message from oxabolt: +swap doki benjamaster
+2024-02-14 07:08:18,567 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:08:30,016 [INFO] Message from oxabolt: +swap doki benja
+2024-02-14 07:08:34,279 [INFO] Message from oxabolt: +myteam
+2024-02-14 07:09:12,350 [INFO] Message from whatsthemotta: +swap hashom ambi
+2024-02-14 07:09:21,965 [INFO] Message from whatsthemotta: +myteam
+2024-02-14 07:09:41,278 [INFO] Message from whatsthemotta: +standingsa
+2024-02-14 07:10:02,628 [INFO] Message from whatsthemotta: +find soniqs
+2024-02-14 07:10:19,649 [INFO] Message from whatsthemotta: +find bleed
+2024-02-14 07:10:53,790 [INFO] Message from oxabolt: +swap J90 Deadsht
+2024-02-14 07:10:54,068 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:11:06,313 [INFO] Message from oxabolt: +swap J90 deadshot
+2024-02-14 07:11:11,638 [INFO] Message from oxabolt: +myteam
+2024-02-14 07:16:11,948 [INFO] Message from alas.6: +swap Doki ambi
+2024-02-14 07:16:19,964 [INFO] Message from alas.6: +swap ambi doki
+2024-02-14 07:16:36,291 [INFO] Message from alas.6: +swap nade njr
+2024-02-14 07:16:48,323 [INFO] Message from alas.6: +swap vitaking sheppard
+2024-02-14 07:17:16,083 [INFO] Message from alas.6: +myteam
+2024-02-14 07:18:54,150 [INFO] Message from alas.6: +swap Hotan herdz
+2024-02-14 07:19:15,750 [INFO] Message from alas.6: +swap panba cyber
+2024-02-14 07:20:03,529 [INFO] Message from zaythorr: +myteam
+2024-02-14 07:22:57,247 [INFO] Message from zaythorr: +swap geo shepphard
+2024-02-14 07:22:57,523 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:23:03,325 [INFO] Message from zaythorr: +swap geo shep
+2024-02-14 07:23:03,519 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:23:21,564 [INFO] Message from zaythorr: +swap geo sheppard
+2024-02-14 07:23:25,941 [INFO] Message from zaythorr: +myteam
+2024-02-14 07:32:13,939 [INFO] Message from gabrielesevergnini_: +myscore
+2024-02-14 07:32:42,645 [INFO] Message from gabrielesevergnini_: +standings
+2024-02-14 07:33:04,899 [INFO] Message from Clayton#2015: +myscore
+2024-02-14 07:33:11,985 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 07:34:16,431 [INFO] Message from gabrielesevergnini_: +swap herdz alemao
+2024-02-14 07:34:36,922 [INFO] Message from gabrielesevergnini_: +swap nade vitaking
+2024-02-14 07:35:09,008 [INFO] Message from gabrielesevergnini_: +swap lobin mowgli
+2024-02-14 07:35:09,398 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:35:19,325 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 07:36:04,209 [INFO] Message from gabrielesevergnini_: +find wolves
+2024-02-14 07:36:23,565 [INFO] Message from gabrielesevergnini_: +swap beaulo mowwwgli
+2024-02-14 07:36:45,742 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 07:37:03,722 [INFO] Message from gabrielesevergnini_: +swap lobin benjamaster
+2024-02-14 07:37:03,983 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:37:09,934 [INFO] Message from gabrielesevergnini_: +find g2
+2024-02-14 07:37:17,460 [INFO] Message from gabrielesevergnini_: +swap lobin benja
+2024-02-14 07:37:21,100 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 07:37:28,101 [INFO] Message from ramon2403: +swap shiinka njr
+2024-02-14 07:37:28,484 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:37:38,380 [INFO] Message from ramon2403: +myteam
+2024-02-14 07:37:50,616 [INFO] Message from ramon2403: +swap Shinka njr
+2024-02-14 07:40:40,710 [INFO] Message from mansikka4285: +myscore
+2024-02-14 07:41:51,166 [INFO] Message from das_percy: +myscore
+2024-02-14 07:42:57,774 [INFO] Message from mansikka4285: +myteam
+2024-02-14 07:43:27,436 [INFO] Message from gabrielesevergnini_: +swap gryxr jv92
+2024-02-14 07:43:40,180 [INFO] Message from gabrielesevergnini_: +swap mowwwgli herdsz
+2024-02-14 07:43:40,367 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 07:43:50,712 [INFO] Message from gabrielesevergnini_: +find w7m
+2024-02-14 07:44:00,812 [INFO] Message from gabrielesevergnini_: +swap mowwwgli herdz
+2024-02-14 07:44:15,881 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 07:44:22,617 [INFO] Message from mansikka4285: +swap uuno virtue
+2024-02-14 07:45:01,155 [INFO] Message from mansikka4285: +swap biboo vitaking
+2024-02-14 07:45:54,016 [INFO] Message from mansikka4285: +swap soulz ctzn
+2024-02-14 07:45:58,669 [INFO] Message from mansikka4285: +myteam
+2024-02-14 07:48:18,898 [INFO] Message from gabrielesevergnini_: +find wolves
+2024-02-14 07:50:11,540 [INFO] Message from gabrielesevergnini_: +swap vitaking virtue
+2024-02-14 07:50:15,544 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 07:52:00,803 [INFO] Message from gabrielesevergnini_: +swap virtue njr
+2024-02-14 07:54:43,938 [INFO] Message from gabrielesevergnini_: +swap benja doki
+2024-02-14 07:54:51,199 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 08:07:10,810 [INFO] Message from das_percy: +standings
+2024-02-14 08:07:54,063 [INFO] Message from das_percy: +allplayers
+2024-02-14 08:09:42,422 [INFO] Message from das_percy: +swap sheppard virtue
+2024-02-14 08:10:24,285 [INFO] Message from das_percy: +swap camereman jv92
+2024-02-14 08:10:24,569 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 08:10:29,233 [INFO] Message from das_percy: +myteam
+2024-02-14 08:10:38,845 [INFO] Message from das_percy: +swap cameraman jv92
+2024-02-14 08:11:44,896 [INFO] Message from das_percy: +swap panba benja
+2024-02-14 08:11:46,275 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-14 08:11:49,539 [INFO] Message from das_percy: +myteam
+2024-02-14 08:12:13,747 [INFO] Message from tommy4.: +myscore
+2024-02-14 08:13:07,123 [INFO] Message from das_percy: +swap ashn Mowwwgli
+2024-02-14 08:13:10,840 [INFO] Message from das_percy: +myteam
+2024-02-14 08:14:11,334 [INFO] Message from tommy4.: +find g2
+2024-02-14 08:14:40,721 [INFO] Message from tommy4.: +swap 59 43
+2024-02-14 08:14:45,101 [INFO] Message from tommy4.: +swap 60 42
+2024-02-14 08:14:49,192 [INFO] Message from tommy4.: +myteam
+2024-02-14 08:15:06,942 [INFO] Message from tommy4.: +swap 100 45
+2024-02-14 08:15:10,255 [INFO] Message from tommy4.: +standings
+2024-02-14 08:20:00,737 [INFO] Message from oxabolt: +allplayers
+2024-02-14 08:20:50,775 [INFO] Message from 3rror__: +myscore
+2024-02-14 08:22:07,005 [INFO] Message from tommy4.: +myteam
+2024-02-14 08:23:23,006 [INFO] Message from 3rror__: +swap maia nudl
+2024-02-14 08:23:29,142 [INFO] Message from 3rror__: +myteam
+2024-02-14 08:25:45,834 [INFO] Message from 3rror__: +swap nudl beaulo
+2024-02-14 08:27:10,892 [INFO] Message from vinlannd: +myteam
+2024-02-14 08:27:23,996 [INFO] Message from 3rror__: +swap beaulo deadshot
+2024-02-14 08:27:52,184 [INFO] Message from 3rror__: +swap cameraman P4
+2024-02-14 08:28:13,001 [INFO] Message from vinlannd: +swap j90 benjamaster
+2024-02-14 08:28:13,393 [ERROR] 'NoneType' object is not subscriptable
+2024-02-14 08:28:26,353 [INFO] Message from vinlannd: +swap j90 benja
+2024-02-14 08:31:56,726 [INFO] Message from officerbravo64: +swap nudl herdz
+2024-02-14 08:32:01,902 [INFO] Message from officerbravo64: +myteam
