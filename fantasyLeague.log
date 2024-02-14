@@ -3991,3 +3991,39 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-14 20:30:37,346 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
 2024-02-14 20:37:26,468 [INFO] Message from theschmiddy: +myscore
 2024-02-14 20:38:34,317 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-14 20:45:01,414 [INFO] Message from standby75: +myteam
+2024-02-14 20:47:13,208 [INFO] Message from rhysxv: +myscore
+2024-02-14 20:54:59,208 [INFO] Message from 46.ryan: +myteam
+2024-02-14 20:55:11,328 [INFO] Message from 46.ryan: +myscore
+2024-02-14 20:56:56,072 [INFO] Message from standby75: +find Wolves
+2024-02-14 20:57:15,102 [INFO] Message from standby75: +standings
+2024-02-14 20:57:47,310 [INFO] Message from random_fps: +myteam
+2024-02-14 21:05:51,534 [INFO] Message from hxzz.a: +myscore
+2024-02-14 21:05:59,568 [INFO] Message from standby75: +myteam
+2024-02-14 21:06:26,895 [INFO] Message from hxzz.a: +myteam
+2024-02-14 21:18:55,162 [INFO] Message from wiskyr6: +myteam
+2024-02-14 21:21:00,237 [INFO] Message from private_pastry: +myteam
+2024-02-14 21:21:07,306 [INFO] Message from private_pastry: +myscore
+2024-02-14 21:23:06,743 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-14 21:28:31,718 [INFO] Message from imurasame: +myscore
+2024-02-14 21:28:47,531 [INFO] Message from imurasame: +myteam
+2024-02-14 21:33:44,692 [INFO] Message from fenrir361: +myscore
+2024-02-14 21:46:25,916 [INFO] Message from gabrielesevergnini_: +standings
+2024-02-14 21:46:42,878 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-14 21:53:26,619 [INFO] Message from das_percy: +myteam
+2024-02-14 21:53:39,612 [INFO] Message from yaboimadman: +myscore
+2024-02-14 21:53:41,934 [INFO] Message from das_percy: +allplayers
+2024-02-14 22:03:17,529 [INFO] Message from l4tur: +myscore
+2024-02-14 22:03:39,340 [INFO] Message from pastadcasta: +myteam
+2024-02-14 22:06:37,350 [INFO] Message from pastadcasta: +myscore
+2024-02-14 22:06:56,915 [INFO] Message from bjelven: +myscore
+2024-02-14 22:09:39,253 [INFO] Message from extraa.: +myscore
+2024-02-14 22:09:51,389 [INFO] Message from extraa.: +myscore
+2024-02-14 22:14:02,049 [INFO] Message from caincalifornia: +myscore
+2024-02-14 22:16:12,087 [INFO] Message from napzz9021: +myscore
+2024-02-14 22:21:22,000 [INFO] Message from blizzard1330: +myscore
+2024-02-14 22:24:13,784 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-14 22:31:32,151 [INFO] Message from axon319: +myteam
+2024-02-14 22:32:18,445 [INFO] Message from umbralamia: +myteam
+2024-02-14 22:32:26,937 [INFO] Message from abyukio: +myteam
+2024-02-14 22:37:01,643 [INFO] Message from tact_.: +myscore
