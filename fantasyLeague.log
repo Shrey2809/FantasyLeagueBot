@@ -3540,3 +3540,88 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-14 04:39:24,341 [INFO] Message from axon319: +swap Pasha njr
 2024-02-14 04:39:31,427 [INFO] Message from axon319: +myteam
 2024-02-14 04:39:32,059 [INFO] Message from fnjl: +allplayers
+2024-02-14 04:40:34,783 [INFO] Message from axon319: +swap Dan Rec
+2024-02-14 04:40:37,196 [INFO] Message from axon319: +myteam
+2024-02-14 04:40:53,096 [INFO] Message from fnjl: +swap maia doki
+2024-02-14 04:41:29,526 [INFO] Message from abyukio: +myscore
+2024-02-14 04:42:19,743 [INFO] Message from abyukio: +swap Lobin Doki
+2024-02-14 04:44:03,723 [INFO] Message from woksippalite.: +myscore
+2024-02-14 04:44:19,253 [INFO] Message from abyukio: +swap Gryxr njr
+2024-02-14 04:44:22,445 [INFO] Message from woksippalite.: +myteam
+2024-02-14 04:44:50,165 [INFO] Message from abyukio: +swap Kheyze Benja
+2024-02-14 04:46:05,009 [INFO] Message from abyukio: +swap Cameraman Jv92
+2024-02-14 04:46:10,034 [INFO] Message from abyukio: +myteam
+2024-02-14 04:46:10,148 [INFO] Message from woksippalite.: +pick reeps
+2024-02-14 04:52:35,222 [INFO] Message from pastybo: +myscore
+2024-02-14 04:56:55,752 [INFO] Message from imkeratik: +myscore
+2024-02-14 04:56:58,544 [INFO] Message from chaser082: +myscore
+2024-02-14 04:56:59,428 [INFO] Message from bambuu.: +swap j90 ambi
+2024-02-14 04:57:02,764 [INFO] Message from bambuu.: +myscore
+2024-02-14 04:57:29,863 [INFO] Message from bambuu.: +standings
+2024-02-14 04:57:37,508 [INFO] Message from imkeratik: +standings
+2024-02-14 04:57:59,822 [INFO] Message from espress0.: +myscore
+2024-02-14 04:58:17,212 [INFO] Message from axon319: +allplayers
+2024-02-14 04:58:44,340 [INFO] Message from imkeratik: +myteam
+2024-02-14 04:58:49,754 [INFO] Message from bambuu.: +myteam
+2024-02-14 04:59:13,502 [INFO] Message from imkeratik: +allplayers
+2024-02-14 05:00:24,387 [INFO] Message from umbralamia: +myscore
+2024-02-14 05:00:50,412 [INFO] Message from umbralamia: +pick hi shrey
+2024-02-14 05:02:23,109 [INFO] Message from imkeratik: +swap vitaking njr
+2024-02-14 05:03:06,143 [INFO] Message from imkeratik: +swap lobin alemao
+2024-02-14 05:03:45,884 [INFO] Message from bambuu.: +swap gryxr njr
+2024-02-14 05:03:58,419 [INFO] Message from bambuu.: +swap ambi alemao
+2024-02-14 05:05:16,469 [INFO] Message from imkeratik: +swap Panba  deadshot
+2024-02-14 05:05:26,878 [INFO] Message from imkeratik: +myteam
+2024-02-14 05:05:35,059 [INFO] Message from bambuu.: +myteam
+2024-02-14 05:05:45,619 [INFO] Message from beopa15: +myscore
+2024-02-14 05:05:59,317 [INFO] Message from imkeratik: +myscore
+2024-02-14 05:07:46,489 [INFO] Message from hylix.: +find faze
+2024-02-14 05:09:17,760 [INFO] Message from standby75: +find Mowwwgli
+2024-02-14 05:09:26,926 [INFO] Message from standby75: +find Wolves
+2024-02-14 05:10:52,887 [INFO] Message from prim3z.: +myscore
+2024-02-14 05:11:48,793 [INFO] Message from hylix.: +swap benja kds
+2024-02-14 05:12:20,332 [INFO] Message from officerbravo64: +swap Maia Nudl
+2024-02-14 05:12:24,102 [INFO] Message from hylix.: +myteam
+2024-02-14 05:12:29,694 [INFO] Message from officerbravo64: +myteam
+2024-02-14 05:14:01,321 [INFO] Message from standby75: +swap Kheyze Mowwwgli
+2024-02-14 05:15:19,848 [INFO] Message from standby75: +find Deadshot
+2024-02-14 05:17:17,552 [INFO] Message from hylix.: +myscore
+2024-02-14 05:17:23,011 [INFO] Message from standby75: +find Soulz
+2024-02-14 05:17:29,303 [INFO] Message from standby75: +find Faze
+2024-02-14 05:42:07,996 [INFO] Message from umbralamia: +pick shrey I miss you
+2024-02-14 05:42:33,047 [INFO] Message from kevln.: +myscore
+2024-02-14 05:42:48,566 [INFO] Message from kevln.: +myteam
+2024-02-14 05:57:43,363 [INFO] Message from umbralamia: +allplayers
+2024-02-14 06:00:04,809 [INFO] Message from umbralamia: +myteam
+2024-02-14 06:02:32,308 [INFO] Message from umbralamia: +swap pino alemao
+2024-02-14 06:02:43,993 [INFO] Message from umbralamia: +swap sheppard herdz
+2024-02-14 06:02:54,054 [INFO] Message from umbralamia: +swap j90 herdz
+2024-02-14 06:03:30,433 [INFO] Message from umbralamia: +swap geo sheppard
+2024-02-14 06:03:53,323 [INFO] Message from umbralamia: +swap geo hoven
+2024-02-14 06:04:09,229 [INFO] Message from vxn66: +myteam
+2024-02-14 06:04:16,099 [INFO] Message from vxn66: +myscore
+2024-02-14 06:04:56,373 [INFO] Message from umbralamia: +find fury
+2024-02-14 06:05:50,386 [INFO] Message from umbralamia: +myteam
+2024-02-14 06:06:53,709 [INFO] Message from umbralamia: +swap sheppard pasha
+2024-02-14 06:07:01,421 [INFO] Message from umbralamia: +myteam
+2024-02-14 06:07:08,335 [INFO] Message from ramon2403: +myscore
+2024-02-14 06:08:29,146 [INFO] Message from umbralamia: +standings
+2024-02-14 06:12:43,716 [INFO] Message from mietch: +pick Njr
+2024-02-14 06:17:28,854 [INFO] Message from umbralamia: +swap kheyze canadian
+2024-02-14 06:17:32,503 [INFO] Message from thebig4l.: +myscore
+2024-02-14 06:17:34,194 [INFO] Message from umbralamia: +swap hoven geo
+2024-02-14 06:17:39,017 [INFO] Message from umbralamia: +swap geo hoven
+2024-02-14 06:17:50,630 [INFO] Message from umbralamia: +swap pasha sheppard
+2024-02-14 06:17:56,425 [INFO] Message from umbralamia: +swap sheppard pasha
+2024-02-14 06:17:59,160 [INFO] Message from umbralamia: +myteam
+2024-02-14 06:18:44,220 [INFO] Message from steve100: +standings
+2024-02-14 06:19:20,385 [INFO] Message from steve100: +myscore
+2024-02-14 06:24:09,130 [INFO] Message from steve100: +myteam
+2024-02-14 06:26:24,031 [INFO] Message from swampydog: +swap 69 HerdZ
+2024-02-14 06:26:30,922 [INFO] Message from swampydog: +myteam
+2024-02-14 06:26:42,237 [INFO] Message from sassy6095: +myscore
+2024-02-14 06:27:24,020 [INFO] Message from justoreo5: +myscore
+2024-02-14 06:27:49,282 [INFO] Message from justoreo5: +allplayers
+2024-02-14 06:37:21,720 [INFO] Message from thebig4l.: +swap 78 93
+2024-02-14 06:38:23,079 [INFO] Message from thebig4l.: +swap 68  48
+2024-02-14 06:39:36,365 [INFO] Message from thebig4l.: +swap 59 97
