@@ -95,6 +95,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             await message.channel.send("Commands are disabled for now, please try again later")
             return
         
+        # Check if message is for the bot and ncan't be used during market close
+        if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open:
+            await message.channel.send("Can't use those commands while the market is closed... Try again later")
+            return
         
         # League agnostic commands     
         # Get my current active team
@@ -370,6 +374,52 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 self.logger.error(e)
             finally:
                 conn.close()           
+        
+        # Get all scores for a user 
+        if message.content.startswith("+dailyscores"):
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            try:
+                userID = message.author.id
+                conn = sqlite3.connect(self.league_db)
+                cursor = conn.cursor()
+                # Execute the SQL query and fetch the data into a Pandas DataFrame
+                closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
+                closedCheck = closedCheck.fetchone()
+                if closedCheck[0] == True:
+                    query = cursor.execute(f"""
+                    SELECT 
+                        closed_game_score,
+                        'DAY ' || (CAST(strftime('%d', date) AS INTEGER) - 13) AS Day
+                    FROM 
+                        manager_daily_scores mds
+                        INNER JOIN managers m ON m.manager_id = mds.manager_id and m.discord_user_id = {userID}
+                    """)
+                    data = query.fetchall()
+                else:
+                    query = cursor.execute(f"""
+                    SELECT 
+                        open_game_score,
+                        'DAY ' || (CAST(strftime('%d', date) AS INTEGER) - 13) AS Day
+                    FROM 
+                        manager_daily_scores mds
+                        INNER JOIN managers m ON m.manager_id = mds.manager_id and m.discord_user_id = {userID}
+                    """)
+                    data = query.fetchall()
+
+                # Create a DataFrame with the fetched data
+                columns = ['Scores', 'Date']
+                df = pd.DataFrame(data, columns=columns)
+                df = df[['Date', 'Scores']]
+                table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                embed = discord.Embed(title=f"{message.author.name}'s scores: ", color=self.generate_random_color())
+                embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                await message.channel.send(embed=embed)
+   
+            except Exception as e:
+                await message.channel.send(f"Error getting scores, please try again")
+                self.logger.error(e)
+            finally:
+                conn.close()
         
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Closed league commands    

@@ -4092,3 +4092,178 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-15 00:39:13,838 [INFO] Message from steve100: +find team liquid
 2024-02-15 00:39:18,092 [INFO] Message from steve100: +find liquid
 2024-02-15 00:39:20,104 [INFO] Message from rickandmhorti: +myteam
+2024-02-15 00:40:06,635 [INFO] Message from axon319: +myteam
+2024-02-15 00:40:40,359 [INFO] Message from umbralamia: +myscore
+2024-02-15 00:41:13,300 [INFO] Message from cashcity: +myscore
+2024-02-15 00:41:21,223 [INFO] Message from steve100: +myscore
+2024-02-15 00:41:33,183 [INFO] Message from steve100: +myteam
+2024-02-15 00:41:49,784 [INFO] Message from axon319: +openplayers
+2024-02-15 00:42:02,877 [INFO] Message from cashcity: +myteam
+2024-02-15 00:42:23,778 [INFO] Message from umbralamia: +allplayers
+2024-02-15 00:42:51,273 [INFO] Message from cashcity: +myteam
+2024-02-15 00:43:09,264 [INFO] Message from axon319: +market open
+2024-02-15 00:43:41,962 [INFO] Message from rickandmhorti: +swap Dotz Shiinka
+2024-02-15 00:43:42,316 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:43:53,024 [INFO] Message from rickandmhorti: +swap Dotz Canadian
+2024-02-15 00:44:04,092 [INFO] Message from hylix.: +myscore
+2024-02-15 00:44:04,977 [INFO] Message from rickandmhorti: +swap Dotz Vitaking
+2024-02-15 00:44:08,504 [INFO] Message from rickandmhorti: +myteam
+2024-02-15 00:44:23,051 [INFO] Message from rickandmhorti: +swap Cyber Paluh
+2024-02-15 00:44:36,987 [INFO] Message from hylix.: +standings
+2024-02-15 00:44:37,520 [INFO] Message from rickandmhorti: +swap Vitaking Forrest
+2024-02-15 00:44:38,844 [INFO] Message from cashcity: +swap lobin mowwwgli
+2024-02-15 00:44:41,338 [INFO] Message from rickandmhorti: +myteam
+2024-02-15 00:44:54,727 [INFO] Message from hylix.: +allplayers
+2024-02-15 00:45:25,405 [INFO] Message from rickandmhorti: +swap Nafe Shiinka
+2024-02-15 00:45:25,924 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:45:29,896 [INFO] Message from rickandmhorti: +swap Nafe Shinka
+2024-02-15 00:45:37,907 [INFO] Message from rickandmhorti: +myteam
+2024-02-15 00:45:42,409 [INFO] Message from steve100: +swap njr resetz
+2024-02-15 00:45:43,725 [INFO] Message from cashcity: +find soniqs
+2024-02-15 00:45:46,277 [INFO] Message from fnjl: +myscore
+2024-02-15 00:45:55,020 [INFO] Message from steve100: +swap vitaking gryxr
+2024-02-15 00:45:55,466 [INFO] Message from cashcity: +swap njr gryxr
+2024-02-15 00:45:58,625 [INFO] Message from cashcity: +myteam
+2024-02-15 00:45:59,782 [INFO] Message from fnjl: +allplayers
+2024-02-15 00:46:10,928 [INFO] Message from cashcity: +find w7m
+2024-02-15 00:46:12,776 [INFO] Message from swampydog: +myscore
+2024-02-15 00:46:17,085 [INFO] Message from steve100: +swap ambi mowwwgli
+2024-02-15 00:46:18,441 [INFO] Message from zaythorr: +myscore
+2024-02-15 00:46:21,587 [INFO] Message from steve100: +myteam
+2024-02-15 00:46:45,586 [INFO] Message from cashcity: +find g2
+2024-02-15 00:46:53,096 [INFO] Message from steve100: +standings
+2024-02-15 00:46:58,103 [INFO] Message from cashcity: +swap alemao benja
+2024-02-15 00:47:25,224 [INFO] Message from julian.9951: +myteam
+2024-02-15 00:47:36,837 [INFO] Message from julian.9951: +myscore
+2024-02-15 00:47:47,233 [INFO] Message from fnjl: +myscore
+2024-02-15 00:47:54,753 [INFO] Message from rickandmhorti: +myscore
+2024-02-15 00:47:57,954 [INFO] Message from rickandmhorti: +myteam
+2024-02-15 00:48:03,786 [INFO] Message from rickandmhorti: +standings
+2024-02-15 00:48:30,318 [INFO] Message from hylix.: +swap doki mowgli
+2024-02-15 00:48:30,677 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:48:33,378 [INFO] Message from spideydork: +myscore
+2024-02-15 00:48:36,919 [INFO] Message from damn3216: +myscore
+2024-02-15 00:48:37,592 [INFO] Message from fnjl: +myteam
+2024-02-15 00:49:08,636 [INFO] Message from salee: +myscore
+2024-02-15 00:49:15,383 [INFO] Message from hylix.: +swap doki benja
+2024-02-15 00:49:22,580 [INFO] Message from hylix.: +myteam
+2024-02-15 00:49:26,771 [INFO] Message from swampydog: +myteam
+2024-02-15 00:49:53,182 [INFO] Message from zaythorr: +myteam
+2024-02-15 00:49:58,460 [INFO] Message from maxstephenson: +myscore
+2024-02-15 00:50:21,784 [INFO] Message from maxstephenson: +swap deadshot mowwwgli
+2024-02-15 00:50:46,030 [INFO] Message from hylix.: +swap lobin mowwwgli
+2024-02-15 00:51:42,481 [INFO] Message from hylix.: +swap kds ctzn
+2024-02-15 00:51:43,926 [INFO] Message from maxstephenson: +swap reeps virture
+2024-02-15 00:51:44,230 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:51:48,307 [INFO] Message from bymousie: +myscore
+2024-02-15 00:52:05,092 [INFO] Shard ID 0 has successfully RESUMED session 0ef810cc0710d49f2ce3b5c1112fa1f9.
+2024-02-15 00:52:06,593 [INFO] Message from bymousie: +myscore
+2024-02-15 00:52:10,004 [INFO] Message from fnjl: +swap njr fultz
+2024-02-15 00:52:47,554 [INFO] Message from hylix.: +find ssg
+2024-02-15 00:52:52,741 [INFO] Message from bymousie: +myteam
+2024-02-15 00:52:59,842 [INFO] Message from bymousie: +allplayers
+2024-02-15 00:53:06,925 [INFO] Message from hylix.: +swap njr faults
+2024-02-15 00:53:07,168 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:53:15,296 [INFO] Message from hylix.: +swap njr fultz
+2024-02-15 00:53:17,663 [INFO] Message from zaythorr: +standings
+2024-02-15 00:53:21,878 [INFO] Message from bymousie: +swap deadshot 98
+2024-02-15 00:53:25,247 [INFO] Message from bymousie: +myteam
+2024-02-15 00:53:25,267 [INFO] Message from fenrir361: +myscore
+2024-02-15 00:53:25,351 [INFO] Message from swampydog: +standings
+2024-02-15 00:53:40,483 [INFO] Message from fenrir361: +myteam
+2024-02-15 00:53:57,528 [INFO] Message from fenrir361: +find DarkZero
+2024-02-15 00:54:01,844 [INFO] Message from umbralamia: +swap hoven geo
+2024-02-15 00:54:24,484 [INFO] Message from fenrir361: +find Teamliquid
+2024-02-15 00:54:32,352 [INFO] Message from fenrir361: +find Liquid
+2024-02-15 00:54:51,968 [INFO] Message from fenrir361: +find g2
+2024-02-15 00:54:57,786 [INFO] Message from umbralamia: +swap pasha virtue
+2024-02-15 00:55:09,365 [INFO] Message from fenrir361: +find soniqs
+2024-02-15 00:55:15,619 [INFO] Message from fnjl: +swap soulz benja
+2024-02-15 00:55:28,987 [INFO] Message from fenrir361: +find w7m
+2024-02-15 00:55:53,179 [INFO] Message from marwanmoussa: +myscore
+2024-02-15 00:55:59,183 [INFO] Message from bymousie: +standings
+2024-02-15 00:55:59,235 [INFO] Message from umbralamia: +swap alemao mowwwgli
+2024-02-15 00:56:01,232 [INFO] Message from marwanmoussa: +myteam
+2024-02-15 00:56:23,867 [INFO] Message from fenrir361: +swap resetz Gryxr
+2024-02-15 00:56:32,608 [INFO] Message from umbralamia: +find ssg
+2024-02-15 00:56:40,787 [INFO] Message from fenrir361: +swap alemao Benjamin
+2024-02-15 00:56:41,018 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:56:51,178 [INFO] Message from fenrir361: +swap Alemao Benja
+2024-02-15 00:56:56,114 [INFO] Message from fnjl: +swap doki rec
+2024-02-15 00:57:02,534 [INFO] Message from fnjl: +myteam
+2024-02-15 00:57:12,449 [INFO] Message from umbralamia: +swap canadian j90
+2024-02-15 00:57:13,771 [INFO] Message from marwanmoussa: +standings
+2024-02-15 00:57:16,023 [INFO] Message from fenrir361: +swap Ambi Ctzn
+2024-02-15 00:57:26,104 [INFO] Message from fnjl: +myscore
+2024-02-15 00:57:30,456 [INFO] Message from umbralamia: +find liquid
+2024-02-15 00:57:32,978 [INFO] Message from fenrir361: +find wolves
+2024-02-15 00:57:54,221 [INFO] Message from officerbravo64: +myscore
+2024-02-15 00:58:06,753 [INFO] Message from standby75: +myscore
+2024-02-15 00:58:10,775 [INFO] Message from standby75: +standings
+2024-02-15 00:58:12,429 [INFO] Message from maxstephenson: +swap virture njr
+2024-02-15 00:58:12,804 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:58:12,986 [INFO] Message from marwanmoussa: +standings
+2024-02-15 00:58:30,604 [INFO] Message from fenrir361: +swap benja mowwgli
+2024-02-15 00:58:31,419 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:58:39,791 [INFO] Message from bymousie: +swap dash 77
+2024-02-15 00:58:43,400 [INFO] Message from maxstephenson: +swap njr virture
+2024-02-15 00:58:43,518 [INFO] Message from bymousie: +myteam
+2024-02-15 00:58:43,671 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 00:58:51,493 [INFO] Message from umbralamia: +myteam
+2024-02-15 00:58:53,290 [INFO] Message from fenrir361: +swap benja 94
+2024-02-15 00:59:03,061 [INFO] Message from fenrir361: +swap 94 98
+2024-02-15 00:59:12,998 [INFO] Message from fenrir361: +swap Gryxr Nafe
+2024-02-15 00:59:15,174 [INFO] Message from maxstephenson: +swap Njr virtue
+2024-02-15 00:59:21,025 [INFO] Message from fenrir361: +myteam
+2024-02-15 00:59:21,932 [INFO] Message from umbralamia: +swap herdz paluh
+2024-02-15 00:59:29,182 [INFO] Message from umbralamia: +swap paluh herdz
+2024-02-15 00:59:35,380 [INFO] Message from umbralamia: +myteam
+2024-02-15 01:00:57,468 [INFO] Message from myst3rykarp: +myscore
+2024-02-15 01:01:04,372 [INFO] Message from random_fps: +myscore
+2024-02-15 01:01:31,278 [INFO] Message from standby75: +swap Herdz Benja
+2024-02-15 01:01:34,266 [INFO] Message from maxstephenson: +swap herdz ctzn
+2024-02-15 01:01:39,183 [INFO] Message from standby75: +myteam
+2024-02-15 01:01:39,733 [INFO] Message from random_fps: +swap deadshot j90
+2024-02-15 01:01:40,189 [INFO] Message from maxstephenson: +myteam
+2024-02-15 01:02:32,936 [INFO] Message from fenrir361: +find virtus pro
+2024-02-15 01:02:39,441 [INFO] Message from fenrir361: +find Ssg
+2024-02-15 01:02:41,055 [INFO] Message from officerbravo64: +swap Canadian Nudl
+2024-02-15 01:03:52,477 [DEBUG] Using selector: EpollSelector
+2024-02-15 01:03:52,478 [INFO] logging in using static token
+2024-02-15 01:03:53,443 [INFO] Shard ID 0 has connected to Gateway (Session ID: 72e263b143f752f690df04dd0067d46f).
+2024-02-15 01:03:53,690 [INFO] Message from umbralamia: +myteam
+2024-02-15 01:03:55,513 [INFO] -------------
+2024-02-15 01:03:55,513 [INFO] |Fantasy Bot|
+2024-02-15 01:03:55,513 [INFO] -------------
+2024-02-15 01:03:56,782 [INFO] Message from standby75: +find Ninjas in Pajamas
+2024-02-15 01:03:57,875 [INFO] Message from axon319: +dailyscores
+2024-02-15 01:03:58,188 [ERROR] "['Score'] not in index"
+2024-02-15 01:03:58,189 [INFO] Message from axon319: +dailyscores
+2024-02-15 01:04:12,039 [INFO] Message from maxstephenson: +swap reeps rec
+2024-02-15 01:04:17,185 [INFO] Message from maxstephenson: +myteam
+2024-02-15 01:04:23,994 [INFO] Message from fenrir361: +find Faze
+2024-02-15 01:04:29,618 [DEBUG] Using selector: EpollSelector
+2024-02-15 01:04:29,619 [INFO] logging in using static token
+2024-02-15 01:04:30,514 [INFO] Shard ID 0 has connected to Gateway (Session ID: 4b841c52aa420c3dad6e41271ec9a52a).
+2024-02-15 01:04:31,515 [INFO] Message from fenrir361: +find los
+2024-02-15 01:04:32,579 [INFO] -------------
+2024-02-15 01:04:32,579 [INFO] |Fantasy Bot|
+2024-02-15 01:04:32,579 [INFO] -------------
+2024-02-15 01:04:41,341 [INFO] Message from fenrir361: +swap Njr Gryxr
+2024-02-15 01:04:43,952 [INFO] Message from random_fps: +myteam
+2024-02-15 01:04:48,133 [INFO] Message from axon319: +dailyscores
+2024-02-15 01:04:48,533 [INFO] Message from axon319: +dailyscores
+2024-02-15 01:04:55,223 [INFO] Message from umbralamia: +dailyscores
+2024-02-15 01:04:55,533 [INFO] Message from umbralamia: +dailyscores
+2024-02-15 01:05:18,795 [INFO] Message from bymousie: +swap nafe nudl
+2024-02-15 01:05:34,710 [INFO] Message from umbralamia: +swap hi shrey
+2024-02-15 01:05:34,964 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:05:46,367 [INFO] Message from fenrir361: +swap Nafe Virtue
+2024-02-15 01:05:52,228 [INFO] Message from fenrir361: +myteam
+2024-02-15 01:05:58,890 [INFO] Message from damn3216: +myteam
+2024-02-15 01:06:02,156 [INFO] Message from rubycandy.: +myteam
+2024-02-15 01:06:03,401 [INFO] Message from umbralamia: +swap notice me senpai
+2024-02-15 01:06:03,614 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:06:09,875 [INFO] Message from officerbravo64: +myteam
+2024-02-15 01:06:10,271 [INFO] Message from bymousie: +swap nafe virtue
+2024-02-15 01:06:14,109 [INFO] Message from bymousie: +myteam
