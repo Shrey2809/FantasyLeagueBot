@@ -5118,3 +5118,41 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-15 16:38:00,992 [INFO] Message from yaboimadman: +myteam
 2024-02-15 16:38:49,461 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
 2024-02-15 16:38:59,571 [INFO] Message from austinszn: +find faze
+2024-02-15 16:42:00,400 [INFO] Message from standby75: +myteam
+2024-02-15 16:46:15,119 [INFO] Message from standby75: +find SSG
+2024-02-15 16:48:43,952 [INFO] Message from standby75: +myteam
+2024-02-15 16:49:31,974 [INFO] Message from standby75: +find DZ
+2024-02-15 16:49:37,882 [INFO] Message from standby75: +find DarkZero
+2024-02-15 16:50:04,290 [INFO] Message from standby75: +standings
+2024-02-15 16:50:52,325 [INFO] Message from standby75: +find Soniqs
+2024-02-15 16:51:40,990 [INFO] Message from standby75: +find Faze
+2024-02-15 16:51:53,892 [INFO] Message from standby75: +find W7M
+2024-02-15 16:55:03,072 [INFO] Message from standby75: +find Wolves
+2024-02-15 16:55:17,049 [INFO] Message from phanji_: +myscore
+2024-02-15 16:55:28,590 [INFO] Message from standby75: +standings
+2024-02-15 16:56:30,024 [INFO] Message from yaboimadman: +myscore
+2024-02-15 17:03:31,129 [INFO] Message from hairlinemaster: +standings
+2024-02-15 17:03:41,188 [INFO] Message from hairlinemaster: +myscore
+2024-02-15 17:09:34,792 [INFO] Message from nutberry69: +find dz
+2024-02-15 17:34:28,459 [INFO] Message from myst3rykarp: +myteam
+2024-02-15 17:37:08,813 [INFO] Message from spideydork: +myscore
+2024-02-15 17:46:48,650 [INFO] Message from abyukio: +standings
+2024-02-15 17:51:33,654 [INFO] Message from umbralamia: +myteam
+2024-02-15 17:57:17,553 [INFO] Message from jazzman: +myteam
+2024-02-15 18:02:05,531 [INFO] Message from damn3216: +myteam
+2024-02-15 18:02:33,223 [INFO] Message from damn3216: +myscore
+2024-02-15 18:03:33,320 [INFO] Message from damn3216: +find beaulo
+2024-02-15 18:03:41,282 [INFO] Message from damn3216: +find
+2024-02-15 18:03:46,049 [INFO] Message from damn3216: +find vp
+2024-02-15 18:03:52,911 [INFO] Message from damn3216: +find nudl
+2024-02-15 18:03:58,935 [INFO] Message from damn3216: +find rec
+2024-02-15 18:04:04,843 [INFO] Message from damn3216: +find Kheyze
+2024-02-15 18:04:14,975 [INFO] Message from damn3216: +find njr
+2024-02-15 18:04:20,573 [INFO] Message from damn3216: +find njr
+2024-02-15 18:04:24,899 [INFO] Message from damn3216: +find nafe
+2024-02-15 18:19:11,216 [INFO] Message from illuzionz9822: +myscore
+2024-02-15 18:21:23,901 [INFO] Message from wiskyr6: +myteam
+2024-02-15 18:23:06,485 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-15 18:28:50,652 [INFO] Message from marwanmoussa: +standings
+2024-02-15 18:29:02,342 [INFO] Message from marwanmoussa: +myscore
+2024-02-15 18:29:04,712 [INFO] Message from braxxy.: +myscore
