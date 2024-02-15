@@ -4354,3 +4354,147 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-15 01:14:25,769 [INFO] Message from bambuu.: +myteam
 2024-02-15 01:14:29,744 [INFO] Message from jazzman: +swap ambi j90
 2024-02-15 01:14:32,785 [INFO] Message from jazzman: +myteam
+2024-02-15 01:14:43,319 [INFO] Message from damn3216: +swap kheyze ashn
+2024-02-15 01:14:46,634 [INFO] Message from officerbravo64: +swap njr gryxr
+2024-02-15 01:14:48,059 [INFO] Message from jazzman: +find ambi
+2024-02-15 01:14:50,200 [INFO] Message from damn3216: +myteam
+2024-02-15 01:14:50,600 [INFO] Message from officerbravo64: +myteam
+2024-02-15 01:14:53,574 [INFO] Message from jazzman: +find mowwwgli
+2024-02-15 01:15:00,372 [INFO] Message from jazzman: +find hashom
+2024-02-15 01:15:04,780 [INFO] Message from jazzman: +swap hashom ambi
+2024-02-15 01:15:18,998 [INFO] Message from myst3rykarp: +swap panba deadshot
+2024-02-15 01:15:28,847 [INFO] Message from myst3rykarp: +myteam
+2024-02-15 01:15:42,290 [INFO] Message from jazzman: +myteam
+2024-02-15 01:15:55,199 [INFO] Message from jazzman: +find njr
+2024-02-15 01:15:59,453 [INFO] Message from jazzman: +find virtue
+2024-02-15 01:16:09,566 [INFO] Message from jazzman: +myscore
+2024-02-15 01:16:11,657 [INFO] Message from axon319: +dailyscores
+2024-02-15 01:16:11,908 [INFO] Message from axon319: +dailyscores
+2024-02-15 01:16:19,529 [INFO] Message from jazzman: +find ssg
+2024-02-15 01:16:26,635 [INFO] Message from jazzman: +find geekay
+2024-02-15 01:16:36,072 [INFO] Message from jazzman: +find jv92
+2024-02-15 01:16:36,631 [INFO] Message from umbralamia: +dailyscores
+2024-02-15 01:16:36,825 [INFO] Message from umbralamia: +dailyscores
+2024-02-15 01:16:39,844 [INFO] Message from jazzman: +find w7m
+2024-02-15 01:16:45,109 [INFO] Message from jazzman: +find njr
+2024-02-15 01:16:48,426 [INFO] Message from jazzman: +find darkzero
+2024-02-15 01:17:24,823 [INFO] Message from anshxo: +myscore
+2024-02-15 01:17:32,227 [INFO] Message from umbralamia: +standings
+2024-02-15 01:17:50,895 [INFO] Message from myst3rykarp: +swap geo Gryxr
+2024-02-15 01:18:18,180 [INFO] Message from napzz9021: +myscore
+2024-02-15 01:19:33,607 [INFO] Message from xenoszn.: +myscore
+2024-02-15 01:19:52,247 [INFO] Message from myst3rykarp: +myteam
+2024-02-15 01:19:56,221 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-15 01:20:07,996 [INFO] Message from napzz9021: +swap njr for Alwm4o
+2024-02-15 01:20:08,272 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:20:20,270 [INFO] Message from napzz9021: +swap njr for Alem4o
+2024-02-15 01:20:20,442 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:20:21,094 [INFO] Message from myst3rykarp: +swap benja hashom
+2024-02-15 01:20:29,697 [INFO] Message from myst3rykarp: +myteam
+2024-02-15 01:21:07,818 [INFO] Message from napzz9021: +swap njr alem4o
+2024-02-15 01:21:08,090 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:21:46,858 [INFO] Message from .gugz: +standings
+2024-02-15 01:21:53,978 [INFO] Message from .gugz: +myscore
+2024-02-15 01:22:12,683 [INFO] Message from napzz9021: +swap spoit gryxr
+2024-02-15 01:22:19,411 [INFO] Message from napzz9021: +swap spot ambi
+2024-02-15 01:22:19,682 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:22:24,578 [INFO] Message from bennthebean: +myscore
+2024-02-15 01:22:27,771 [INFO] Message from napzz9021: +swap spoit ambi
+2024-02-15 01:22:39,769 [INFO] Message from anshxo: +swap Beaulo Herdz
+2024-02-15 01:22:48,082 [INFO] Message from anshxo: +myteam
+2024-02-15 01:24:30,421 [INFO] Message from napzz9021: +swap njr kondz
+2024-02-15 01:25:15,882 [INFO] Message from napzz9021: +swap lobin deadsht
+2024-02-15 01:25:16,258 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:25:22,801 [INFO] Message from napzz9021: +swap lobin deadshot
+2024-02-15 01:25:24,477 [INFO] Message from mietch: +myscore
+2024-02-15 01:25:27,499 [INFO] Message from napzz9021: +myteam
+2024-02-15 01:25:46,161 [INFO] Message from napzz9021: +standings
+2024-02-15 01:26:12,353 [INFO] Message from tyrobosauros: +daily score
+2024-02-15 01:26:27,959 [INFO] Message from tyrobosauros: +dailyscore
+2024-02-15 01:26:32,150 [INFO] Message from napzz9021: +dailyscores
+2024-02-15 01:26:32,515 [INFO] Message from napzz9021: +dailyscores
+2024-02-15 01:26:57,430 [INFO] Message from tyrobosauros: +dailyscores
+2024-02-15 01:26:57,698 [INFO] Message from tyrobosauros: +dailyscores
+2024-02-15 01:27:07,406 [INFO] Message from tyrobosauros: +myscore
+2024-02-15 01:29:47,975 [INFO] Message from wiskyr6: +dailyscores
+2024-02-15 01:29:48,344 [INFO] Message from wiskyr6: +dailyscores
+2024-02-15 01:30:07,779 [INFO] Message from wiskyr6: +myscore
+2024-02-15 01:30:23,783 [INFO] Message from wiskyr6: +swap beaulo benja
+2024-02-15 01:30:33,282 [INFO] Message from bridzy: +standings
+2024-02-15 01:30:43,434 [INFO] Message from wiskyr6: +find herdz
+2024-02-15 01:30:44,478 [INFO] Message from bridzy: +myscore
+2024-02-15 01:30:49,343 [INFO] Message from wiskyr6: +find jv92
+2024-02-15 01:31:10,381 [INFO] Message from bridzy: +dailyscores
+2024-02-15 01:31:10,784 [INFO] Message from bridzy: +dailyscores
+2024-02-15 01:31:13,350 [INFO] Message from wiskyr6: +dailyscore
+2024-02-15 01:31:16,819 [INFO] Message from wiskyr6: +dailyscores
+2024-02-15 01:31:17,070 [INFO] Message from wiskyr6: +dailyscores
+2024-02-15 01:31:32,408 [INFO] Message from wiskyr6: +standings
+2024-02-15 01:31:40,025 [INFO] Message from wiskyr6: +allplayers
+2024-02-15 01:32:07,772 [INFO] Message from wiskyr6: +myteam
+2024-02-15 01:32:47,637 [INFO] Message from wiskyr6: +find 93
+2024-02-15 01:34:52,912 [INFO] Message from flackostick: +allplayers
+2024-02-15 01:35:17,082 [INFO] Message from wiskyr6: +swap jv92 virtue
+2024-02-15 01:35:33,284 [INFO] Message from flackostick: +swap Panba Mowwwgli
+2024-02-15 01:35:34,407 [INFO] Message from wiskyr6: +swap njr pasha
+2024-02-15 01:35:37,651 [INFO] Message from wiskyr6: +myteam
+2024-02-15 01:35:54,937 [INFO] Message from tact_.: +swap soulz REC
+2024-02-15 01:37:01,141 [INFO] Message from opussums: +myscore
+2024-02-15 01:37:38,594 [INFO] Message from flackostick: +swap KDS Ctzn
+2024-02-15 01:37:58,236 [INFO] Message from tact_.: +swap Njr Rexen
+2024-02-15 01:38:11,260 [INFO] Message from tact_.: +swap Njr Gryxr
+2024-02-15 01:38:16,526 [INFO] Message from tact_.: +myteam
+2024-02-15 01:38:29,584 [INFO] Message from flackostick: +swap jv92 nade
+2024-02-15 01:38:33,970 [INFO] Message from flackostick: +myteam
+2024-02-15 01:39:32,395 [INFO] Message from salee: +dailyscores
+2024-02-15 01:39:32,758 [INFO] Message from salee: +dailyscores
+2024-02-15 01:41:31,368 [INFO] Message from salee: +swap Reeps Herdz
+2024-02-15 01:41:33,835 [INFO] Message from zozooz: +myscore
+2024-02-15 01:42:36,438 [INFO] Message from salee: +swap Jv92 Canadian
+2024-02-15 01:44:37,949 [INFO] Message from akunders: +swap Beaulo Nafe
+2024-02-15 01:44:44,506 [INFO] Message from maxstephenson: +dailyscores
+2024-02-15 01:44:45,128 [INFO] Message from maxstephenson: +dailyscores
+2024-02-15 01:44:51,459 [INFO] Message from akunders: +swap Vitaking Nafe
+2024-02-15 01:45:03,682 [INFO] Message from akunders: +myscore
+2024-02-15 01:45:39,738 [INFO] Message from akunders: +standings
+2024-02-15 01:45:58,553 [INFO] Message from xenoszn.: +daily scores
+2024-02-15 01:46:02,572 [INFO] Message from random_fps: +swap njr resetz
+2024-02-15 01:46:05,243 [INFO] Message from xenoszn.: +dailyscores
+2024-02-15 01:46:05,550 [INFO] Message from xenoszn.: +dailyscores
+2024-02-15 01:46:30,164 [INFO] Message from random_fps: +myteam
+2024-02-15 01:47:29,055 [INFO] Message from akunders: +swap Jv92 Gryxr
+2024-02-15 01:47:45,418 [INFO] Message from akunders: +swap Beaulo Mowwgli
+2024-02-15 01:47:45,679 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 01:47:59,667 [INFO] Message from darkwastaken.: +myteam
+2024-02-15 01:48:17,148 [INFO] Message from akunders: +swap Beaulo Mowwwgli
+2024-02-15 01:48:21,943 [INFO] Message from akunders: +myteam
+2024-02-15 01:48:24,674 [INFO] Message from darkwastaken.: +myscore
+2024-02-15 01:48:49,772 [INFO] Message from akunders: +swap Lobin Doki
+2024-02-15 01:48:54,080 [INFO] Message from akunders: +myteam
+2024-02-15 01:50:35,361 [INFO] Message from akunders: +swap Nafe Fultz
+2024-02-15 01:58:23,135 [INFO] Message from braxxy.: +myscore
+2024-02-15 02:06:08,471 [INFO] Message from w_lf: +dailyscores
+2024-02-15 02:06:08,861 [INFO] Message from w_lf: +dailyscores
+2024-02-15 02:06:34,649 [INFO] Message from w_lf: +myteam
+2024-02-15 02:07:00,153 [INFO] Message from w_lf: +swap Herds Kheyze
+2024-02-15 02:07:00,458 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 02:07:14,641 [INFO] Message from w_lf: +swap Handy Nafe
+2024-02-15 02:07:21,893 [INFO] Message from w_lf: +myteam
+2024-02-15 02:07:44,641 [INFO] Message from w_lf: +swap Ambi Kheyze
+2024-02-15 02:11:10,923 [INFO] Message from w_lf: +swap Kheyze Mowgli
+2024-02-15 02:11:11,293 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 02:12:10,818 [INFO] Message from w_lf: +swap Kheyze mowwwgli
+2024-02-15 02:14:57,522 [INFO] Message from skylarswrld_kix: +myteam
+2024-02-15 02:15:02,659 [INFO] Message from skylarswrld_kix: +myscore
+2024-02-15 02:34:42,309 [INFO] Message from standby75: +find Liquid
+2024-02-15 02:35:37,996 [INFO] Message from standby75: +swap njr Gryxr
+2024-02-15 02:35:44,388 [INFO] Message from standby75: +myteam
+2024-02-15 02:36:04,495 [INFO] Message from standby75: +swap Doki Nudl
+2024-02-15 02:36:29,298 [INFO] Message from standby75: +swap Jv92 Kondz
+2024-02-15 02:37:28,020 [INFO] Message from standby75: +myteam
+2024-02-15 02:37:41,929 [INFO] Message from standby75: +find Scarz
+2024-02-15 02:37:51,225 [INFO] Message from standby75: +find Wolves
+2024-02-15 02:38:11,778 [INFO] Message from standby75: +find Nip
+2024-02-15 02:38:31,999 [INFO] Message from standby75: +find G2
+2024-02-15 02:39:28,012 [INFO] Message from standby75: +find Soniqs
+2024-02-15 02:39:44,018 [INFO] Message from standby75: +myteam
