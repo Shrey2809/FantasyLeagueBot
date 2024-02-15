@@ -4747,3 +4747,121 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-15 06:22:10,312 [INFO] Message from pastadcasta: +dailyscores
 2024-02-15 06:25:59,616 [INFO] Message from bhr1s: +myscore
 2024-02-15 06:39:04,793 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-15 06:43:36,774 [INFO] Message from officerbravo64: +myteam
+2024-02-15 06:58:28,866 [INFO] Message from blizzard1330: +myteam
+2024-02-15 06:58:34,035 [INFO] Message from blizzard1330: +myscore
+2024-02-15 07:09:33,444 [INFO] Message from fenrir361: +dailyscore
+2024-02-15 07:10:04,851 [INFO] Message from fenrir361: +dailscores
+2024-02-15 07:10:09,708 [INFO] Message from fenrir361: +dailyscores
+2024-02-15 07:10:10,078 [INFO] Message from fenrir361: +dailyscores
+2024-02-15 07:12:00,095 [INFO] Message from gabrielesevergnini_: +swap doki benja
+2024-02-15 07:12:49,242 [INFO] Message from gabrielesevergnini_: +swap dotz lagonis
+2024-02-15 07:13:01,860 [INFO] Message from gabrielesevergnini_: +swap jv92 j90
+2024-02-15 07:13:15,927 [INFO] Message from gabrielesevergnini_: +find ssg
+2024-02-15 07:13:32,337 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-15 07:13:41,414 [INFO] Message from gabrielesevergnini_: +swap alemao j90
+2024-02-15 07:14:32,188 [INFO] Message from gabrielesevergnini_: +swap jv92 uuno
+2024-02-15 07:14:37,800 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-15 07:16:10,699 [INFO] Message from gabrielesevergnini_: +find liquid
+2024-02-15 07:16:19,434 [INFO] Message from gabrielesevergnini_: +swap uuno resetz
+2024-02-15 07:16:49,844 [INFO] Message from gabrielesevergnini_: +swap herdz mowwwgli
+2024-02-15 07:16:53,690 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-15 07:17:26,911 [INFO] Message from gabrielesevergnini_: +swap lagonis ffult
+2024-02-15 07:17:27,170 [ERROR] 'NoneType' object is not subscriptable
+2024-02-15 07:17:33,884 [INFO] Message from gabrielesevergnini_: +swap lagonis fultz
+2024-02-15 07:17:44,313 [INFO] Message from gabrielesevergnini_: +myscore
+2024-02-15 07:17:55,533 [INFO] Message from gabrielesevergnini_: +standings
+2024-02-15 07:24:21,081 [INFO] Message from shriimpp: +dailyscores
+2024-02-15 07:24:21,362 [INFO] Message from shriimpp: +dailyscores
+2024-02-15 07:24:55,520 [INFO] Message from shriimpp: +myteam
+2024-02-15 07:25:02,654 [INFO] Message from shriimpp: +find g2
+2024-02-15 07:25:21,096 [INFO] Message from shriimpp: +find darkzero
+2024-02-15 07:25:34,945 [INFO] Message from shriimpp: +find fury
+2024-02-15 07:25:57,123 [INFO] Message from shriimpp: +find bleed
+2024-02-15 07:26:09,449 [INFO] Message from blizzard1330: +allplayers
+2024-02-15 07:26:23,022 [INFO] Message from shriimpp: +find geekay
+2024-02-15 07:27:17,868 [INFO] Message from shriimpp: +find faze
+2024-02-15 07:50:52,838 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-15 07:52:00,002 [INFO] Message from alas.6: +myscore
+2024-02-15 07:52:09,067 [INFO] Message from alas.6: +dailyscores
+2024-02-15 07:52:09,252 [INFO] Message from alas.6: +dailyscores
+2024-02-15 07:53:12,959 [INFO] Message from zaythorr: +myteam
+2024-02-15 07:54:55,920 [INFO] Message from zaythorr: +find beaulo
+2024-02-15 07:55:11,069 [INFO] Message from zaythorr: +find rec
+2024-02-15 07:55:37,462 [INFO] Message from zaythorr: +find mowwwgli
+2024-02-15 07:56:14,989 [INFO] Message from zaythorr: +find ashn
+2024-02-15 07:56:27,260 [INFO] Message from zaythorr: +find doki
+2024-02-15 07:56:32,304 [INFO] Message from zaythorr: +find shepparD
+2024-02-15 07:56:39,476 [INFO] Message from zaythorr: +find sheppard
+2024-02-15 07:57:02,111 [INFO] Message from zaythorr: +find sheppard
+2024-02-15 07:58:04,714 [INFO] Message from zaythorr: +find 90
+2024-02-15 07:58:21,024 [INFO] Message from zaythorr: +find shepard
+2024-02-15 07:58:29,365 [INFO] Message from zaythorr: +find Virtus
+2024-02-15 07:58:33,313 [INFO] Message from zaythorr: +find beaulo
+2024-02-15 07:58:43,996 [INFO] Message from zaythorr: +myteam
+2024-02-15 07:58:53,346 [INFO] Message from zaythorr: +find Sheppard
+2024-02-15 07:59:04,128 [INFO] Message from zaythorr: +find DZ
+2024-02-15 07:59:07,599 [INFO] Message from zaythorr: +find darkzero
+2024-02-15 07:59:16,138 [INFO] Message from zaythorr: +find virtuspro
+2024-02-15 07:59:23,914 [INFO] Message from zaythorr: +find virtus pro
+2024-02-15 08:00:02,646 [INFO] Message from zaythorr: +find camerman
+2024-02-15 08:00:05,961 [INFO] Message from zaythorr: +find cameraman
+2024-02-15 08:00:15,786 [INFO] Message from zaythorr: +find c4meraman
+2024-02-15 08:00:23,133 [INFO] Message from zaythorr: +find los
+2024-02-15 08:00:37,429 [INFO] Message from zaythorr: +find mentalist
+2024-02-15 08:01:00,158 [INFO] Message from zaythorr: +find bleed
+2024-02-15 08:01:18,883 [INFO] Message from zaythorr: +find Jv92
+2024-02-15 08:01:23,619 [INFO] Message from zaythorr: +find W7M
+2024-02-15 08:01:41,167 [INFO] Message from zaythorr: +find Ashn
+2024-02-15 08:01:45,514 [INFO] Message from zaythorr: +find doki
+2024-02-15 08:02:28,689 [INFO] Message from alas.6: +swap njr lagonis
+2024-02-15 08:02:34,439 [INFO] Message from alas.6: +myteam
+2024-02-15 08:02:45,611 [INFO] Message from alas.6: +swap cyber rec
+2024-02-15 08:03:28,953 [INFO] Message from alas.6: +swap Sheppard forrest
+2024-02-15 08:03:31,041 [INFO] Message from zaythorr: +find NIP
+2024-02-15 08:03:42,995 [INFO] Message from alas.6: +myteam
+2024-02-15 08:03:54,163 [INFO] Message from alas.6: +swap Doki virtue
+2024-02-15 08:04:36,001 [INFO] Message from alas.6: +swap Doki ctzn
+2024-02-15 08:05:00,807 [INFO] Message from zaythorr: +find fearx
+2024-02-15 08:05:35,597 [INFO] Message from theschmiddy: +myscore
+2024-02-15 08:06:16,672 [INFO] Message from zaythorr: +find dplus
+2024-02-15 08:06:54,659 [INFO] Message from zaythorr: +find wolves
+2024-02-15 08:07:42,024 [INFO] Message from alas.6: +standings
+2024-02-15 08:07:52,195 [INFO] Message from zaythorr: +find g2
+2024-02-15 08:08:42,175 [INFO] Message from zaythorr: +find gk
+2024-02-15 08:08:45,619 [INFO] Message from zaythorr: +find geekay
+2024-02-15 08:09:24,129 [INFO] Message from zaythorr: +find ssg
+2024-02-15 08:10:05,924 [INFO] Message from zaythorr: +find bliss
+2024-02-15 08:10:54,829 [INFO] Message from zaythorr: +find W7m
+2024-02-15 08:11:52,596 [INFO] Message from zaythorr: +find virtus pro
+2024-02-15 08:13:07,330 [INFO] Message from zaythorr: +find scarz
+2024-02-15 08:13:32,288 [INFO] Message from zaythorr: +find FURY
+2024-02-15 08:14:13,324 [INFO] Message from zaythorr: +find liquid
+2024-02-15 08:14:59,241 [INFO] Message from zaythorr: +find BLEED
+2024-02-15 08:15:47,475 [INFO] Message from zaythorr: +find soniqs
+2024-02-15 08:16:23,853 [INFO] Message from zaythorr: +find falcons
+2024-02-15 08:16:46,715 [INFO] Message from zaythorr: +myteam
+2024-02-15 08:22:47,211 [INFO] Message from zaythorr: +myteam
+2024-02-15 08:23:08,687 [INFO] Message from zaythorr: +swap Beaulo Mowwwgli
+2024-02-15 08:23:16,605 [INFO] Message from zaythorr: +swap Doki Benja
+2024-02-15 08:23:26,907 [INFO] Message from zaythorr: +swap Ashn J90
+2024-02-15 08:23:35,516 [INFO] Message from zaythorr: +swap Cameraman Gryxr
+2024-02-15 08:23:47,200 [INFO] Message from zaythorr: +swap sheppard Virtue
+2024-02-15 08:23:49,567 [INFO] Message from zaythorr: +myteam
+2024-02-15 08:30:33,922 [INFO] Message from wraithling.: +signup
+2024-02-15 08:30:35,666 [INFO] Message from offphoenix96: +signup
+2024-02-15 08:30:40,682 [ERROR] database is locked
+2024-02-15 08:30:40,691 [INFO] Message from winterofworld: +myteam
+2024-02-15 08:30:55,177 [INFO] Message from offphoenix96: +signup
+2024-02-15 08:31:16,195 [INFO] Message from winterofworld: +myscore
+2024-02-15 08:32:32,681 [INFO] Message from wraithling.: +pick mowwwgli
+2024-02-15 08:32:34,291 [INFO] Message from steve100: +myscore
+2024-02-15 08:32:49,329 [INFO] Message from wraithling.: +pick benja
+2024-02-15 08:34:40,378 [INFO] Message from cozy_raza: +myscore
+2024-02-15 08:36:52,980 [INFO] Message from offphoenix96: +pick 85
+2024-02-15 08:37:32,410 [INFO] Message from offphoenix96: +pick 83
+2024-02-15 08:38:08,263 [INFO] Message from offphoenix96: +pick 82
+2024-02-15 08:38:25,395 [INFO] Message from offphoenix96: +pick 81
+2024-02-15 08:38:56,064 [INFO] Message from offphoenix96: +pick 68
+2024-02-15 08:39:01,471 [INFO] Message from offphoenix96: +myteam
+2024-02-15 08:39:46,343 [INFO] Message from wraithling.: +pick j90
