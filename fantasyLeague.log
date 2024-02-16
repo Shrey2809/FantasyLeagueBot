@@ -5837,3 +5837,59 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-16 06:30:20,507 [INFO] Message from alas.6: +standings
 2024-02-16 06:33:54,532 [INFO] Message from eden_se: +myscore
 2024-02-16 06:34:00,760 [INFO] Message from eden_se: +dailyscore
+2024-02-16 06:40:33,753 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 06:47:26,912 [INFO] Message from hylix.: +allplayers
+2024-02-16 06:50:30,232 [INFO] Message from hylix.: +swap reeps j90
+2024-02-16 07:02:56,941 [INFO] Message from martyrpmike: +myteam
+2024-02-16 07:11:53,188 [INFO] Message from eden_se: +dailyscores
+2024-02-16 07:11:53,621 [INFO] Message from eden_se: +dailyscores
+2024-02-16 07:17:05,243 [INFO] Message from mietch: +swap Doki J90
+2024-02-16 07:21:40,165 [INFO] Message from marwanmoussa: +standings
+2024-02-16 07:22:06,297 [INFO] Message from marwanmoussa: +myscore
+2024-02-16 07:41:37,219 [INFO] Message from mahdish079: +standings
+2024-02-16 07:44:26,261 [INFO] Message from mahdish079: +swap kondz njr
+2024-02-16 07:44:57,600 [INFO] Message from mahdish079: +swap mowwwgli ctzn
+2024-02-16 07:48:55,394 [INFO] Message from mahdish079: +swap muzi soulz
+2024-02-16 07:55:27,032 [INFO] Message from mahdish079: +swap volpz dash
+2024-02-16 07:55:33,318 [INFO] Message from mahdish079: +myteam
+2024-02-16 08:07:18,218 [INFO] Message from sledgs: +myscore
+2024-02-16 08:07:32,252 [INFO] Message from bymousie: +swap ctzn nafe
+2024-02-16 08:07:40,720 [INFO] Message from bymousie: +swap virtue nafe
+2024-02-16 08:08:14,214 [INFO] Message from bymousie: +swap ctzn Dash
+2024-02-16 08:09:06,729 [INFO] Message from sledgs: +swap sheppard Nafe
+2024-02-16 08:09:32,790 [INFO] Message from bymousie: +myteam
+2024-02-16 08:10:46,532 [INFO] Message from bymousie: +swap mowwgli ctzn
+2024-02-16 08:10:46,855 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 08:11:03,830 [INFO] Message from bymousie: +swap 98 ctzn
+2024-02-16 08:11:07,264 [INFO] Message from bymousie: +myteam
+2024-02-16 08:12:11,161 [INFO] Message from sledgs: +swap Doki J90
+2024-02-16 08:13:19,712 [INFO] Message from sledgs: +swap Mowwwgli Ctzh
+2024-02-16 08:13:19,985 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 08:13:41,151 [INFO] Message from sledgs: +swap Mowwwgli Ctzn
+2024-02-16 08:13:48,312 [INFO] Message from sledgs: +myteam
+2024-02-16 08:16:15,868 [INFO] Message from sledgs: +standings
+2024-02-16 08:16:32,051 [INFO] Message from sledgs: +myscore
+2024-02-16 08:17:18,180 [INFO] Message from deandiamond: +myscore
+2024-02-16 08:22:39,288 [INFO] Message from bymousie: +allplayers
+2024-02-16 08:25:13,791 [INFO] Message from deandiamond: +swap 93 13
+2024-02-16 08:26:18,905 [INFO] Message from deandiamond: +swap 43 4
+2024-02-16 08:26:24,557 [INFO] Message from deandiamond: +myteam
+2024-02-16 08:26:54,275 [INFO] Message from anshxo: +myscore
+2024-02-16 08:27:25,091 [INFO] Message from salee: +myscore
+2024-02-16 08:27:56,222 [INFO] Message from anshxo: +swap Benja Beaulo
+2024-02-16 08:28:46,029 [INFO] Message from anshxo: +swap Sheppard Nafe
+2024-02-16 08:29:07,768 [INFO] Message from deandiamond: +find sinus’s
+2024-02-16 08:29:16,554 [INFO] Message from deandiamond: +find soniqs
+2024-02-16 08:29:36,298 [INFO] Message from deandiamond: +find los
+2024-02-16 08:29:53,269 [INFO] Message from alas.6: +myteam
+2024-02-16 08:29:56,131 [INFO] Message from deandiamond: +find bleed
+2024-02-16 08:30:07,379 [INFO] Message from deandiamond: +find ssg
+2024-02-16 08:30:11,308 [INFO] Message from alas.6: +swap Forrest njr
+2024-02-16 08:30:21,255 [INFO] Message from alas.6: +myteam
+2024-02-16 08:30:22,695 [INFO] Message from deandiamond: +find Darjeeling
+2024-02-16 08:30:33,328 [INFO] Message from deandiamond: +find darkzero
+2024-02-16 08:31:04,523 [INFO] Message from deandiamond: +find faze
+2024-02-16 08:31:33,732 [INFO] Message from alas.6: +swap rec hashom
+2024-02-16 08:31:36,778 [INFO] Message from deandiamond: +swap 80 77
+2024-02-16 08:32:23,152 [INFO] Message from deandiamond: +myteam
+2024-02-16 08:36:34,898 [INFO] Message from anshxo: +swap Ambi Hashom
