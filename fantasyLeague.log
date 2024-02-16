@@ -6143,3 +6143,27 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-16 16:38:34,798 [INFO] Message from axon319: +myteam
 2024-02-16 16:38:38,735 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
 2024-02-16 16:38:40,883 [INFO] Message from realnoctish: +myteam
+2024-02-16 16:53:25,630 [INFO] Message from jaden556: +myscore
+2024-02-16 16:56:08,644 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 17:12:57,397 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 17:17:05,974 [INFO] Message from rhysxv: +myscore
+2024-02-16 17:17:55,442 [INFO] Message from rhysxv: +myteam
+2024-02-16 17:38:40,275 [INFO] Message from justoreo5: +myscore
+2024-02-16 17:48:24,720 [INFO] Message from chaser082: +standings
+2024-02-16 17:48:57,675 [INFO] Message from chaser082: +myscore
+2024-02-16 17:52:29,687 [INFO] Message from private_pastry: +myscore
+2024-02-16 17:54:13,232 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 17:56:35,858 [INFO] Message from random_fps: +myteam
+2024-02-16 17:57:31,164 [INFO] Message from rickandmhorti: +myteam
+2024-02-16 18:05:33,839 [INFO] Message from tweedy19: +myteam
+2024-02-16 18:10:43,706 [INFO] Message from officerbravo64: +myteam
+2024-02-16 18:13:47,308 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 18:18:33,337 [INFO] Message from zaythorr: +myteam
+2024-02-16 18:32:46,917 [INFO] Message from umbralamia: +myteam
+2024-02-16 18:32:55,437 [INFO] Message from axon319: +myteam
+2024-02-16 18:34:34,293 [INFO] Message from wiskyr6: +myteam
+2024-02-16 18:37:22,264 [INFO] Message from wiskyr6: +find ctzn
+2024-02-16 18:37:33,522 [INFO] Message from wiskyr6: +dailyscores
+2024-02-16 18:37:33,700 [INFO] Message from wiskyr6: +dailyscores
+2024-02-16 18:37:57,768 [INFO] Message from wiskyr6: +find uuno
+2024-02-16 18:38:05,077 [INFO] Message from wiskyr6: +allplayers
