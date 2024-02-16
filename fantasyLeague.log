@@ -6049,3 +6049,57 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-16 10:33:22,370 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
 2024-02-16 10:36:08,100 [INFO] Message from theakunderz: +standings
 2024-02-16 10:36:27,901 [INFO] Message from theakunderz: +myscore
+2024-02-16 10:40:45,993 [INFO] Message from lynx64: +swap reeps herdz
+2024-02-16 10:44:09,173 [INFO] Message from lynx64: +myteam
+2024-02-16 10:50:34,128 [INFO] Message from lynx64: +find faze
+2024-02-16 10:50:44,401 [INFO] Message from lynx64: +find bleed
+2024-02-16 10:50:52,157 [INFO] Message from lynx64: +find nip
+2024-02-16 10:51:31,684 [INFO] Message from lynx64: +swap gryxr hoven
+2024-02-16 10:51:39,819 [INFO] Message from lynx64: +myteam
+2024-02-16 10:52:54,571 [INFO] Message from lynx64: +find ssg
+2024-02-16 11:00:06,712 [INFO] Message from bonce_: +myscore
+2024-02-16 11:09:02,766 [INFO] Message from maxstephenson: +myscore a
+2024-02-16 11:09:21,113 [INFO] Message from maxstephenson: +dailyscores
+2024-02-16 11:09:21,365 [INFO] Message from maxstephenson: +dailyscores
+2024-02-16 11:09:24,084 [INFO] Message from 3rror__: +swap nade mentallist
+2024-02-16 11:09:24,301 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 11:09:42,387 [INFO] Message from maxstephenson: +swap mowwwgli reeps
+2024-02-16 11:09:45,856 [INFO] Message from 3rror__: +swap nade mentallist
+2024-02-16 11:09:46,232 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 11:09:51,345 [INFO] Message from maxstephenson: +myteam
+2024-02-16 11:10:06,870 [INFO] Message from maxstephenson: +swap virtue Nafe
+2024-02-16 11:10:12,211 [INFO] Message from damn3216: +dailyscores
+2024-02-16 11:10:12,588 [INFO] Message from damn3216: +dailyscores
+2024-02-16 11:13:18,888 [INFO] Message from maxstephenson: +myteam
+2024-02-16 11:13:42,408 [INFO] Message from maxstephenson: +swap jv92 j90
+2024-02-16 11:13:53,704 [INFO] Message from maxstephenson: +dz
+2024-02-16 11:14:07,362 [INFO] Message from maxstephenson: +swap rec herdz
+2024-02-16 11:15:08,552 [INFO] Message from maxstephenson: +swap jv92 fultz
+2024-02-16 11:15:13,004 [INFO] Message from maxstephenson: +myteam
+2024-02-16 11:15:29,497 [INFO] Message from vxn66: +myteam
+2024-02-16 11:15:35,783 [INFO] Message from vxn66: +myscore
+2024-02-16 11:15:43,596 [INFO] Message from vxn66: +dailyscores
+2024-02-16 11:15:43,838 [INFO] Message from vxn66: +dailyscores
+2024-02-16 11:22:47,885 [INFO] Message from oxabolt: +myteam
+2024-02-16 11:23:12,363 [INFO] Message from oxabolt: +swap benja CTZN
+2024-02-16 11:23:53,766 [INFO] Message from oxabolt: +allplayers
+2024-02-16 11:24:34,017 [INFO] Message from oxabolt: +swap alemao Herdz
+2024-02-16 11:24:50,876 [INFO] Message from oxabolt: +swap mowwwgli j90
+2024-02-16 11:25:35,326 [INFO] Message from oxabolt: +swap nade nafe
+2024-02-16 11:26:32,734 [INFO] Message from 3rror__: +swap nade mentalist
+2024-02-16 11:26:55,256 [INFO] Message from 3rror__: +myteam
+2024-02-16 11:27:52,193 [INFO] Message from oxabolt: +swap gryxr handy
+2024-02-16 11:27:57,543 [INFO] Message from oxabolt: +myteam
+2024-02-16 11:28:28,886 [INFO] Message from 3rror__: +dailyscores
+2024-02-16 11:28:29,164 [INFO] Message from 3rror__: +dailyscores
+2024-02-16 11:29:27,928 [INFO] Message from oxabolt: +swap J90 Reeps
+2024-02-16 11:35:33,699 [INFO] Message from maxstephenson: +dailyscores
+2024-02-16 11:35:33,953 [INFO] Message from maxstephenson: +dailyscores
+2024-02-16 11:47:45,704 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 11:58:00,292 [INFO] Message from shishaha: +myscore
+2024-02-16 11:58:28,921 [INFO] Message from bymousie: +dailyscores
+2024-02-16 11:58:29,215 [INFO] Message from bymousie: +dailyscores
+2024-02-16 11:59:52,440 [INFO] Message from darkwastaken.: +myscore
+2024-02-16 12:29:45,727 [INFO] Message from wraithling.: +swap benja beaulo
+2024-02-16 12:30:15,449 [INFO] Message from wraithling.: +swap virtue nafe
+2024-02-16 12:33:04,187 [INFO] Message from wraithling.: +swap mowwwgli herdz
