@@ -6222,3 +6222,22 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-16 20:25:07,021 [INFO] Message from sledgs: +myscore
 2024-02-16 20:38:12,228 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
 2024-02-16 20:39:38,315 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 20:49:46,506 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 21:01:36,899 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 21:09:27,582 [INFO] Message from bjelven: +myteam
+2024-02-16 21:11:27,516 [INFO] Message from napzz9021: +dailyscores
+2024-02-16 21:11:27,921 [INFO] Message from napzz9021: +dailyscores
+2024-02-16 21:14:26,001 [INFO] Message from standby75: +standings
+2024-02-16 21:21:26,494 [INFO] Message from cashcity: +myteam
+2024-02-16 21:23:04,622 [INFO] Message from cashcity: +find virtuspro
+2024-02-16 21:23:10,438 [INFO] Message from cashcity: +find vp
+2024-02-16 21:23:18,801 [INFO] Message from cashcity: +find virtus pro
+2024-02-16 21:31:18,096 [INFO] Message from standby75: +find Los
+2024-02-16 21:33:01,755 [INFO] Message from standby75: +find scarz
+2024-02-16 21:33:12,513 [INFO] Message from standby75: +find VP
+2024-02-16 21:33:18,440 [INFO] Message from standby75: +find virtus pro
+2024-02-16 21:35:40,017 [INFO] Message from axon319: +find Falcons
+2024-02-16 21:48:37,481 [INFO] Message from standby75: +find Liquid
+2024-02-16 21:55:05,704 [INFO] Message from pascalthecurator: +myscore
+2024-02-16 22:16:11,071 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 22:26:57,291 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
