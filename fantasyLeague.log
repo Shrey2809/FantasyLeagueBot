@@ -5893,3 +5893,159 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-16 08:31:36,778 [INFO] Message from deandiamond: +swap 80 77
 2024-02-16 08:32:23,152 [INFO] Message from deandiamond: +myteam
 2024-02-16 08:36:34,898 [INFO] Message from anshxo: +swap Ambi Hashom
+2024-02-16 09:05:41,002 [INFO] Message from rickandmhorti: +myteam
+2024-02-16 09:05:45,455 [INFO] Message from rickandmhorti: +myscore
+2024-02-16 09:05:50,886 [INFO] Message from rickandmhorti: +swap Geo Nafe
+2024-02-16 09:06:10,374 [INFO] Message from rickandmhorti: +swap Mowwwgli J9O
+2024-02-16 09:06:10,915 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:06:16,324 [INFO] Message from rickandmhorti: +find ssg
+2024-02-16 09:06:28,492 [INFO] Message from rickandmhorti: +swap Mowwwgli J90
+2024-02-16 09:06:36,285 [INFO] Message from rickandmhorti: +myteam
+2024-02-16 09:07:06,305 [INFO] Message from rickandmhorti: +find Soniqs
+2024-02-16 09:07:59,945 [INFO] Message from rickandmhorti: +swap Resetz Gryxr
+2024-02-16 09:08:03,627 [INFO] Message from rickandmhorti: +myteam
+2024-02-16 09:08:17,015 [INFO] Message from rickandmhorti: +swap Kheyze Herdz
+2024-02-16 09:10:05,507 [INFO] Message from rickandmhorti: +swap Benja soulz
+2024-02-16 09:10:09,110 [INFO] Message from rickandmhorti: +myteam
+2024-02-16 09:10:14,531 [INFO] Message from rickandmhorti: +dayscore
+2024-02-16 09:11:33,092 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-16 09:11:33,697 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-16 09:11:38,501 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 09:11:45,850 [INFO] Message from rickandmhorti: +standings
+2024-02-16 09:15:38,817 [INFO] Message from bev1701: +myteam
+2024-02-16 09:15:50,465 [INFO] Message from bev1701: +swap benja panba
+2024-02-16 09:16:16,925 [INFO] Message from lynx64: +myscore
+2024-02-16 09:16:40,169 [INFO] Message from lynx64: +dailyscores
+2024-02-16 09:16:40,554 [INFO] Message from lynx64: +dailyscores
+2024-02-16 09:21:25,827 [INFO] Message from bev1701: +swap biboo jv92
+2024-02-16 09:21:27,614 [INFO] Message from lynx64: +find darkzero
+2024-02-16 09:21:31,040 [INFO] Message from bev1701: +myteam
+2024-02-16 09:21:51,739 [INFO] Message from lynx64: +find soniqs
+2024-02-16 09:22:03,427 [INFO] Message from oxabolt: +myscore
+2024-02-16 09:22:31,036 [INFO] Message from oxabolt: +standings
+2024-02-16 09:23:33,987 [INFO] Message from lynx64: +find nade
+2024-02-16 09:23:42,576 [INFO] Message from lynx64: +find w7m
+2024-02-16 09:24:14,557 [INFO] Message from lynx64: +swap nade nafe
+2024-02-16 09:25:55,351 [INFO] Message from lynx64: +find nip
+2024-02-16 09:26:05,333 [INFO] Message from lynx64: +find geekay
+2024-02-16 09:26:17,219 [INFO] Message from das_percy: +myscore
+2024-02-16 09:26:34,174 [INFO] Message from lynx64: +find bliss
+2024-02-16 09:26:46,482 [INFO] Message from lynx64: +find faze
+2024-02-16 09:26:52,992 [INFO] Message from eden_se: +find Liquid
+2024-02-16 09:27:12,337 [INFO] Message from eden_se: +find SSG
+2024-02-16 09:27:36,464 [INFO] Message from eden_se: +swap 97 85
+2024-02-16 09:27:46,599 [INFO] Message from eden_se: +find Bleed
+2024-02-16 09:27:56,383 [INFO] Message from eden_se: +find soniqs
+2024-02-16 09:28:13,679 [INFO] Message from eden_se: +swap 98 77
+2024-02-16 09:28:17,031 [INFO] Message from eden_se: +myteam
+2024-02-16 09:28:54,023 [INFO] Message from marwanmoussa: +myteam
+2024-02-16 09:28:59,810 [INFO] Message from marwanmoussa: +find darkzero
+2024-02-16 09:29:19,903 [INFO] Message from marwanmoussa: +swap 45 13
+2024-02-16 09:30:36,016 [INFO] Message from marwanmoussa: +find wolves
+2024-02-16 09:31:43,789 [INFO] Message from marwanmoussa: +find bleed
+2024-02-16 09:32:33,611 [INFO] Message from marwanmoussa: +swap 42 4
+2024-02-16 09:32:47,251 [INFO] Message from marwanmoussa: +myteam
+2024-02-16 09:32:52,847 [INFO] Message from alas.6: +myteam
+2024-02-16 09:33:17,524 [INFO] Message from marwanmoussa: +find geekay
+2024-02-16 09:33:29,740 [INFO] Message from marwanmoussa: +find ssg
+2024-02-16 09:34:00,605 [INFO] Message from marwanmoussa: +swap 95 83
+2024-02-16 09:34:03,924 [INFO] Message from marwanmoussa: +myteam
+2024-02-16 09:34:14,313 [INFO] Message from marwanmoussa: +myscore
+2024-02-16 09:34:18,917 [INFO] Message from marwanmoussa: +standings
+2024-02-16 09:35:29,859 [INFO] Message from marwanmoussa: +dailyscores
+2024-02-16 09:35:30,168 [INFO] Message from marwanmoussa: +dailyscores
+2024-02-16 09:35:52,623 [INFO] Message from alas.6: +swap herdz lobin
+2024-02-16 09:35:52,937 [INFO] Message from lynx64: +myteam
+2024-02-16 09:36:00,303 [INFO] Message from 3rror__: +swap doki nudl
+2024-02-16 09:36:07,231 [INFO] Message from lynx64: +swap mowwwgli ctzn
+2024-02-16 09:36:35,721 [INFO] Message from 3rror__: +swap mowwwgli canadian
+2024-02-16 09:36:43,620 [INFO] Message from 3rror__: +swap virtue njr
+2024-02-16 09:36:45,556 [INFO] Message from lynx64: +find scar,
+2024-02-16 09:36:55,043 [INFO] Message from lynx64: +find scarz
+2024-02-16 09:37:09,236 [INFO] Message from 3rror__: +myteam
+2024-02-16 09:37:24,159 [INFO] Message from 3rror__: +swap deadshot nafe
+2024-02-16 09:37:33,715 [INFO] Message from lynx64: +find g2
+2024-02-16 09:37:54,042 [INFO] Message from 3rror__: +swap deadshot reeps
+2024-02-16 09:38:34,554 [INFO] Message from 3rror__: +swap nade hotancold
+2024-02-16 09:38:35,083 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:38:44,356 [INFO] Message from 3rror__: +swap nade hotancold
+2024-02-16 09:38:44,539 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:38:48,553 [INFO] Message from 3rror__: +myteam
+2024-02-16 09:38:55,346 [INFO] Message from 3rror__: +allplayers
+2024-02-16 09:39:29,671 [INFO] Message from lynx64: +find wolves
+2024-02-16 09:39:35,446 [INFO] Message from gabrielesevergnini_: +myscore
+2024-02-16 09:39:49,955 [INFO] Message from alas.6: +myteam
+2024-02-16 09:40:00,992 [INFO] Message from 3rror__: +swap nade mentallist
+2024-02-16 09:40:01,185 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:40:07,394 [INFO] Message from lynx64: +find ssg
+2024-02-16 09:40:45,426 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-16 09:41:01,176 [INFO] Message from gabrielesevergnini_: +swap Benja nafe
+2024-02-16 09:41:10,145 [INFO] Message from gabrielesevergnini_: +swap resetz nafe
+2024-02-16 09:41:23,980 [INFO] Message from lynx64: +swap benja j90
+2024-02-16 09:41:32,238 [INFO] Message from gabrielesevergnini_: +swap mowwwgli ctzn
+2024-02-16 09:41:35,837 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-16 09:43:14,576 [INFO] Message from gabrielesevergnini_: +swap benja gryxr
+2024-02-16 09:43:17,830 [INFO] Message from lynx64: +find los
+2024-02-16 09:43:50,134 [INFO] Message from lynx64: +find w7m
+2024-02-16 09:44:30,847 [INFO] Message from gabrielesevergnini_: +swap benja dash
+2024-02-16 09:44:31,795 [INFO] Message from lynx64: +find liquid
+2024-02-16 09:45:00,476 [INFO] Message from gabrielesevergnini_: +swap dash njr
+2024-02-16 09:45:23,468 [INFO] Message from gabrielesevergnini_: +swap Fultz njr
+2024-02-16 09:45:53,346 [INFO] Message from 3rror__: +swap nade mentallist
+2024-02-16 09:45:53,600 [INFO] Message from gabrielesevergnini_: +find soniqs
+2024-02-16 09:45:53,636 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:46:29,967 [INFO] Message from gabrielesevergnini_: +swap benja dash
+2024-02-16 09:46:33,942 [INFO] Message from lynx64: +find soniqs
+2024-02-16 09:46:37,550 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-16 09:46:40,057 [INFO] Message from das_percy: +allplayers
+2024-02-16 09:46:41,298 [INFO] Message from lynx64: +find m80
+2024-02-16 09:47:03,070 [INFO] Message from lynx64: +find bleed
+2024-02-16 09:47:21,425 [INFO] Message from das_percy: +swap virtue nafe
+2024-02-16 09:47:40,251 [INFO] Message from das_percy: +swap benja herdz
+2024-02-16 09:47:46,095 [INFO] Message from das_percy: +myteam
+2024-02-16 09:48:04,157 [INFO] Message from das_percy: +swap mowwwgli ctzn
+2024-02-16 09:48:12,873 [INFO] Message from das_percy: +myteam
+2024-02-16 09:53:16,256 [INFO] Message from bjelven: +swap Benja Canadian
+2024-02-16 09:53:35,534 [INFO] Message from bjelven: +swap deadshot j90
+2024-02-16 09:53:53,546 [INFO] Message from bjelven: +swap Herdz Lobin
+2024-02-16 09:54:14,035 [INFO] Message from tommy4.: +find nudl
+2024-02-16 09:54:28,747 [INFO] Message from tommy4.: +find soluz
+2024-02-16 09:54:33,590 [INFO] Message from tommy4.: +find soulz
+2024-02-16 09:54:36,764 [INFO] Message from tommy4.: +find cyber
+2024-02-16 09:54:36,806 [INFO] Message from bjelven: +dailyscore
+2024-02-16 09:54:45,100 [INFO] Message from tommy4.: +find herdz
+2024-02-16 09:54:52,364 [INFO] Message from tommy4.: +find gryxr
+2024-02-16 09:55:06,223 [INFO] Message from tommy4.: +find gyrxr
+2024-02-16 09:55:10,914 [INFO] Message from tommy4.: +find soniqs
+2024-02-16 09:55:15,521 [INFO] Message from bjelven: +myscore
+2024-02-16 09:55:25,243 [INFO] Message from tommy4.: +swap 5429
+2024-02-16 09:55:25,509 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:55:29,323 [INFO] Message from tommy4.: +swap 54 29
+2024-02-16 09:55:44,121 [INFO] Message from tommy4.: +swap 54 79
+2024-02-16 09:55:52,737 [INFO] Message from tommy4.: +swap 77 48
+2024-02-16 09:56:00,794 [INFO] Message from tommy4.: +swap 5226
+2024-02-16 09:56:00,983 [ERROR] 'NoneType' object is not subscriptable
+2024-02-16 09:56:05,617 [INFO] Message from tommy4.: +swap 53 92
+2024-02-16 09:56:10,575 [INFO] Message from tommy4.: +find support
+2024-02-16 09:56:20,924 [INFO] Message from tommy4.: +find los
+2024-02-16 09:56:31,967 [INFO] Message from tommy4.: +myteam
+2024-02-16 09:56:46,266 [INFO] Message from tommy4.: +swap 52 26
+2024-02-16 09:56:49,930 [INFO] Message from tommy4.: +myteam
+2024-02-16 09:56:59,553 [INFO] Message from tommy4.: +myscore
+2024-02-16 09:57:46,423 [INFO] Message from lynx64: +find fury
+2024-02-16 10:12:14,060 [INFO] Message from ramon2403: +myscore
+2024-02-16 10:12:29,716 [INFO] Message from lynx64: +myteam
+2024-02-16 10:12:37,074 [INFO] Message from ramon2403: +dailyscores
+2024-02-16 10:12:37,532 [INFO] Message from ramon2403: +dailyscores
+2024-02-16 10:12:41,372 [INFO] Message from lynx64: +swap rec reeps
+2024-02-16 10:13:15,303 [INFO] Message from lynx64: +find los
+2024-02-16 10:17:22,428 [INFO] Message from bhr1s: +myscore
+2024-02-16 10:18:27,159 [INFO] Message from bhr1s: +dailyscores
+2024-02-16 10:18:27,489 [INFO] Message from bhr1s: +dailyscores
+2024-02-16 10:21:24,195 [INFO] Message from bhr1s: +myteam
+2024-02-16 10:22:03,976 [INFO] Message from bhr1s: +swap Gryxr Jv92
+2024-02-16 10:32:14,277 [INFO] Message from random_fps: +dailyscores
+2024-02-16 10:32:14,771 [INFO] Message from random_fps: +dailyscores
+2024-02-16 10:33:22,370 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-16 10:36:08,100 [INFO] Message from theakunderz: +standings
+2024-02-16 10:36:27,901 [INFO] Message from theakunderz: +myscore
