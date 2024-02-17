@@ -6755,3 +6755,139 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-17 04:39:25,514 [INFO] Message from ten245_: +swap reeps brendo
 2024-02-17 04:39:37,479 [INFO] Message from ten245_: +myteam
 2024-02-17 04:41:57,274 [INFO] Message from wokenz_: +myscore
+2024-02-17 04:45:38,845 [INFO] Message from wraithling.: +myteam
+2024-02-17 04:46:34,848 [INFO] Message from pastybo: +dailyscores
+2024-02-17 04:46:35,128 [INFO] Message from pastybo: +dailyscores
+2024-02-17 04:47:24,799 [INFO] Message from beopa15: +swap 77 98
+2024-02-17 04:47:52,054 [INFO] Message from beopa15: +swap 53 43
+2024-02-17 04:52:01,942 [INFO] Message from offphoenix96: +myteam
+2024-02-17 04:53:53,705 [INFO] Message from offphoenix96: +find G2
+2024-02-17 04:54:08,663 [INFO] Message from offphoenix96: +myteam
+2024-02-17 04:56:13,628 [INFO] Message from pascalthecurator: +myscore
+2024-02-17 04:56:57,739 [INFO] Message from offphoenix96: +swap J90 Doki
+2024-02-17 04:57:24,445 [INFO] Message from offphoenix96: +swap Fultz Virtue
+2024-02-17 04:58:35,722 [INFO] Message from offphoenix96: +swap Forrest Uuno
+2024-02-17 04:59:03,245 [INFO] Message from offphoenix96: +swap Ashn Alemao
+2024-02-17 04:59:31,660 [INFO] Message from offphoenix96: +swap Pino Benja
+2024-02-17 04:59:36,002 [INFO] Message from offphoenix96: +myteam
+2024-02-17 04:59:53,000 [INFO] Message from beopa15: +myteam
+2024-02-17 05:00:23,540 [INFO] Message from beopa15: +swap 30 42
+2024-02-17 05:00:52,237 [INFO] Message from beopa15: +swap 30 14
+2024-02-17 05:01:14,890 [INFO] Message from beopa15: +swap 92 42
+2024-02-17 05:01:21,275 [INFO] Message from beopa15: +myteam
+2024-02-17 05:01:45,164 [INFO] Message from beopa15: +standings
+2024-02-17 05:03:09,195 [INFO] Message from pastybo: +myteam
+2024-02-17 05:03:46,399 [INFO] Message from pastybo: +myscore
+2024-02-17 05:05:40,164 [INFO] Message from pastybo: +swap 79 89
+2024-02-17 05:06:13,640 [INFO] Message from pastybo: +swap 85 53
+2024-02-17 05:06:48,995 [INFO] Message from pastybo: +swap 11 4
+2024-02-17 05:07:07,922 [INFO] Message from axon319: +myscore
+2024-02-17 05:07:47,377 [INFO] Message from pastybo: +myteam
+2024-02-17 05:07:54,454 [INFO] Message from abyukio: +myscores
+2024-02-17 05:09:51,229 [INFO] Message from pastybo: +swap 14 27
+2024-02-17 05:09:56,893 [INFO] Message from pastybo: +myteam
+2024-02-17 05:13:12,449 [INFO] Message from wraithling.: +swap j90 mowwwgli
+2024-02-17 05:14:24,030 [INFO] Message from wraithling.: +swap beaulo benja
+2024-02-17 05:14:32,833 [INFO] Message from wraithling.: +swap fultz virtue
+2024-02-17 05:14:46,958 [INFO] Message from wraithling.: +myteam
+2024-02-17 05:17:27,731 [INFO] Message from bymousie: +myscore
+2024-02-17 05:17:47,355 [INFO] Message from bymousie: +myscore
+2024-02-17 05:18:00,819 [INFO] Message from bymousie: +standings
+2024-02-17 05:18:12,548 [INFO] Message from bymousie: +standings
+2024-02-17 05:18:57,761 [INFO] Message from bymousie: +myteam
+2024-02-17 05:19:24,238 [INFO] Message from bymousie: +swap ctzn Mowwgli
+2024-02-17 05:19:24,515 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 05:19:38,859 [INFO] Message from bymousie: +swap 77 98
+2024-02-17 05:19:44,244 [INFO] Message from bymousie: +myteam
+2024-02-17 05:19:55,556 [INFO] Message from wraithling.: +swap virtue njr
+2024-02-17 05:20:04,395 [INFO] Message from bymousie: +allplayers
+2024-02-17 05:20:22,485 [INFO] Message from wraithling.: +swap herdz nafe
+2024-02-17 05:20:26,537 [INFO] Message from bymousie: +swap Herdz Nudl
+2024-02-17 05:20:36,297 [INFO] Message from bymousie: +swap Jv92 nafe
+2024-02-17 05:20:42,330 [INFO] Message from wraithling.: +myteam
+2024-02-17 05:21:52,754 [INFO] Message from bymousie: +swap jv92 hashom
+2024-02-17 05:22:07,767 [INFO] Message from wraithling.: +swap herdz panbazou
+2024-02-17 05:22:09,265 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 05:22:16,263 [INFO] Message from wraithling.: +swap herdz panba
+2024-02-17 05:22:20,700 [INFO] Message from wraithling.: +myteam
+2024-02-17 05:22:48,512 [INFO] Message from wraithling.: +swap nafe virtue
+2024-02-17 05:22:52,400 [INFO] Message from wraithling.: +myteam
+2024-02-17 05:23:29,165 [INFO] Message from bymousie: +swap jv92 pasha
+2024-02-17 05:23:32,358 [INFO] Message from bymousie: +myteam
+2024-02-17 05:24:29,562 [INFO] Message from bymousie: +swap nudl hashom
+2024-02-17 05:24:39,344 [INFO] Message from bymousie: +myteam
+2024-02-17 05:28:52,791 [INFO] Message from standby75: +swap Njr Pasha
+2024-02-17 05:28:57,340 [INFO] Message from standby75: +swap Herdz Dash
+2024-02-17 05:29:10,782 [INFO] Message from standby75: +swap Nafe Sheppard
+2024-02-17 05:29:25,964 [INFO] Message from standby75: +swap Maia Dan
+2024-02-17 05:29:33,712 [INFO] Message from .__.nyx.__.: +swap j90 Rechaan
+2024-02-17 05:29:33,886 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 05:29:34,148 [INFO] Message from standby75: +swap Rexen Mowwwgli
+2024-02-17 05:29:52,988 [INFO] Message from .__.nyx.__.: +swap j90 mowwwgil
+2024-02-17 05:29:53,279 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 05:30:10,310 [INFO] Message from standby75: +swap Dan Benja
+2024-02-17 05:30:28,291 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-17 05:31:08,968 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-17 05:39:05,998 [INFO] Message from zygecks: +myscore
+2024-02-17 05:41:16,880 [INFO] Message from standby75: +myteam
+2024-02-17 05:41:56,192 [INFO] Message from standby75: +swap Mowwwgli Deadsht
+2024-02-17 05:41:56,536 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 05:42:10,036 [INFO] Message from standby75: +swap Mowwwgli Deadshot
+2024-02-17 05:42:13,189 [INFO] Message from standby75: +myteam
+2024-02-17 05:45:08,986 [INFO] Message from qluo.: +myscore
+2024-02-17 05:51:12,079 [INFO] Message from triipn: +myscore
+2024-02-17 05:57:51,132 [INFO] Message from skylarswrld_kix: +myscore
+2024-02-17 06:16:35,754 [INFO] Message from jazzman: +myteam
+2024-02-17 06:16:38,548 [INFO] Message from jazzman: +myscore
+2024-02-17 06:17:21,247 [INFO] Message from jazzman: +dailyscores
+2024-02-17 06:17:21,659 [INFO] Message from jazzman: +dailyscores
+2024-02-17 06:21:50,835 [INFO] Message from bhr1s: +myteam
+2024-02-17 06:22:53,981 [INFO] Message from bhr1s: +swap Volpz Ambi
+2024-02-17 06:24:34,410 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-17 06:25:27,252 [INFO] Message from nerfsledge#5781: +myscore
+2024-02-17 06:27:44,481 [INFO] Message from nutberry69: +swap j90 lobin
+2024-02-17 06:28:36,870 [INFO] Message from nutberry69: +swap fultz nafe
+2024-02-17 06:31:43,091 [INFO] Message from nutberry69: +swap mowwwgli ctzn
+2024-02-17 06:31:59,770 [INFO] Message from nutberry69: +swap ctzan mowwwgli
+2024-02-17 06:32:00,021 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 06:32:10,789 [INFO] Message from nutberry69: +swap ctzan mowwwgli
+2024-02-17 06:32:11,014 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 06:32:21,847 [INFO] Message from nutberry69: +swap ctzn mowwwgli
+2024-02-17 06:32:45,737 [INFO] Message from nutberry69: +myteam
+2024-02-17 06:34:58,015 [INFO] Message from 3rror__: +swap reeps paluh
+2024-02-17 06:35:19,310 [INFO] Message from 3rror__: +swap paluh resetz
+2024-02-17 06:35:27,600 [INFO] Message from 3rror__: +swap mentalist resetz
+2024-02-17 06:36:02,172 [INFO] Message from 3rror__: +myteam
+2024-02-17 06:36:11,357 [INFO] Message from 3rror__: +swap canadian REC
+2024-02-17 06:36:11,806 [INFO] Message from pascalthecurator: +myteam
+2024-02-17 06:36:36,895 [INFO] Message from pascalthecurator: +swap kheyze reeps
+2024-02-17 06:36:50,682 [INFO] Message from nutberry69: +swap herdz Woogiman
+2024-02-17 06:36:57,240 [INFO] Message from nutberry69: +myteam
+2024-02-17 06:37:20,811 [INFO] Message from nutberry69: +dailyscores
+2024-02-17 06:37:21,110 [INFO] Message from nutberry69: +dailyscores
+2024-02-17 06:37:23,942 [INFO] Message from pascalthecurator: +swap nade lobin
+2024-02-17 06:37:29,842 [INFO] Message from pascalthecurator: +swap gryxr lobin
+2024-02-17 06:37:41,892 [INFO] Message from nutberry69: +find ssg
+2024-02-17 06:38:23,953 [INFO] Message from pascalthecurator: +swap nade paluh
+2024-02-17 06:38:38,529 [INFO] Message from pascalthecurator: +swap benja paluh
+2024-02-17 06:38:43,610 [INFO] Message from nutberry69: +find w7m
+2024-02-17 06:38:56,313 [INFO] Message from pascalthecurator: +swap reeps benja
+2024-02-17 06:39:00,381 [INFO] Message from pascalthecurator: +myteam
+2024-02-17 06:39:07,063 [INFO] Message from nutberry69: +find dz
+2024-02-17 06:39:13,552 [INFO] Message from pascalthecurator: +swap gryxr canadian
+2024-02-17 06:39:15,174 [INFO] Message from nutberry69: +find DZ
+2024-02-17 06:39:36,441 [INFO] Message from pascalthecurator: +swap gryxr lagonis felipox
+2024-02-17 06:39:43,471 [INFO] Message from nutberry69: +find DZ
+2024-02-17 06:40:04,917 [INFO] Message from pascalthecurator: +swap felipox j90
+2024-02-17 06:40:11,665 [INFO] Message from nutberry69: +find darkzero
+2024-02-17 06:40:21,040 [INFO] Message from pascalthecurator: +swap lagonis j90
+2024-02-17 06:40:24,161 [INFO] Message from pascalthecurator: +myteam
+2024-02-17 06:40:40,898 [INFO] Message from nutberry69: +find dplus
+2024-02-17 06:41:02,129 [INFO] Message from pascalthecurator: +swap nade soulz
+2024-02-17 06:41:28,815 [INFO] Message from pascalthecurator: +swap nade pasha
+2024-02-17 06:41:52,186 [INFO] Message from nutberry69: +find los\
+2024-02-17 06:41:56,555 [INFO] Message from nutberry69: +find los
+2024-02-17 06:42:18,027 [INFO] Message from nutberry69: +swap woggiman dash
+2024-02-17 06:42:18,421 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 06:42:45,969 [INFO] Message from nutberry69: +swap Woogiman dash
+2024-02-17 06:42:57,748 [INFO] Message from nutberry69: +myteam
