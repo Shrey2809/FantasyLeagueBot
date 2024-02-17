@@ -6981,3 +6981,83 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-17 08:42:03,891 [INFO] Message from umbralamia: +dailyscores
 2024-02-17 08:43:16,641 [INFO] Message from gabrielesevergnini_: +myscore
 2024-02-17 08:43:30,296 [INFO] Message from umbralamia: +myteam
+2024-02-17 08:44:36,328 [INFO] Message from gabrielesevergnini_: +find geekay
+2024-02-17 08:45:25,075 [INFO] Message from gabrielesevergnini_: +find virtus pro
+2024-02-17 08:45:46,610 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-17 08:46:05,116 [INFO] Message from gabrielesevergnini_: +swap j90 nesk
+2024-02-17 08:46:18,055 [INFO] Message from gabrielesevergnini_: +swap njr uuno
+2024-02-17 08:46:52,348 [INFO] Message from gabrielesevergnini_: +swap ctzn lobin
+2024-02-17 08:47:03,104 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-17 08:47:20,407 [INFO] Message from marwanmoussa: +myscore
+2024-02-17 08:47:28,060 [INFO] Message from marwanmoussa: +standings
+2024-02-17 08:47:36,349 [INFO] Message from marwanmoussa: +dailyscore
+2024-02-17 08:47:43,174 [INFO] Message from marwanmoussa: +dailyscores
+2024-02-17 08:47:43,459 [INFO] Message from marwanmoussa: +dailyscores
+2024-02-17 08:48:52,843 [INFO] Message from marwanmoussa: +myteam
+2024-02-17 08:51:59,095 [INFO] Message from marwanmoussa: +swap herdz benja
+2024-02-17 08:52:02,530 [INFO] Message from marwanmoussa: +myteam
+2024-02-17 08:52:26,143 [INFO] Message from marwanmoussa: +find geekay
+2024-02-17 08:52:46,972 [INFO] Message from marwanmoussa: +swap fultz virtue
+2024-02-17 08:52:52,036 [INFO] Message from marwanmoussa: +myteam
+2024-02-17 08:53:23,426 [INFO] Message from bjelven: +myscore
+2024-02-17 08:53:53,876 [INFO] Message from bjelven: +swap kondz Wettables
+2024-02-17 08:53:54,003 [INFO] Message from umbralamia: +allplayers
+2024-02-17 08:54:02,682 [INFO] Message from bjelven: +swap J90 Rec
+2024-02-17 08:59:51,659 [INFO] Message from umbralamia: +swap ctzn rec
+2024-02-17 09:00:59,314 [INFO] Message from umbralamia: +swap terdsta dan
+2024-02-17 09:01:29,132 [INFO] Message from umbralamia: +swap kds benja
+2024-02-17 09:01:37,995 [INFO] Message from umbralamia: +swap nafe mentalist
+2024-02-17 09:02:05,262 [INFO] Message from umbralamia: +swap nade nafe
+2024-02-17 09:02:07,684 [INFO] Message from umbralamia: +myteam
+2024-02-17 09:11:43,825 [INFO] Message from bjelven: +swap Reac Deadshot
+2024-02-17 09:11:44,231 [ERROR] 'NoneType' object is not subscriptable
+2024-02-17 09:12:37,344 [INFO] Message from bjelven: +swap rec deadshot
+2024-02-17 09:12:44,826 [INFO] Message from bjelven: +myteam
+2024-02-17 09:14:03,553 [INFO] Message from damn3216: +myscore
+2024-02-17 09:14:19,917 [INFO] Message from damn3216: +dailyscores
+2024-02-17 09:14:20,303 [INFO] Message from damn3216: +dailyscores
+2024-02-17 09:16:48,506 [INFO] Message from mahdish079: +swap ctzn doki
+2024-02-17 09:17:26,870 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-17 09:53:04,532 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-17 10:08:49,206 [INFO] Message from damn3216: +myteam
+2024-02-17 10:09:14,879 [INFO] Message from damn3216: +swap kheyze rec
+2024-02-17 10:09:48,386 [INFO] Message from damn3216: +swap nafe pasha
+2024-02-17 10:10:33,209 [INFO] Message from damn3216: +swap reeps woogiman
+2024-02-17 10:14:03,372 [INFO] Message from das_percy: +myscore
+2024-02-17 10:14:56,426 [INFO] Message from das_percy: +find bleed
+2024-02-17 10:15:32,747 [INFO] Message from das_percy: +find liquid
+2024-02-17 10:16:11,567 [INFO] Message from theakunderz: +swap Herdz Dan-_-
+2024-02-17 10:16:33,116 [INFO] Message from theakunderz: +swap J90 Nudl
+2024-02-17 10:18:08,756 [INFO] Message from officerbravo64: +swap gryxr pasha
+2024-02-17 10:18:33,158 [INFO] Message from theakunderz: +swap Nudl Cyber
+2024-02-17 10:18:49,946 [INFO] Message from officerbravo64: +swap ctzn benja
+2024-02-17 10:18:54,080 [INFO] Message from officerbravo64: +myteam
+2024-02-17 10:21:07,980 [INFO] Message from theakunderz: +swap Gryxr Dotz
+2024-02-17 10:21:15,608 [INFO] Message from theakunderz: +myteam
+2024-02-17 10:27:27,908 [INFO] Message from das_percy: +find bliss
+2024-02-17 10:27:51,547 [INFO] Message from das_percy: +find los
+2024-02-17 10:28:00,423 [INFO] Message from das_percy: +myteam
+2024-02-17 10:28:15,088 [INFO] Message from das_percy: +swap ctzn lobin
+2024-02-17 10:28:54,915 [INFO] Message from das_percy: +swap herdz dash
+2024-02-17 10:28:57,865 [INFO] Message from das_percy: +myteam
+2024-02-17 10:29:10,373 [INFO] Message from das_percy: +find vp
+2024-02-17 10:29:15,362 [INFO] Message from das_percy: +find virtus
+2024-02-17 10:29:20,526 [INFO] Message from das_percy: +find virtus pro
+2024-02-17 10:29:32,885 [INFO] Message from das_percy: +swap gryxr pasha
+2024-02-17 10:29:52,390 [INFO] Message from das_percy: +swap nafe virtue
+2024-02-17 10:30:09,072 [INFO] Message from das_percy: +find g2
+2024-02-17 10:30:22,621 [INFO] Message from das_percy: +swap j90 doki
+2024-02-17 10:30:24,855 [INFO] Message from das_percy: +myteam
+2024-02-17 10:34:39,188 [INFO] Message from ramon2403: +myscore
+2024-02-17 10:34:46,853 [INFO] Message from ramon2403: +dailyscore
+2024-02-17 10:35:10,729 [INFO] Message from ramon2403: +myteam
+2024-02-17 10:35:24,085 [INFO] Message from ramon2403: +swap 85 benja
+2024-02-17 10:36:10,784 [INFO] Message from ramon2403: +find los
+2024-02-17 10:37:10,312 [INFO] Message from ramon2403: +myteam
+2024-02-17 10:37:20,229 [INFO] Message from ramon2403: +swap nafe virtue
+2024-02-17 10:37:26,954 [INFO] Message from ramon2403: +swap herdz lobin
+2024-02-17 10:37:48,445 [INFO] Message from ramon2403: +swap ctzn mowwwgli
+2024-02-17 10:37:51,680 [INFO] Message from ramon2403: +myteam
+2024-02-17 10:38:43,080 [INFO] Message from ramon2403: +swap 98 paluh
+2024-02-17 10:41:06,360 [INFO] Message from anshxo: +swap Sheppard Pasha
+2024-02-17 10:42:42,571 [INFO] Message from umbralamia: +myteam
