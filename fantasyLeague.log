@@ -7612,3 +7612,57 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-18 02:41:18,441 [INFO] Message from space.: +myteam
 2024-02-18 02:41:38,954 [INFO] Message from tweedy19: +myscore
 2024-02-18 02:43:53,627 [INFO] Message from random_fps: +myscore
+2024-02-18 02:56:58,233 [INFO] Message from cdaps: +request Forrest dias
+2024-02-18 02:57:06,518 [INFO] Message from cdaps: +request Dias Forrest
+2024-02-18 02:58:03,500 [INFO] Message from cdaps: +request woogiman deadshot
+2024-02-18 03:00:15,494 [INFO] Message from fenrir361: +myscore
+2024-02-18 03:00:21,648 [INFO] Message from fenrir361: +dailyscores
+2024-02-18 03:00:21,863 [INFO] Message from fenrir361: +dailyscores
+2024-02-18 03:00:36,443 [INFO] Message from fenrir361: +find Wolves
+2024-02-18 03:01:15,844 [INFO] Message from fenrir361: +find Darkzero
+2024-02-18 03:01:33,562 [INFO] Message from fenrir361: +find  Ssg
+2024-02-18 03:01:46,593 [INFO] Message from fenrir361: +find SSG
+2024-02-18 03:09:06,152 [INFO] Message from zygecks: +find all
+2024-02-18 03:09:32,936 [INFO] Message from zygecks: +allplayers
+2024-02-18 03:09:59,781 [INFO] Message from zygecks: +swap lobin ctzn
+2024-02-18 03:10:38,735 [INFO] Message from zygecks: +swap mowwgli herdz
+2024-02-18 03:10:39,214 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 03:10:40,513 [INFO] Message from zygecks: +myteam
+2024-02-18 03:10:48,733 [INFO] Message from zygecks: +swap mowwwgli herdsz
+2024-02-18 03:10:48,952 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 03:11:12,415 [INFO] Message from zygecks: +swap 98 92
+2024-02-18 03:11:18,820 [INFO] Message from zygecks: +myteam
+2024-02-18 03:11:48,364 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 03:25:26,050 [INFO] Message from damn3216: +myscore
+2024-02-18 03:25:55,831 [INFO] Message from damn3216: +dailyscores
+2024-02-18 03:25:56,081 [INFO] Message from damn3216: +dailyscores
+2024-02-18 03:31:32,119 [INFO] Message from whatsthemotta: +myteam
+2024-02-18 03:32:40,549 [INFO] Message from whatsthemotta: +find faze
+2024-02-18 03:33:04,181 [INFO] Message from whatsthemotta: +swap taiyou handy
+2024-02-18 03:33:17,980 [INFO] Message from whatsthemotta: +swap dan herdz
+2024-02-18 03:33:26,939 [INFO] Message from zygecks: +swap herdz j90
+2024-02-18 03:33:27,563 [INFO] Message from zygecks: +swap herdz j90
+2024-02-18 03:33:43,986 [INFO] Message from whatsthemotta: +find w7m
+2024-02-18 03:33:50,235 [INFO] Message from shriimpp: +dailyscores
+2024-02-18 03:33:50,444 [INFO] Message from shriimpp: +dailyscores
+2024-02-18 03:33:57,438 [INFO] Message from shriimpp: +myscore
+2024-02-18 03:34:04,176 [INFO] Message from whatsthemotta: +swap hashom felipox
+2024-02-18 03:34:08,401 [INFO] Message from whatsthemotta: +myteam
+2024-02-18 03:34:15,850 [INFO] Message from whatsthemotta: +find dz
+2024-02-18 03:34:28,312 [INFO] Message from whatsthemotta: +find dark zero
+2024-02-18 03:34:35,263 [INFO] Message from whatsthemotta: +find darkzero
+2024-02-18 03:36:10,949 [INFO] Message from whatsthemotta: +swap lobin paluh
+2024-02-18 03:43:38,728 [INFO] Message from zygecks: +myteam
+2024-02-18 04:12:10,166 [INFO] Message from darkwastaken.: +myscore
+2024-02-18 04:14:40,423 [INFO] Message from 3rror__: +myscore
+2024-02-18 04:14:44,507 [INFO] Message from 3rror__: +dailyscore
+2024-02-18 04:14:48,897 [INFO] Message from 3rror__: +dailyscores
+2024-02-18 04:14:49,291 [INFO] Message from 3rror__: +dailyscores
+2024-02-18 04:15:43,168 [INFO] Message from oxabolt: +myscore
+2024-02-18 04:16:43,118 [INFO] Message from oxabolt: +myteam
+2024-02-18 04:18:16,495 [INFO] Message from 3rror__: +swap rec alemao
+2024-02-18 04:18:28,282 [INFO] Message from 3rror__: +swap nudl doki
+2024-02-18 04:18:45,418 [INFO] Message from 3rror__: +swap paluh I9
+2024-02-18 04:18:52,313 [INFO] Message from 3rror__: +myteam
+2024-02-18 04:21:11,959 [INFO] Message from oxabolt: +allplayers
+2024-02-18 04:24:41,726 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
