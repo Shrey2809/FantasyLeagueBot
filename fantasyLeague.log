@@ -7749,3 +7749,72 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-18 08:43:04,567 [INFO] Message from xenoszn.: +dailyscores
 2024-02-18 08:43:04,966 [INFO] Message from xenoszn.: +dailyscores
 2024-02-18 08:43:13,362 [INFO] Message from xenoszn.: +myscore
+2024-02-18 08:44:52,410 [INFO] Message from anshxo: +swap Lobin CTZN
+2024-02-18 08:46:00,625 [INFO] Message from anshxo: +swap Mowwwgli Herdz
+2024-02-18 08:46:48,799 [INFO] Message from anshxo: +swap Pasha Sheppard
+2024-02-18 08:47:33,441 [INFO] Message from anshxo: +myteam
+2024-02-18 08:54:15,733 [INFO] Message from officerbravo64: +swap benja herdz
+2024-02-18 08:55:03,971 [INFO] Message from officerbravo64: +swap pasha handy
+2024-02-18 08:55:08,019 [INFO] Message from officerbravo64: +myteam
+2024-02-18 08:55:22,287 [INFO] Message from anshxo: +dailyscores
+2024-02-18 08:55:22,746 [INFO] Message from anshxo: +dailyscores
+2024-02-18 09:01:06,183 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:01:14,013 [INFO] Message from gabrielesevergnini_: +swap nafe herdz
+2024-02-18 09:01:22,650 [INFO] Message from gabrielesevergnini_: +swap dash herdz
+2024-02-18 09:01:43,620 [INFO] Message from gabrielesevergnini_: +swap nafe jv92
+2024-02-18 09:01:54,755 [INFO] Message from gabrielesevergnini_: +swap lobin benja
+2024-02-18 09:02:15,855 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:04:00,479 [INFO] Message from gabrielesevergnini_: +swap nesk paluh
+2024-02-18 09:04:21,499 [INFO] Message from gabrielesevergnini_: +find nip
+2024-02-18 09:05:37,997 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:06:34,417 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-18 09:06:55,555 [INFO] Message from gabrielesevergnini_: +swap uuno wizard
+2024-02-18 09:08:26,906 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:08:50,595 [INFO] Message from gabrielesevergnini_: +swap wizard uuno
+2024-02-18 09:08:54,331 [INFO] Message from gabrielesevergnini_: +swap paluh nesk
+2024-02-18 09:09:26,949 [INFO] Message from gabrielesevergnini_: +swap jv92 wizard
+2024-02-18 09:10:12,056 [INFO] Message from gabrielesevergnini_: +swap herz felipo
+2024-02-18 09:10:12,414 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 09:10:20,913 [INFO] Message from gabrielesevergnini_: +swap herdz felipox
+2024-02-18 09:10:24,811 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:11:45,146 [INFO] Message from gabrielesevergnini_: +swap nesk herdz
+2024-02-18 09:11:54,242 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:13:01,476 [INFO] Message from gabrielesevergnini_: +find faze
+2024-02-18 09:13:21,890 [INFO] Message from gabrielesevergnini_: +swap wizard handy
+2024-02-18 09:13:27,780 [INFO] Message from gabrielesevergnini_: +myteam
+2024-02-18 09:19:01,469 [INFO] Message from alas.6: +find faze
+2024-02-18 09:20:30,203 [INFO] Message from alas.6: +myteam
+2024-02-18 09:20:37,535 [INFO] Message from alas.6: +swap lagonis handy
+2024-02-18 09:20:47,902 [INFO] Message from alas.6: +swap uuno njr
+2024-02-18 09:21:08,950 [INFO] Message from alas.6: +swap hashom herdz
+2024-02-18 09:21:16,179 [INFO] Message from alas.6: +myteam
+2024-02-18 09:21:29,554 [INFO] Message from alas.6: +find fury
+2024-02-18 09:21:50,436 [INFO] Message from alas.6: +swap brendo krit
+2024-02-18 09:22:29,669 [INFO] Message from alas.6: +myteam
+2024-02-18 09:22:36,270 [INFO] Message from umbralamia: +standings
+2024-02-18 09:23:11,535 [INFO] Message from alas.6: +find nip
+2024-02-18 09:23:31,181 [INFO] Message from alas.6: +swap rec pino
+2024-02-18 10:24:48,560 [INFO] Message from ramon2403: +myscore
+2024-02-18 10:24:51,293 [INFO] Message from ramon2403: +myteam
+2024-02-18 10:25:00,271 [INFO] Message from ramon2403: +swap lobin herdz
+2024-02-18 10:25:08,387 [INFO] Message from ramon2403: +swap paluh doki
+2024-02-18 10:25:13,314 [INFO] Message from ramon2403: +myteam
+2024-02-18 10:26:22,922 [INFO] Message from ramon2403: +find faze
+2024-02-18 10:27:18,726 [INFO] Message from ramon2403: +swap 45 27
+2024-02-18 10:27:39,315 [INFO] Message from ramon2403: +allplayers
+2024-02-18 10:28:11,953 [INFO] Message from ramon2403: +find soniqs
+2024-02-18 10:28:24,033 [INFO] Message from ramon2403: +find benja
+2024-02-18 10:28:29,399 [INFO] Message from ramon2403: +find doki
+2024-02-18 10:28:40,935 [INFO] Message from ramon2403: +find herdz
+2024-02-18 10:28:51,150 [INFO] Message from ramon2403: +myteam
+2024-02-18 10:29:28,242 [INFO] Message from ramon2403: +find wolves
+2024-02-18 10:29:49,677 [INFO] Message from ramon2403: +find w7m
+2024-02-18 10:30:10,432 [INFO] Message from ramon2403: +find faze
+2024-02-18 10:30:17,643 [INFO] Message from ramon2403: +find los
+2024-02-18 10:30:27,470 [INFO] Message from ramon2403: +find team liquid
+2024-02-18 10:30:34,328 [INFO] Message from ramon2403: +find liquid
+2024-02-18 10:30:45,861 [INFO] Message from ramon2403: +find nip
+2024-02-18 10:30:51,495 [INFO] Message from ramon2403: +find fury
+2024-02-18 10:31:00,903 [INFO] Message from ramon2403: +myteam
+2024-02-18 10:33:38,106 [INFO] Message from ramon2403: +swap doki ctzn
+2024-02-18 10:33:41,771 [INFO] Message from ramon2403: +myteam
