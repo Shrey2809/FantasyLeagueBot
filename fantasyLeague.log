@@ -7458,3 +7458,157 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-18 00:44:11,847 [INFO] Message from umbralamia: +dailyscores
 2024-02-18 00:44:12,154 [INFO] Message from umbralamia: +dailyscores
 2024-02-18 00:44:15,157 [INFO] Message from tact_.: +swap Reeps Herdz
+2024-02-18 00:44:32,309 [INFO] Message from tact_.: +swapReeps
+2024-02-18 00:44:32,856 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:44:48,197 [INFO] Message from tact_.: +swapReeps Herdz
+2024-02-18 00:44:48,492 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:45:03,010 [INFO] Message from tact_.: +swap Reeps Jv92
+2024-02-18 00:45:45,296 [INFO] Message from tact_.: +swap Rec Herdz
+2024-02-18 00:46:01,516 [INFO] Message from abyukio: +dailyscores
+2024-02-18 00:46:03,863 [INFO] Message from abyukio: +dailyscores
+2024-02-18 00:46:16,408 [INFO] Message from tact_.: +dailyscores
+2024-02-18 00:46:16,786 [INFO] Message from tact_.: +dailyscores
+2024-02-18 00:46:36,369 [INFO] Message from tact_.: +myteam
+2024-02-18 00:46:54,823 [INFO] Message from zygecks: +standings
+2024-02-18 00:48:07,077 [INFO] Message from nutberry69: +swap lobin Felipox
+2024-02-18 00:48:07,762 [INFO] Message from .__.nyx.__.: +swap lobin cyber
+2024-02-18 00:48:09,877 [INFO] Message from deandiamond: +standings
+2024-02-18 00:48:13,635 [INFO] Message from nutberry69: +myteam
+2024-02-18 00:48:14,666 [INFO] Message from .__.nyx.__.: +myteam
+2024-02-18 00:48:26,631 [INFO] Message from deandiamond: +myscore
+2024-02-18 00:48:29,964 [INFO] Message from nutberry69: +swap dash kritj
+2024-02-18 00:48:30,204 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:48:53,431 [INFO] Message from nutberry69: +swap dash Kritj
+2024-02-18 00:48:53,721 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:49:04,687 [INFO] Message from nutberry69: +swap dash kritJ
+2024-02-18 00:49:04,982 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:49:21,922 [INFO] Message from nutberry69: +swap dash KritJ
+2024-02-18 00:49:22,167 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:49:27,241 [INFO] Message from deandiamond: +myscore
+2024-02-18 00:49:54,957 [INFO] Message from nutberry69: +swap dash krit
+2024-02-18 00:50:03,279 [INFO] Message from nutberry69: +myteam
+2024-02-18 00:52:10,591 [INFO] Message from cashcity: +myscore
+2024-02-18 00:53:47,602 [INFO] Message from offphoenix96: +myscore
+2024-02-18 00:54:31,335 [INFO] Message from offphoenix96: +myscore
+2024-02-18 00:57:18,208 [INFO] Message from capt.falco: +myscore
+2024-02-18 01:02:24,559 [INFO] Message from cashcity: +find faze
+2024-02-18 01:02:34,339 [INFO] Message from cashcity: +swap pasha handy
+2024-02-18 01:02:45,627 [INFO] Message from cashcity: +swap rec KritJ
+2024-02-18 01:02:45,837 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:02:51,303 [INFO] Message from cashcity: +find fury
+2024-02-18 01:03:01,804 [INFO] Message from cashcity: +swap rec krit
+2024-02-18 01:03:31,888 [INFO] Message from cashcity: +swap hashom herds
+2024-02-18 01:03:32,275 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:03:39,824 [INFO] Message from cashcity: +swap hashom herdz
+2024-02-18 01:03:41,499 [INFO] Message from hylix.: +find darkzero
+2024-02-18 01:03:44,108 [INFO] Message from cashcity: +myteam
+2024-02-18 01:04:03,642 [INFO] Message from cashcity: +myscore
+2024-02-18 01:04:17,724 [INFO] Message from random_fps: +myteam
+2024-02-18 01:05:37,073 [INFO] Message from maxstephenson: +myscore
+2024-02-18 01:05:46,515 [INFO] Message from maxstephenson: +dailyscores
+2024-02-18 01:05:46,784 [INFO] Message from maxstephenson: +dailyscores
+2024-02-18 01:06:24,469 [INFO] Message from tinywatrmlon: +dailyscores
+2024-02-18 01:06:24,948 [INFO] Message from tinywatrmlon: +dailyscores
+2024-02-18 01:07:05,813 [INFO] Message from lynx64: +myscore
+2024-02-18 01:07:18,033 [INFO] Message from lynx64: +dailyscores
+2024-02-18 01:07:18,267 [INFO] Message from lynx64: +dailyscores
+2024-02-18 01:09:58,271 [INFO] Message from tinywatrmlon: +pick cyber
+2024-02-18 01:12:41,010 [INFO] Message from tinywatrmlon: +swap doki pick cyber
+2024-02-18 01:12:41,319 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:12:54,049 [INFO] Message from tinywatrmlon: +swap doki pick cyber
+2024-02-18 01:12:54,284 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:12:59,911 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-18 01:13:09,401 [INFO] Message from nutberry69: +standings
+2024-02-18 01:13:26,748 [INFO] Message from tinywatrmlon: +swap doki cyber
+2024-02-18 01:15:30,299 [INFO] Message from tinywatrmlon: +swap lobin paluh
+2024-02-18 01:15:39,777 [INFO] Message from rickandmhorti: +myscore
+2024-02-18 01:15:43,003 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:15:45,889 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-18 01:15:46,145 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-18 01:16:32,231 [INFO] Message from tinywatrmlon: +myteam
+2024-02-18 01:17:02,996 [INFO] Message from rickandmhorti: +swap Wettables HerdsZ
+2024-02-18 01:17:03,373 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:17:09,413 [INFO] Message from rickandmhorti: +swap Wettables HerdZ
+2024-02-18 01:17:26,019 [INFO] Message from rickandmhorti: +swap Lobin HerdsZ
+2024-02-18 01:17:26,358 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:17:32,570 [INFO] Message from rickandmhorti: +swap Lobin Herdz
+2024-02-18 01:17:35,623 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:17:48,461 [INFO] Message from rickandmhorti: +swap Wettables Nafe
+2024-02-18 01:18:21,214 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:19:00,867 [INFO] Message from rickandmhorti: +find Fury
+2024-02-18 01:19:07,953 [INFO] Message from rickandmhorti: +find NIP
+2024-02-18 01:19:53,700 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:20:09,675 [INFO] Message from rickandmhorti: +find FaZe
+2024-02-18 01:20:13,622 [INFO] Message from sassy6095: +myscore
+2024-02-18 01:20:18,329 [INFO] Message from rickandmhorti: +swap Rec Cyber
+2024-02-18 01:20:30,346 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:20:43,696 [INFO] Message from sassy6095: +dailyscores
+2024-02-18 01:20:43,922 [INFO] Message from sassy6095: +dailyscores
+2024-02-18 01:25:14,773 [INFO] Message from ten245_: +myscore
+2024-02-18 01:25:58,040 [INFO] Message from ten245_: +dailyscore
+2024-02-18 01:25:59,671 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:26:04,610 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-18 01:26:04,868 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-18 01:26:05,983 [INFO] Message from rickandmhorti: +myscore
+2024-02-18 01:26:11,928 [INFO] Message from officerbravo64: +allplayers
+2024-02-18 01:26:25,459 [INFO] Message from ten245_: +dailyscores
+2024-02-18 01:26:25,686 [INFO] Message from ten245_: +dailyscores
+2024-02-18 01:26:55,183 [INFO] Message from rickandmhorti: +find Soniqs
+2024-02-18 01:26:58,346 [INFO] Message from rickandmhorti: +swap Virtue Gryxr
+2024-02-18 01:26:59,329 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:28:42,147 [INFO] Message from zygecks: +dailyscores
+2024-02-18 01:28:42,570 [INFO] Message from zygecks: +dailyscores
+2024-02-18 01:29:05,390 [INFO] Message from fnjl: +dailyscores
+2024-02-18 01:29:05,891 [INFO] Message from fnjl: +dailyscores
+2024-02-18 01:29:09,285 [INFO] Message from rickandmhorti: +find NIP
+2024-02-18 01:29:09,353 [INFO] Message from random_fps: +dailyscores
+2024-02-18 01:29:09,853 [INFO] Message from random_fps: +dailyscores
+2024-02-18 01:29:16,472 [INFO] Message from zygecks: +myteam
+2024-02-18 01:29:26,712 [INFO] Message from rickandmhorti: +swap Joystick Pino
+2024-02-18 01:29:33,355 [INFO] Message from fnjl: +myteam
+2024-02-18 01:29:45,150 [INFO] Message from axon319: +myteam
+2024-02-18 01:30:12,132 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:30:19,817 [INFO] Message from axon319: +find scarz
+2024-02-18 01:30:28,376 [INFO] Message from zygecks: +find scarz
+2024-02-18 01:38:35,103 [INFO] Message from rickandmhorti: +swap Gryxr Nafe
+2024-02-18 01:38:56,134 [INFO] Message from rickandmhorti: +swap Gryxr Virtue
+2024-02-18 01:38:59,949 [INFO] Message from rickandmhorti: +myteam
+2024-02-18 01:39:01,792 [INFO] Message from rickandmhorti: +standings
+2024-02-18 01:39:03,607 [INFO] Message from rickandmhorti: +myscore
+2024-02-18 01:39:05,000 [INFO] Message from cashcity: +swap paluh alemao
+2024-02-18 01:40:00,751 [INFO] Message from cashcity: +swap alemao paluh
+2024-02-18 01:40:07,206 [INFO] Message from ten245_: +swap brendo krit
+2024-02-18 01:41:06,595 [INFO] Message from ten245_: +swap Nudl Herdsz
+2024-02-18 01:41:07,066 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 01:41:09,783 [INFO] Message from _bencato: +myscore
+2024-02-18 01:41:20,072 [INFO] Message from _bencato: +standings
+2024-02-18 01:41:27,932 [INFO] Message from ten245_: +swap nudl herdz
+2024-02-18 01:41:57,066 [INFO] Message from ten245_: +myteam
+2024-02-18 01:46:58,018 [INFO] Message from tact_.: +myteam
+2024-02-18 01:48:21,404 [INFO] Message from tact_.: +swap Lobin Cyber
+2024-02-18 01:49:03,422 [INFO] Message from tact_.: +swap Lobin Panba
+2024-02-18 01:49:15,408 [INFO] Message from tact_.: +swap Cyber Panba
+2024-02-18 01:49:54,672 [INFO] Message from shiko914: +myscore
+2024-02-18 01:51:12,221 [INFO] Message from boomerdoom: +myscore
+2024-02-18 01:56:13,588 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-18 02:09:47,404 [INFO] Message from ten245_: +swap lobin nesk
+2024-02-18 02:09:54,992 [INFO] Message from ten245_: +myteam
+2024-02-18 02:14:49,534 [INFO] Message from winterofworld: +myscore
+2024-02-18 02:17:02,439 [INFO] Message from das_percy: +myscore
+2024-02-18 02:21:02,848 [INFO] Message from imkeratik: +myscore
+2024-02-18 02:21:23,109 [INFO] Message from bambuu.: +myscore
+2024-02-18 02:35:23,185 [INFO] Message from standby75: +myscore
+2024-02-18 02:35:32,055 [INFO] Message from standby75: +standings
+2024-02-18 02:36:03,171 [INFO] Message from standby75: +myscore
+2024-02-18 02:36:24,779 [INFO] Message from standby75: +dailyscores
+2024-02-18 02:36:25,210 [INFO] Message from standby75: +dailyscores
+2024-02-18 02:37:51,005 [INFO] Message from standby75: +myteam
+2024-02-18 02:39:49,294 [INFO] Message from space.: +myscore
+2024-02-18 02:40:02,771 [INFO] Message from space.: +myteam
+2024-02-18 02:40:39,484 [INFO] Message from standby75: +myteam
+2024-02-18 02:40:41,752 [INFO] Message from space.: +swap 76 77
+2024-02-18 02:40:45,648 [INFO] Message from space.: +myteam
+2024-02-18 02:41:13,430 [INFO] Message from space.: +swap 42 43
+2024-02-18 02:41:18,441 [INFO] Message from space.: +myteam
+2024-02-18 02:41:38,954 [INFO] Message from tweedy19: +myscore
+2024-02-18 02:43:53,627 [INFO] Message from random_fps: +myscore
