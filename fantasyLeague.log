@@ -7872,3 +7872,22 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-18 13:30:32,703 [INFO] Message from das_percy: +myscore
 2024-02-18 14:08:59,373 [INFO] Message from steve100: +myscore
 2024-02-18 14:45:50,976 [INFO] Message from bjelven: +myscore
+2024-02-18 14:46:54,489 [INFO] Message from bjelven: +swap Lagonis Kondz
+2024-02-18 14:48:11,014 [INFO] Message from bjelven: +swap Wettables Jv92
+2024-02-18 14:48:16,260 [INFO] Message from bjelven: +myteam
+2024-02-18 14:49:10,181 [INFO] Message from bjelven: +swap Lobin Muzi
+2024-02-18 14:49:41,168 [INFO] Message from bjelven: +swap Deadshot Herdz
+2024-02-18 14:49:46,693 [INFO] Message from bjelven: +myteam
+2024-02-18 15:10:51,621 [INFO] Message from alas.6: +find darkzero
+2024-02-18 15:12:56,971 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-18 15:23:22,673 [INFO] Message from mahdish079: +dailyscores
+2024-02-18 15:23:22,958 [INFO] Message from mahdish079: +dailyscores
+2024-02-18 15:38:26,214 [INFO] Message from umbralamia: +myteam
+2024-02-18 15:38:36,487 [INFO] Message from umbralamia: +allplayers
+2024-02-18 15:39:52,617 [INFO] Message from umbralamia: +swap mentalist pasha
+2024-02-18 15:40:13,548 [INFO] Message from umbralamia: +myteam
+2024-02-18 15:41:02,789 [INFO] Message from umbralamia: +swap rec herdz
+2024-02-18 15:41:21,410 [INFO] Message from umbralamia: +swap dan alemao
+2024-02-18 15:41:28,377 [INFO] Message from umbralamia: +swap benja dan
+2024-02-18 15:41:36,277 [INFO] Message from umbralamia: +swap alemao benja
+2024-02-18 15:41:39,688 [INFO] Message from umbralamia: +myteam
