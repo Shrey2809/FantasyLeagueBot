@@ -7407,3 +7407,54 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-18 00:24:21,889 [INFO] Message from opussums: +myscore
 2024-02-18 00:24:27,391 [INFO] Message from opussums: +dailyscores
 2024-02-18 00:24:27,665 [INFO] Message from opussums: +dailyscores
+2024-02-18 00:25:27,734 [INFO] Message from random_fps: +myteam
+2024-02-18 00:25:40,681 [INFO] Message from axon319: +openplayers
+2024-02-18 00:25:56,468 [INFO] Message from abyukio: +standings
+2024-02-18 00:26:14,207 [INFO] Message from axon319: +openplayers
+2024-02-18 00:26:26,366 [INFO] Message from axon319: +resume
+2024-02-18 00:26:58,514 [INFO] Message from umbralamia: +allplayers
+2024-02-18 00:27:22,403 [INFO] Message from myst3rykarp: +swap 69 handy
+2024-02-18 00:27:53,208 [INFO] Message from whatsthemotta: +dailyscores
+2024-02-18 00:27:53,703 [INFO] Message from whatsthemotta: +dailyscores
+2024-02-18 00:27:54,728 [INFO] Message from myst3rykarp: +swap dotz handy
+2024-02-18 00:28:27,744 [INFO] Message from random_fps: +swap resetz handy
+2024-02-18 00:28:51,548 [INFO] Message from hylix.: +allplayers
+2024-02-18 00:29:02,205 [INFO] Message from officerbravo64: +myscore
+2024-02-18 00:29:08,534 [INFO] Message from officerbravo64: +dailyscores
+2024-02-18 00:29:08,794 [INFO] Message from officerbravo64: +dailyscores
+2024-02-18 00:29:27,838 [INFO] Message from random_fps: +myteam
+2024-02-18 00:30:44,846 [INFO] Message from random_fps: +swap J90 felipox
+2024-02-18 00:30:47,393 [INFO] Message from wolfie._._: +myscore
+2024-02-18 00:31:08,058 [INFO] Message from wolfie._._: +dailtscore
+2024-02-18 00:31:13,389 [INFO] Message from hylix.: +swap benja herdz
+2024-02-18 00:31:14,607 [INFO] Message from wolfie._._: +dailyscore
+2024-02-18 00:31:23,118 [INFO] Message from wolfie._._: +dailyscores
+2024-02-18 00:31:23,320 [INFO] Message from wolfie._._: +dailyscores
+2024-02-18 00:33:20,865 [INFO] Message from random_fps: +myteam
+2024-02-18 00:33:31,985 [INFO] Message from wolfie._._: +myteam
+2024-02-18 00:33:41,344 [INFO] Message from wolfie._._: +swap Herdz doki
+2024-02-18 00:33:51,315 [INFO] Message from wolfie._._: +swap doki herdz
+2024-02-18 00:34:33,566 [INFO] Message from hylix.: +swap deadshot cyber
+2024-02-18 00:34:49,087 [INFO] Message from hylix.: +swap pasha handy
+2024-02-18 00:35:51,412 [INFO] Message from napzz9021: +dailyscores
+2024-02-18 00:35:51,786 [INFO] Message from napzz9021: +dailyscores
+2024-02-18 00:36:02,454 [INFO] Message from napzz9021: +myscore
+2024-02-18 00:37:36,840 [INFO] Message from hylix.: +swap woogiman khezye
+2024-02-18 00:37:37,197 [ERROR] 'NoneType' object is not subscriptable
+2024-02-18 00:37:51,375 [INFO] Message from hylix.: +swap woogiman Kheyze
+2024-02-18 00:37:57,332 [INFO] Message from hylix.: +myteam
+2024-02-18 00:38:47,431 [INFO] Message from umbralamia: +myscore
+2024-02-18 00:38:55,306 [INFO] Message from umbralamia: +dailyscores
+2024-02-18 00:38:55,632 [INFO] Message from umbralamia: +dailyscores
+2024-02-18 00:42:37,317 [INFO] Message from zygecks: +myscore
+2024-02-18 00:42:42,152 [INFO] Message from zygecks: +dailyscores
+2024-02-18 00:42:42,506 [INFO] Message from zygecks: +dailyscores
+2024-02-18 00:42:45,128 [INFO] Message from hylix.: +find liquid
+2024-02-18 00:43:48,346 [INFO] Message from hylix.: +swap cyber paluh
+2024-02-18 00:43:52,299 [INFO] Message from tact_.: +swap Virtue Kondz
+2024-02-18 00:44:00,022 [INFO] Message from umbralamia: +myscore
+2024-02-18 00:44:07,201 [INFO] Message from umbralamia: +dailyscore
+2024-02-18 00:44:08,132 [INFO] Message from hylix.: +myteam
+2024-02-18 00:44:11,847 [INFO] Message from umbralamia: +dailyscores
+2024-02-18 00:44:12,154 [INFO] Message from umbralamia: +dailyscores
+2024-02-18 00:44:15,157 [INFO] Message from tact_.: +swap Reeps Herdz
