@@ -8170,3 +8170,43 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-19 09:52:56,890 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
 2024-02-19 10:15:45,317 [INFO] Message from bonce_: +swap  nudl deadshot
 2024-02-19 10:15:52,379 [INFO] Message from bonce_: +myteam
+2024-02-19 10:47:29,832 [INFO] Message from oxabolt: +swap brendo mowwwgli
+2024-02-19 10:48:54,309 [INFO] Message from oxabolt: +swap reeps kirtj
+2024-02-19 10:48:54,599 [ERROR] 'NoneType' object is not subscriptable
+2024-02-19 10:49:04,507 [INFO] Message from oxabolt: +find fury
+2024-02-19 10:49:18,511 [INFO] Message from oxabolt: +swap reeps kirt
+2024-02-19 10:49:18,806 [ERROR] 'NoneType' object is not subscriptable
+2024-02-19 10:49:27,684 [INFO] Message from oxabolt: +swap reeps krit
+2024-02-19 10:50:18,706 [INFO] Message from oxabolt: +myteam
+2024-02-19 10:50:33,301 [INFO] Message from oxabolt: +allplayers
+2024-02-19 10:51:11,846 [INFO] Message from oxabolt: +swap krit ctzn
+2024-02-19 10:53:56,515 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-19 11:07:00,776 [INFO] Message from lynx64: +find nip
+2024-02-19 11:08:30,693 [INFO] Message from lynx64: +find fury
+2024-02-19 11:08:54,045 [INFO] Message from lynx64: +find w7m
+2024-02-19 11:09:53,683 [INFO] Message from lynx64: +find wolves
+2024-02-19 11:18:09,850 [INFO] Message from lynx64: +find liquid
+2024-02-19 11:18:41,957 [INFO] Message from lynx64: +find darkzero
+2024-02-19 11:23:14,006 [INFO] Message from lynx64: +find faze
+2024-02-19 11:24:42,713 [INFO] Message from lynx64: +find los
+2024-02-19 11:25:09,899 [INFO] Message from lynx64: +swap pasha handy
+2024-02-19 11:25:19,818 [INFO] Message from lynx64: +swap paluh nesk
+2024-02-19 11:25:39,849 [INFO] Message from lynx64: +myteam
+2024-02-19 11:27:25,447 [INFO] Message from lynx64: +swap benja krit
+2024-02-19 11:58:48,128 [INFO] Message from skylarswrld_kix: +myscore
+2024-02-19 12:23:48,358 [INFO] Message from bennthebean: +swap Pasha Jv92
+2024-02-19 12:24:09,697 [INFO] Message from bennthebean: +swap Reeps Herdz
+2024-02-19 12:24:43,733 [INFO] Message from bennthebean: +swap Panba Kritj
+2024-02-19 12:24:43,996 [ERROR] 'NoneType' object is not subscriptable
+2024-02-19 12:25:18,820 [INFO] Message from bennthebean: +swap Panba Krit
+2024-02-19 12:28:47,250 [INFO] Message from anshxo: +myteam
+2024-02-19 12:35:25,338 [INFO] Message from siegeplayer305: +allplayers
+2024-02-19 12:35:38,912 [INFO] Message from bymousie: +myteam
+2024-02-19 12:36:56,163 [INFO] Message from siegeplayer305: +myteam
+2024-02-19 12:37:16,035 [INFO] Message from siegeplayer305: +swap gryxr ctzn
+2024-02-19 12:37:32,048 [INFO] Message from siegeplayer305: +swap dias njr
+2024-02-19 12:38:09,052 [INFO] Message from oxabolt: +myscore
+2024-02-19 12:38:16,827 [INFO] Message from oxabolt: +standings
+2024-02-19 12:38:26,700 [INFO] Message from siegeplayer305: +swap mowwwgli ctzn
+2024-02-19 12:38:37,106 [INFO] Message from siegeplayer305: +myteam
+2024-02-19 12:40:35,450 [INFO] Message from siegeplayer305: +myscore
