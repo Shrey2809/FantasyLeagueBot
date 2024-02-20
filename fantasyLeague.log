@@ -8307,3 +8307,265 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-20 00:35:31,838 [INFO] Message from wraithling.: +myscore
 2024-02-20 00:39:03,594 [INFO] Message from steve100: +myteam
 2024-02-20 00:40:15,633 [INFO] Message from shriimpp: +myteam
+2024-02-20 01:02:43,480 [INFO] Message from deandiamond: +myteam
+2024-02-20 01:11:27,417 [INFO] Shard ID 0 has successfully RESUMED session 4b841c52aa420c3dad6e41271ec9a52a.
+2024-02-20 01:21:16,209 [INFO] Message from abyukio: +standings
+2024-02-20 01:28:58,838 [INFO] Message from l4tur: +myscore
+2024-02-20 01:29:23,609 [INFO] Message from l4tur: +dailyscores
+2024-02-20 01:29:24,048 [INFO] Message from l4tur: +dailyscores
+2024-02-20 01:29:36,383 [INFO] Message from l4tur: +myteam
+2024-02-20 01:32:41,142 [INFO] Message from das_percy: +myscore
+2024-02-20 01:33:46,796 [INFO] Message from wiskyr6: +dailyscores
+2024-02-20 01:33:47,135 [INFO] Message from wiskyr6: +dailyscores
+2024-02-20 01:34:02,847 [INFO] Message from wiskyr6: +myscore
+2024-02-20 01:34:42,187 [INFO] Message from standby75: +myteam
+2024-02-20 01:34:45,326 [INFO] Message from standby75: +dailyscores
+2024-02-20 01:34:45,519 [INFO] Message from standby75: +dailyscores
+2024-02-20 01:34:56,130 [INFO] Message from standby75: +standings
+2024-02-20 01:35:01,373 [INFO] Message from standby75: +myscore
+2024-02-20 01:35:48,410 [INFO] Message from standby75: +myteam
+2024-02-20 01:36:37,003 [INFO] Message from hylix.: +dailyscores
+2024-02-20 01:36:37,244 [INFO] Message from hylix.: +dailyscores
+2024-02-20 01:36:42,049 [INFO] Message from standby75: +find Liquid
+2024-02-20 01:36:46,661 [INFO] Message from damn3216: +myscore
+2024-02-20 01:37:33,899 [INFO] Message from standby75: +find Alemao
+2024-02-20 01:40:51,680 [INFO] Message from siegeplayer305: +myscore
+2024-02-20 01:41:19,983 [INFO] Message from deandiamond: +myscore
+2024-02-20 01:41:34,895 [INFO] Message from standby75: +myscore
+2024-02-20 01:42:13,496 [INFO] Message from standby75: +find Kheyze
+2024-02-20 01:42:20,714 [INFO] Message from standby75: +myscore
+2024-02-20 01:43:21,321 [INFO] Message from geekdafreak: +myscore
+2024-02-20 01:43:41,501 [INFO] Message from geekdafreak: +dailyscores
+2024-02-20 01:43:41,908 [INFO] Message from geekdafreak: +dailyscores
+2024-02-20 01:45:25,126 [INFO] Message from cashcity: +myscore
+2024-02-20 01:46:07,056 [INFO] Message from pastybo: +myscores
+2024-02-20 01:46:46,264 [INFO] Message from yaboimadman: +myscore
+2024-02-20 01:47:11,417 [INFO] Message from lynx64: +myscore
+2024-02-20 01:48:12,832 [INFO] Message from random_fps: +find bleed
+2024-02-20 01:48:36,292 [INFO] Message from standby75: +dailyscores
+2024-02-20 01:48:36,708 [INFO] Message from standby75: +dailyscores
+2024-02-20 01:48:37,816 [INFO] Message from random_fps: +find SSG
+2024-02-20 01:48:51,941 [INFO] Message from random_fps: +find G2
+2024-02-20 01:49:18,336 [INFO] Message from random_fps: +find Liquid
+2024-02-20 01:49:45,816 [INFO] Message from officerbravo64: +market
+2024-02-20 01:50:40,349 [INFO] Message from random_fps: +dailyscores
+2024-02-20 01:50:40,697 [INFO] Message from random_fps: +dailyscores
+2024-02-20 01:51:23,620 [INFO] Message from random_fps: +dailyscores
+2024-02-20 01:51:23,923 [INFO] Message from random_fps: +dailyscores
+2024-02-20 01:52:01,858 [INFO] Message from space.: +myscore
+2024-02-20 01:53:14,176 [INFO] Message from cashcity: +find fury
+2024-02-20 01:55:14,170 [INFO] Message from offphoenix96: +myscore
+2024-02-20 01:55:59,299 [INFO] Message from bymousie: +myscore
+2024-02-20 01:56:32,508 [INFO] Message from cashcity: +find g2
+2024-02-20 01:56:45,978 [INFO] Message from cashcity: +find liquid
+2024-02-20 01:57:00,230 [INFO] Message from cashcity: +find sag
+2024-02-20 01:57:05,759 [INFO] Message from cashcity: +find ssg
+2024-02-20 01:57:13,135 [INFO] Message from myst3rykarp: +myscore
+2024-02-20 01:57:24,404 [INFO] Message from myst3rykarp: +myteam
+2024-02-20 01:58:12,751 [INFO] Message from myst3rykarp: +allplayers
+2024-02-20 02:01:59,537 [INFO] Message from bymousie: +myscore
+2024-02-20 02:02:29,877 [INFO] Message from geekdafreak: +myteam
+2024-02-20 02:03:17,395 [INFO] Message from fnjl: +myscore
+2024-02-20 02:03:26,521 [INFO] Message from fnjl: +dailyscores
+2024-02-20 02:03:26,872 [INFO] Message from fnjl: +dailyscores
+2024-02-20 02:07:09,423 [INFO] Message from axon319: +myteam
+2024-02-20 02:08:23,908 [INFO] Message from cashcity: +myteam
+2024-02-20 02:08:54,504 [INFO] Message from fenrir361: +myscore
+2024-02-20 02:10:13,428 [INFO] Message from random_fps: +myteam
+2024-02-20 02:10:26,687 [INFO] Message from officerbravo64: +myteam
+2024-02-20 02:10:50,542 [INFO] Message from standby75: +dailyscores
+2024-02-20 02:10:50,774 [INFO] Message from standby75: +dailyscores
+2024-02-20 02:15:39,748 [INFO] Message from pascalthecurator: +myteam
+2024-02-20 02:17:26,464 [INFO] Message from random_fps: +myscore
+2024-02-20 02:18:05,770 [INFO] Message from officerbravo64: +myscore
+2024-02-20 02:19:48,493 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-20 02:20:15,417 [INFO] Message from jessejchick: 
+2024-02-20 02:20:16,068 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-02-20 02:21:28,734 [INFO] Message from axon319: +standings closed
+2024-02-20 02:21:53,181 [INFO] Message from axon319: +market open
+2024-02-20 02:22:10,592 [INFO] Message from axon319: +myscore
+2024-02-20 02:22:14,127 [INFO] Message from random_fps: +myscore
+2024-02-20 02:22:26,683 [INFO] Message from axon319: +allplayers
+2024-02-20 02:22:37,850 [INFO] Message from random_fps: +dailyscores
+2024-02-20 02:22:38,113 [INFO] Message from random_fps: +dailyscores
+2024-02-20 02:22:52,943 [INFO] Message from fnjl: +myscore
+2024-02-20 02:22:58,383 [INFO] Message from fnjl: +dailyscores
+2024-02-20 02:22:58,586 [INFO] Message from fnjl: +dailyscores
+2024-02-20 02:22:59,000 [INFO] Message from axon319: +dailyscores
+2024-02-20 02:22:59,247 [INFO] Message from axon319: +dailyscores
+2024-02-20 02:23:12,778 [INFO] Message from fnjl: +myscore
+2024-02-20 02:23:15,500 [INFO] Message from pastybo: +myscores
+2024-02-20 02:23:19,984 [INFO] Message from ten245_: +myscore
+2024-02-20 02:23:29,693 [INFO] Message from ten245_: +dailyscores
+2024-02-20 02:23:29,961 [INFO] Message from ten245_: +dailyscores
+2024-02-20 02:23:40,727 [INFO] Message from axon319: +standings
+2024-02-20 02:23:42,024 [INFO] Message from standby75: +dailyscores
+2024-02-20 02:23:42,242 [INFO] Message from standby75: +dailyscores
+2024-02-20 02:23:52,882 [INFO] Message from standby75: +myscore
+2024-02-20 02:23:56,668 [INFO] Message from standby75: +standings
+2024-02-20 02:24:14,225 [INFO] Message from ten245_: +myscore
+2024-02-20 02:24:31,675 [INFO] Message from standby75: +swap Sheppard Kheyze
+2024-02-20 02:24:58,051 [INFO] Message from ten245_: +swap nafe nade
+2024-02-20 02:25:10,878 [INFO] Message from random_fps: +myteam
+2024-02-20 02:25:45,897 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-20 02:25:46,040 [INFO] Message from ten245_: +swap mentalist handy
+2024-02-20 02:25:46,704 [INFO] Message from random_fps: +swap Felipox reeps
+2024-02-20 02:25:56,174 [INFO] Message from ten245_: +swap handy mentalist
+2024-02-20 02:26:08,999 [INFO] Message from ten245_: +swap Krit Reeps
+2024-02-20 02:26:20,635 [INFO] Message from officerbravo64: +myscore
+2024-02-20 02:26:26,499 [INFO] Message from officerbravo64: +dailyscores
+2024-02-20 02:26:26,806 [INFO] Message from officerbravo64: +dailyscores
+2024-02-20 02:26:30,552 [INFO] Message from ten245_: +myteam
+2024-02-20 02:26:43,727 [INFO] Message from myst3rykarp: +myscore
+2024-02-20 02:26:44,281 [INFO] Message from maxstephenson: +myscore
+2024-02-20 02:26:50,610 [INFO] Message from maxstephenson: +dailyscores
+2024-02-20 02:26:50,850 [INFO] Message from maxstephenson: +dailyscores
+2024-02-20 02:26:54,044 [INFO] Message from myst3rykarp: +dailyscores
+2024-02-20 02:26:54,338 [INFO] Message from myst3rykarp: +dailyscores
+2024-02-20 02:26:57,051 [INFO] Message from fnjl: +myteam
+2024-02-20 02:27:23,761 [INFO] Message from random_fps: +swap resetz njr
+2024-02-20 02:27:25,843 [INFO] Message from damn3216: +dailyscores
+2024-02-20 02:27:26,154 [INFO] Message from damn3216: +dailyscores
+2024-02-20 02:27:37,824 [INFO] Message from myst3rykarp: +myteam
+2024-02-20 02:27:38,690 [INFO] Message from random_fps: +swap njr resetz
+2024-02-20 02:28:18,904 [INFO] Message from nutberry69: +myscore
+2024-02-20 02:29:35,194 [INFO] Message from myst3rykarp: +swap 69 dash
+2024-02-20 02:29:48,093 [INFO] Message from .__.nyx.__.: +swap herdz kheyze
+2024-02-20 02:30:11,049 [INFO] Message from myst3rykarp: +swap panba krit
+2024-02-20 02:30:14,048 [INFO] Message from .__.nyx.__.: +swap njr doki
+2024-02-20 02:30:44,330 [INFO] Message from random_fps: +swap handy jv92
+2024-02-20 02:30:45,607 [INFO] Message from siegeplayer305: +myscore
+2024-02-20 02:30:52,772 [INFO] Message from steve100: +myscore
+2024-02-20 02:30:52,875 [INFO] Message from random_fps: +find W7M
+2024-02-20 02:31:02,913 [INFO] Message from myst3rykarp: +swap handy virtue
+2024-02-20 02:31:07,459 [INFO] Message from myst3rykarp: +myteam
+2024-02-20 02:31:10,075 [INFO] Message from siegeplayer305: +allplayers
+2024-02-20 02:31:11,865 [INFO] Message from random_fps: +myteam
+2024-02-20 02:31:14,025 [INFO] Message from hylix.: +myscore
+2024-02-20 02:31:46,281 [INFO] Message from random_fps: +swap reeps j90
+2024-02-20 02:32:19,439 [INFO] Message from hylix.: +standings
+2024-02-20 02:32:30,747 [INFO] Message from hylix.: +dailyscores
+2024-02-20 02:32:31,037 [INFO] Message from hylix.: +dailyscores
+2024-02-20 02:32:33,279 [INFO] Message from .__.nyx.__.: +swap njr dash
+2024-02-20 02:33:45,835 [INFO] Message from hylix.: +dailyscores
+2024-02-20 02:33:46,283 [INFO] Message from hylix.: +dailyscores
+2024-02-20 02:34:19,575 [INFO] Message from hylix.: +myteam
+2024-02-20 02:34:31,991 [INFO] Message from zygecks: +myscores
+2024-02-20 02:34:38,975 [INFO] Message from .__.nyx.__.: +myteam
+2024-02-20 02:34:38,983 [INFO] Message from zygecks: +dailyscores
+2024-02-20 02:34:39,351 [INFO] Message from zygecks: +dailyscores
+2024-02-20 02:34:56,094 [INFO] Message from .__.nyx.__.: +swap krit herdz
+2024-02-20 02:35:01,929 [INFO] Message from random_fps: +swap jv92 Forrest
+2024-02-20 02:35:42,956 [INFO] Message from zygecks: +myteam
+2024-02-20 02:35:49,990 [INFO] Message from siegeplayer305: +swap kheyze ctzn
+2024-02-20 02:35:59,858 [INFO] Message from zygecks: +allplayers
+2024-02-20 02:36:07,290 [INFO] Message from siegeplayer305: +swap ctzn kheyze
+2024-02-20 02:36:18,093 [INFO] Message from siegeplayer305: +swap njr jv92
+2024-02-20 02:36:21,869 [INFO] Message from hylix.: +swap kritj panba
+2024-02-20 02:36:22,166 [ERROR] 'NoneType' object is not subscriptable
+2024-02-20 02:36:28,934 [INFO] Message from siegeplayer305: +swap gryxr nade
+2024-02-20 02:36:47,152 [INFO] Message from siegeplayer305: +swap paluh felipox
+2024-02-20 02:36:47,507 [INFO] Message from hylix.: +swap panba kritj
+2024-02-20 02:36:47,720 [ERROR] 'NoneType' object is not subscriptable
+2024-02-20 02:36:50,349 [INFO] Message from siegeplayer305: +myteam
+2024-02-20 02:36:55,895 [INFO] Message from hylix.: +swap panba krit
+2024-02-20 02:36:57,656 [INFO] Message from nutberry69: +standings
+2024-02-20 02:37:07,093 [INFO] Message from zygecks: +swap Ctzn Kheyze
+2024-02-20 02:37:30,476 [INFO] Message from random_fps: +myteam
+2024-02-20 02:37:37,119 [INFO] Message from zygecks: +swap Nafe Virtue
+2024-02-20 02:37:38,501 [INFO] Message from zygecks: +myteam
+2024-02-20 02:37:51,744 [INFO] Message from ten245_: +swap Mentalist resetz
+2024-02-20 02:37:56,189 [INFO] Message from ten245_: +myteam
+2024-02-20 02:38:09,362 [INFO] Message from zygecks: +swap Herdz J90
+2024-02-20 02:38:15,153 [INFO] Message from zygecks: +myteam
+2024-02-20 02:38:45,738 [INFO] Message from cashcity: +myscore
+2024-02-20 02:39:01,823 [INFO] Message from bigmudmonster: +signup
+2024-02-20 02:39:25,252 [INFO] Message from hylix.: +find bleed
+2024-02-20 02:39:30,253 [INFO] Message from cashcity: +myteam
+2024-02-20 02:39:37,548 [INFO] Message from cashcity: +swap njr mentalist
+2024-02-20 02:39:50,673 [INFO] Message from hylix.: +find los
+2024-02-20 02:39:56,842 [INFO] Message from nutberry69: +myteam
+2024-02-20 02:40:02,592 [INFO] Message from bymousie: +myscore
+2024-02-20 02:40:03,651 [INFO] Message from cashcity: +swap handy resetz
+2024-02-20 02:40:13,026 [INFO] Message from cashcity: +myteam
+2024-02-20 02:40:39,284 [INFO] Message from cashcity: +swap paluh mowwwgli
+2024-02-20 02:40:48,567 [INFO] Message from .__.nyx.__.: +swap cyber krit
+2024-02-20 02:40:52,183 [INFO] Message from cashcity: +dailyscores
+2024-02-20 02:40:52,385 [INFO] Message from cashcity: +dailyscores
+2024-02-20 02:40:53,410 [INFO] Message from .__.nyx.__.: +myteam
+2024-02-20 02:41:02,188 [INFO] Message from random_fps: +swap Paluh kheze
+2024-02-20 02:41:02,443 [ERROR] 'NoneType' object is not subscriptable
+2024-02-20 02:41:23,527 [INFO] Message from random_fps: +swap paluh kheyze
+2024-02-20 02:41:33,098 [INFO] Message from cashcity: +find bleed
+2024-02-20 02:41:45,752 [INFO] Message from cashcity: +swap mentalist given
+2024-02-20 02:41:45,932 [ERROR] 'NoneType' object is not subscriptable
+2024-02-20 02:41:46,676 [INFO] Message from nutberry69: +swap felipox Kheyze
+2024-02-20 02:41:52,177 [INFO] Message from cashcity: +swap mentalist hoven
+2024-02-20 02:42:00,351 [INFO] Message from cashcity: +myteam
+2024-02-20 02:42:20,378 [INFO] Message from nutberry69: +swap njr  MentalistC
+2024-02-20 02:42:20,707 [ERROR] 'NoneType' object is not subscriptable
+2024-02-20 02:42:35,275 [INFO] Message from nutberry69: +swap njr MentalistC
+2024-02-20 02:42:35,497 [ERROR] 'NoneType' object is not subscriptable
+2024-02-20 02:43:06,216 [INFO] Message from nutberry69: +swap njr Mentalist
+2024-02-20 02:43:13,603 [INFO] Message from .__.nyx.__.: +swap nafe mentalist
+2024-02-20 02:44:11,985 [INFO] Message from hylix.: +find liquid
+2024-02-20 02:44:13,472 [INFO] Message from random_fps: +myteam
+2024-02-20 02:44:19,273 [INFO] Message from cashcity: +swap mowwwgli reeps
+2024-02-20 02:44:23,732 [INFO] Message from nutberry69: +swap Krit j90
+2024-02-20 02:44:33,671 [INFO] Message from hylix.: +swap njr resetz
+2024-02-20 02:44:41,844 [INFO] Message from cashcity: +swap hoven virtue
+2024-02-20 02:44:49,858 [INFO] Message from cashcity: +myteam
+2024-02-20 02:45:13,320 [INFO] Message from zygecks: +swap Benja Mowwwgli
+2024-02-20 02:45:20,780 [INFO] Message from zygecks: +myteam
+2024-02-20 02:45:30,533 [INFO] Message from geekdafreak: +myscore
+2024-02-20 02:45:55,105 [INFO] Message from nutberry69: +myteam
+2024-02-20 02:46:01,606 [INFO] Message from geekdafreak: +dailyscore
+2024-02-20 02:46:05,956 [INFO] Message from geekdafreak: +daily score
+2024-02-20 02:46:08,344 [INFO] Message from random_fps: +swap Forrest virtue
+2024-02-20 02:46:15,400 [INFO] Message from .__.nyx.__.: +swap njr resetz
+2024-02-20 02:46:20,703 [INFO] Message from geekdafreak: +dailyscores
+2024-02-20 02:46:20,986 [INFO] Message from geekdafreak: +dailyscores
+2024-02-20 02:46:30,151 [INFO] Message from zygecks: +swap njr fultz
+2024-02-20 02:46:38,750 [INFO] Message from zygecks: +myteam
+2024-02-20 02:46:42,534 [INFO] Message from .__.nyx.__.: +myteam
+2024-02-20 02:47:15,726 [INFO] Message from standby75: +swap pasha Resetz
+2024-02-20 02:47:24,090 [INFO] Message from standby75: +swap Benja Alemao
+2024-02-20 02:47:29,568 [INFO] Message from geekdafreak: +myteam
+2024-02-20 02:47:31,403 [INFO] Message from standby75: +swap dash Herdz
+2024-02-20 02:47:41,328 [INFO] Message from boomerdoom: +myscore
+2024-02-20 02:47:44,577 [INFO] Message from boomerdoom: +myteam
+2024-02-20 02:47:45,939 [INFO] Message from hylix.: +find g2
+2024-02-20 02:47:49,376 [INFO] Message from skylarswrld_kix: +myscore
+2024-02-20 02:48:09,146 [INFO] Message from bigmudmonster: +pick j90
+2024-02-20 02:48:13,623 [INFO] Message from standby75: +swap Alemao Felipox
+2024-02-20 02:48:19,925 [INFO] Message from geekdafreak: +swap njr nade
+2024-02-20 02:48:20,348 [INFO] Message from bigmudmonster: +pick bgman
+2024-02-20 02:48:28,468 [INFO] Message from bigmudmonster: +pick deadshot
+2024-02-20 02:48:29,354 [INFO] Message from hylix.: +swap handy virtue
+2024-02-20 02:48:33,602 [INFO] Message from hylix.: +myteam
+2024-02-20 02:48:33,835 [INFO] Message from bigmudmonster: +pick muzi
+2024-02-20 02:48:40,372 [INFO] Message from bigmudmonster: +pick wizzard
+2024-02-20 02:48:44,609 [INFO] Message from random_fps: +swap virtue nade
+2024-02-20 02:48:48,673 [INFO] Message from standby75: +swap pasha Jv92
+2024-02-20 02:48:49,731 [INFO] Message from random_fps: +myteam
+2024-02-20 02:48:53,626 [INFO] Message from bigmudmonster: +pick  wizard
+2024-02-20 02:48:57,004 [INFO] Message from standby75: +swap Resetz Jv92
+2024-02-20 02:49:06,294 [INFO] Message from bigmudmonster: +pick Wizard
+2024-02-20 02:49:07,232 [INFO] Message from standby75: +swap Sheppard Nade
+2024-02-20 02:49:12,384 [INFO] Message from bigmudmonster: +myteam
+2024-02-20 02:49:14,080 [INFO] Message from standby75: +myteam
+2024-02-20 02:49:16,911 [INFO] Message from geekdafreak: +swap nafe shinka
+2024-02-20 02:49:24,710 [INFO] Message from zygecks: +swap Mowwwgli Reeps
+2024-02-20 02:49:28,868 [INFO] Message from standby75: +swap Deadshot Kheyze
+2024-02-20 02:49:31,603 [INFO] Message from standby75: +myteam
+2024-02-20 02:49:41,969 [INFO] Message from standby75: +myscore
+2024-02-20 02:49:43,869 [INFO] Message from zygecks: +myteam
+2024-02-20 02:49:44,733 [INFO] Message from standby75: +standings
+2024-02-20 02:50:01,310 [INFO] Message from geekdafreak: +swap shinka bgman
+2024-02-20 02:50:03,760 [INFO] Message from random_fps: +swap kheyze reeps
+2024-02-20 02:50:05,490 [INFO] Message from geekdafreak: +myteam
+2024-02-20 02:50:24,465 [INFO] Message from geekdafreak: +swap muzi paluh
+2024-02-20 02:51:57,778 [INFO] Message from geekdafreak: +myteam
+2024-02-20 02:52:22,720 [INFO] Message from imkeratik: +swap nudl ambi
+2024-02-20 02:52:39,415 [INFO] Message from imkeratik: +swap virtue gryxr
+2024-02-20 02:52:50,780 [INFO] Message from random_fps: +myteam
