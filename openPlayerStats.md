@@ -1,10 +1,12 @@
 ┌─────────────┬───────────────┬─────────────┬─────────┬───────────────┐
 │   Player ID │ Player Name   │ Team Name   │ Role    │   Total Score │
 ├─────────────┼───────────────┼─────────────┼─────────┼───────────────┤
-│          97 │ Deadshot      │ Wolves      │ Fragger │           347 │
+│          39 │ Krit          │ Fury        │ Fragger │           330 │
 │          86 │ Always        │ Virtus Pro  │ Fragger │           304 │
 │          57 │ Dash          │ LOS         │ Fragger │           293 │
 │          99 │ P4            │ Wolves      │ Fragger │           293 │
+│           3 │ Mentalist     │ Bleed       │ Support │           290 │
+│           5 │ Terdsta       │ Bleed       │ Fragger │           289 │
 │           6 │ Brendo        │ Bliss       │ Fragger │           286 │
 │          54 │ Resetz        │ Liquid      │ Support │           286 │
 │          38 │ I9            │ Fury        │ Fragger │           272 │
