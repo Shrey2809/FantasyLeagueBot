@@ -9825,3 +9825,64 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-21 04:54:06,812 [INFO] Message from phanji_: +myteam
 2024-02-21 04:54:43,112 [INFO] Message from darkwastaken.: +swap Gryxr Forrest
 2024-02-21 04:54:49,754 [INFO] Message from darkwastaken.: +myteam
+2024-02-21 05:12:13,681 [INFO] Message from koolfromdc: +swap Paluh Doki
+2024-02-21 05:12:26,110 [INFO] Message from triipn: +myscore
+2024-02-21 05:12:29,855 [INFO] Message from koolfromdc: +swap Krit CTZN
+2024-02-21 05:12:36,982 [INFO] Message from koolfromdc: +swap BGman Virtue
+2024-02-21 05:12:46,383 [INFO] Message from triipn: +dailyscores
+2024-02-21 05:12:46,732 [INFO] Message from triipn: +dailyscores
+2024-02-21 05:12:52,510 [INFO] Message from triipn: +myteam
+2024-02-21 05:14:03,717 [INFO] Message from triipn: +swap joystick dan
+2024-02-21 05:14:39,856 [INFO] Message from triipn: +allplayers
+2024-02-21 05:14:55,754 [INFO] Message from triipn: +swap reeps ambi
+2024-02-21 05:15:33,099 [INFO] Message from triipn: +swap hoven nade
+2024-02-21 05:15:38,852 [INFO] Message from triipn: +myteam
+2024-02-21 05:19:09,925 [INFO] Message from abyukio: +swap Herdz Soulz
+2024-02-21 05:19:23,959 [INFO] Message from abyukio: +myteam
+2024-02-21 05:20:22,820 [INFO] Message from triipn: +swap nade canadian
+2024-02-21 05:21:15,325 [INFO] Message from triipn: +swap nade njr
+2024-02-21 05:43:46,783 [INFO] Message from bhr1s: +myscore
+2024-02-21 05:45:00,018 [INFO] Shard ID 0 has successfully RESUMED session 75c8d12a102df42cc38cb57ce77644ba.
+2024-02-21 05:46:52,952 [INFO] Message from julian.9951: +myscore
+2024-02-21 06:07:52,055 [INFO] Message from ramon2403: +myteam
+2024-02-21 06:10:42,340 [INFO] Message from ramon2403: +swap 92 ctzn
+2024-02-21 06:20:34,638 [INFO] Shard ID 0 has successfully RESUMED session 75c8d12a102df42cc38cb57ce77644ba.
+2024-02-21 06:34:53,958 [INFO] Message from ramon2403: +find sq
+2024-02-21 06:35:04,478 [INFO] Message from ramon2403: +find soniqs
+2024-02-21 06:35:15,210 [INFO] Message from ramon2403: +swap 27 9
+2024-02-21 06:36:08,121 [INFO] Message from ramon2403: +swap handy 9
+2024-02-21 06:36:21,540 [INFO] Message from ramon2403: +find faze
+2024-02-21 06:43:19,716 [INFO] Message from alas.6: +dailyscores
+2024-02-21 06:43:20,038 [INFO] Message from alas.6: +dailyscores
+2024-02-21 06:43:36,519 [INFO] Message from alas.6: +standings
+2024-02-21 06:44:42,149 [INFO] Message from bambuu.: +swap jv92 njr
+2024-02-21 06:44:50,023 [INFO] Message from bambuu.: +swap nade nafe
+2024-02-21 06:44:57,649 [INFO] Message from bambuu.: +swap kheyze ctzn
+2024-02-21 06:45:04,009 [INFO] Message from bambuu.: +swap herdz j90
+2024-02-21 06:45:07,782 [INFO] Message from bambuu.: +swap felipox doki
+2024-02-21 06:45:28,034 [INFO] Message from bambuu.: +swap reeps doki
+2024-02-21 06:45:31,619 [INFO] Message from bambuu.: +myteam
+2024-02-21 06:45:39,458 [INFO] Message from bambuu.: +myscore
+2024-02-21 06:45:55,914 [INFO] Message from bambuu.: +dailyscores
+2024-02-21 06:45:56,224 [INFO] Message from bambuu.: +dailyscores
+2024-02-21 06:46:08,455 [INFO] Message from bambuu.: +standings
+2024-02-21 06:47:21,495 [INFO] Message from bigmudmonster: +myscore
+2024-02-21 06:47:48,558 [INFO] Message from bigmudmonster: +myteam
+2024-02-21 06:49:24,022 [INFO] Message from bigmudmonster: +swap bgman  / souls
+2024-02-21 06:49:24,297 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 06:49:34,476 [INFO] Message from bigmudmonster: +swap bgman  / soulz
+2024-02-21 06:49:34,757 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 06:49:42,181 [INFO] Message from bigmudmonster: +swap bgman  /souls
+2024-02-21 06:49:42,455 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 06:49:50,907 [INFO] Message from bigmudmonster: +swap bgman /soulz
+2024-02-21 06:49:51,323 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 06:51:40,120 [INFO] Message from bigmudmonster: +swap bgman Soulz
+2024-02-21 06:52:00,907 [INFO] Message from bigmudmonster: +swap Muzi Soulz
+2024-02-21 06:52:29,306 [INFO] Message from bigmudmonster: +swap bgman Uuno
+2024-02-21 06:52:33,225 [INFO] Message from bigmudmonster: +myteam
+2024-02-21 06:53:26,573 [INFO] Message from umbralamia: +myscore
+2024-02-21 06:53:32,092 [INFO] Message from umbralamia: +dailyscores
+2024-02-21 06:53:32,351 [INFO] Message from umbralamia: +dailyscores
+2024-02-21 06:53:42,989 [INFO] Message from bigmudmonster: +swap Wizard Njr
+2024-02-21 06:53:50,228 [INFO] Message from bigmudmonster: +myteam
+2024-02-21 06:54:17,703 [INFO] Message from umbralamia: +allplayers
