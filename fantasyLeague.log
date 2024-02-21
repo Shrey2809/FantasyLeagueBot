@@ -9886,3 +9886,100 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-21 06:53:42,989 [INFO] Message from bigmudmonster: +swap Wizard Njr
 2024-02-21 06:53:50,228 [INFO] Message from bigmudmonster: +myteam
 2024-02-21 06:54:17,703 [INFO] Message from umbralamia: +allplayers
+2024-02-21 06:55:20,014 [INFO] Message from bigmudmonster: +swap Deadshot Beaulo
+2024-02-21 06:55:24,026 [INFO] Message from umbralamia: +myteam
+2024-02-21 06:55:24,158 [INFO] Message from bigmudmonster: +myteam
+2024-02-21 06:56:17,541 [INFO] Message from umbralamia: +swap mentalist njr
+2024-02-21 06:56:38,330 [INFO] Message from umbralamia: +swap herdz kheyze
+2024-02-21 06:56:53,804 [INFO] Message from pastadcasta: +myteam
+2024-02-21 06:56:59,500 [INFO] Message from umbralamia: +swap doki benja
+2024-02-21 06:57:08,161 [INFO] Message from umbralamia: +swap j90 dan
+2024-02-21 06:57:09,658 [INFO] Message from ramon2403: +swap herdz doki
+2024-02-21 06:57:14,792 [INFO] Message from umbralamia: +myteam
+2024-02-21 06:57:15,984 [INFO] Message from ramon2403: +myteam
+2024-02-21 06:57:40,034 [INFO] Message from pastadcasta: +swap Mentalist Uuno
+2024-02-21 06:57:54,969 [INFO] Message from ramon2403: +swap handy nafe
+2024-02-21 06:58:10,339 [INFO] Message from ramon2403: +swap nafe gryxr
+2024-02-21 06:58:16,081 [INFO] Message from ramon2403: +myteam
+2024-02-21 06:58:44,641 [INFO] Message from pastadcasta: +swap Deadshot always
+2024-02-21 06:58:48,429 [INFO] Message from pastadcasta: +myteam
+2024-02-21 06:58:55,729 [INFO] Message from ramon2403: +find soniqs
+2024-02-21 06:59:11,958 [INFO] Message from ramon2403: +find dark zero
+2024-02-21 06:59:18,924 [INFO] Message from ramon2403: +find dz
+2024-02-21 06:59:22,779 [INFO] Message from pastadcasta: +find darkzero
+2024-02-21 06:59:38,955 [INFO] Message from pastadcasta: +find spacestation
+2024-02-21 06:59:53,563 [INFO] Message from pastadcasta: +find SSG
+2024-02-21 06:59:54,297 [INFO] Message from ramon2403: +swap gryxr nafe
+2024-02-21 07:00:19,155 [INFO] Message from pastadcasta: +swap fishlike ashn
+2024-02-21 07:00:20,630 [INFO] Message from umbralamia: +swap benja doki
+2024-02-21 07:00:26,551 [INFO] Message from umbralamia: +myteam
+2024-02-21 07:00:54,695 [INFO] Message from pastadcasta: +find w7m
+2024-02-21 07:01:08,985 [INFO] Message from pastadcasta: +swap krit felipox
+2024-02-21 07:01:09,660 [INFO] Message from umbralamia: +dailyscores
+2024-02-21 07:01:09,982 [INFO] Message from umbralamia: +dailyscores
+2024-02-21 07:01:14,525 [INFO] Message from pastadcasta: +dailyscores
+2024-02-21 07:01:14,818 [INFO] Message from pastadcasta: +dailyscores
+2024-02-21 07:09:30,525 [INFO] Message from bigmudmonster: +swap J90 benja
+2024-02-21 07:09:36,945 [INFO] Message from bigmudmonster: +myteam
+2024-02-21 07:28:36,374 [INFO] Shard ID 0 has successfully RESUMED session 75c8d12a102df42cc38cb57ce77644ba.
+2024-02-21 07:30:31,980 [INFO] Message from anshxo: +myscore
+2024-02-21 07:33:19,073 [INFO] Message from anshxo: +swap Mentalist NJR
+2024-02-21 07:34:13,966 [INFO] Message from anshxo: +swap Quibz Soulz
+2024-02-21 07:36:18,233 [INFO] Message from anshxo: +swap Quibz Handy
+2024-02-21 07:38:23,327 [INFO] Message from umbralamia: +standings
+2024-02-21 07:49:51,167 [INFO] Message from marwanmoussa: +myscore
+2024-02-21 07:50:04,547 [INFO] Message from marwanmoussa: +myteam
+2024-02-21 07:50:34,800 [INFO] Message from marwanmoussa: +swap mentalist nafe
+2024-02-21 07:51:07,493 [INFO] Message from marwanmoussa: +swap mowwgli ctzn
+2024-02-21 07:51:07,796 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 07:51:24,967 [INFO] Message from marwanmoussa: +swap mowwwgli ctzn
+2024-02-21 07:51:38,872 [INFO] Message from marwanmoussa: +find faze
+2024-02-21 07:52:15,440 [INFO] Message from marwanmoussa: +swap jv92 handy
+2024-02-21 07:53:11,048 [INFO] Message from marwanmoussa: +swap herds Khyze
+2024-02-21 07:53:11,297 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 07:53:49,618 [INFO] Message from marwanmoussa: +myteam
+2024-02-21 07:53:50,141 [INFO] Message from marwanmoussa: +swap herdz khyze
+2024-02-21 07:53:50,364 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 07:54:05,518 [INFO] Message from marwanmoussa: +find w7m
+2024-02-21 07:54:14,855 [INFO] Message from marwanmoussa: +swap 92 94
+2024-02-21 07:54:21,023 [INFO] Message from marwanmoussa: +myteam
+2024-02-21 07:54:34,080 [INFO] Message from marwanmoussa: +dailyscores
+2024-02-21 07:54:34,448 [INFO] Message from marwanmoussa: +dailyscores
+2024-02-21 07:55:09,590 [INFO] Message from marwanmoussa: +myteam
+2024-02-21 07:55:17,174 [INFO] Shard ID 0 has successfully RESUMED session 75c8d12a102df42cc38cb57ce77644ba.
+2024-02-21 07:55:39,384 [INFO] Message from marwanmoussa: +myscore
+2024-02-21 07:55:56,717 [INFO] Message from marwanmoussa: +standings
+2024-02-21 07:56:11,738 [INFO] Message from marwanmoussa: +myscore
+2024-02-21 07:57:26,436 [INFO] Message from ejb_01: +myscore
+2024-02-21 08:04:56,670 [INFO] Message from oxabolt: +allplayers
+2024-02-21 08:08:25,788 [INFO] Message from krieg4948: +myscore
+2024-02-21 08:08:44,944 [INFO] Message from krieg4948: +dailyscores
+2024-02-21 08:08:45,378 [INFO] Message from krieg4948: +dailyscores
+2024-02-21 08:10:21,105 [INFO] Message from zaythorr: +myteam
+2024-02-21 08:10:26,589 [INFO] Message from zaythorr: +swap mentalist Njr
+2024-02-21 08:10:36,776 [INFO] Message from zaythorr: +swap Forrest nafe
+2024-02-21 08:10:40,487 [INFO] Message from zaythorr: +myteam
+2024-02-21 08:11:15,593 [INFO] Message from zaythorr: +find soniqs
+2024-02-21 08:11:29,402 [INFO] Message from zaythorr: +find darkzero
+2024-02-21 08:11:51,438 [INFO] Message from zaythorr: +find virtus pro
+2024-02-21 08:12:23,201 [INFO] Message from zaythorr: +myteam
+2024-02-21 08:12:31,176 [INFO] Message from zaythorr: +swap doki ctzn
+2024-02-21 08:13:24,443 [INFO] Message from zaythorr: +swap herdz Benja
+2024-02-21 08:13:28,917 [INFO] Message from zaythorr: +myteam
+2024-02-21 08:13:43,645 [INFO] Message from zaythorr: +find w7m
+2024-02-21 08:16:54,517 [INFO] Shard ID 0 has successfully RESUMED session 75c8d12a102df42cc38cb57ce77644ba.
+2024-02-21 08:36:20,512 [INFO] Message from rackafornia: +myteam
+2024-02-21 08:36:40,676 [INFO] Message from rackafornia: +swap herdz iconic
+2024-02-21 08:36:48,742 [INFO] Message from rackafornia: +swap iconic herdz
+2024-02-21 08:37:08,284 [INFO] Message from rackafornia: +swap lobin herdz
+2024-02-21 08:37:24,714 [INFO] Message from rackafornia: +swap iconic Alemao
+2024-02-21 08:37:46,880 [INFO] Message from rackafornia: +swap deadshot alemao
+2024-02-21 08:38:13,244 [INFO] Message from rackafornia: +swap iconic Sheppard
+2024-02-21 08:38:17,728 [INFO] Message from rackafornia: +myteam
+2024-02-21 08:38:51,540 [INFO] Message from rackafornia: +swap srsly panbazou
+2024-02-21 08:38:51,852 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 08:39:01,881 [INFO] Message from rackafornia: +swap Srsly Njr
+2024-02-21 08:39:21,504 [INFO] Message from rackafornia: +find DarkZero
+2024-02-21 08:39:37,376 [INFO] Message from rackafornia: +find njr
+2024-02-21 08:39:59,770 [INFO] Message from rackafornia: +swap srsly panba
+2024-02-21 08:40:06,132 [INFO] Message from rackafornia: +myteam
