@@ -4,6 +4,7 @@ import datetime
 import os
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+from tzlocal import get_localzone
 
 
 # Function to find the latest CSV file in the specified folder
@@ -16,7 +17,9 @@ def find_latest_csv(folder_path):
 
 # Read CSV file and insert data into player_daily_performance table
 def insert_data_from_csv(csv_file):
-    date = datetime.datetime.now().date()
+    local_timezone = get_localzone()
+    date = datetime.datetime.now(local_timezone).date()
+
     conn = sqlite3.connect('SI_2024_FANTASY_LEAGUE.db')
     cursor = conn.cursor()
     with open(csv_file, 'r', encoding='utf-8-sig') as file:
