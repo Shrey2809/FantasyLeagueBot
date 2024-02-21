@@ -9712,3 +9712,116 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-21 02:52:43,433 [INFO] Message from jobestar123: +myscore
 2024-02-21 02:54:31,941 [INFO] Message from boskeyacht: +myscore
 2024-02-21 02:54:59,348 [INFO] Message from bennthebean: +myteam
+2024-02-21 02:55:37,087 [INFO] Message from bennthebean: +swap Virtue NJR
+2024-02-21 02:56:05,186 [INFO] Message from boskeyacht: +swap Mowwwgli Dokisan
+2024-02-21 02:56:05,495 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 02:56:31,519 [INFO] Message from bennthebean: +swap Reeps Ctzn
+2024-02-21 02:56:32,008 [INFO] Message from boskeyacht: +find G2
+2024-02-21 02:56:49,769 [INFO] Message from boskeyacht: +swap Mowwwgli Doki
+2024-02-21 02:56:52,100 [INFO] Message from bennthebean: +swap Jv92 Nafe
+2024-02-21 02:57:48,280 [INFO] Message from boskeyacht: +swap Terdsta CTZN
+2024-02-21 02:57:55,921 [INFO] Message from boskeyacht: +myteam
+2024-02-21 02:57:56,566 [INFO] Message from bennthebean: +swap Herdz Doki
+2024-02-21 03:00:11,766 [INFO] Message from pascalthecurator: +myteam
+2024-02-21 03:00:15,924 [INFO] Message from pascalthecurator: +swap nade soulz1
+2024-02-21 03:00:16,325 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 03:00:20,600 [INFO] Message from pascalthecurator: +swap nade soulz
+2024-02-21 03:00:27,250 [INFO] Message from pascalthecurator: +swap kheyze soulz
+2024-02-21 03:00:54,240 [INFO] Message from pascalthecurator: +swap paluh j90
+2024-02-21 03:01:03,504 [INFO] Message from pascalthecurator: +swap j90 gryxr
+2024-02-21 03:01:09,946 [INFO] Message from pascalthecurator: +swap nade gryxr
+2024-02-21 03:01:30,274 [INFO] Message from pascalthecurator: +swap mowwwgli njr
+2024-02-21 03:01:47,260 [INFO] Message from tact_.: +swap Dan Panba
+2024-02-21 03:02:07,677 [INFO] Message from tact_.: +swap J90 CTZN
+2024-02-21 03:02:12,873 [INFO] Message from pascalthecurator: +swap nade njr
+2024-02-21 03:02:19,963 [INFO] Message from pascalthecurator: +swap lagonis njr
+2024-02-21 03:02:50,990 [INFO] Message from pascalthecurator: +myteam
+2024-02-21 03:02:58,948 [INFO] Message from pascalthecurator: +swap mowwwgli dan
+2024-02-21 03:07:29,558 [INFO] Message from zygecks: +dailyscores
+2024-02-21 03:07:30,146 [INFO] Message from zygecks: +dailyscores
+2024-02-21 03:07:43,355 [INFO] Message from zygecks: +myscore
+2024-02-21 03:08:11,967 [INFO] Message from zygecks: +myteam
+2024-02-21 03:08:24,980 [INFO] Message from zygecks: +myteam
+2024-02-21 03:08:31,285 [INFO] Message from 3rror__: +swap bgman njr
+2024-02-21 03:08:44,017 [INFO] Message from 3rror__: +swap deadshot CTZN
+2024-02-21 03:08:50,645 [INFO] Message from axon319: +myteam
+2024-02-21 03:08:53,394 [INFO] Message from 3rror__: +myteam
+2024-02-21 03:19:26,764 [INFO] Message from phanji_: +myscore
+2024-02-21 03:22:55,816 [INFO] Message from oxabolt: +myscore
+2024-02-21 03:23:23,087 [INFO] Message from oxabolt: +myteam
+2024-02-21 03:28:25,626 [INFO] Message from 3rror__: +swap resetz beaulo
+2024-02-21 03:37:11,498 [INFO] Shard ID 0 has successfully RESUMED session 75c8d12a102df42cc38cb57ce77644ba.
+2024-02-21 03:41:43,463 [INFO] Message from .__.nyx.__.: +myteam
+2024-02-21 03:41:53,325 [INFO] Message from .__.nyx.__.: +swap herdz ctzn
+2024-02-21 03:42:03,058 [INFO] Message from .__.nyx.__.: +swap resetz njr
+2024-02-21 03:42:25,928 [INFO] Message from .__.nyx.__.: +swap mentalist nafe
+2024-02-21 03:43:53,381 [INFO] Message from .__.nyx.__.: +swap herdz doki
+2024-02-21 03:44:04,385 [INFO] Message from das_percy: +myscore
+2024-02-21 03:44:11,334 [INFO] Message from das_percy: +standings
+2024-02-21 03:44:15,619 [INFO] Message from .__.nyx.__.: +swap krit doki
+2024-02-21 03:44:42,636 [INFO] Message from 3rror__: +swap resetz gryxr
+2024-02-21 03:44:48,858 [INFO] Message from 3rror__: +myteams
+2024-02-21 03:48:25,613 [INFO] Message from .__.nyx.__.: +dailyscore
+2024-02-21 03:49:20,733 [INFO] Message from .__.nyx.__.: +dailyscore
+2024-02-21 03:49:40,320 [INFO] Message from .__.nyx.__.: +dailyscore
+2024-02-21 03:50:14,749 [INFO] Message from koolfromdc: +myscore
+2024-02-21 03:50:21,238 [INFO] Message from koolfromdc: +dailyscores
+2024-02-21 03:50:22,133 [INFO] Message from koolfromdc: +dailyscores
+2024-02-21 03:58:38,648 [INFO] Message from skylarswrld_kix: +myscore
+2024-02-21 03:59:03,911 [INFO] Message from pascalthecurator: +standings
+2024-02-21 04:15:21,941 [INFO] Message from geekdafreak: +myscore
+2024-02-21 04:15:26,697 [INFO] Message from geekdafreak: +myteam
+2024-02-21 04:15:38,933 [INFO] Message from geekdafreak: +swap bgman njr
+2024-02-21 04:15:45,014 [INFO] Message from geekdafreak: +swap nade nafe
+2024-02-21 04:15:52,441 [INFO] Message from geekdafreak: +swap nesk ashn
+2024-02-21 04:15:58,944 [INFO] Message from geekdafreak: +swap reeps ctzn
+2024-02-21 04:16:09,286 [INFO] Message from zozooz: +myscore
+2024-02-21 04:16:09,632 [INFO] Message from geekdafreak: +myteam
+2024-02-21 04:16:48,048 [INFO] Message from geekdafreak: +swap kheyze soulz
+2024-02-21 04:16:52,569 [INFO] Message from geekdafreak: +myteam
+2024-02-21 04:17:16,796 [INFO] Message from zozooz: +swap nesk bealuo
+2024-02-21 04:17:17,049 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 04:17:51,390 [INFO] Message from geekdafreak: +swap ashn benja
+2024-02-21 04:18:02,975 [INFO] Message from zozooz: +swap nesk Beaulo
+2024-02-21 04:18:03,327 [INFO] Message from geekdafreak: +myteam
+2024-02-21 04:18:30,907 [INFO] Message from zozooz: +myteam
+2024-02-21 04:18:57,878 [INFO] Message from zozooz: +dailyscores
+2024-02-21 04:18:58,244 [INFO] Message from zozooz: +dailyscores
+2024-02-21 04:20:49,088 [INFO] Message from itsjustducky: +swap jv92 njr
+2024-02-21 04:20:55,538 [INFO] Message from itsjustducky: +swap paluh j90
+2024-02-21 04:21:06,734 [INFO] Message from itsjustducky: +swap krit doki
+2024-02-21 04:21:12,852 [INFO] Message from itsjustducky: +myteam
+2024-02-21 04:21:25,376 [INFO] Message from itsjustducky: +swap virtue gryxr
+2024-02-21 04:21:28,749 [INFO] Message from itsjustducky: +myteam
+2024-02-21 04:26:38,411 [INFO] Message from abyukio: +allplayers
+2024-02-21 04:29:17,059 [INFO] Message from nutberry69: +swap uno nafe
+2024-02-21 04:29:17,326 [ERROR] 'NoneType' object is not subscriptable
+2024-02-21 04:29:30,759 [INFO] Message from nutberry69: +swap uuno nafe
+2024-02-21 04:29:45,198 [INFO] Message from nutberry69: +swap Mentalist njr
+2024-02-21 04:30:04,983 [INFO] Message from nutberry69: +swap Kheyze ctzn
+2024-02-21 04:30:16,618 [INFO] Message from nutberry69: +myteam
+2024-02-21 04:30:47,374 [INFO] Message from pastybo: +swap 95 79
+2024-02-21 04:31:06,554 [INFO] Message from pastybo: +swap 93 14
+2024-02-21 04:31:20,609 [INFO] Message from pastybo: +swap 53 85
+2024-02-21 04:31:27,053 [INFO] Message from pastybo: +myteam
+2024-02-21 04:36:58,487 [INFO] Message from pastybo: +swap 52 94
+2024-02-21 04:37:02,739 [INFO] Message from pastybo: +myteam
+2024-02-21 04:40:41,335 [INFO] Message from beopa15: +swap 54 13
+2024-02-21 04:40:56,221 [INFO] Message from beopa15: +swap 36 27
+2024-02-21 04:41:19,765 [INFO] Message from beopa15: +swap 98 77
+2024-02-21 04:41:25,730 [INFO] Message from beopa15: +myteam
+2024-02-21 04:42:25,305 [INFO] Message from abyukio: +dailyscores
+2024-02-21 04:42:25,655 [INFO] Message from abyukio: +dailyscores
+2024-02-21 04:48:10,041 [INFO] Message from abyukio: +myteam
+2024-02-21 04:48:30,970 [INFO] Message from abyukio: +swap Mentalist njr
+2024-02-21 04:49:19,900 [INFO] Message from abyukio: +swap Nade Handy
+2024-02-21 04:49:45,454 [INFO] Message from cashcity: +swap herdz ctzn
+2024-02-21 04:50:42,937 [INFO] Message from abyukio: +myteam
+2024-02-21 04:52:16,919 [INFO] Message from darkwastaken.: +pick 14
+2024-02-21 04:52:38,983 [INFO] Message from darkwastaken.: +pick 15
+2024-02-21 04:53:18,408 [INFO] Message from darkwastaken.: +swap Iconic Njr
+2024-02-21 04:53:29,475 [INFO] Message from darkwastaken.: +myscore
+2024-02-21 04:53:41,342 [INFO] Message from darkwastaken.: +myteam
+2024-02-21 04:54:06,812 [INFO] Message from phanji_: +myteam
+2024-02-21 04:54:43,112 [INFO] Message from darkwastaken.: +swap Gryxr Forrest
+2024-02-21 04:54:49,754 [INFO] Message from darkwastaken.: +myteam
