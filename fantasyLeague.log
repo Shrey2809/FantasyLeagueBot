@@ -10527,3 +10527,49 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-22 00:46:28,874 [INFO] Message from random_fps: +swap CTZN kheyze
 2024-02-22 00:46:45,511 [INFO] Message from random_fps: +myteam
 2024-02-22 00:52:55,663 [INFO] Message from axon319: +myscore
+2024-02-22 00:57:44,659 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-22 01:09:09,990 [INFO] Message from steve100: +myscore
+2024-02-22 01:09:16,912 [INFO] Message from steve100: +standings
+2024-02-22 01:13:15,453 [INFO] Message from napzz9021: +myscore
+2024-02-22 01:13:19,526 [INFO] Message from napzz9021: +dailyscorws
+2024-02-22 01:13:23,142 [INFO] Message from napzz9021: +dailyscores
+2024-02-22 01:13:23,434 [INFO] Message from napzz9021: +dailyscores
+2024-02-22 01:17:32,512 [INFO] Message from standby75: +dailyscores
+2024-02-22 01:17:32,819 [INFO] Message from standby75: +dailyscores
+2024-02-22 01:17:35,661 [INFO] Message from standby75: +myscore
+2024-02-22 01:17:38,936 [INFO] Message from standby75: +standings
+2024-02-22 01:29:24,705 [INFO] Message from hylix.: +myteam
+2024-02-22 01:33:45,937 [INFO] Message from zaythorr: +myscore
+2024-02-22 01:33:54,635 [INFO] Message from zaythorr: +standings
+2024-02-22 01:37:14,489 [INFO] Message from officerbravo64: +myteam
+2024-02-22 01:37:24,316 [INFO] Message from officerbravo64: +allplayers
+2024-02-22 01:38:17,785 [INFO] Message from officerbravo64: +swap j90 soulz
+2024-02-22 01:44:11,097 [INFO] Message from wiskyr6: +myscore
+2024-02-22 01:44:23,744 [INFO] Message from wiskyr6: +standings
+2024-02-22 01:50:26,735 [INFO] Message from wiskyr6: +swap felipox soulz1
+2024-02-22 01:50:27,103 [ERROR] 'NoneType' object is not subscriptable
+2024-02-22 01:50:32,115 [INFO] Message from wiskyr6: +swap felipox soulz
+2024-02-22 01:50:35,152 [INFO] Message from wiskyr6: +myteam
+2024-02-22 01:53:27,500 [INFO] Message from standby75: +myscore
+2024-02-22 02:02:26,647 [INFO] Message from wraithling.: +swap panba beaulo
+2024-02-22 02:02:36,950 [INFO] Message from wraithling.: +swap njr nafe
+2024-02-22 02:03:10,526 [INFO] Message from wraithling.: +swap j90 kheyze
+2024-02-22 02:03:16,090 [INFO] Message from wraithling.: +myteam
+2024-02-22 02:07:09,668 [INFO] Message from mietch: +myscore
+2024-02-22 02:13:51,956 [INFO] Message from hylix.: +swap doki ctzn
+2024-02-22 02:16:52,167 [INFO] Message from 3rror__: +myteam
+2024-02-22 02:16:55,176 [INFO] Message from 3rror__: +myscore
+2024-02-22 02:17:02,529 [INFO] Message from 3rror__: +dailyscores
+2024-02-22 02:17:02,730 [INFO] Message from 3rror__: +dailyscores
+2024-02-22 02:20:32,071 [INFO] Message from wraithling.: +myscore
+2024-02-22 02:23:16,045 [INFO] Message from hylix.: +myteam
+2024-02-22 02:23:25,702 [INFO] Message from hylix.: +swap handy virtue
+2024-02-22 02:23:40,445 [INFO] Message from hylix.: +swap dan soulz
+2024-02-22 02:23:46,248 [INFO] Message from hylix.: +myteam
+2024-02-22 02:31:18,540 [INFO] Message from lynx64: +myscore
+2024-02-22 02:31:40,137 [INFO] Message from lynx64: +dailyscores
+2024-02-22 02:31:40,512 [INFO] Message from lynx64: +dailyscores
+2024-02-22 02:36:39,060 [INFO] Message from lynx64: +myscore
+2024-02-22 02:37:15,591 [INFO] Message from lynx64: +allplayers
+2024-02-22 02:43:58,125 [INFO] Message from axon319: +openplayers
+2024-02-22 02:52:29,963 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
