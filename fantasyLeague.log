@@ -10573,3 +10573,12 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-22 02:37:15,591 [INFO] Message from lynx64: +allplayers
 2024-02-22 02:43:58,125 [INFO] Message from axon319: +openplayers
 2024-02-22 02:52:29,963 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-22 04:21:19,457 [INFO] Message from bennthebean: +myscore
+2024-02-22 04:33:03,966 [INFO] Message from nutberry69: +dailyscores
+2024-02-22 04:33:03,999 [INFO] Message from bigmudmonster: +myscore
+2024-02-22 04:33:04,237 [INFO] Message from nutberry69: +dailyscores
+2024-02-22 04:36:37,297 [INFO] Message from bigmudmonster: +myteam
+2024-02-22 04:37:06,845 [INFO] Message from cu3b0ne: +myscore
+2024-02-22 04:39:38,278 [INFO] Message from cu3b0ne: +swap j90 CTZN
+2024-02-22 04:39:44,069 [INFO] Message from cu3b0ne: +myteam
+2024-02-22 04:43:50,683 [INFO] Message from officerbravo64: +myteam
