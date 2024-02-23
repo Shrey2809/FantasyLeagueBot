@@ -10774,3 +10774,12 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-23 02:26:41,615 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
 2024-02-23 02:39:39,750 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
 2024-02-23 02:42:34,964 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-23 03:57:58,232 [INFO] Message from das_percy: +find g2
+2024-02-23 03:58:08,174 [INFO] Message from das_percy: +find w7m
+2024-02-23 03:58:14,788 [INFO] Message from das_percy: +myteam
+2024-02-23 03:58:38,963 [INFO] Message from das_percy: +swap gryxr nade
+2024-02-23 03:58:51,674 [INFO] Message from das_percy: +swap dan cyber
+2024-02-23 03:58:55,812 [INFO] Message from das_percy: +myteam
+2024-02-23 04:18:56,593 [INFO] Message from bigmudmonster: +myteam
+2024-02-23 04:21:21,415 [INFO] Message from pastybo: +swap 85 29
+2024-02-23 04:48:28,237 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
