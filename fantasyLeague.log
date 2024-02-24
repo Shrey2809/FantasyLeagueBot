@@ -11225,3 +11225,32 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-24 04:45:08,163 [INFO] Message from zozooz: +dailyscores
 2024-02-24 04:45:53,038 [INFO] Message from zozooz: +swap  Kheyze
 2024-02-24 04:45:53,287 [ERROR] 'NoneType' object is not subscriptable
+2024-02-24 04:59:04,491 [INFO] Message from _bencato: +standings
+2024-02-24 04:59:16,287 [INFO] Message from _bencato: +myscore
+2024-02-24 05:03:56,596 [INFO] Message from _bencato: +dailyscores
+2024-02-24 05:03:57,027 [INFO] Message from _bencato: +dailyscores
+2024-02-24 05:04:49,600 [INFO] Message from _bencato: +myscore
+2024-02-24 05:06:40,513 [INFO] Message from _bencato: +myteam
+2024-02-24 05:07:39,447 [INFO] Message from _bencato: +swap 94 91
+2024-02-24 05:16:54,891 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-24 05:50:51,479 [INFO] Message from abyukio: +allplayers
+2024-02-24 06:12:07,071 [INFO] Message from abyukio: +myteam
+2024-02-24 06:12:30,755 [INFO] Message from abyukio: +swap njr jv92
+2024-02-24 06:15:07,632 [INFO] Message from abyukio: +standings
+2024-02-24 06:15:21,293 [INFO] Message from abyukio: +dailyscores
+2024-02-24 06:15:21,604 [INFO] Message from abyukio: +dailyscores
+2024-02-24 06:16:29,396 [INFO] Message from abyukio: +myteam
+2024-02-24 06:18:04,851 [INFO] Message from abyukio: +swap Soulz Doki
+2024-02-24 06:18:13,991 [INFO] Message from abyukio: +swap Handy Unno
+2024-02-24 06:18:14,184 [ERROR] 'NoneType' object is not subscriptable
+2024-02-24 06:18:28,658 [INFO] Message from abyukio: +swap Handy Virtue
+2024-02-24 06:29:04,327 [INFO] Message from bymousie: +myteam
+2024-02-24 06:29:18,800 [INFO] Message from bymousie: +standings
+2024-02-24 06:29:28,952 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-24 06:44:49,754 [INFO] Message from boskeyacht: +myteam
+2024-02-24 06:44:58,028 [INFO] Message from boskeyacht: +myscore
+2024-02-24 06:45:31,667 [INFO] Message from boskeyacht: +find Faze
+2024-02-24 06:45:49,098 [INFO] Message from boskeyacht: +swap njr Vitaking
+2024-02-24 06:46:14,265 [INFO] Message from boskeyacht: +swap ctzn kds
+2024-02-24 06:46:44,163 [INFO] Message from boskeyacht: +swap nafe uuno
+2024-02-24 06:46:50,826 [INFO] Message from boskeyacht: +myteam
