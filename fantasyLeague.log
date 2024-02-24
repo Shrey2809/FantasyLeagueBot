@@ -11360,3 +11360,31 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-24 12:07:08,053 [INFO] Message from maxstephenson: +swap njr jv92
 2024-02-24 12:07:19,858 [INFO] Message from maxstephenson: +swap soulz doki
 2024-02-24 12:07:40,100 [INFO] Message from maxstephenson: +swap ctzn benja
+2024-02-24 13:11:19,271 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-24 13:39:32,016 [INFO] Message from oxabolt: +myteam
+2024-02-24 13:39:49,377 [INFO] Message from oxabolt: +swap njr jv92
+2024-02-24 13:40:23,347 [INFO] Message from oxabolt: +swap handy virtue
+2024-02-24 13:40:32,039 [INFO] Message from oxabolt: +myteam
+2024-02-24 13:40:42,775 [INFO] Message from oxabolt: +standings
+2024-02-24 13:43:48,507 [INFO] Message from oxabolt: +swap dan kheyze
+2024-02-24 13:43:59,875 [INFO] Message from oxabolt: +swap virtue sheppard
+2024-02-24 13:50:34,068 [INFO] Message from flackostick: +swap Rexen doki
+2024-02-24 13:51:33,435 [INFO] Message from flackostick: +swap nafe jv98
+2024-02-24 13:51:33,781 [ERROR] 'NoneType' object is not subscriptable
+2024-02-24 13:52:04,035 [INFO] Message from flackostick: +swap ctzn jv92
+2024-02-24 13:52:19,408 [INFO] Message from flackostick: +myteam
+2024-02-24 13:53:46,310 [INFO] Message from flackostick: +swap nafe sheppard
+2024-02-24 13:55:44,904 [INFO] Message from flackostick: +find g2
+2024-02-24 13:56:11,924 [INFO] Message from flackostick: +find w7m
+2024-02-24 13:56:35,446 [INFO] Message from flackostick: +find virtus pro
+2024-02-24 13:56:53,793 [INFO] Message from flackostick: +swap ctzn benja
+2024-02-24 13:57:02,272 [INFO] Message from flackostick: +myteam
+2024-02-24 13:57:50,026 [INFO] Message from flackostick: +swap doki kheyze
+2024-02-24 13:58:03,991 [INFO] Message from flackostick: +swap benja joystick
+2024-02-24 13:58:11,000 [INFO] Message from flackostick: +myteam
+2024-02-24 14:00:23,789 [INFO] Message from bjelven: +dailyscores
+2024-02-24 14:00:24,220 [INFO] Message from bjelven: +dailyscores
+2024-02-24 14:01:35,453 [INFO] Message from bjelven: +myscore
+2024-02-24 14:19:24,427 [INFO] Message from hylix.: +market
+2024-02-24 14:22:48,535 [INFO] Message from sprabuni: +market close
+2024-02-24 14:24:54,089 [INFO] Message from bjelven: +myteam
