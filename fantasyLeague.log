@@ -11409,3 +11409,18 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-24 18:19:13,613 [INFO] Message from axon319: +market
 2024-02-24 18:31:54,613 [INFO] Message from axon319: +standings closed
 2024-02-24 18:32:18,989 [INFO] Message from axon319: +standings closed
+2024-02-24 18:59:06,523 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-24 19:08:44,264 [INFO] Message from axon319: +standings
+2024-02-24 19:09:02,147 [INFO] Message from axon319: +standings
+2024-02-24 20:12:15,986 [INFO] Message from bennthebean: +myscore
+2024-02-24 20:18:50,247 [INFO] Message from shrikel: +myscore
+2024-02-24 20:24:20,887 [INFO] Message from axon319: +myteam
+2024-02-24 20:24:57,892 [INFO] Message from umbralamia: +myteam
+2024-02-24 20:36:30,388 [INFO] Message from myst3rykarp: +myteam
+2024-02-24 20:37:30,315 [INFO] Message from bennthebean: +myteam
+2024-02-24 20:45:59,127 [INFO] Message from axon319: +standings
+2024-02-24 20:47:14,332 [INFO] Message from zaythorr: +myscore
+2024-02-24 20:47:22,958 [INFO] Message from zaythorr: +dailyscore
+2024-02-24 20:47:27,677 [INFO] Message from zaythorr: +standings
+2024-02-24 20:48:16,942 [INFO] Message from zaythorr: +dailyscores
+2024-02-24 20:48:17,174 [INFO] Message from zaythorr: +dailyscores
