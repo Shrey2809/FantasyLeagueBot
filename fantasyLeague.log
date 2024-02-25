@@ -11561,3 +11561,142 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-25 00:57:06,537 [INFO] Message from axon319: +swap Virtue Handy
 2024-02-25 00:57:10,020 [INFO] Message from axon319: +find w7m
 2024-02-25 00:57:10,665 [INFO] Message from alas.6: +myteam
+2024-02-25 00:59:41,800 [INFO] Message from random_fps: +myscore
+2024-02-25 00:59:48,363 [INFO] Message from axon319: +myscore
+2024-02-25 00:59:53,388 [INFO] Message from axon319: +dailyscores
+2024-02-25 00:59:53,653 [INFO] Message from axon319: +dailyscores
+2024-02-25 00:59:54,969 [INFO] Message from random_fps: +swap joystick soulz
+2024-02-25 01:00:13,452 [INFO] Message from yaboimadman: +myscore
+2024-02-25 01:00:28,682 [INFO] Message from yaboimadman: +standings
+2024-02-25 01:00:45,821 [INFO] Message from random_fps: +swap pasha vitaking
+2024-02-25 01:01:17,548 [INFO] Message from zygecks: +myscore
+2024-02-25 01:01:22,049 [INFO] Message from zygecks: +dailyscores
+2024-02-25 01:01:22,269 [INFO] Message from zygecks: +dailyscores
+2024-02-25 01:01:36,650 [INFO] Message from zygecks: +swap sheppard handy
+2024-02-25 01:01:41,316 [INFO] Message from zygecks: +swap doki soulz
+2024-02-25 01:01:42,973 [INFO] Message from tact_.: +myscore
+2024-02-25 01:02:50,123 [INFO] Message from zygecks: +myteam
+2024-02-25 01:02:52,972 [INFO] Message from random_fps: +myscore
+2024-02-25 01:02:54,818 [INFO] Message from tact_.: +swap Virtue Handy
+2024-02-25 01:03:14,894 [INFO] Message from tact_.: +swap Doki Soulz
+2024-02-25 01:03:23,690 [INFO] Message from tact_.: +myteam
+2024-02-25 01:03:57,210 [INFO] Message from zygecks: +myteam
+2024-02-25 01:04:11,081 [INFO] Message from zygecks: +swap kheyze cyberdaddy
+2024-02-25 01:04:11,443 [ERROR] 'NoneType' object is not subscriptable
+2024-02-25 01:04:19,658 [INFO] Message from zygecks: +swap kheyze cyberzera
+2024-02-25 01:04:20,239 [ERROR] 'NoneType' object is not subscriptable
+2024-02-25 01:04:26,011 [INFO] Message from zygecks: +swap kheyze cybernardo
+2024-02-25 01:04:27,178 [ERROR] 'NoneType' object is not subscriptable
+2024-02-25 01:05:00,813 [INFO] Message from random_fps: +myteam
+2024-02-25 01:05:35,144 [INFO] Message from axon319: +myteam
+2024-02-25 01:05:53,383 [INFO] Message from zygecks: +myteam
+2024-02-25 01:06:46,078 [INFO] Message from zygecks: +swap nade jv92
+2024-02-25 01:06:56,960 [INFO] Message from zygecks: +myteam
+2024-02-25 01:09:55,034 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-25 01:12:08,966 [INFO] Message from bennthebean: +swap Njr Felipox
+2024-02-25 01:12:22,732 [INFO] Message from bennthebean: +swap Njr Jv92
+2024-02-25 01:12:30,704 [INFO] Message from bennthebean: +swap Ctzn Herdz
+2024-02-25 01:12:40,049 [INFO] Message from bennthebean: +swap Doki Soulz
+2024-02-25 01:13:16,713 [INFO] Message from bennthebean: +swap Nafe Handy
+2024-02-25 01:14:20,176 [INFO] Message from zaythorr: +myscore
+2024-02-25 01:14:27,848 [INFO] Message from zaythorr: +standings
+2024-02-25 01:15:43,088 [INFO] Message from kbomb18: +myteam
+2024-02-25 01:16:54,349 [INFO] Message from kbomb18: +myscore
+2024-02-25 01:18:15,202 [INFO] Message from hylix.: +standings
+2024-02-25 01:18:36,797 [INFO] Message from hylix.: +myteam
+2024-02-25 01:18:46,791 [INFO] Message from hylix.: +swap doki kds
+2024-02-25 01:19:01,898 [INFO] Message from hylix.: +swap virtue handy
+2024-02-25 01:24:16,154 [INFO] Message from myst3rykarp: +myscore
+2024-02-25 01:24:23,308 [INFO] Message from myst3rykarp: +daily score
+2024-02-25 01:24:29,829 [INFO] Message from myst3rykarp: +dailyscore
+2024-02-25 01:24:53,475 [INFO] Message from myst3rykarp: +dailyscores
+2024-02-25 01:24:53,924 [INFO] Message from myst3rykarp: +dailyscores
+2024-02-25 01:25:03,495 [INFO] Message from myst3rykarp: +swap njr handy
+2024-02-25 01:25:28,970 [INFO] Message from myst3rykarp: +find team Faze
+2024-02-25 01:25:41,053 [INFO] Message from myst3rykarp: +allplayers
+2024-02-25 01:25:55,524 [INFO] Message from myst3rykarp: +swap panba soulz
+2024-02-25 01:25:58,865 [INFO] Message from myst3rykarp: +myteam
+2024-02-25 01:26:07,811 [INFO] Message from myst3rykarp: +swap ctzn herdz
+2024-02-25 01:26:47,063 [INFO] Message from myst3rykarp: +myteam
+2024-02-25 01:26:58,065 [INFO] Message from myst3rykarp: +swap virtue jv92
+2024-02-25 01:32:53,261 [INFO] Message from standby75: +dailyscores
+2024-02-25 01:32:53,584 [INFO] Message from standby75: +dailyscores
+2024-02-25 01:35:18,768 [INFO] Message from standby75: +myteam
+2024-02-25 01:35:30,529 [INFO] Message from standby75: +swap Doki Felipox
+2024-02-25 01:35:49,841 [INFO] Message from standby75: +swap Virtue jv92_
+2024-02-25 01:35:50,232 [ERROR] 'NoneType' object is not subscriptable
+2024-02-25 01:35:53,231 [INFO] Message from standby75: +find W7M
+2024-02-25 01:36:11,940 [INFO] Message from standby75: +swap Virtue Jv92\
+2024-02-25 01:36:14,448 [INFO] Message from standby75: +myteam
+2024-02-25 01:38:05,620 [INFO] Message from mietch: +myscore
+2024-02-25 01:41:33,055 [INFO] Message from hylix.: +allplayers
+2024-02-25 01:46:32,505 [INFO] Message from hylix.: +swap kheyze cyber
+2024-02-25 01:46:36,857 [INFO] Message from hylix.: +myteam
+2024-02-25 01:47:02,650 [INFO] Message from rickandmhorti: +myscore
+2024-02-25 01:47:09,506 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-25 01:47:09,732 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-25 01:47:13,280 [INFO] Message from rickandmhorti: +myteam
+2024-02-25 01:47:27,846 [INFO] Message from rickandmhorti: +swap Virtue Jv92
+2024-02-25 01:47:38,929 [INFO] Message from rickandmhorti: +swap Sheppard Handyy
+2024-02-25 01:47:39,169 [ERROR] 'NoneType' object is not subscriptable
+2024-02-25 01:47:44,105 [INFO] Message from rickandmhorti: +swap Sheppard Handy
+2024-02-25 01:47:47,100 [INFO] Message from rickandmhorti: +myteam
+2024-02-25 01:47:59,338 [INFO] Message from rickandmhorti: +swap Benja Felipox
+2024-02-25 01:49:23,833 [INFO] Message from cashcity: +swap pasha handy
+2024-02-25 01:49:29,255 [INFO] Message from cashcity: +swap benja herdz
+2024-02-25 01:49:38,249 [INFO] Message from cashcity: +swap alemao kds
+2024-02-25 01:49:41,485 [INFO] Message from cashcity: +myteam
+2024-02-25 01:50:28,683 [INFO] Message from anshxo: +myscore
+2024-02-25 01:50:29,037 [INFO] Message from cashcity: +myscore
+2024-02-25 01:50:59,877 [INFO] Message from anshxo: +swap Doki Soulz
+2024-02-25 01:51:07,010 [INFO] Message from anshxo: +swap Sheppard Handy
+2024-02-25 01:51:16,956 [INFO] Message from anshxo: +myteam
+2024-02-25 01:52:20,782 [INFO] Message from anshxo: +swap Sheppard Nade
+2024-02-25 01:54:23,924 [INFO] Message from hylix.: +dailyscores
+2024-02-25 01:54:24,213 [INFO] Message from hylix.: +dailyscores
+2024-02-25 01:56:32,932 [INFO] Message from cu3b0ne: +swap njr nade
+2024-02-25 01:56:53,965 [INFO] Message from cu3b0ne: +swap ctzn cyber
+2024-02-25 01:58:26,324 [INFO] Message from cu3b0ne: +swap jv92 handy
+2024-02-25 01:58:43,776 [INFO] Message from cu3b0ne: +swap doki kds
+2024-02-25 01:58:49,078 [INFO] Message from cu3b0ne: +myteam
+2024-02-25 01:59:12,517 [INFO] Message from cu3b0ne: +swap kds kheyze
+2024-02-25 02:00:39,915 [INFO] Message from bymousie: +myscore
+2024-02-25 02:01:00,011 [INFO] Message from tommy4.: +myteam
+2024-02-25 02:01:05,477 [INFO] Message from tommy4.: +find w7m
+2024-02-25 02:01:07,607 [INFO] Message from bymousie: +dailyscore
+2024-02-25 02:01:18,284 [INFO] Message from tommy4.: +swap 43 92
+2024-02-25 02:01:21,893 [INFO] Message from bymousie: +dailyscores
+2024-02-25 02:01:22,112 [INFO] Message from bymousie: +dailyscores
+2024-02-25 02:01:32,115 [INFO] Message from tommy4.: +swap 79 93
+2024-02-25 02:01:41,422 [INFO] Message from tommy4.: +swap 45 95
+2024-02-25 02:01:51,884 [INFO] Message from bymousie: +standings
+2024-02-25 02:01:55,429 [INFO] Message from tommy4.: +swap 42 91
+2024-02-25 02:02:07,093 [INFO] Message from tommy4.: +swap 77 94
+2024-02-25 02:02:12,461 [INFO] Message from tommy4.: +myteam
+2024-02-25 02:02:16,769 [INFO] Message from tommy4.: +find faze
+2024-02-25 02:02:43,875 [INFO] Message from tommy4.: +swap 91 26
+2024-02-25 02:03:06,852 [INFO] Message from tommy4.: +swap 95 27
+2024-02-25 02:03:13,823 [INFO] Message from tommy4.: +myscore
+2024-02-25 02:03:17,176 [INFO] Message from bymousie: +myteam
+2024-02-25 02:03:33,112 [INFO] Message from bymousie: +swap doki handy
+2024-02-25 02:03:41,388 [INFO] Message from bymousie: +swap doki virtue
+2024-02-25 02:03:50,246 [INFO] Message from bymousie: +swap virtue handy
+2024-02-25 02:03:54,691 [INFO] Message from bymousie: +myteam
+2024-02-25 02:03:56,540 [INFO] Message from das_percy: +standings
+2024-02-25 02:04:04,222 [INFO] Message from bymousie: +swap doki soulz
+2024-02-25 02:04:08,143 [INFO] Message from bymousie: +myteam
+2024-02-25 02:04:24,497 [INFO] Message from bymousie: +swap dan kheyze
+2024-02-25 02:04:31,359 [INFO] Message from bymousie: +swap jv92 nade
+2024-02-25 02:04:34,775 [INFO] Message from bymousie: +myteam
+2024-02-25 02:04:35,042 [INFO] Message from das_percy: +dailyscores
+2024-02-25 02:04:35,329 [INFO] Message from das_percy: +dailyscores
+2024-02-25 02:04:48,390 [INFO] Message from das_percy: +dailyscore tact_.
+2024-02-25 02:04:54,249 [INFO] Message from das_percy: +dailyscores tact_.
+2024-02-25 02:04:54,538 [INFO] Message from das_percy: +dailyscores tact_.
+2024-02-25 02:24:40,845 [INFO] Message from officerbravo64: +myscore
+2024-02-25 02:24:47,713 [INFO] Message from officerbravo64: +dailyscores
+2024-02-25 02:24:47,912 [INFO] Message from officerbravo64: +dailyscores
+2024-02-25 02:25:39,166 [INFO] Message from officerbravo64: +swap virtue handy
+2024-02-25 02:25:48,719 [INFO] Message from officerbravo64: +swap doki soulz
+2024-02-25 02:25:53,358 [INFO] Message from officerbravo64: +myteam
+2024-02-25 02:47:31,606 [INFO] Message from myst3rykarp: +myteam
