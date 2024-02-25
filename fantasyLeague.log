@@ -11479,3 +11479,85 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-24 22:56:46,795 [INFO] Message from zozooz: +dailyscores
 2024-02-24 22:56:47,049 [INFO] Message from zozooz: +dailyscores
 2024-02-24 22:57:18,324 [INFO] Message from hylix.: +standings
+2024-02-24 22:59:23,135 [INFO] Message from axon319: +find Faze
+2024-02-24 22:59:25,331 [INFO] Message from axon319: +find W7M
+2024-02-24 23:01:05,658 [INFO] Message from hylix.: +standings
+2024-02-24 23:04:53,044 [INFO] Message from pastybo: +myscores
+2024-02-24 23:08:58,310 [INFO] Message from hylix.: +standings
+2024-02-24 23:18:31,411 [INFO] Message from napzz9021: +myscore
+2024-02-24 23:18:36,929 [INFO] Message from napzz9021: +dailyscores
+2024-02-24 23:18:37,178 [INFO] Message from napzz9021: +dailyscores
+2024-02-24 23:18:40,164 [INFO] Message from das_percy: +standings
+2024-02-24 23:19:03,497 [INFO] Message from das_percy: +dailyscores
+2024-02-24 23:19:03,747 [INFO] Message from das_percy: +dailyscores
+2024-02-24 23:20:19,490 [INFO] Message from boskeyacht: +find w7m
+2024-02-24 23:20:54,741 [INFO] Message from boskeyacht: +myscore
+2024-02-24 23:22:49,084 [INFO] Message from bjelven: +myscore
+2024-02-24 23:23:28,487 [INFO] Message from bjelven: +dailyscores
+2024-02-24 23:23:28,815 [INFO] Message from bjelven: +dailyscores
+2024-02-24 23:23:43,008 [INFO] Message from alas.6: +market
+2024-02-24 23:23:47,023 [INFO] Message from bjelven: +myteam
+2024-02-24 23:24:00,457 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-24 23:24:12,670 [INFO] Message from nutberry69: +myscore
+2024-02-24 23:24:22,461 [INFO] Message from nutberry69: +myscore
+2024-02-24 23:24:26,454 [INFO] Message from .__.nyx.__.: +dailyscores
+2024-02-24 23:24:26,790 [INFO] Message from .__.nyx.__.: +dailyscores
+2024-02-24 23:24:53,291 [INFO] Message from nutberry69: +dailyscores
+2024-02-24 23:24:53,612 [INFO] Message from nutberry69: +dailyscores
+2024-02-24 23:28:44,839 [INFO] Message from .__.nyx.__.: +myscore
+2024-02-24 23:28:59,004 [INFO] Message from nutberry69: +myscore
+2024-02-24 23:30:37,898 [INFO] Message from nutberry69: +myteam
+2024-02-24 23:33:46,149 [INFO] Message from zaythorr: +myscore
+2024-02-24 23:38:27,102 [INFO] Message from bonce_: +myscore
+2024-02-24 23:38:48,156 [INFO] Message from siegeplayer305: +myscore
+2024-02-24 23:39:10,506 [INFO] Message from siegeplayer305: +dailyscores
+2024-02-24 23:39:10,981 [INFO] Message from siegeplayer305: +dailyscores
+2024-02-24 23:41:15,227 [INFO] Message from steve100: +myscore
+2024-02-24 23:48:13,780 [INFO] Message from ten245_: +dailyscores
+2024-02-24 23:48:14,057 [INFO] Message from ten245_: +dailyscores
+2024-02-24 23:48:29,303 [INFO] Message from ten245_: +myscore
+2024-02-24 23:55:40,434 [INFO] Message from nutberry69: +myscore
+2024-02-25 00:06:44,657 [INFO] Message from lynx64: +myscore
+2024-02-25 00:14:04,253 [INFO] Message from hylix.: +myscore
+2024-02-25 00:15:03,626 [INFO] Message from kbomb18: +myscore
+2024-02-25 00:17:55,531 [INFO] Message from yaboimadman: +myscore
+2024-02-25 00:18:00,901 [INFO] Message from yaboimadman: +myteam
+2024-02-25 00:22:15,061 [INFO] Message from 46.ryan: +myscore
+2024-02-25 00:24:20,260 [INFO] Message from oxabolt: +myscore
+2024-02-25 00:25:29,981 [INFO] Message from oxabolt: +standings
+2024-02-25 00:30:08,472 [INFO] Message from hylix.: +standings
+2024-02-25 00:32:51,580 [INFO] Message from myst3rykarp: +myteam
+2024-02-25 00:32:55,681 [INFO] Message from myst3rykarp: +myscore
+2024-02-25 00:38:27,489 [INFO] Message from random_fps: +myteam
+2024-02-25 00:40:11,660 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-25 00:40:37,627 [INFO] Message from zaythorr: +myscore
+2024-02-25 00:43:07,204 [INFO] Message from jessejchick: 
+2024-02-25 00:43:08,016 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-02-25 00:44:24,977 [INFO] Message from axon319: +standings
+2024-02-25 00:44:30,621 [INFO] Message from axon319: +standings closed
+2024-02-25 00:51:10,133 [INFO] Message from axon319: +standings closed
+2024-02-25 00:51:28,967 [INFO] Message from axon319: +market open
+2024-02-25 00:54:43,070 [INFO] Message from alas.6: +dailyscores
+2024-02-25 00:54:43,439 [INFO] Message from alas.6: +dailyscores
+2024-02-25 00:54:58,605 [INFO] Message from alas.6: +standings
+2024-02-25 00:55:41,955 [INFO] Message from alas.6: +myteam
+2024-02-25 00:55:47,776 [INFO] Message from alas.6: +swap cyber herdz
+2024-02-25 00:55:52,484 [INFO] Message from yaboimadman: +swap virtue jv92
+2024-02-25 00:55:55,045 [INFO] Message from alas.6: +swap herdz cyber
+2024-02-25 00:56:01,760 [INFO] Message from yaboimadman: +find W7M
+2024-02-25 00:56:04,732 [INFO] Message from yaboimadman: +myteam
+2024-02-25 00:56:07,549 [INFO] Message from alas.6: +swap nade vitaking
+2024-02-25 00:56:11,933 [INFO] Message from yaboimadman: +swap joystick kds
+2024-02-25 00:56:19,152 [INFO] Message from alas.6: +swap kheyze kds
+2024-02-25 00:56:20,812 [INFO] Message from axon319: +myteam
+2024-02-25 00:56:22,407 [INFO] Message from alas.6: +myteam
+2024-02-25 00:56:27,616 [INFO] Message from axon319: +find faze
+2024-02-25 00:56:35,273 [INFO] Message from axon319: +swap doki soulz
+2024-02-25 00:56:40,605 [INFO] Message from alas.6: +swap jv92 handyy
+2024-02-25 00:56:40,788 [ERROR] 'NoneType' object is not subscriptable
+2024-02-25 00:56:51,920 [INFO] Message from alas.6: +swap jv92 handy
+2024-02-25 00:56:57,136 [INFO] Message from alas.6: +find faze
+2024-02-25 00:57:05,413 [INFO] Message from alas.6: +swap benja soulz
+2024-02-25 00:57:06,537 [INFO] Message from axon319: +swap Virtue Handy
+2024-02-25 00:57:10,020 [INFO] Message from axon319: +find w7m
+2024-02-25 00:57:10,665 [INFO] Message from alas.6: +myteam
