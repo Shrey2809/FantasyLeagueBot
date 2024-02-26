@@ -12089,3 +12089,35 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-26 14:29:08,418 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
 2024-02-26 14:35:01,989 [INFO] Message from das_percy: +standings
 2024-02-26 15:00:36,265 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 15:11:55,559 [INFO] Message from das_percy: +standings
+2024-02-26 15:22:26,556 [INFO] Message from mietch: +dailyscores
+2024-02-26 15:22:26,940 [INFO] Message from mietch: +dailyscores
+2024-02-26 15:31:29,245 [INFO] Message from zaythorr: +myscore
+2024-02-26 15:32:01,758 [INFO] Message from zaythorr: +standings
+2024-02-26 15:32:24,754 [INFO] Message from zaythorr: +dailyscores
+2024-02-26 15:32:25,167 [INFO] Message from zaythorr: +dailyscores
+2024-02-26 15:33:00,157 [INFO] Message from zaythorr: +myteam
+2024-02-26 15:33:23,310 [INFO] Message from mietch: +myteam
+2024-02-26 15:33:39,849 [INFO] Message from das_percy: +standings
+2024-02-26 15:36:04,175 [INFO] Message from koolfromdc: +myscore
+2024-02-26 15:39:36,201 [INFO] Message from alas.6: +standings
+2024-02-26 15:39:44,314 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 15:48:20,844 [INFO] Message from zaythorr: +myscore
+2024-02-26 15:51:37,372 [INFO] Message from pascalthecurator: +myscore
+2024-02-26 15:51:53,577 [INFO] Message from steve100: +myscore
+2024-02-26 15:53:43,983 [INFO] Message from das_percy: +standings
+2024-02-26 15:56:36,532 [INFO] Message from das_percy: +standings
+2024-02-26 16:02:26,674 [INFO] Message from bjelven: +myscore
+2024-02-26 16:07:13,441 [INFO] Message from _bencato: +standings
+2024-02-26 16:09:42,437 [INFO] Message from nutberry69: +myscore
+2024-02-26 16:17:48,747 [INFO] Message from kbomb18: +myscore
+2024-02-26 16:20:57,215 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 16:25:38,111 [INFO] Message from clayton8803: +myscore
+2024-02-26 16:27:50,318 [INFO] Message from random_fps: +myscore
+2024-02-26 16:29:51,978 [INFO] Message from rickandmhorti: +myscore
+2024-02-26 16:30:00,860 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-26 16:30:01,207 [INFO] Message from rickandmhorti: +dailyscores
+2024-02-26 16:49:59,442 [INFO] Message from das_percy: +standings
+2024-02-26 17:00:19,771 [INFO] Message from austinszn: +myscore
+2024-02-26 17:00:35,384 [INFO] Message from austinszn: +dailyscores
+2024-02-26 17:00:35,944 [INFO] Message from austinszn: +dailyscores
