@@ -12069,3 +12069,11 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-26 09:50:30,757 [INFO] Message from bonce_: +myscore
 2024-02-26 10:03:10,182 [INFO] Message from alas.6: +standings
 2024-02-26 10:16:06,825 [INFO] Message from krieg4948: +myteam
+2024-02-26 11:12:23,312 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 11:13:57,435 [INFO] Message from bymousie: +myscore
+2024-02-26 12:02:45,369 [INFO] Message from eeeeed: +myscore
+2024-02-26 12:08:33,229 [INFO] Message from yaboimadman: +myscore
+2024-02-26 12:09:02,459 [INFO] Message from yaboimadman: +dailyscores
+2024-02-26 12:09:02,817 [INFO] Message from yaboimadman: +dailyscores
+2024-02-26 12:12:16,604 [INFO] Message from mietch: +myscore
+2024-02-26 13:01:45,012 [INFO] Message from das_percy: +standings
