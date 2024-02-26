@@ -12057,3 +12057,9 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-26 04:50:15,630 [INFO] Message from rickandmhorti: +dailyscores
 2024-02-26 04:50:15,845 [INFO] Message from rickandmhorti: +dailyscores
 2024-02-26 04:57:27,666 [INFO] Message from tweedy19: +myscore
+2024-02-26 05:15:27,122 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 05:18:04,142 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 05:29:10,383 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 05:54:39,471 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-26 06:05:06,050 [INFO] Message from oxabolt: +standings
+2024-02-26 06:13:50,003 [INFO] Message from llblake: +myscore
