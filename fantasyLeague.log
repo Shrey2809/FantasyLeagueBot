@@ -12235,3 +12235,10 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-02-27 02:53:40,751 [INFO] Message from fenrir361: +dailyscores
 2024-02-27 02:53:41,039 [INFO] Message from fenrir361: +dailyscores
 2024-02-27 02:58:12,963 [INFO] Message from wiskyr6: +standings
+2024-02-27 03:13:07,147 [INFO] Message from _bencato: +dailyscores
+2024-02-27 03:13:07,523 [INFO] Message from _bencato: +dailyscores
+2024-02-27 04:18:57,375 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-27 04:33:06,960 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-02-27 04:41:58,900 [INFO] Message from bymousie: +dailyscores
+2024-02-27 04:41:59,366 [INFO] Message from bymousie: +dailyscores
+2024-02-27 04:53:28,689 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
