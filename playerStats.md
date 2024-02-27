@@ -1,34 +1,107 @@
 ┌─────────────┬───────────────┬─────────────┬─────────┬───────────────┐
 │   Player ID │ Player Name   │ Team Name   │ Role    │   Total Score │
 ├─────────────┼───────────────┼─────────────┼─────────┼───────────────┤
-│          92 │ Herdz         │ W7M         │ Fragger │           809 │
-│          94 │ Kheyze        │ W7M         │ Fragger │           768 │
-│          29 │ Soulz         │ FaZe        │ Fragger │           661 │
-│          14 │ Njr           │ DarkZero    │ Support │           646 │
-│          27 │ Handy         │ FaZe        │ Support │           643 │
-│          95 │ Nade          │ W7M         │ Support │           625 │
-│          93 │ Jv92          │ W7M         │ Support │           624 │
-│          13 │ Nafe          │ DarkZero    │ Support │           623 │
-│          28 │ Kds           │ FaZe        │ Fragger │           582 │
-│          91 │ Felipox       │ W7M         │ Fragger │           580 │
-│          43 │ Doki          │ G2          │ Fragger │           570 │
-│          77 │ Ctzn          │ Soniqs      │ Fragger │           559 │
-│          45 │ Virtue        │ G2          │ Support │           554 │
-│          87 │ Dan           │ Virtus Pro  │ Fragger │           544 │
-│          42 │ Benja         │ G2          │ Fragger │           517 │
-│          86 │ Always        │ Virtus Pro  │ Fragger │           500 │
-│          44 │ Uuno          │ G2          │ Support │           487 │
-│          89 │ Pasha         │ Virtus Pro  │ Support │           474 │
-│          11 │ Beaulo        │ DarkZero    │ Fragger │           473 │
-│          30 │ Vitaking      │ FaZe        │ Support │           457 │
-│          15 │ Panba         │ DarkZero    │ Fragger │           454 │
-│          79 │ Gryxr         │ Soniqs      │ Support │           434 │
-│          88 │ Joystick      │ Virtus Pro  │ Fragger │           426 │
-│          90 │ Sheppard      │ Virtus Pro  │ Support │           423 │
-│          41 │ Alemao        │ G2          │ Fragger │           405 │
-│          12 │ Canadian      │ DarkZero    │ Fragger │           402 │
-│          76 │ Ambi          │ Soniqs      │ Fragger │           392 │
-│          26 │ Cyber         │ FaZe        │ Fragger │           361 │
-│          80 │ Rexen         │ Soniqs      │ Fragger │           325 │
-│          78 │ Geo           │ Soniqs      │ Support │           312 │
+│          92 │ Herdz         │ W7M         │ Fragger │          1211 │
+│          94 │ Kheyze        │ W7M         │ Fragger │          1150 │
+│          93 │ Jv92          │ W7M         │ Support │          1006 │
+│          95 │ Nade          │ W7M         │ Support │           967 │
+│          27 │ Handy         │ FaZe        │ Support │           925 │
+│          29 │ Soulz         │ FaZe        │ Fragger │           863 │
+│          91 │ Felipox       │ W7M         │ Fragger │           842 │
+│          26 │ Cyber         │ FaZe        │ Fragger │           809 │
+│          28 │ Kds           │ FaZe        │ Fragger │           755 │
+│          14 │ Njr           │ DarkZero    │ Support │           698 │
+│          43 │ Doki          │ G2          │ Fragger │           684 │
+│          87 │ Dan           │ Virtus Pro  │ Fragger │           676 │
+│          85 │ J90           │ SSG         │ Fragger │           654 │
+│          30 │ Vitaking      │ FaZe        │ Support │           648 │
+│          98 │ Mowwwgli      │ Wolves      │ Fragger │           625 │
+│          13 │ Nafe          │ DarkZero    │ Support │           620 │
+│          42 │ Benja         │ G2          │ Fragger │           614 │
+│          86 │ Always        │ Virtus Pro  │ Fragger │           588 │
+│          45 │ Virtue        │ G2          │ Support │           578 │
+│          89 │ Pasha         │ Virtus Pro  │ Support │           565 │
+│           6 │ Brendo        │ Bliss       │ Fragger │           557 │
+│          77 │ Ctzn          │ Soniqs      │ Fragger │           557 │
+│          88 │ Joystick      │ Virtus Pro  │ Fragger │           552 │
+│          90 │ Sheppard      │ Virtus Pro  │ Support │           548 │
+│          81 │ Ashn          │ SSG         │ Fragger │           547 │
+│          44 │ Uuno          │ G2          │ Support │           539 │
+│           4 │ Reeps         │ Bleed       │ Fragger │           520 │
+│          11 │ Beaulo        │ DarkZero    │ Fragger │           516 │
+│          41 │ Alemao        │ G2          │ Fragger │           507 │
+│          82 │ Forrest       │ SSG         │ Support │           481 │
+│          97 │ Deadshot      │ Wolves      │ Fragger │           471 │
+│          53 │ Paluh         │ Liquid      │ Fragger │           465 │
+│          66 │ Kondz         │ NiP         │ Support │           461 │
+│          15 │ Panba         │ DarkZero    │ Fragger │           458 │
+│          67 │ Muzi          │ NiP         │ Fragger │           458 │
+│          79 │ Gryxr         │ Soniqs      │ Support │           458 │
+│          83 │ Fultz         │ SSG         │ Support │           457 │
+│          70 │ Wizard        │ NiP         │ Support │           447 │
+│          39 │ Krit          │ Fury        │ Fragger │           445 │
+│          12 │ Canadian      │ DarkZero    │ Fragger │           441 │
+│          38 │ I9            │ Fury        │ Fragger │           432 │
+│          52 │ Nesk          │ Liquid      │ Fragger │           430 │
+│           7 │ Fishoguy      │ Bliss       │ Support │           418 │
+│           9 │ Sageon        │ Bliss       │ Fragger │           411 │
+│          10 │ Wettables     │ Bliss       │ Support │           409 │
+│           2 │ Hoven         │ Bleed       │ Support │           407 │
+│          54 │ Resetz        │ Liquid      │ Support │           407 │
+│          99 │ P4            │ Wolves      │ Fragger │           400 │
+│          57 │ Dash          │ LOS         │ Fragger │           388 │
+│         100 │ Shinka        │ Wolves      │ Support │           380 │
+│          76 │ Ambi          │ Soniqs      │ Fragger │           376 │
+│          73 │ Rec           │ Scarz       │ Fragger │           374 │
+│          36 │ Bgman         │ Fury        │ Support │           369 │
+│           5 │ Terdsta       │ Bleed       │ Fragger │           364 │
+│          55 │ Volpz         │ Liquid      │ Fragger │           363 │
+│          96 │ Biboo         │ Wolves      │ Support │           359 │
+│          59 │ Lobin         │ LOS         │ Fragger │           358 │
+│          68 │ Pino          │ NiP         │ Fragger │           357 │
+│          51 │ Lagonis       │ Liquid      │ Support │           350 │
+│           3 │ Mentalist     │ Bleed       │ Support │           341 │
+│          84 │ Hotan         │ SSG         │ Fragger │           341 │
+│          80 │ Rexen         │ Soniqs      │ Fragger │           338 │
+│          60 │ Maia          │ LOS         │ Fragger │           332 │
+│           8 │ Odah          │ Bliss       │ Fragger │           321 │
+│          78 │ Geo           │ Soniqs      │ Support │           309 │
+│          33 │ Goodboy       │ FearX       │ Fragger │           265 │
+│          19 │ Woogiman      │ Dplus       │ Fragger │           246 │
+│          74 │ Taiyou        │ Scarz       │ Support │           243 │
+│          48 │ Nudl          │ Geekay      │ Fragger │           239 │
+│          25 │ Quibz         │ Falcons     │ Support │           233 │
+│          69 │ Psycho        │ NiP         │ Fragger │           230 │
+│          65 │ Yoggah        │ M80         │ Fragger │           225 │
+│          64 │ Spoit         │ M80         │ Fragger │           222 │
+│          75 │ Washoy        │ Scarz       │ Fragger │           222 │
+│           1 │ Asphy         │ Bleed       │ Fragger │           221 │
+│          72 │ Pyon          │ Scarz       │ Support │           207 │
+│          46 │ Hashom        │ Geekay      │ Fragger │           205 │
+│          34 │ Mephi         │ FearX       │ Support │           204 │
+│          40 │ Lycolis       │ Fury        │ Support │           198 │
+│          20 │ Yass          │ Dplus       │ Fragger │           195 │
+│          56 │ Cameraman     │ LOS         │ Support │           188 │
+│          58 │ Dotz          │ LOS         │ Support │           186 │
+│          62 │ Gmz           │ M80         │ Fragger │           184 │
+│          63 │ Iconic        │ M80         │ Support │           181 │
+│          61 │ Dias          │ M80         │ Support │           180 │
+│          71 │ Fishlike      │ Scarz       │ Fragger │           179 │
+│          24 │ P9            │ Falcons     │ Fragger │           176 │
+│          47 │ Srsly         │ Geekay      │ Fragger │           169 │
+│          35 │ Rin           │ FearX       │ Fragger │           167 │
+│          31 │ Arukaze       │ FearX       │ Support │           160 │
+│          37 │ Dark          │ Fury        │ Fragger │           157 │
+│          32 │ Demic         │ FearX       │ Fragger │           112 │
+│          21 │ Jlad          │ Falcons     │ Fragger │           105 │
+│          23 │ Okillz        │ Falcons     │ Fragger │            93 │
+│          50 │ Xke           │ Geekay      │ Support │            87 │
+│          18 │ Soldier       │ Dplus       │ Support │            80 │
+│          22 │ Madskills     │ Falcons     │ Support │            78 │
+│          49 │ Trixd         │ Geekay      │ Support │            57 │
+│          16 │ Coted         │ Dplus       │ Fragger │            56 │
+│         102 │ Valantino     │ Falcons     │ Fragger │            19 │
+│          17 │ Dmaly         │ Dplus       │ Support │             4 │
+│         103 │ Bersa         │ Falcons     │ Fragger │             3 │
+│         101 │ Leadr         │ Falcons     │ Support │            -7 │
 └─────────────┴───────────────┴─────────────┴─────────┴───────────────┘
