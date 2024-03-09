@@ -43,22 +43,26 @@ class fantasyBotBackend(commands.AutoShardedBot):
         self.messages = []
 
         self.admin_users = [400713084232138755, 219643727960866816, 127545629361569792]
-        self.league_db = "SI_2024_FANTASY_LEAGUE.db"
+        
+        self.league_db = {840243454537891851: "SI_2024_FANTASY_LEAGUE.db",
+                          1215021748391514192 :"BR_Stage1.db",
+                          1215021774501187684 : "EU_Stage1.db"}
 
         super().__init__(command_prefix="+help", status=discord.Status.online, intents=discord.Intents.all())
 
         
-        
-        conn = sqlite3.connect(self.league_db)
-        cursor = conn.cursor()
-        query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
-        data = query.fetchone()
-        if data[0] == 1:
-            self.market_open = True
-        else:
-            self.market_open = False
+        for key in self.league_db:
+            conn = sqlite3.connect(self.league_db[key])
+            cursor = conn.cursor()
+            query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
+            data = query.fetchone()
+            if data[0] == 1:
+                self.market_open[key] = True
+            else:
+                self.market_open[key] = False
+            conn.close()
             
-        conn.close()
+        
         self.allow_commands = True
         
         self.commands_to_disable = ["+signup", "+pick", "+swap", "+request"]
@@ -106,7 +110,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 # Execute the SQL query and fetch the data into a Pandas DataFrame
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
@@ -148,7 +152,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 # Execute the SQL query and fetch the data into a Pandas DataFrame
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
@@ -228,7 +232,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try: 
                 type = message.content[11:]
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 if type == "open":
                     df = get_open_table(cursor)
@@ -268,7 +272,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 player_data = cursor.execute(f"""SELECT player_id FROM players WHERE 
                                             LOWER(player_name) = LOWER('{message.content[6:]}') or LOWER(team_name) = LOWER('{message.content[6:]}')""")
@@ -323,7 +327,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         if message.content.startswith("+openplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
                                             FROM players p
@@ -353,7 +357,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         if message.content.startswith("+allplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
                                             FROM players p
@@ -380,7 +384,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[message.channel.id])
                 cursor = conn.cursor()
                 # Execute the SQL query and fetch the data into a Pandas DataFrame
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
@@ -532,7 +536,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             try:
                 self.logger.info(f"Message from {message.author}: {message.content}")
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
                 closedCheck = closedCheck.fetchone()
@@ -581,7 +585,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 query = cursor.execute(f"""SELECT manager_id, in_closed FROM managers WHERE discord_user_id = '{userID}'""")
                 data = query.fetchone()
@@ -640,7 +644,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
                 closedCheck = closedCheck.fetchone()
@@ -713,14 +717,27 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # Help command
         if message.content.startswith("+help"):
-            await message.channel.send(f"""## The commands you can use for the bot are:
-                                                - **+myteam**: View your current active team
-                                                - **+myscore**: View your total score and rank
-                                                - **+standings**: Current Standings for your league
-                                                - **+find *Name/Team***: Find a specific player or team (eg **+find Beaulo** or **+find Darkzero**)
-                                                - **+signup**: One time command to signup to the the open league, a confirmation will be a message in this channel as well as a DM. If you don't get a DM, check your DM perms.
-                                                - **+pick *ID/Name***: Pick your player using their name or ID (refer to the names from the stats sheet) (eg **+pick Beaulo**)
-                                                - **+swap *MyPlayerName/ID* *RequestedPlayerName/ID***: Initiate a trade or accept a trade (eg **+swap Pyon Canadian**)""")
+            if message.channel.id not in [1215021748391514192, 1215021774501187684]:
+                self.logger.info(f"Message from {message.author}: {message.content}")
+                await message.channel.send(f"""# No active Open League ongoing at the moment""")
+            elif message.channel.id == 1215021748391514192:
+                await message.channel.send(f"""# Welcome to the BR Stage 1 Fantasy League!
+                                            ## The commands you can use for the bot are:
+                                                    - **+myteam**: View your current active team
+                                                    - **+myscore**: View your total score and rank
+                                                    - **+standings**: Current Standings for your league
+                                                    - **+find *Name/Team***: Find a specific player or team (eg **+find Kheyze** or **+find Furia**)
+                                                    - **+pick *ID/Name***: Pick your player using their name or ID (refer to the names from the stats sheet) (eg **+pick Kheyze**)
+                                                    - **+swap *MyPlayerName/ID* *RequestedPlayerName/ID***: Initiate a trade or accept a trade (eg **+swap Kheyze Herdz**)""")
+            elif message.channel.id == 1215021774501187684:
+                await message.channel.send(f"""# Welcome to the EU Stage 1 Fantasy League!
+                                            ## The commands you can use for the bot are:
+                                                    - **+myteam**: View your current active team
+                                                    - **+myscore**: View your total score and rank
+                                                    - **+standings**: Current Standings for your league
+                                                    - **+find *Name/Team***: Find a specific player or team (eg **+find Doki** or **+find G2**)
+                                                    - **+pick *ID/Name***: Pick your player using their name or ID (refer to the names from the stats sheet) (eg **+pick Doki**)
+                                                    - **+swap *MyPlayerName/ID* *RequestedPlayerName/ID***: Initiate a trade or accept a trade (eg **+swap Doki Benja**)""")
 
         # ---------------------------------------------------------------------------------------------------------------------------
         # Admin Controls
@@ -729,87 +746,63 @@ class fantasyBotBackend(commands.AutoShardedBot):
          or (message.channel.id == 1198778760120500284 and message.guild.id == 1042862967072501860)):
             self.logger.info(f"Message from {message.author}: {message.content}")
             if message.attachments:
+                if message.content.startswith("+EU"):
+                    tableName = self.league_db[1215021774501187684]
+                elif message.content.startswith("+BR"):
+                    tableName = self.league_db[1215021748391514192]
+                else:
+                    await message.channel.send("# File **NOT** processed, use +BR or +EU to specify the league")
+                    
+                
                 current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
 
-                file_name = f'stats//RAW_TOTALS_{current_datetime}.csv'
+                file_name = f'stats//{tableName}//RAW_TOTALS_{current_datetime}.csv'
 
                 for attachment in message.attachments:
                     await attachment.save(file_name)
                     print(f"File '{attachment.filename}' downloaded from {message.author}. Saved as {file_name}.")  
                 
                 # Process the file
-                insert_data_from_csv(file_name)
+                insert_data_from_csv(file_name, tableName)
                 await message.channel.send(f"File processed and uploaded to the database")
             
         # Get the current market status or open/close the market 
         if message.content.startswith("+market"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
-                if len(message.content) == 7:
-                    conn = sqlite3.connect(self.league_db)
+                if message.content[8:8+len("open")] == "open" and message.author.id in self.admin_users:
+                    if message.content[8+len("open "):] == "BR":
+                        tableName = self.league_db[1215021748391514192]
+                        channelId = 1215021748391514192
+                        channel = self.get_channel(1215021748391514192)
+                    elif message.content[8+len("open "):] == "EU":
+                        tableName = self.league_db[1215021774501187684]
+                        channelId = 1215021774501187684
+                        channel = self.get_channel(1215021774501187684)
+
+                    conn = sqlite3.connect(tableName)
                     cursor = conn.cursor()
-                    query = cursor.execute(f"""SELECT is_open FROM market_status WHERE market_id = 1""")
-                    data = query.fetchone()
-                    if data[0] == 0:
-                        await message.channel.send(f"Market is closed, please wait for the end of the playday to trade or swap players!")
-                        conn.close()
-                    else:
-                        await message.channel.send(f"Market is open, you can trade or swap players!")
+                    cursor.execute(f"""UPDATE market_status SET is_open = 1, updated_at = datetime('now')  WHERE market_id = 1""")
+                    await channel.send(f"Market is now open!")
+                    self.market_open[channelId] = True
+                    conn.commit()
+                elif message.content[8:8+len("close")] == "close" and message.author.id in self.admin_users:
+                    if message.content[8+len("close "):] == "BR":
+                        tableName = self.league_db[1215021748391514192]
+                        channel = self.get_channel(1215021748391514192)
+                    elif message.content[8+len("close "):] == "EU":
+                        tableName = self.league_db[1215021774501187684]
+                        channel = self.get_channel(1215021774501187684)
+
+                    conn = sqlite3.connect(tableName)
+                    cursor = conn.cursor()
+                    cursor.execute(f"""UPDATE market_status SET is_open = 0, updated_at = datetime('now') WHERE market_id = 1""")
+                
+                    await channel.send(f"Market is now closed!")
+                    self.market_open = False
+                    conn.commit()       
                 else:
-                    if message.content[8:] == "open" and message.author.id in self.admin_users:
-                        conn = sqlite3.connect(self.league_db)
-                        cursor = conn.cursor()
-                        cursor.execute(f"""UPDATE market_status SET is_open = 1, updated_at = datetime('now')  WHERE market_id = 1""")
-                        await message.channel.send(f"Market is now open!")
-                        open_league_channel = self.get_channel(840243454537891851)
-                        closed_league_channel = self.get_channel(1199868176519925861)
-                        await open_league_channel.send(f"Market is now open!")
-                        await closed_league_channel.send(f"Market is now open!")
-                        self.market_open = True
-                        conn.commit()
-                    elif message.content[8:] == "close" and message.author.id in self.admin_users:
-                        conn = sqlite3.connect(self.league_db)
-                        cursor = conn.cursor()
-                        # Get all the trades that happaned since the market last opened
-                        cursor.execute(f"""SELECT updated_at FROM market_status WHERE market_id = 1""")
-                        last_market_open = cursor.fetchone()[0]
-                        
-                        # Get all player in and player out trades per manager
-                        trades = cursor.execute(f"""SELECT
-                                                trades.trade_id,
-                                                requester.manager_name AS requester_name,
-                                                requester_player.player_name AS requester_player_name,
-                                                requestee_player.player_name AS requestee_player_name
-                                            FROM trades
-                                            JOIN managers AS requester ON trades.requester_id = requester.manager_id
-                                            JOIN managers AS requestee ON trades.requestee_id = requestee.manager_id
-                                            JOIN players AS requester_player ON trades.requester_player_id = requester_player.player_id
-                                            JOIN players AS requestee_player ON trades.requestee_player_id = requestee_player.player_id
-                                            WHERE trades.is_open = FALSE AND is_accepted = TRUE AND trades.updated_at > '{last_market_open}' and requester.in_closed = TRUE""")
-                        trades = trades.fetchall()
-                        columns = ['ID', 'For', 'Player Out', 'Player In']
-                        trades_df = pd.DataFrame(trades, columns=columns)
-                        trades_df = trades_df.head(5)
-                        trades_table = tabulate(trades_df, headers='keys', tablefmt="simple_outline", showindex="never")
-                        embed = discord.Embed(title=f"Swaps since last market open (Top 5): ", color=self.generate_random_color())
-                        embed.add_field(name='\u200b', value=f'```\n{trades_table}\n```')
-                        cursor.execute(f"""UPDATE market_status SET is_open = 0, updated_at = datetime('now') WHERE market_id = 1""")
-                        
-                        open_league_channel = self.get_channel(840243454537891851)
-                        closed_league_channel = self.get_channel(1199868176519925861)
-                        if len(trades_df) == 0:
-                            await closed_league_channel.send(f"Market is now closed!")
-                        else:
-                            await closed_league_channel.send(embed=embed)
-                            await closed_league_channel.send(f"Market is now closed!")
-                    
-                        await message.channel.send(f"Market is now closed!")
-                        await open_league_channel.send(f"Market is now closed!")
-                        self.market_open = False
-                        conn.commit()
-                        
-                    else:
-                        await message.channel.send(f"Invalid market command")
+                    await message.channel.send(f"Invalid market command")
             except Exception as e:
                 await message.channel.send(f"Error changing market status, please try again (error: {e})")
             finally:

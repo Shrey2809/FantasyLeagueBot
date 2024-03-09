@@ -12418,3 +12418,472 @@ client_session: <aiohttp.client.ClientSession object at 0x7efd4d8c4be0>
 2024-03-02 18:48:44,165 [INFO] Message from jakegen: +myscore
 2024-03-02 19:17:47,563 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
 2024-03-02 22:43:15,860 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 01:19:37,997 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 04:45:53,665 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 05:54:17,438 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 06:14:51,120 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 08:40:53,162 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 11:40:50,271 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 15:11:03,494 [INFO] Message from flankit: +dailyscore
+2024-03-03 15:11:24,675 [INFO] Message from flankit: +dailyscores
+2024-03-03 15:11:25,263 [INFO] Message from flankit: +dailyscores
+2024-03-03 15:11:42,663 [INFO] Message from rickandmhorti: +myscore
+2024-03-03 15:11:45,416 [INFO] Message from rickandmhorti: +dailyscores
+2024-03-03 15:11:45,596 [INFO] Message from rickandmhorti: +dailyscores
+2024-03-03 15:38:05,497 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 19:35:23,776 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 21:40:33,336 [INFO] Message from sprabuni: +myscore
+2024-03-03 21:42:49,594 [INFO] Message from yaboimadman: +myscore
+2024-03-03 21:54:40,715 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-03 22:05:18,618 [INFO] Message from zygecks: +myscore
+2024-03-03 22:39:50,349 [INFO] Message from enryco: +myteam
+2024-03-03 22:39:55,029 [INFO] Message from enryco: +myscore
+2024-03-03 23:20:53,518 [INFO] Message from med1cz: +myscore
+2024-03-03 23:21:23,400 [INFO] Message from med1cz: +dailyscores
+2024-03-03 23:21:23,777 [INFO] Message from med1cz: +dailyscores
+2024-03-04 01:52:01,706 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 03:03:05,542 [INFO] Message from julian.9951: +myteam
+2024-03-04 03:32:33,726 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 03:45:12,883 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 03:45:53,742 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 04:28:01,338 [INFO] Message from siegeplayer305: +myscore
+2024-03-04 04:32:20,552 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 05:15:22,443 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 05:35:42,599 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 07:27:13,954 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 10:12:39,394 [INFO] Message from officerbravo64: +allplayers
+2024-03-04 10:40:04,204 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 13:33:21,526 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 14:25:02,941 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 15:11:46,653 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 15:12:15,248 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 18:48:11,067 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 20:27:45,509 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 21:12:21,648 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-04 21:40:14,825 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-05 00:08:06,493 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-05 02:12:52,874 [INFO] Shard ID 0 has successfully RESUMED session 7aa0873f38d427c61f980e7bbead2e3a.
+2024-03-05 03:08:09,765 [ERROR] Attempting a reconnect for shard ID 0 in 0.81s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 192, in reidentify
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:08:22,047 [ERROR] Attempting a reconnect for shard ID 0 in 1.96s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:08:34,330 [ERROR] Attempting a reconnect for shard ID 0 in 6.26s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:08:52,763 [ERROR] Attempting a reconnect for shard ID 0 in 13.02s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:09:17,337 [ERROR] Attempting a reconnect for shard ID 0 in 8.71s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:09:35,770 [ERROR] Attempting a reconnect for shard ID 0 in 45.68s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:10:31,064 [ERROR] Attempting a reconnect for shard ID 0 in 101.15s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:12:21,659 [ERROR] Attempting a reconnect for shard ID 0 in 11.95s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:12:43,161 [ERROR] Attempting a reconnect for shard ID 0 in 215.56s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/shard.py", line 210, in reconnect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/dist-packages/discord/gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "/usr/local/lib/python3.10/dist-packages/discord/http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 805, in _ws_connect
+    resp = await self.request(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/dist-packages/aiohttp/connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [Temporary failure in name resolution]
+2024-03-05 03:16:24,132 [INFO] Shard ID 0 has connected to Gateway (Session ID: 40b51055e3db21f20433d1879cd7f99f).
+2024-03-05 03:16:26,323 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f601bf0c0a0>
+2024-03-05 03:16:26,327 [INFO] -------------
+2024-03-05 03:16:26,327 [INFO] |Fantasy Bot|
+2024-03-05 03:16:26,327 [INFO] -------------
+2024-03-05 03:53:12,059 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 04:14:44,242 [WARNING] Can't keep up, shard ID 0 websocket is 13.5s behind.
+2024-03-05 07:28:32,841 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 10:44:13,567 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 12:22:45,280 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 13:04:03,605 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 14:49:08,961 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 16:13:23,279 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 17:43:36,767 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 17:54:18,992 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 18:07:23,248 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 18:07:44,913 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 20:43:40,574 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 21:23:52,082 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-05 21:56:04,241 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 00:30:05,752 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 02:08:57,144 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 02:33:43,613 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 05:29:17,072 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 06:35:19,934 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 09:52:09,670 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 10:54:48,966 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 12:38:33,164 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 13:04:31,420 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 14:57:26,565 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 15:16:47,313 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 15:17:08,050 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 15:44:39,854 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 16:32:00,250 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 17:51:26,220 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 17:53:40,823 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 20:26:53,161 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-06 22:04:52,746 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 01:50:40,730 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 02:32:00,245 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 03:29:39,530 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 05:14:10,414 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 07:26:58,988 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 09:39:43,949 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 11:10:52,217 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 11:26:14,705 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 11:41:46,201 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 12:08:06,659 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 15:45:35,462 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 15:59:00,295 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 18:07:02,172 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 22:01:31,195 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-07 23:57:58,020 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 00:48:51,160 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 01:02:08,352 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 04:41:10,528 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 05:34:32,462 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 06:16:41,960 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 07:06:03,626 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 09:13:12,603 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 10:46:22,269 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 11:07:52,227 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 11:50:31,343 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 15:12:56,923 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 15:47:34,390 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 19:00:38,995 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 21:24:12,123 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 23:37:42,187 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-08 23:45:46,104 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 01:41:55,815 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 03:07:46,600 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 04:10:35,088 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 06:45:22,360 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 07:56:51,581 [INFO] Message from clayton8803: +myscore
+2024-03-09 10:20:04,712 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 12:09:45,171 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 12:37:22,945 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 12:56:54,607 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 14:53:16,465 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 16:36:01,865 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 17:45:36,369 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.

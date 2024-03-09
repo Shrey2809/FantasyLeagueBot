@@ -16,11 +16,11 @@ def find_latest_csv(folder_path):
     return os.path.join(folder_path, latest_file)
 
 # Read CSV file and insert data into player_daily_performance table
-def insert_data_from_csv(csv_file):
+def insert_data_from_csv(csv_file, table_name):
     local_timezone = get_localzone()
     date = datetime.datetime.now().date()
     date = date + datetime.timedelta(days=1)
-    conn = sqlite3.connect('SI_2024_FANTASY_LEAGUE.db')
+    conn = sqlite3.connect(table_name)
     cursor = conn.cursor()
     with open(csv_file, 'r', encoding='utf-8-sig') as file:
         # Connect to the SQLite database
@@ -59,7 +59,7 @@ def insert_data_from_csv(csv_file):
     conn.commit()
     conn.close()         
 
-    conn = sqlite3.connect('SI_2024_FANTASY_LEAGUE.db')
+    conn = sqlite3.connect(table_name)
     cursor = conn.cursor()
     # Get all the managers' score for the day and insert it into the managers_daily_scores table
     all_manager_ids = cursor.execute('SELECT manager_id FROM managers WHERE in_closed = TRUE').fetchall()
