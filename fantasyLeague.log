@@ -12887,3 +12887,35 @@ client_session: <aiohttp.client.ClientSession object at 0x7f601bf0c0a0>
 2024-03-09 14:53:16,465 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
 2024-03-09 16:36:01,865 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
 2024-03-09 17:45:36,369 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 19:54:30,921 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-09 21:56:50,327 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 01:27:08,079 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 03:05:55,405 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 04:26:35,787 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 06:08:25,829 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 07:25:27,632 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 09:02:10,014 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 10:30:22,514 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 11:05:14,222 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 14:49:07,218 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 16:21:49,229 [INFO] Shard ID 0 has successfully RESUMED session 40b51055e3db21f20433d1879cd7f99f.
+2024-03-10 17:30:22,129 [DEBUG] Using selector: EpollSelector
+2024-03-10 17:30:22,131 [INFO] logging in using static token
+2024-03-10 17:30:23,427 [INFO] Shard ID 0 has connected to Gateway (Session ID: d0dfbc61f6286d37b63625cd2fdf6084).
+2024-03-10 17:30:25,488 [INFO] -------------
+2024-03-10 17:30:25,488 [INFO] |Fantasy Bot|
+2024-03-10 17:30:25,488 [INFO] -------------
+2024-03-10 17:30:49,804 [INFO] Message from axon319: +allplayers
+2024-03-10 17:30:57,144 [INFO] Message from axon319: +allplayers
+2024-03-10 17:32:27,652 [INFO] Message from axon319: +market close BR
+2024-03-10 17:32:38,020 [INFO] Message from axon319: +market close EU
+2024-03-10 17:33:00,415 [INFO] Message from axon319: +standings
+2024-03-10 17:38:15,298 [INFO] Message from shlaxxn: +myscore
+2024-03-10 17:53:53,826 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fa21f341e40>
+2024-03-10 17:54:09,477 [DEBUG] Using selector: EpollSelector
+2024-03-10 17:54:09,479 [INFO] logging in using static token
+2024-03-10 17:54:10,514 [INFO] Shard ID 0 has connected to Gateway (Session ID: 1c921d0328909f5107198b9f80172bd4).
+2024-03-10 17:54:12,581 [INFO] -------------
+2024-03-10 17:54:12,582 [INFO] |Fantasy Bot|
+2024-03-10 17:54:12,582 [INFO] -------------

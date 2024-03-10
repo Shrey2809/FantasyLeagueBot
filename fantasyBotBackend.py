@@ -44,13 +44,18 @@ class fantasyBotBackend(commands.AutoShardedBot):
 
         self.admin_users = [400713084232138755, 219643727960866816, 127545629361569792]
         
+        
+        # BR League DB: 1215021748391514192
+        # EU League DB: 1215021774501187684
+        # SI DB: 840243454537891851
+        
         self.league_db = {840243454537891851: "SI_2024_FANTASY_LEAGUE.db",
                           1215021748391514192 :"BR_Stage1.db",
                           1215021774501187684 : "EU_Stage1.db"}
 
         super().__init__(command_prefix="+help", status=discord.Status.online, intents=discord.Intents.all())
 
-        
+        self.market_open = {}
         for key in self.league_db:
             conn = sqlite3.connect(self.league_db[key])
             cursor = conn.cursor()
@@ -65,7 +70,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         self.allow_commands = True
         
-        self.commands_to_disable = ["+signup", "+pick", "+swap", "+request"]
+        self.commands_to_disable = ["+signup", "+pick", "+swap", "+request", "+trade"]
         
         # Configure the logger
         logging.basicConfig(
@@ -100,7 +105,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
             return
         
         # Check if message is for the bot and ncan't be used during market close
-        if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open:
+        if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open[message.channel.id]:
             await message.channel.send("Can't use those commands while the market is closed... Try again later")
             return
         
@@ -110,7 +115,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 # Execute the SQL query and fetch the data into a Pandas DataFrame
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
@@ -152,7 +160,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 # Execute the SQL query and fetch the data into a Pandas DataFrame
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
@@ -232,7 +243,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try: 
                 type = message.content[11:]
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 if type == "open":
                     df = get_open_table(cursor)
@@ -272,7 +286,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 player_data = cursor.execute(f"""SELECT player_id FROM players WHERE 
                                             LOWER(player_name) = LOWER('{message.content[6:]}') or LOWER(team_name) = LOWER('{message.content[6:]}')""")
@@ -327,7 +344,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
         if message.content.startswith("+openplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
                                             FROM players p
@@ -357,7 +377,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
         if message.content.startswith("+allplayers"):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 query = cursor.execute("""SELECT p.player_id, p.player_name, p.team_name, p.role, SUM(pdp.total_points) AS max_daily_score
                                             FROM players p
@@ -384,7 +407,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db[message.channel.id])
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 # Execute the SQL query and fetch the data into a Pandas DataFrame
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
@@ -427,12 +453,15 @@ class fantasyBotBackend(commands.AutoShardedBot):
         
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Closed league commands    
-        # Get my current open requests
-        if message.content.startswith("+myrequests"):
+        # Get my current open requests - NOT WORKING
+        if message.content.startswith("+myrequests") and 4 == 3:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try: 
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
                 closedCheck = closedCheck.fetchone()
@@ -465,12 +494,15 @@ class fantasyBotBackend(commands.AutoShardedBot):
             finally:
                 conn.close()
                
-        # Request a player swap
-        if message.content.startswith("+request") and self.market_open == True and self.allow_commands == True:
+        # Request a player swap - NOT WORKING
+        if message.content.startswith("+request") and self.market_open[message.channel.id] == True and self.allow_commands == True and 4 == 3:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try: 
                 userID = message.author.id
-                conn = sqlite3.connect(self.league_db)
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
                 cursor = conn.cursor()
                 closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
                 closedCheck = closedCheck.fetchone()
@@ -505,9 +537,9 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     await message.channel.send(f"Can't request to swap in a player that is already on a team!")
                     return
                 
-                if requestedPlayerRole != myPlayerRole:
-                    await message.channel.send(f"Can't request to swap players with differing roles. Please swap for the same roles")
-                    return
+                # if requestedPlayerRole != myPlayerRole:
+                #     await message.channel.send(f"Can't request to swap players with differing roles. Please swap for the same roles")
+                #     return
                 
                 # Get the manager id of the user
                 query = cursor.execute(f"""SELECT manager_id FROM managers WHERE discord_user_id = '{userID}'""")
@@ -532,7 +564,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         # ---------------------------------------------------------------------------------------------------------------------------   
         # Open league commands
         # Sign up as a open league player +signup
-        if message.content.startswith("+signup") and self.market_open == True and self.allow_commands == True:
+        if message.content.startswith("+signup") and self.market_open[840243454537891851] == True and self.allow_commands == True:
             try:
                 self.logger.info(f"Message from {message.author}: {message.content}")
                 userID = message.author.id
@@ -581,7 +613,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 conn.close()
         
         # Pick a player for the open league
-        if message.content.startswith("+pick") and self.market_open == True and self.allow_commands == True:
+        if message.content.startswith("+pick") and self.market_open[840243454537891851] == True and self.allow_commands == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
@@ -640,7 +672,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 conn.close()
         
         # Initiate a trade or accept a trade
-        if message.content.startswith("+swap") and self.market_open == True and self.allow_commands == True:
+        if message.content.startswith("+swap") and self.market_open[840243454537891851] == True and self.allow_commands == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             try:
                 userID = message.author.id
@@ -728,7 +760,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                                     - **+standings**: Current Standings for your league
                                                     - **+find *Name/Team***: Find a specific player or team (eg **+find Kheyze** or **+find Furia**)
                                                     - **+pick *ID/Name***: Pick your player using their name or ID (refer to the names from the stats sheet) (eg **+pick Kheyze**)
-                                                    - **+swap *MyPlayerName/ID* *RequestedPlayerName/ID***: Initiate a trade or accept a trade (eg **+swap Kheyze Herdz**)""")
+                                                    - **+trade *MyPlayerName/ID* *RequestedPlayerName/ID***: Make a trade or accept a trade (eg **+trade Kheyze Herdz**)""")
             elif message.channel.id == 1215021774501187684:
                 await message.channel.send(f"""# Welcome to the EU Stage 1 Fantasy League!
                                             ## The commands you can use for the bot are:
@@ -737,7 +769,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                                     - **+standings**: Current Standings for your league
                                                     - **+find *Name/Team***: Find a specific player or team (eg **+find Doki** or **+find G2**)
                                                     - **+pick *ID/Name***: Pick your player using their name or ID (refer to the names from the stats sheet) (eg **+pick Doki**)
-                                                    - **+swap *MyPlayerName/ID* *RequestedPlayerName/ID***: Initiate a trade or accept a trade (eg **+swap Doki Benja**)""")
+                                                    - **+trade *MyPlayerName/ID* *RequestedPlayerName/ID***: Make a trade (eg **+trade Doki Benja**)""")
 
         # ---------------------------------------------------------------------------------------------------------------------------
         # Admin Controls
@@ -751,7 +783,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 elif message.content.startswith("+BR"):
                     tableName = self.league_db[1215021748391514192]
                 else:
-                    await message.channel.send("# File **NOT** processed, use +BR or +EU to specify the league")
+                    await message.channel.send("# File **NOT** processed, use +BR or +EU to specify the league and reupload file")
+                    return
                     
                 
                 current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
@@ -901,11 +934,14 @@ class fantasyBotBackend(commands.AutoShardedBot):
             
         # ---------------------------------------------------------------------------------------------------------------------------
         # Hidden commands not supposed to work now
-        # Initiate a trade or accept a trade - Not supposed to work
-        if message.content.startswith("+trade") and self.market_open == True and 4 == 3:
+        # Initiate a trade or accept a trade - working now
+        if message.content.startswith("+trade") and self.market_open[message.channel.id] == True:
             self.logger.info(f"Message from {message.author}: {message.content}")
             userID = message.author.id
-            conn = sqlite3.connect(self.league_db)
+            if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                conn = sqlite3.connect(self.league_db[message.channel.id])
+            else: 
+                conn = sqlite3.connect(self.league_db[840243454537891851])
             cursor = conn.cursor()
             closedCheck = cursor.execute(f"""SELECT in_closed FROM managers WHERE discord_user_id = {userID}""")
             closedCheck = closedCheck.fetchone()
@@ -915,7 +951,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 return
         
             trade = parse_trade(message.content)
-            if trade['Type'] == 'request':
+            if trade['Type'] == 'trade':
                 myplayerid = trade['MyPlayer']
                 requestedplayerid = trade['TradeFor']
                 if myplayerid == requestedplayerid:
@@ -951,16 +987,19 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                             WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id""")
                 data = query.fetchone()
                 if data is not None:
-                    requestee_id = data[0]
-                    requestee_name = data[1]
-                    requestee_discord_id = data[2]
-                    user = await self.fetch_user(requestee_discord_id)
+                    await message.channel.send(f"Player nalready on a team, swap not possible")
+                    return
+
+                    # requestee_id = data[0]
+                    # requestee_name = data[1]
+                    # requestee_discord_id = data[2]
+                    # user = await self.fetch_user(requestee_discord_id)
                     
-                    # Insert the trade into the trades table
-                    cursor.execute(f"""INSERT INTO trades (requester_id, requestee_id, requester_player_id, requestee_player_id) VALUES ({manager_id}, {requestee_id}, {requester_player_id}, {requestee_player_id})""")    
-                    trade_id = cursor.lastrowid
-                    await message.channel.send(f"Trade request sent to {requestee_name} for {requestee_player_name}")
-                    await user.send(f'Trade request with ID: {trade_id} for {requestee_player_name} from {message.author.name}. To accept, use **+trade accept *ID***')
+                    # # Insert the trade into the trades table
+                    # cursor.execute(f"""INSERT INTO trades (requester_id, requestee_id, requester_player_id, requestee_player_id) VALUES ({manager_id}, {requestee_id}, {requester_player_id}, {requestee_player_id})""")    
+                    # trade_id = cursor.lastrowid
+                    # await message.channel.send(f"Trade request sent to {requestee_name} for {requestee_player_name}")
+                    # await user.send(f'Trade request with ID: {trade_id} for {requestee_player_name} from {message.author.name}. To accept, use **+trade accept *ID***')
                 else:
                     print("Player not on a team, swap complete")
                     
