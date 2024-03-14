@@ -12919,3 +12919,202 @@ client_session: <aiohttp.client.ClientSession object at 0x7fa21f341e40>
 2024-03-10 17:54:12,581 [INFO] -------------
 2024-03-10 17:54:12,582 [INFO] |Fantasy Bot|
 2024-03-10 17:54:12,582 [INFO] -------------
+2024-03-10 18:53:40,801 [INFO] Message from rokunmeister: +myscore
+2024-03-10 19:20:04,149 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-10 20:01:55,429 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-10 21:45:09,958 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-10 22:47:34,199 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 02:45:16,196 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 03:37:13,836 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 04:25:45,177 [INFO] Message from shriimpp: +myscore
+2024-03-11 04:26:02,736 [INFO] Message from shriimpp: +daily scores
+2024-03-11 04:26:10,231 [INFO] Message from shriimpp: +dailyscores
+2024-03-11 04:26:10,460 [INFO] Message from shriimpp: +dailyscores
+2024-03-11 06:15:32,819 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 08:02:14,958 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 08:56:32,087 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 09:50:17,356 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 13:08:47,064 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 14:25:04,313 [INFO] Message from undersiegeg: +myscore
+2024-03-11 16:02:19,203 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 17:43:30,273 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 19:04:35,029 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 19:54:01,740 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 20:58:51,045 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 22:17:47,937 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-11 23:47:34,080 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 01:05:24,157 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 01:45:33,859 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 03:16:39,605 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 05:35:36,260 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 08:09:33,560 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 10:06:00,288 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 11:00:41,239 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 11:05:47,866 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 11:14:35,885 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 11:16:25,706 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 11:26:08,541 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 11:51:52,040 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 12:27:28,414 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 13:23:16,725 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 14:27:05,019 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 17:43:23,697 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 18:43:00,608 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 19:58:00,754 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 20:28:34,663 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 21:07:11,844 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-12 21:35:10,491 [INFO] Message from krieg4948: +myscore
+2024-03-13 00:47:02,616 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 02:42:55,737 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 05:26:58,531 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 07:41:51,229 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 09:01:51,164 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 12:08:38,416 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 12:09:20,144 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 15:01:30,933 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 16:00:25,682 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 16:09:30,374 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 17:18:27,756 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 19:40:36,204 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 20:26:57,566 [INFO] Message from w_lf: +myscore
+2024-03-13 20:27:03,512 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 21:32:01,848 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-13 23:58:58,541 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-14 01:05:14,631 [INFO] Message from axon319: +allplayers
+2024-03-14 01:18:06,130 [INFO] Shard ID 0 has successfully RESUMED session 1c921d0328909f5107198b9f80172bd4.
+2024-03-14 01:29:42,740 [INFO] Message from kamberkobii: +myscore
+2024-03-14 01:32:38,448 [INFO] Message from bambuu.: +myteam
+2024-03-14 01:35:30,209 [INFO] Message from jessejchick: +myteam
+2024-03-14 01:35:30,555 [ERROR] no such table: open_game_roster
+2024-03-14 01:37:58,406 [DEBUG] Using selector: EpollSelector
+2024-03-14 01:37:58,408 [INFO] logging in using static token
+2024-03-14 01:37:59,343 [INFO] Shard ID 0 has connected to Gateway (Session ID: f40b07c8f2fad6291f7f0372f2d6da52).
+2024-03-14 01:38:01,409 [INFO] -------------
+2024-03-14 01:38:01,409 [INFO] |Fantasy Bot|
+2024-03-14 01:38:01,409 [INFO] -------------
+2024-03-14 01:38:02,355 [INFO] Message from axon319: +myteam
+2024-03-14 01:38:02,521 [ERROR] 'NoneType' object is not subscriptable
+2024-03-14 02:28:28,675 [INFO] Shard ID 0 has successfully RESUMED session f40b07c8f2fad6291f7f0372f2d6da52.
+2024-03-14 04:48:28,766 [INFO] Message from zygecks: +myscore
+2024-03-14 05:13:37,066 [INFO] Shard ID 0 has successfully RESUMED session f40b07c8f2fad6291f7f0372f2d6da52.
+2024-03-14 05:29:36,143 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe90bc2c070>
+2024-03-14 05:29:39,126 [DEBUG] Using selector: EpollSelector
+2024-03-14 05:29:39,127 [INFO] logging in using static token
+2024-03-14 05:29:39,900 [INFO] Shard ID 0 has connected to Gateway (Session ID: d8cda3d16019f7d99d0cd99d4c8c08c9).
+2024-03-14 05:29:41,957 [INFO] -------------
+2024-03-14 05:29:41,958 [INFO] |Fantasy Bot|
+2024-03-14 05:29:41,958 [INFO] -------------
+2024-03-14 05:29:43,630 [INFO] Message from axon319: +myteam
+2024-03-14 05:29:43,797 [ERROR] 'NoneType' object is not subscriptable
+2024-03-14 05:32:08,213 [INFO] Message from axon319: +myteam
+2024-03-14 05:32:08,462 [ERROR] no such table: open_game_roster
+2024-03-14 05:32:27,572 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9210fc5e70>
+2024-03-14 05:32:30,292 [DEBUG] Using selector: EpollSelector
+2024-03-14 05:32:30,293 [INFO] logging in using static token
+2024-03-14 05:32:31,141 [INFO] Shard ID 0 has connected to Gateway (Session ID: 3b05424d4bf5a7add178f260b88aedab).
+2024-03-14 05:32:33,204 [INFO] -------------
+2024-03-14 05:32:33,204 [INFO] |Fantasy Bot|
+2024-03-14 05:32:33,204 [INFO] -------------
+2024-03-14 05:32:33,450 [INFO] Message from axon319: +myteam
+2024-03-14 05:32:33,612 [ERROR] no such table: open_game_roster
+2024-03-14 05:33:29,502 [INFO] Message from axon319: +myteam
+2024-03-14 05:33:29,703 [ERROR] no such column: p.region
+2024-03-14 05:33:45,585 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fcfbb871e70>
+2024-03-14 05:33:48,538 [DEBUG] Using selector: EpollSelector
+2024-03-14 05:33:48,539 [INFO] logging in using static token
+2024-03-14 05:33:49,371 [INFO] Shard ID 0 has connected to Gateway (Session ID: 83960df7d235f62cbdc9561d37044297).
+2024-03-14 05:33:51,429 [INFO] -------------
+2024-03-14 05:33:51,430 [INFO] |Fantasy Bot|
+2024-03-14 05:33:51,430 [INFO] -------------
+2024-03-14 05:33:55,222 [INFO] Message from axon319: +myteam
+2024-03-14 05:33:55,433 [ERROR] no such column: p.region
+2024-03-14 05:34:38,831 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2de4775ea0>
+2024-03-14 05:35:16,624 [DEBUG] Using selector: EpollSelector
+2024-03-14 05:35:16,625 [INFO] logging in using static token
+2024-03-14 05:35:17,608 [INFO] Shard ID 0 has connected to Gateway (Session ID: 50607f8f39703c401e07459fc04e0ada).
+2024-03-14 05:35:19,666 [INFO] -------------
+2024-03-14 05:35:19,667 [INFO] |Fantasy Bot|
+2024-03-14 05:35:19,667 [INFO] -------------
+2024-03-14 05:35:20,675 [INFO] Message from axon319: +myteam
+2024-03-14 05:35:20,879 [ERROR] no such column: p.region
+2024-03-14 05:35:48,278 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f95383c5f00>
+2024-03-14 05:36:04,981 [DEBUG] Using selector: EpollSelector
+2024-03-14 05:36:04,981 [INFO] logging in using static token
+2024-03-14 05:36:05,807 [INFO] Shard ID 0 has connected to Gateway (Session ID: 4ab0f3cbacf3e9f8ef5b186ade6039af).
+2024-03-14 05:36:07,872 [INFO] -------------
+2024-03-14 05:36:07,873 [INFO] |Fantasy Bot|
+2024-03-14 05:36:07,873 [INFO] -------------
+2024-03-14 05:36:08,740 [INFO] Message from axon319: +myteam
+2024-03-14 05:36:22,863 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fb128849de0>
+2024-03-14 05:36:35,043 [DEBUG] Using selector: EpollSelector
+2024-03-14 05:36:35,043 [INFO] logging in using static token
+2024-03-14 05:36:35,987 [INFO] Shard ID 0 has connected to Gateway (Session ID: 19346506cef93926cba19c8a04c67a9d).
+2024-03-14 05:36:38,046 [INFO] -------------
+2024-03-14 05:36:38,048 [INFO] |Fantasy Bot|
+2024-03-14 05:36:38,048 [INFO] -------------
+2024-03-14 05:39:12,544 [INFO] Message from jessejchick: +myteam
+2024-03-14 05:42:59,271 [INFO] Message from axon319: +market open BR
+2024-03-14 06:07:29,494 [INFO] Shard ID 0 session has been invalidated.
+2024-03-14 06:07:34,954 [INFO] Shard ID 0 has connected to Gateway (Session ID: 462235c6bcd97c86ac44ebc15c8ffeb0).
+2024-03-14 06:07:37,094 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fc864629e10>
+2024-03-14 06:07:37,097 [INFO] -------------
+2024-03-14 06:07:37,097 [INFO] |Fantasy Bot|
+2024-03-14 06:07:37,098 [INFO] -------------
+2024-03-14 06:16:58,098 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 06:54:06,739 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 06:57:07,643 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 06:59:27,674 [INFO] Message from officerbravo64: +market
+2024-03-14 06:59:27,909 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 842, in on_message
+    conn.close()
+UnboundLocalError: local variable 'conn' referenced before assignment
+2024-03-14 07:02:12,161 [INFO] Message from officerbravo64: +myteam
+2024-03-14 07:02:31,125 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 108, in on_message
+    if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open[message.channel.id]:
+KeyError: 1204927888936403006
+2024-03-14 07:02:43,342 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 108, in on_message
+    if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open[message.channel.id]:
+KeyError: 1204927888936403006
+2024-03-14 07:02:51,198 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 108, in on_message
+    if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open[message.channel.id]:
+KeyError: 1204927888936403006
+2024-03-14 07:02:57,349 [INFO] Message from officerbravo64: +help
+2024-03-14 09:20:49,840 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 09:53:25,903 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 12:44:19,739 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 13:30:17,039 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 13:57:05,642 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 14:02:48,979 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 14:59:34,784 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 15:16:31,352 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 16:28:07,628 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 16:41:54,676 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 17:13:59,055 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 17:28:49,767 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 17:29:03,333 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 19:29:15,497 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 21:34:26,334 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 22:19:53,468 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-14 22:21:17,111 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.

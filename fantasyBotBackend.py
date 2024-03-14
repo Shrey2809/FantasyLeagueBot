@@ -45,7 +45,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
         self.admin_users = [400713084232138755, 219643727960866816, 127545629361569792]
         
         
-        # BR League DB: 1215021748391514192
+        # BR League DB: 1215021748391514192  1215021748391514192
         # EU League DB: 1215021774501187684
         # SI DB: 840243454537891851
         
@@ -125,14 +125,14 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 closedCheck = closedCheck.fetchone()
                 if closedCheck[0] == True:
                     query = cursor.execute(f"""
-                        SELECT p.player_id, p.player_name, p.team_name, p.region, p.role
+                        SELECT p.player_id, p.player_name, p.team_name
                         FROM closed_game_teams cgt, players p, managers m 
                         WHERE cgt.manager_id = m.manager_id and p.player_id = cgt.player_id and is_active = TRUE AND m.discord_user_id = {userID}
                     """)
                     data = query.fetchall()
                 else:
                     query = cursor.execute(f"""
-                        SELECT p.player_id, p.player_name, p.team_name, p.region, p.role
+                        SELECT p.player_id, p.player_name, p.team_name
                         FROM open_game_roster ogr, players p, managers m 
                         WHERE ogr.manager_id = m.manager_id and p.player_id = ogr.player_id and is_active = TRUE AND m.discord_user_id = {userID}
                     """)
@@ -143,7 +143,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     return
 
                 # Create a DataFrame with the fetched data
-                columns = ['ID', 'Name', 'Team', 'Region', 'Role']
+                columns = ['ID', 'Name', 'Team']
                 df = pd.DataFrame(data, columns=columns)
                 table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
                 embed = discord.Embed(title=f"{message.author.name}'s team: ", color=self.generate_random_color())
