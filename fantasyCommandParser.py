@@ -7,6 +7,7 @@ def parse_trade(command):
     accept_pattern = r'\+trade\s+accept\s+(\d+)'
     trade_pattern = r'\+trade\s+(\d+)\s+(\d+)'
     pattern_match = re.match(request_pattern, command)
+    accept_match = re.match(accept_pattern, command)
     trade_match = re.match(trade_pattern, command)
     if pattern_match:
         # Extract player IDs from the matched groups
@@ -14,7 +15,7 @@ def parse_trade(command):
 
         # Return a tuple containing the parsed player IDs
         return {'Type': 'request', 'MyPlayer': requester_player_id, 'TradeFor': requestee_player_id}
-    elif accept_pattern:
+    elif accept_match:
         # Extract player IDs from the matched groups
         request_id = int(re.match(accept_pattern, command).group(1))
 
@@ -30,6 +31,22 @@ def parse_trade(command):
     else:
         # Return None if the command doesn't match the expected pattern
         return None
+    
+def parse_new_trade(command):
+    # Define the pattern
+    pattern = r"\+trade\s+(\w+)\s+(\w+)"
+
+    # Match the pattern
+    match = re.match(pattern, command)
+
+    # Check if there's a match
+    if match:
+        # Access the matched groups
+        word1 = match.group(1)
+        word2 = match.group(2)
+        return {'Type': 'trade', 'MyPlayer': word1, 'TradeFor': word2}
+    else:
+        print("No match")
     
 def parse_swap(command):
     # Define the pattern for the trade request command

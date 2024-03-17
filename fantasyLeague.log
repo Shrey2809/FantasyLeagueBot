@@ -13118,3 +13118,217 @@ KeyError: 1204927888936403006
 2024-03-14 21:34:26,334 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
 2024-03-14 22:19:53,468 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
 2024-03-14 22:21:17,111 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 00:54:44,801 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 03:02:58,672 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 06:18:43,059 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 06:44:18,141 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 07:02:07,404 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 09:50:16,561 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 13:49:33,496 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 14:09:52,215 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 15:13:21,210 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 15:15:53,049 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 15:31:42,422 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 16:07:34,398 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 18:37:07,163 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 22:07:42,664 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 23:10:33,804 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-15 23:28:27,559 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 00:23:34,841 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 00:41:07,322 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 02:00:31,671 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 02:21:08,224 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 04:51:39,979 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 06:01:34,351 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 08:15:40,006 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 11:57:43,861 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 14:56:43,295 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 16:04:30,071 [INFO] Message from axon319: +market close BR
+2024-03-16 16:09:46,860 [INFO] Message from fir3._.: +myscore
+2024-03-16 16:10:55,409 [INFO] Message from fir3._.: +myteam
+2024-03-16 16:24:59,970 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 108, in on_message
+    if any(message.content.startswith(command) for command in self.commands_to_disable) and not self.market_open[message.channel.id]:
+TypeError: 'bool' object is not subscriptable
+2024-03-16 16:33:52,268 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 19:53:58,398 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 20:37:21,236 [INFO] Shard ID 0 has successfully RESUMED session 462235c6bcd97c86ac44ebc15c8ffeb0.
+2024-03-16 22:41:26,320 [INFO] Message from jessejchick: +BR
+2024-03-16 22:41:26,786 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 795, in on_message
+    await attachment.save(file_name)
+  File "/usr/local/lib/python3.10/dist-packages/discord/message.py", line 290, in save
+    with open(fp, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'stats//BR_Stage1.db//RAW_TOTALS_202403162241.csv'
+2024-03-16 22:43:53,074 [DEBUG] Using selector: EpollSelector
+2024-03-16 22:43:53,076 [INFO] logging in using static token
+2024-03-16 22:43:53,912 [INFO] Shard ID 0 has connected to Gateway (Session ID: bd7b03694f8f0e5560c133baf20f86f2).
+2024-03-16 22:43:56,023 [INFO] -------------
+2024-03-16 22:43:56,024 [INFO] |Fantasy Bot|
+2024-03-16 22:43:56,024 [INFO] -------------
+2024-03-16 22:45:24,003 [INFO] Message from axon319: +BR
+2024-03-16 22:45:24,236 [DEBUG] /etc/timezone found, contents:
+ Etc/UTC
+
+2024-03-16 22:45:24,237 [DEBUG] /etc/localtime found
+2024-03-16 22:45:24,241 [DEBUG] 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2024-03-16 22:45:24,456 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-03-16 22:45:35,073 [INFO] Message from axon319: +standings closed
+2024-03-16 22:45:47,919 [INFO] Message from axon319: +market open BR
+2024-03-17 02:11:45,715 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 03:45:55,479 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 04:34:03,551 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 05:49:35,926 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 08:18:56,005 [INFO] Message from foxa3: +myteam
+2024-03-17 08:24:22,621 [INFO] Message from foxa3: +find black dragons
+2024-03-17 08:24:36,869 [INFO] Message from foxa3: +findblackdragons
+2024-03-17 08:24:49,898 [INFO] Message from foxa3: +find blackdragons
+2024-03-17 08:25:10,142 [INFO] Message from foxa3: +find BlackDragons
+2024-03-17 08:25:15,817 [INFO] Message from foxa3: +find Black Dragons
+2024-03-17 08:26:50,713 [INFO] Message from foxa3: +find Loira
+2024-03-17 08:26:58,720 [INFO] Message from foxa3: +findLoira
+2024-03-17 08:36:14,487 [INFO] Message from foxa3: +trade Dotz Muzi
+2024-03-17 08:36:14,492 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 955, in on_message
+    trade = parse_trade(message.content)
+  File "/home/ubuntu/Fantasy Bot/fantasyCommandParser.py", line 19, in parse_trade
+    request_id = int(re.match(accept_pattern, command).group(1))
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-03-17 08:36:58,168 [INFO] Message from foxa3: +trade Dotz Muzi
+2024-03-17 08:36:58,170 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 955, in on_message
+    trade = parse_trade(message.content)
+  File "/home/ubuntu/Fantasy Bot/fantasyCommandParser.py", line 19, in parse_trade
+    request_id = int(re.match(accept_pattern, command).group(1))
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-03-17 08:37:22,415 [INFO] Message from foxa3: +standings
+2024-03-17 09:38:42,239 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 13:34:41,800 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 15:08:13,737 [INFO] Message from axon319: +allplayers
+2024-03-17 15:13:13,183 [INFO] Shard ID 0 has successfully RESUMED session bd7b03694f8f0e5560c133baf20f86f2.
+2024-03-17 15:20:04,001 [INFO] Message from axon319: +openplayers
+2024-03-17 15:34:04,145 [INFO] Message from axon319: +find Nuxga
+2024-03-17 15:37:18,421 [DEBUG] Using selector: EpollSelector
+2024-03-17 15:37:18,423 [INFO] logging in using static token
+2024-03-17 15:37:19,364 [INFO] Shard ID 0 has connected to Gateway (Session ID: 2132fe2a9ab7fc6749c4c1f9b9a1e558).
+2024-03-17 15:37:21,430 [INFO] -------------
+2024-03-17 15:37:21,430 [INFO] |Fantasy Bot|
+2024-03-17 15:37:21,430 [INFO] -------------
+2024-03-17 15:37:26,834 [INFO] Message from axon319: +find Nuxga
+2024-03-17 15:37:27,030 [ERROR] 6 columns passed, passed data had 5 columns
+2024-03-17 15:37:38,439 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2396605e40>
+2024-03-17 15:37:41,568 [DEBUG] Using selector: EpollSelector
+2024-03-17 15:37:41,569 [INFO] logging in using static token
+2024-03-17 15:37:42,461 [INFO] Shard ID 0 has connected to Gateway (Session ID: 949358ad383a16f3bd51cc606da33c0a).
+2024-03-17 15:37:44,521 [INFO] -------------
+2024-03-17 15:37:44,522 [INFO] |Fantasy Bot|
+2024-03-17 15:37:44,522 [INFO] -------------
+2024-03-17 15:37:47,614 [INFO] Message from axon319: +find Nuxga
+2024-03-17 15:37:58,937 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe2ff95de10>
+2024-03-17 15:39:18,821 [DEBUG] Using selector: EpollSelector
+2024-03-17 15:39:18,821 [INFO] logging in using static token
+2024-03-17 15:39:19,701 [INFO] Shard ID 0 has connected to Gateway (Session ID: 1eb02b54eeef74a840b18f6ce65f55c8).
+2024-03-17 15:39:21,806 [INFO] -------------
+2024-03-17 15:39:21,808 [INFO] |Fantasy Bot|
+2024-03-17 15:39:21,808 [INFO] -------------
+2024-03-17 15:39:24,606 [INFO] Message from axon319: +find Black Dragons
+2024-03-17 15:39:54,739 [INFO] Message from jessejchick: +myteam
+2024-03-17 15:40:18,805 [INFO] Message from jessejchick: +trade Muzi Nuxga
+2024-03-17 15:40:18,809 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 954, in on_message
+    if trade['Type'] == 'trade':
+TypeError: 'NoneType' object is not subscriptable
+2024-03-17 15:40:24,137 [INFO] Message from jessejchick: +trade Nuxga Muzi
+2024-03-17 15:40:24,139 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 954, in on_message
+    if trade['Type'] == 'trade':
+TypeError: 'NoneType' object is not subscriptable
+2024-03-17 15:42:18,363 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f19507ba320>
+2024-03-17 15:42:21,784 [DEBUG] Using selector: EpollSelector
+2024-03-17 15:42:21,785 [INFO] logging in using static token
+2024-03-17 15:42:22,684 [INFO] Shard ID 0 has connected to Gateway (Session ID: 29b7c7174b0868a16809421f99f43be6).
+2024-03-17 15:42:24,744 [INFO] -------------
+2024-03-17 15:42:24,745 [INFO] |Fantasy Bot|
+2024-03-17 15:42:24,745 [INFO] -------------
+2024-03-17 15:54:40,858 [INFO] Message from jessejchick: +trade Muzi Nuxga
+2024-03-17 15:54:40,865 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 954, in on_message
+    if trade['Type'] == 'trade':
+TypeError: 'NoneType' object is not subscriptable
+2024-03-17 15:55:13,269 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fc67ec8b340>
+2024-03-17 15:55:16,200 [DEBUG] Using selector: EpollSelector
+2024-03-17 15:55:16,200 [INFO] logging in using static token
+2024-03-17 15:55:17,057 [INFO] Shard ID 0 has connected to Gateway (Session ID: da238efbd876a1f251da637254cf55ed).
+2024-03-17 15:55:19,119 [INFO] -------------
+2024-03-17 15:55:19,120 [INFO] |Fantasy Bot|
+2024-03-17 15:55:19,120 [INFO] -------------
+2024-03-17 15:56:17,779 [INFO] Message from jessejchick: +trade Muzi Nuxga
+2024-03-17 15:56:17,784 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 954, in on_message
+    if trade['Type'] == 'trade':
+TypeError: 'NoneType' object is not subscriptable
+2024-03-17 15:57:05,298 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f42641e9f30>
+2024-03-17 15:57:41,047 [DEBUG] Using selector: EpollSelector
+2024-03-17 15:57:41,048 [INFO] logging in using static token
+2024-03-17 15:57:41,907 [INFO] Shard ID 0 has connected to Gateway (Session ID: 5e42e4f8884e2cc0989728d7edda3eaf).
+2024-03-17 15:57:43,970 [INFO] -------------
+2024-03-17 15:57:43,971 [INFO] |Fantasy Bot|
+2024-03-17 15:57:43,972 [INFO] -------------
+2024-03-17 15:58:09,944 [INFO] Message from jessejchick: +trade Muzi Nuxga
+2024-03-17 15:58:09,952 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ubuntu/Fantasy Bot/fantasyBotBackend.py", line 954, in on_message
+    if trade['Type'] == 'trade':
+TypeError: 'NoneType' object is not subscriptable
+2024-03-17 16:00:06,227 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe3d2c882b0>
+2024-03-17 16:00:09,027 [DEBUG] Using selector: EpollSelector
+2024-03-17 16:00:09,028 [INFO] logging in using static token
+2024-03-17 16:00:09,936 [INFO] Shard ID 0 has connected to Gateway (Session ID: 9d8af01d6f8a3eb2d33884d6b9d78a63).
+2024-03-17 16:00:12,012 [INFO] -------------
+2024-03-17 16:00:12,012 [INFO] |Fantasy Bot|
+2024-03-17 16:00:12,013 [INFO] -------------
+2024-03-17 16:00:24,394 [INFO] Message from jessejchick: +trade Muzi Nuxga
+2024-03-17 16:00:33,579 [INFO] Message from jessejchick: +trade Nuxga Muzi
+2024-03-17 16:01:27,721 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f882b2b2020>
+2024-03-17 16:01:34,109 [DEBUG] Using selector: EpollSelector
+2024-03-17 16:01:34,110 [INFO] logging in using static token
+2024-03-17 16:01:34,943 [INFO] Shard ID 0 has connected to Gateway (Session ID: 98610791fc1886cb0bd1b6f504439b0e).
+2024-03-17 16:01:37,048 [INFO] -------------
+2024-03-17 16:01:37,049 [INFO] |Fantasy Bot|
+2024-03-17 16:01:37,049 [INFO] -------------
+2024-03-17 16:02:20,084 [INFO] Message from axon319: +market close BR
+2024-03-17 18:15:33,799 [INFO] Shard ID 0 has successfully RESUMED session 98610791fc1886cb0bd1b6f504439b0e.

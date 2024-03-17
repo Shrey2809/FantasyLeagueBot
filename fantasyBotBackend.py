@@ -295,7 +295,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                             LOWER(player_name) = LOWER('{message.content[6:]}') or LOWER(team_name) = LOWER('{message.content[6:]}')""")
                 player_data = player_data.fetchall()
                 simple_list = str([item[0] for item in player_data]).replace('[', '(').replace(']', ')')
-                roles = ['Fragger', 'Support']
+                roles = ['one']
                 for role in roles:
                     queryTest = f"""
                             SELECT * FROM (          
@@ -303,7 +303,6 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                         player_id,
                                         player_name,
                                         team_name,
-                                        role,
                                         max_daily_score,
                                         ROW_NUMBER() OVER (ORDER BY max_daily_score DESC) AS rank
                                     FROM
@@ -311,13 +310,12 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                             p.player_id,
                                             p.player_name,
                                             p.team_name,
-                                            p.role,
                                             SUM(pdp.total_points) AS max_daily_score
                                         FROM
                                             players p
                                             LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
                                         WHERE
-                                            p.eliminated = FALSE AND p.role = '{role}'
+                                            p.eliminated = FALSE
                                         GROUP BY
                                             p.player_id) AS subquery
                             ) WHERE 
@@ -325,12 +323,12 @@ class fantasyBotBackend(commands.AutoShardedBot):
                             """
                     query = cursor.execute(queryTest)
                     data = query.fetchall()
-                    columns = ['ID', 'Name', 'Team', 'Role', 'Total Score', 'Rank']
+                    columns = ['ID', 'Name', 'Team', 'Total Score', 'Rank']
                     df = pd.DataFrame(data, columns=columns)
                     df = df[['Rank', 'ID', 'Name', 'Team', 'Total Score']]
                     if len(df) == 0:
                         return
-                    embed = discord.Embed(title=f"Search results for {message.content[6:].upper()} for {role}s: ", color=self.generate_random_color())
+                    embed = discord.Embed(title=f"Search results for {message.content[6:].upper()}", color=self.generate_random_color())
                     table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
                     embed.add_field(name='\u200b', value=f'```\n{table}\n```')
                     await message.channel.send(embed=embed)
@@ -780,8 +778,10 @@ class fantasyBotBackend(commands.AutoShardedBot):
             if message.attachments:
                 if message.content.startswith("+EU"):
                     tableName = self.league_db[1215021774501187684]
+                    folderName = 'EU_Stage1'
                 elif message.content.startswith("+BR"):
                     tableName = self.league_db[1215021748391514192]
+                    folderName = 'BR_Stage1'
                 else:
                     await message.channel.send("# File **NOT** processed, use +BR or +EU to specify the league and reupload file")
                     return
@@ -789,7 +789,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 
                 current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M")
 
-                file_name = f'stats//{tableName}//RAW_TOTALS_{current_datetime}.csv'
+                file_name = f'stats//{folderName}//RAW_TOTALS_{current_datetime}.csv'
 
                 for attachment in message.attachments:
                     await attachment.save(file_name)
@@ -950,7 +950,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 await message.channel.send(f"You don't need to trade, just swap players using **+swap *ID1* *ID2***")
                 return
         
-            trade = parse_trade(message.content)
+            trade = parse_new_trade(message.content)
             if trade['Type'] == 'trade':
                 myplayerid = trade['MyPlayer']
                 requestedplayerid = trade['TradeFor']
@@ -987,7 +987,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                             WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id""")
                 data = query.fetchone()
                 if data is not None:
-                    await message.channel.send(f"Player nalready on a team, swap not possible")
+                    await message.channel.send(f"Player already on a team, swap not possible")
                     return
 
                     # requestee_id = data[0]
@@ -1089,6 +1089,65 @@ class fantasyBotBackend(commands.AutoShardedBot):
             embed.add_field(name='\u200b', value=f'```\n{table}\n```')
             await message.channel.send(embed=embed) 
             conn.close()
+
+        # Find a specific player or team - OLD
+        if message.content.startswith("+fsdas") and 4 == 3:
+            self.logger.info(f"Message from {message.author}: {message.content}")
+            try:
+                userID = message.author.id
+                if message.channel.id in [1215021748391514192, 1215021774501187684]:
+                    conn = sqlite3.connect(self.league_db[message.channel.id])
+                else: 
+                    conn = sqlite3.connect(self.league_db[840243454537891851])
+                cursor = conn.cursor()
+                player_data = cursor.execute(f"""SELECT player_id FROM players WHERE 
+                                            LOWER(player_name) = LOWER('{message.content[6:]}') or LOWER(team_name) = LOWER('{message.content[6:]}')""")
+                player_data = player_data.fetchall()
+                simple_list = str([item[0] for item in player_data]).replace('[', '(').replace(']', ')')
+                roles = ['Fragger', 'Support']
+                for role in roles:
+                    queryTest = f"""
+                            SELECT * FROM (          
+                                    SELECT
+                                        player_id,
+                                        player_name,
+                                        team_name,
+                                        role,
+                                        max_daily_score,
+                                        ROW_NUMBER() OVER (ORDER BY max_daily_score DESC) AS rank
+                                    FROM
+                                        (SELECT
+                                            p.player_id,
+                                            p.player_name,
+                                            p.team_name,
+                                            p.role,
+                                            SUM(pdp.total_points) AS max_daily_score
+                                        FROM
+                                            players p
+                                            LEFT JOIN player_daily_performance pdp ON p.player_id = pdp.player_id
+                                        WHERE
+                                            p.eliminated = FALSE AND p.role = '{role}'
+                                        GROUP BY
+                                            p.player_id) AS subquery
+                            ) WHERE 
+                                player_id in {simple_list};
+                            """
+                    query = cursor.execute(queryTest)
+                    data = query.fetchall()
+                    columns = ['ID', 'Name', 'Team', 'Role', 'Total Score', 'Rank']
+                    df = pd.DataFrame(data, columns=columns)
+                    df = df[['Rank', 'ID', 'Name', 'Team', 'Total Score']]
+                    if len(df) == 0:
+                        return
+                    embed = discord.Embed(title=f"Search results for {message.content[6:].upper()} for {role}s: ", color=self.generate_random_color())
+                    table = tabulate(df, headers='keys', tablefmt="simple_outline", showindex="never")
+                    embed.add_field(name='\u200b', value=f'```\n{table}\n```')
+                    await message.channel.send(embed=embed)
+            except Exception as e:
+                await message.channel.send(f"Error finding player or team, please try again")
+                self.logger.error(e)
+            finally:
+                conn.close()
 
 
     # Start the bot
