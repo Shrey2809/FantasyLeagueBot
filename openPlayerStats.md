@@ -1,29 +1,25 @@
-┌─────────────┬───────────────┬───────────────┬────────┬───────────────┐
-│   Player ID │ Player Name   │ Team Name     │ Role   │   Total Score │
-├─────────────┼───────────────┼───────────────┼────────┼───────────────┤
-│           9 │ Nuxga         │ Black Dragons │        │            45 │
-│          14 │ Wizard        │ NiP           │        │            44 │
-│          36 │ Rare          │ MIBR          │        │            40 │
-│           2 │ Nesk          │ Liquid        │        │            39 │
-│           8 │ Guto          │ Black Dragons │        │            37 │
-│          16 │ Arthur        │ E1            │        │            36 │
-│           6 │ Ask           │ Black Dragons │        │            34 │
-│          11 │ Psycho        │ NiP           │        │            28 │
-│          46 │ Astro         │ Fluxo         │        │            28 │
-│          10 │ Florio        │ Black Dragons │        │            27 │
-│          18 │ Emptz         │ E1            │        │            21 │
-│          17 │ Flastry       │ E1            │        │            20 │
-│          33 │ Daffodil      │ Keyd Stars    │        │            20 │
-│          49 │ Mitrix        │ Fluxo         │        │            17 │
-│          31 │ Lenda         │ Keyd Stars    │        │            16 │
-│          40 │ Bullet        │ MIBR          │        │            16 │
-│          37 │ Gomes         │ MIBR          │        │            13 │
-│          39 │ Semper        │ MIBR          │        │             8 │
-│          38 │ Yektz         │ MIBR          │        │             4 │
-│          28 │ Dash          │ W7M           │        │             2 │
-│          48 │ Rappz         │ Fluxo         │        │            -4 │
-│          50 │ Hash          │ Fluxo         │        │            -5 │
-│           4 │ Resetz        │ Liquid        │        │           -10 │
-│          47 │ Lukid         │ Fluxo         │        │           -12 │
-│          19 │ Stk           │ E1            │        │           -18 │
-└─────────────┴───────────────┴───────────────┴────────┴───────────────┘
+┌─────────────┬───────────────┬─────────────┬────────┬───────────────┐
+│   Player ID │ Player Name   │ Team Name   │ Role   │   Total Score │
+├─────────────┼───────────────┼─────────────┼────────┼───────────────┤
+│          20 │ Sheppard      │ Virtus Pro  │        │           255 │
+│          14 │ Deapek        │ Fnatic      │        │           236 │
+│          40 │ Raikoss       │ Ence        │        │           218 │
+│           8 │ Savage        │ Secret      │        │           212 │
+│          38 │ Nayqo         │ Ence        │        │           194 │
+│          45 │ Virtue        │ G2          │        │           193 │
+│          23 │ Noa           │ ITB         │        │           186 │
+│           1 │ Biboo         │ Wolves      │        │           181 │
+│          12 │ Tyrant        │ Fnatic      │        │           166 │
+│          25 │ Oscr          │ ITB         │        │           166 │
+│          24 │ Kendrew       │ ITB         │        │           165 │
+│           7 │ Gruby         │ Secret      │        │           157 │
+│          42 │ Benja         │ G2          │        │           137 │
+│           4 │ Shinka        │ Wolves      │        │           134 │
+│          34 │ Lollo         │ Wylde       │        │           134 │
+│          37 │ Jaks          │ Ence        │        │           109 │
+│          39 │ Frenchy       │ Ence        │        │           108 │
+│          32 │ Nelo          │ Wylde       │        │            95 │
+│          35 │ Pacbull       │ Wylde       │        │            94 │
+│          46 │ Azoxx         │ Ence        │        │            76 │
+│          31 │ Kanto         │ Wylde       │        │            66 │
+└─────────────┴───────────────┴─────────────┴────────┴───────────────┘

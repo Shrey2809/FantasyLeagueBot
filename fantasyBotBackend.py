@@ -353,7 +353,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                                             WHERE p.eliminated = FALSE AND
                                                 p.player_id NOT IN (
                                                 SELECT cgt.player_id
-                                                FROM closed_game_teams cgt
+                                                FROM closed_game_teams cgt WHERE is_active = 1
                                             )
                                             GROUP BY p.player_id
                                             ORDER BY max_daily_score DESC;""")
@@ -417,7 +417,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     query = cursor.execute(f"""
                     SELECT 
                         closed_game_score,
-                        'DAY ' || (CAST(strftime('%d', date) AS INTEGER) - 13) AS Day
+                        date
                     FROM 
                         manager_daily_scores mds
                         INNER JOIN managers m ON m.manager_id = mds.manager_id and m.discord_user_id = {userID}
@@ -427,7 +427,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     query = cursor.execute(f"""
                     SELECT 
                         open_game_score,
-                        'DAY ' || (CAST(strftime('%d', date) AS INTEGER) - 13) AS Day
+                        date
                     FROM 
                         manager_daily_scores mds
                         INNER JOIN managers m ON m.manager_id = mds.manager_id and m.discord_user_id = {userID}
@@ -822,17 +822,20 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 elif message.content[8:8+len("close")] == "close" and message.author.id in self.admin_users:
                     if message.content[8+len("close "):] == "BR":
                         tableName = self.league_db[1215021748391514192]
+                        channelId = 1215021748391514192
                         channel = self.get_channel(1215021748391514192)
                     elif message.content[8+len("close "):] == "EU":
                         tableName = self.league_db[1215021774501187684]
+                        channelId = 1215021774501187684
                         channel = self.get_channel(1215021774501187684)
+
 
                     conn = sqlite3.connect(tableName)
                     cursor = conn.cursor()
                     cursor.execute(f"""UPDATE market_status SET is_open = 0, updated_at = datetime('now') WHERE market_id = 1""")
                 
                     await channel.send(f"Market is now closed!")
-                    self.market_open = False
+                    self.market_open[channelId] = False
                     conn.commit()       
                 else:
                     await message.channel.send(f"Invalid market command")
@@ -971,7 +974,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 out_player_role = data[1]
                 
                 # Get the player id of the player being traded for
-                query = cursor.execute(f"""SELECT player_id, player_name, role FROM players WHERE player_id = '{requestedplayerid}' or LOWER(player_name) = LOWER('{myplayerid}')""")
+                query = cursor.execute(f"""SELECT player_id, player_name, role FROM players WHERE player_id = '{requestedplayerid}' or LOWER(player_name) = LOWER('{requestedplayerid}')""")
                 data = query.fetchone()
                 requestee_player_id = data[0]
                 requestee_player_name = data[1]
@@ -1006,7 +1009,7 @@ class fantasyBotBackend(commands.AutoShardedBot):
                     cursor.execute(f"""INSERT INTO closed_game_teams (manager_id, player_id) VALUES ({manager_id}, {requestee_player_id})""")
                     cursor.execute(f"""INSERT INTO trades (requester_id, requester_player_id, requestee_player_id, is_accepted, is_open) VALUES 
                                 ({manager_id}, {requester_player_id}, {requestee_player_id}, TRUE, FALSE)""")
-                    cursor.execute(f"""UPDATE closed_game_teams SET is_active = False WHERE player_id = {requester_player_id} and manager_id = {manager_id}""")
+                    cursor.execute(f"""UPDATE closed_game_teams SET is_active = False WHERE player_id = {requester_player_id} and manager_id = (SELECT manager_id FROM managers WHERE discord_user_id = {userID})""")
                     await message.channel.send(f"Player not on a team, swap complete")
             elif trade['Type'] == 'accept':
                 trade_id = trade['TradeID']

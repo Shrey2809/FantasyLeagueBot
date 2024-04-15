@@ -1,54 +1,50 @@
-┌─────────────┬───────────────┬───────────────┬────────┬───────────────┐
-│   Player ID │ Player Name   │ Team Name     │ Role   │   Total Score │
-├─────────────┼───────────────┼───────────────┼────────┼───────────────┤
-│          34 │ Hatez         │ Keyd Stars    │        │            82 │
-│          41 │ Herdz         │ Furia         │        │            53 │
-│           7 │ Loira         │ Black Dragons │        │            50 │
-│          26 │ Volpz         │ W7M           │        │            47 │
-│           9 │ Nuxga         │ Black Dragons │        │            45 │
-│          14 │ Wizard        │ NiP           │        │            44 │
-│          25 │ Kds           │ FaZe          │        │            41 │
-│          36 │ Rare          │ MIBR          │        │            40 │
-│          45 │ Nade          │ Furia         │        │            40 │
-│           2 │ Nesk          │ Liquid        │        │            39 │
-│          15 │ Kondz         │ NiP           │        │            39 │
-│           8 │ Guto          │ Black Dragons │        │            37 │
-│          12 │ Pino          │ NiP           │        │            37 │
-│          16 │ Arthur        │ E1            │        │            36 │
-│           3 │ Paluh         │ Liquid        │        │            35 │
-│          24 │ Soulz         │ FaZe          │        │            35 │
-│          44 │ Felipox       │ Furia         │        │            35 │
-│           6 │ Ask           │ Black Dragons │        │            34 │
-│          22 │ Handy         │ FaZe          │        │            31 │
-│          11 │ Psycho        │ NiP           │        │            28 │
-│          35 │ Hornet        │ Keyd Stars    │        │            28 │
-│          46 │ Astro         │ Fluxo         │        │            28 │
-│           1 │ Lagonis       │ Liquid        │        │            27 │
-│          10 │ Florio        │ Black Dragons │        │            27 │
-│          21 │ Vitaking      │ FaZe          │        │            27 │
-│          42 │ Kheyze        │ Furia         │        │            27 │
-│          32 │ Stemp         │ Keyd Stars    │        │            22 │
-│          13 │ Muzi          │ NiP           │        │            21 │
-│          18 │ Emptz         │ E1            │        │            21 │
-│          29 │ Dotz          │ W7M           │        │            21 │
-│          17 │ Flastry       │ E1            │        │            20 │
-│          33 │ Daffodil      │ Keyd Stars    │        │            20 │
-│          43 │ Jv92          │ Furia         │        │            18 │
-│          49 │ Mitrix        │ Fluxo         │        │            17 │
-│          30 │ Dodez         │ W7M           │        │            16 │
-│          31 │ Lenda         │ Keyd Stars    │        │            16 │
-│          40 │ Bullet        │ MIBR          │        │            16 │
-│          37 │ Gomes         │ MIBR          │        │            13 │
-│           5 │ Maia          │ Liquid        │        │            12 │
-│          27 │ Lobin         │ W7M           │        │            12 │
-│          23 │ Cyber         │ FaZe          │        │             9 │
-│          39 │ Semper        │ MIBR          │        │             8 │
-│          20 │ Peres         │ E1            │        │             5 │
-│          38 │ Yektz         │ MIBR          │        │             4 │
-│          28 │ Dash          │ W7M           │        │             2 │
-│          48 │ Rappz         │ Fluxo         │        │            -4 │
-│          50 │ Hash          │ Fluxo         │        │            -5 │
-│           4 │ Resetz        │ Liquid        │        │           -10 │
-│          47 │ Lukid         │ Fluxo         │        │           -12 │
-│          19 │ Stk           │ E1            │        │           -18 │
-└─────────────┴───────────────┴───────────────┴────────┴───────────────┘
+┌─────────────┬───────────────┬─────────────┬────────┬───────────────┐
+│   Player ID │ Player Name   │ Team Name   │ Role   │   Total Score │
+├─────────────┼───────────────┼─────────────┼────────┼───────────────┤
+│          29 │ Yuzus         │ BDS         │        │           321 │
+│          36 │ Skyz          │ Ence        │        │           295 │
+│           6 │ Adrian        │ Secret      │        │           290 │
+│           5 │ Deadshot      │ Wolves      │        │           274 │
+│          21 │ Azzr          │ ITB         │        │           258 │
+│          44 │ Uuno          │ G2          │        │           252 │
+│          22 │ Creedz        │ ITB         │        │           249 │
+│          26 │ Shaiiko       │ BDS         │        │           248 │
+│          11 │ Leongids      │ Fnatic      │        │           247 │
+│          15 │ Jeggz         │ Fnatic      │        │           240 │
+│          41 │ Alemao        │ G2          │        │           237 │
+│           2 │ P4            │ Wolves      │        │           233 │
+│          13 │ Jigsaw        │ Fnatic      │        │           211 │
+│          14 │ Deapek        │ Fnatic      │        │           208 │
+│          28 │ Likefac       │ BDS         │        │           204 │
+│           3 │ Mowwwgli      │ Wolves      │        │           203 │
+│          20 │ Sheppard      │ Virtus Pro  │        │           197 │
+│          27 │ Brid          │ BDS         │        │           196 │
+│          45 │ Virtue        │ G2          │        │           193 │
+│          40 │ Raikoss       │ Ence        │        │           188 │
+│           1 │ Biboo         │ Wolves      │        │           184 │
+│          10 │ Miracle       │ Secret      │        │           180 │
+│          16 │ Pasha         │ Virtus Pro  │        │           173 │
+│          43 │ Doki          │ G2          │        │           172 │
+│          38 │ Nayqo         │ Ence        │        │           171 │
+│          18 │ Dan           │ Virtus Pro  │        │           168 │
+│          19 │ Always        │ Virtus Pro  │        │           167 │
+│           8 │ Savage        │ Secret      │        │           161 │
+│           9 │ Jume          │ Secret      │        │           155 │
+│          23 │ Noa           │ ITB         │        │           146 │
+│          12 │ Tyrant        │ Fnatic      │        │           144 │
+│          30 │ Solotov       │ BDS         │        │           140 │
+│          24 │ Kendrew       │ ITB         │        │           137 │
+│          42 │ Benja         │ G2          │        │           137 │
+│          17 │ Joystick      │ Virtus Pro  │        │           135 │
+│          33 │ Teb           │ Wylde       │        │           134 │
+│           4 │ Shinka        │ Wolves      │        │           133 │
+│          25 │ Oscr          │ ITB         │        │           123 │
+│          37 │ Jaks          │ Ence        │        │           117 │
+│           7 │ Gruby         │ Secret      │        │           115 │
+│          39 │ Frenchy       │ Ence        │        │           108 │
+│          35 │ Pacbull       │ Wylde       │        │            96 │
+│          34 │ Lollo         │ Wylde       │        │            93 │
+│          32 │ Nelo          │ Wylde       │        │            89 │
+│          46 │ Azoxx         │ Ence        │        │            83 │
+│          31 │ Kanto         │ Wylde       │        │            60 │
+└─────────────┴───────────────┴─────────────┴────────┴───────────────┘
