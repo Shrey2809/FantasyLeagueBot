@@ -1,25 +1,37 @@
-┌─────────────┬───────────────┬─────────────┬────────┬───────────────┐
-│   Player ID │ Player Name   │ Team Name   │ Role   │   Total Score │
-├─────────────┼───────────────┼─────────────┼────────┼───────────────┤
-│          20 │ Sheppard      │ Virtus Pro  │        │           255 │
-│          14 │ Deapek        │ Fnatic      │        │           236 │
-│          40 │ Raikoss       │ Ence        │        │           218 │
-│           8 │ Savage        │ Secret      │        │           212 │
-│          38 │ Nayqo         │ Ence        │        │           194 │
-│          45 │ Virtue        │ G2          │        │           193 │
-│          23 │ Noa           │ ITB         │        │           186 │
-│           1 │ Biboo         │ Wolves      │        │           181 │
-│          12 │ Tyrant        │ Fnatic      │        │           166 │
-│          25 │ Oscr          │ ITB         │        │           166 │
-│          24 │ Kendrew       │ ITB         │        │           165 │
-│           7 │ Gruby         │ Secret      │        │           157 │
-│          42 │ Benja         │ G2          │        │           137 │
-│           4 │ Shinka        │ Wolves      │        │           134 │
-│          34 │ Lollo         │ Wylde       │        │           134 │
-│          37 │ Jaks          │ Ence        │        │           109 │
-│          39 │ Frenchy       │ Ence        │        │           108 │
-│          32 │ Nelo          │ Wylde       │        │            95 │
-│          35 │ Pacbull       │ Wylde       │        │            94 │
-│          46 │ Azoxx         │ Ence        │        │            76 │
-│          31 │ Kanto         │ Wylde       │        │            66 │
-└─────────────┴───────────────┴─────────────┴────────┴───────────────┘
+┌─────────────┬───────────────┬───────────────┬────────┬───────────────┐
+│   Player ID │ Player Name   │ Team Name     │ Role   │   Total Score │
+├─────────────┼───────────────┼───────────────┼────────┼───────────────┤
+│          24 │ Soulz         │ FaZe          │        │           564 │
+│          41 │ Herdz         │ Furia         │        │           542 │
+│          22 │ Handy         │ FaZe          │        │           530 │
+│          44 │ Felipox       │ Furia         │        │           529 │
+│          43 │ Jv92          │ Furia         │        │           503 │
+│          25 │ Kds           │ FaZe          │        │           493 │
+│          20 │ Peres         │ E1            │        │           440 │
+│          16 │ Arthur        │ E1            │        │           431 │
+│           9 │ Nuxga         │ Black Dragons │        │           400 │
+│          17 │ Flastry       │ E1            │        │           400 │
+│          21 │ Vitaking      │ FaZe          │        │           364 │
+│          23 │ Cyber         │ FaZe          │        │           364 │
+│          42 │ Kheyze        │ Furia         │        │           359 │
+│          19 │ Stk           │ E1            │        │           349 │
+│          45 │ Nade          │ Furia         │        │           309 │
+│          31 │ Lenda         │ Keyd Stars    │        │           276 │
+│          36 │ Rare          │ MIBR          │        │           267 │
+│          28 │ Dash          │ W7M           │        │           246 │
+│          18 │ Emptz         │ E1            │        │           240 │
+│           2 │ Nesk          │ Liquid        │        │           239 │
+│          40 │ Bullet        │ MIBR          │        │           208 │
+│          46 │ Astro         │ Fluxo         │        │           181 │
+│          49 │ Mitrix        │ Fluxo         │        │           177 │
+│          38 │ Yektz         │ MIBR          │        │           174 │
+│          12 │ Pino          │ NiP           │        │           163 │
+│          37 │ Gomes         │ MIBR          │        │           162 │
+│          39 │ Semper        │ MIBR          │        │           159 │
+│          50 │ Hash          │ Fluxo         │        │           148 │
+│           4 │ Resetz        │ Liquid        │        │           137 │
+│          14 │ Wizard        │ NiP           │        │           133 │
+│          47 │ Lukid         │ Fluxo         │        │           116 │
+│          11 │ Psycho        │ NiP           │        │           106 │
+│          48 │ Rappz         │ Fluxo         │        │            71 │
+└─────────────┴───────────────┴───────────────┴────────┴───────────────┘
