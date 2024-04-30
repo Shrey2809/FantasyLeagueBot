@@ -14435,3 +14435,207 @@ client_session: <aiohttp.client.ClientSession object at 0x7f60ea807280>
 2024-04-21 10:34:32,560 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
 2024-04-21 14:19:36,521 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
 2024-04-21 17:57:39,019 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-21 19:36:34,224 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-21 20:28:36,666 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-21 22:35:59,427 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 01:51:45,579 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 02:49:33,155 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 05:40:08,082 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 06:18:59,837 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 07:47:37,891 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 11:45:30,803 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 12:27:07,483 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 13:02:27,804 [INFO] Message from aceofpyrite: +openplayers
+2024-04-22 13:04:39,975 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 13:26:16,291 [INFO] Message from aceofpyrite: +trade biboo uuno
+2024-04-22 13:28:15,165 [INFO] Message from aceofpyrite: +allplayers
+2024-04-22 13:57:11,791 [INFO] Message from aceofpyrite: +myteam
+2024-04-22 13:58:53,020 [INFO] Message from tomjsherlock: +myteam
+2024-04-22 13:59:52,276 [INFO] Message from tomjsherlock: +openplayers
+2024-04-22 14:13:59,828 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 14:17:39,084 [INFO] Message from tomjsherlock: +trade jeggz doki
+2024-04-22 14:24:00,499 [INFO] Message from tomjsherlock: +trade doki jeggz
+2024-04-22 15:18:16,102 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 16:11:42,042 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 16:26:14,695 [INFO] Message from axon319: +market close EU
+2024-04-22 19:10:55,555 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 19:43:50,838 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 20:00:44,687 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 20:31:27,426 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 20:51:57,488 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 21:12:01,696 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 21:32:36,098 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-22 23:11:33,151 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 01:12:05,467 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 02:10:30,555 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 05:35:24,767 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 06:09:11,592 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 07:41:08,210 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 08:41:28,122 [INFO] Message from tomjsherlock: +standings
+2024-04-23 10:28:06,951 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 12:03:43,850 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 14:47:30,643 [INFO] Message from aceofpyrite: +openplayers
+2024-04-23 15:58:44,564 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 17:37:04,682 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 18:05:45,460 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 18:13:27,782 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 20:24:37,831 [INFO] Message from freshondesk: +myteam
+2024-04-23 20:42:08,461 [INFO] Message from foxa3: +myteam
+2024-04-23 21:18:34,935 [INFO] Message from axon319: +EU
+2024-04-23 21:18:35,445 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-04-23 21:21:17,528 [INFO] Message from axon319: +standings closed
+2024-04-23 21:50:24,321 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 22:18:07,800 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-23 22:41:17,834 [INFO] Message from jessejchick: +EU
+2024-04-23 22:41:18,320 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-04-23 22:42:30,722 [INFO] Message from axon319: +standings closed
+2024-04-24 01:54:47,070 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 03:10:58,404 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 03:58:34,806 [INFO] Message from jessejchick: +myteam
+2024-04-24 04:19:42,775 [INFO] Message from jessejchick: +myteam
+2024-04-24 04:48:24,800 [INFO] Message from axon319: +market open EU
+2024-04-24 05:30:33,764 [INFO] Message from freshondesk: +openplayers
+2024-04-24 06:34:33,930 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 07:27:06,260 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 08:51:25,407 [INFO] Message from tomjsherlock: +standings
+2024-04-24 09:24:09,716 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 11:05:40,250 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 11:48:03,558 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 12:14:13,695 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 13:45:41,709 [INFO] Message from aceofpyrite: +trade biboo uuno
+2024-04-24 13:45:45,582 [INFO] Message from aceofpyrite: +myteam
+2024-04-24 13:45:53,597 [INFO] Message from aceofpyrite: +allplayers
+2024-04-24 14:23:37,855 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 14:23:48,634 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 14:36:41,639 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 15:49:54,141 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 16:39:07,479 [INFO] Message from jessejchick: +openplayers
+2024-04-24 18:16:21,117 [INFO] Message from freshondesk: +myteam
+2024-04-24 18:24:04,416 [INFO] Message from axon319: +allplayers
+2024-04-24 18:24:24,988 [INFO] Message from axon319: +openplayers
+2024-04-24 18:28:36,283 [INFO] Message from axon319: +openplayers
+2024-04-24 18:29:47,930 [INFO] Message from axon319: +openplayers
+2024-04-24 18:30:37,528 [INFO] Message from axon319: +standings closed
+2024-04-24 18:31:14,773 [INFO] Message from axon319: +market close EU
+2024-04-24 18:32:19,347 [INFO] Message from axon319: +standings closed
+2024-04-24 18:38:04,703 [INFO] Message from axon319: +standings closed
+2024-04-24 18:52:55,113 [INFO] Message from axon319: +market open EU
+2024-04-24 19:13:04,433 [INFO] Message from jessejchick: +myteam
+2024-04-24 19:14:01,573 [INFO] Message from jessejchick: +allplayers
+2024-04-24 19:15:01,145 [INFO] Message from jessejchick: +trade Florio Nuxga
+2024-04-24 19:15:10,619 [INFO] Message from axon319: +openplayers
+2024-04-24 19:16:23,118 [INFO] Message from axon319: +openplayers
+2024-04-24 19:33:11,282 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 20:27:34,982 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 20:53:37,016 [INFO] Message from freshondesk: +openplayers
+2024-04-24 20:55:45,861 [INFO] Message from axon319: +standings closed
+2024-04-24 20:56:36,668 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-24 22:48:16,938 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 02:36:55,464 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 04:47:43,498 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 08:25:28,479 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 11:12:12,865 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 14:15:54,010 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 15:24:09,968 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 15:26:46,018 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 15:32:56,783 [INFO] Message from jessejchick: +myteam
+2024-04-25 15:56:09,460 [INFO] Message from freshondesk: +myteam
+2024-04-25 15:56:21,989 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 16:00:25,595 [INFO] Shard ID 0 has successfully RESUMED session 3238639f815ce28b3dce7fdf6e181f71.
+2024-04-25 16:07:30,352 [INFO] Message from jessejchick: +myteam
+2024-04-25 16:47:10,768 [INFO] Shard ID 0 session has been invalidated.
+2024-04-25 16:47:16,262 [INFO] Shard ID 0 has connected to Gateway (Session ID: 284689d3acd584aa1e7df67ba287b4be).
+2024-04-25 16:47:18,412 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f60ea414070>
+2024-04-25 16:47:18,414 [INFO] -------------
+2024-04-25 16:47:18,414 [INFO] |Fantasy Bot|
+2024-04-25 16:47:18,414 [INFO] -------------
+2024-04-25 17:37:05,971 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 18:24:25,521 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 18:53:26,066 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 19:40:46,062 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 20:16:57,276 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 21:52:55,428 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 22:48:37,180 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-25 22:59:15,436 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 01:49:19,603 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 02:06:13,592 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 02:54:30,281 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 05:58:31,280 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 08:44:38,493 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 09:56:15,547 [INFO] Message from tomjsherlock: +myteam
+2024-04-26 09:57:03,436 [INFO] Message from tomjsherlock: +doki
+2024-04-26 10:39:09,245 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 14:09:18,870 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 15:49:44,806 [INFO] Message from tomjsherlock: +openplayers
+2024-04-26 16:29:36,341 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 20:28:47,895 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-26 21:42:20,581 [INFO] Message from jessejchick: +myteam
+2024-04-26 21:42:23,824 [INFO] Message from jessejchick: +openplayers
+2024-04-26 22:32:35,306 [INFO] Message from jessejchick: +BR
+2024-04-26 22:32:36,035 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-04-27 00:02:58,988 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 00:04:00,723 [INFO] Message from axon319: +market open BR
+2024-04-27 01:09:25,605 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 02:00:57,929 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 02:03:26,112 [INFO] Message from jessejchick: +openplayers
+2024-04-27 02:03:40,930 [INFO] Message from jessejchick: +myteam
+2024-04-27 02:04:00,009 [INFO] Message from jessejchick: +trade Daffodil Astro
+2024-04-27 04:14:48,835 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 04:53:53,615 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 05:13:00,155 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 05:57:35,257 [INFO] Message from flynncasts: +myteam
+2024-04-27 05:58:58,590 [INFO] Message from flynncasts: +trade Muzi Florio
+2024-04-27 05:59:58,371 [INFO] Message from flynncasts: +trade Hornet Mitrix
+2024-04-27 06:00:05,052 [INFO] Message from flynncasts: +myteam
+2024-04-27 07:58:34,260 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 09:43:33,843 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 13:28:24,446 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 15:18:03,061 [INFO] Message from aceofpyrite: +openplayers
+2024-04-27 15:18:41,495 [INFO] Message from aceofpyrite: +myteam
+2024-04-27 16:03:32,242 [INFO] Message from jessejchick: +myteam
+2024-04-27 16:30:48,861 [INFO] Message from axon319: +market close BR
+2024-04-27 16:48:18,299 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 17:16:36,511 [INFO] Message from tomjsherlock: +myteam
+2024-04-27 18:12:36,014 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 21:10:42,940 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-27 23:21:00,705 [INFO] Message from jessejchick: +BR
+2024-04-27 23:21:01,233 [INFO] Message from Fantasy League#2035: File processed and uploaded to the database
+2024-04-27 23:21:10,100 [INFO] Message from jessejchick: +standings
+2024-04-27 23:21:39,542 [INFO] Message from jessejchick: +standings
+2024-04-28 00:47:30,171 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 03:58:04,119 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 06:08:29,391 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 08:09:37,330 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 08:28:58,040 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 10:48:46,327 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 14:23:02,850 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 16:33:51,821 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 18:18:36,256 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 18:39:34,448 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 18:43:38,754 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 19:04:12,501 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 19:13:07,905 [INFO] Message from aceofpyrite: +openplayers
+2024-04-28 19:19:01,241 [INFO] Message from aceofpyrite: +myteam
+2024-04-28 20:44:07,512 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-28 22:35:58,507 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 00:39:10,238 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 04:37:39,414 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 05:25:10,494 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 07:30:16,458 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 08:08:48,010 [INFO] Message from freshondesk: +myteam
+2024-04-29 08:09:26,858 [INFO] Message from freshondesk: +openplayers
+2024-04-29 09:57:38,577 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 12:25:56,051 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 14:23:23,183 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 14:28:02,862 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 14:45:04,300 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 15:56:37,687 [INFO] Message from tomjsherlock: +myteam
+2024-04-29 16:40:40,065 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 17:42:17,602 [INFO] Message from axon319: +market close EU
+2024-04-29 17:43:52,660 [INFO] Message from jessejchick: +myteam
+2024-04-29 18:24:57,864 [INFO] Message from aceofpyrite: +myteam
+2024-04-29 20:01:07,621 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-29 23:40:57,222 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-30 00:50:09,946 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
+2024-04-30 01:04:24,735 [INFO] Shard ID 0 has successfully RESUMED session 284689d3acd584aa1e7df67ba287b4be.
