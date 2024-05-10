@@ -1,33 +1,99 @@
-┌─────────────┬───────────────┬───────────────────┬────────┬───────────────┐
-│   Player ID │ Player Name   │ Team Name         │ Role   │   Total Score │
-├─────────────┼───────────────┼───────────────────┼────────┼───────────────┤
-│          11 │ Leongids      │ Fnatic            │        │           333 │
-│          45 │ Virtue        │ G2                │        │           331 │
-│          43 │ Doki          │ G2                │        │           317 │
-│          12 │ Tyrant        │ Fnatic            │        │           292 │
-│           1 │ Biboo         │ Wolves            │        │           272 │
-│          42 │ Benja         │ G2                │        │           257 │
-│          20 │ Sheppard      │ Virtus Pro        │        │           255 │
-│          40 │ Raikoss       │ Ence              │        │           218 │
-│          18 │ Dan           │ Virtus Pro        │        │           205 │
-│           4 │ Shinka        │ Wolves            │        │           202 │
-│          38 │ Nayqo         │ Ence              │        │           194 │
-│          19 │ Always        │ Virtus Pro        │        │           192 │
-│          34 │ Lollo         │ Wylde             │        │           134 │
-│          37 │ Jaks          │ Ence              │        │           109 │
-│          39 │ Frenchy       │ Ence              │        │           108 │
-│          32 │ Nelo          │ Wylde             │        │            95 │
-│          35 │ Pacbull       │ Wylde             │        │            94 │
-│          46 │ Azoxx         │ Ence              │        │            76 │
-│          31 │ Kanto         │ Wylde             │        │            66 │
-│          47 │ Sloth         │ Forgotten Days    │        │           nan │
-│          48 │ Astro         │ Forgotten Days    │        │           nan │
-│          49 │ Hungry        │ Forgotten Days    │        │           nan │
-│          50 │ Dora          │ Forgotten Days    │        │           nan │
-│          51 │ Yzn           │ Forgotten Days    │        │           nan │
-│          52 │ Stiz          │ Make Your Destiny │        │           nan │
-│          53 │ Bbyshark      │ Make Your Destiny │        │           nan │
-│          54 │ Juuhaa        │ Make Your Destiny │        │           nan │
-│          55 │ Radenty       │ Make Your Destiny │        │           nan │
-│          56 │ Lasmooo       │ Make Your Destiny │        │           nan │
-└─────────────┴───────────────┴───────────────────┴────────┴───────────────┘
+┌─────────────┬───────────────┬─────────────┬───────────────┐
+│   Player ID │ Player Name   │ Team Name   │ Total Score   │
+├─────────────┼───────────────┼─────────────┼───────────────┤
+│           1 │ Shaiiko       │ BDS         │               │
+│           2 │ Brid          │ BDS         │               │
+│           3 │ Likefac       │ BDS         │               │
+│           4 │ Solotov       │ BDS         │               │
+│           5 │ Yuzus         │ BDS         │               │
+│           6 │ Azzr          │ ITB         │               │
+│           7 │ Kendrew       │ ITB         │               │
+│           8 │ Noa           │ ITB         │               │
+│           9 │ Creedz        │ ITB         │               │
+│          10 │ Oscr          │ ITB         │               │
+│          11 │ Savage        │ Secret      │               │
+│          12 │ Gruby         │ Secret      │               │
+│          13 │ Miracle       │ Secret      │               │
+│          14 │ Jume          │ Secret      │               │
+│          15 │ Adrian        │ Secret      │               │
+│          16 │ Dfuzr         │ Beastcoast  │               │
+│          17 │ Gaveni        │ Beastcoast  │               │
+│          19 │ Hotan         │ Beastcoast  │               │
+│          20 │ Spiritz       │ Beastcoast  │               │
+│          21 │ Spoit         │ M80         │               │
+│          22 │ Ctzn          │ M80         │               │
+│          23 │ Cameraman     │ M80         │               │
+│          24 │ Kyno          │ M80         │               │
+│          25 │ Nudl          │ M80         │               │
+│          26 │ Njr           │ DarkZero    │               │
+│          27 │ Panba         │ DarkZero    │               │
+│          28 │ Canadian      │ DarkZero    │               │
+│          29 │ Beaulo        │ DarkZero    │               │
+│          30 │ Nafe          │ DarkZero    │               │
+│          31 │ Cyber         │ FaZe        │               │
+│          32 │ Soulz         │ FaZe        │               │
+│          33 │ Vitaking      │ FaZe        │               │
+│          34 │ Handy         │ FaZe        │               │
+│          35 │ Kds           │ FaZe        │               │
+│          36 │ Arthur        │ E1          │               │
+│          37 │ Flastry       │ E1          │               │
+│          38 │ Emptz         │ E1          │               │
+│          39 │ Peres         │ E1          │               │
+│          40 │ Stk           │ E1          │               │
+│          41 │ Felipox       │ Furia       │               │
+│          42 │ Herdz         │ Furia       │               │
+│          44 │ Kheyze        │ Furia       │               │
+│          46 │ Fishlike      │ Scarz       │               │
+│          47 │ Taiyou        │ Scarz       │               │
+│          48 │ Washoy        │ Scarz       │               │
+│          49 │ Rec           │ Scarz       │               │
+│          50 │ Nina          │ Scarz       │               │
+│          51 │ Misa          │ Talon       │               │
+│          52 │ Royboy        │ Talon       │               │
+│          53 │ Jlt           │ Talon       │               │
+│          54 │ Rider         │ Talon       │               │
+│          55 │ Soldier       │ Talon       │               │
+│          56 │ Odah          │ Bliss       │               │
+│          57 │ Fishoguy      │ Bliss       │               │
+│          58 │ Brendo        │ Bliss       │               │
+│          59 │ Sageon        │ Bliss       │               │
+│          60 │ Wettables     │ Bliss       │               │
+│          61 │ Virtue        │ G2          │               │
+│          62 │ Alemao        │ G2          │               │
+│          63 │ Doki          │ G2          │               │
+│          64 │ Benja         │ G2          │               │
+│          65 │ Uuno          │ G2          │               │
+│          66 │ Fultz         │ SSG         │               │
+│          67 │ Forrest       │ SSG         │               │
+│          68 │ J90           │ SSG         │               │
+│          70 │ Iconic        │ SSG         │               │
+│          71 │ Nesk          │ Liquid      │               │
+│          73 │ Resetz        │ Liquid      │               │
+│          74 │ Lagonis       │ Liquid      │               │
+│          75 │ Maia          │ Liquid      │               │
+│          76 │ Anitun        │ Cyclops     │               │
+│          77 │ Blackray      │ Cyclops     │               │
+│          78 │ Chibisu       │ Cyclops     │               │
+│          79 │ Shureap       │ Cyclops     │               │
+│          80 │ Sironeko      │ Cyclops     │               │
+│          81 │ Goodboy       │ FearX       │               │
+│          82 │ Mephi         │ FearX       │               │
+│          83 │ Demic         │ FearX       │               │
+│          84 │ Nova          │ FearX       │               │
+│          85 │ Rin           │ FearX       │               │
+│          86 │ Rovi          │ Cruelty     │               │
+│          87 │ Ivan          │ Cruelty     │               │
+│          88 │ Motumbo       │ Cruelty     │               │
+│          89 │ Pyroxz        │ Cruelty     │               │
+│          90 │ Toski         │ Cruelty     │               │
+│          91 │ Asphy         │ Bleed       │               │
+│          92 │ Hoven         │ Bleed       │               │
+│          93 │ Mentalist     │ Bleed       │               │
+│          94 │ Reeps         │ Bleed       │               │
+│          95 │ Terdsta       │ Bleed       │               │
+│          96 │ Srsly         │ Geekay      │               │
+│          97 │ Trixd         │ Geekay      │               │
+│          98 │ Xke           │ Geekay      │               │
+│          99 │ Blaz          │ Geekay      │               │
+│         100 │ Neskin        │ Geekay      │               │
+└─────────────┴───────────────┴─────────────┴───────────────┘

@@ -1,5 +1,5 @@
 import discord
-from fantasyBotBackend import fantasyBotBackend
+from majorFantasyBotBackend import fantasyBotBackend
 import sys
 import json
 

@@ -4,11 +4,11 @@ import sqlite3
 import csv
 
 # open EU Players csv file
-with open('Groups_1 (1).csv', 'r') as file:
+with open('players.csv', 'r') as file:
     # read the csv file
     data = csv.reader(file)
     # create a connection to the database
-    conn = sqlite3.connect('BR_Stage1.db')
+    conn = sqlite3.connect('databases/Manchester.db')
     cursor = conn.cursor()
     # loop through the data and insert into the database
     for i, row in enumerate(data):
