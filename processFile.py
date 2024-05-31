@@ -68,7 +68,7 @@ def insert_data_from_csv(csv_file, table_name):
             manager_id = manager_id[0]
             manager_score = cursor.execute('''
                 SELECT SUM(total_points) FROM player_daily_performance 
-                WHERE player_id IN (SELECT player_id FROM closed_game_teams WHERE manager_id = ? and is_active = True) AND date = ?
+                WHERE player_id IN (SELECT player_id FROM teams WHERE manager_id = ? and is_active = True) AND date = ?
             ''', (manager_id, date)).fetchone()[0]
             cursor.execute('''
                 INSERT INTO manager_daily_scores 
@@ -81,7 +81,7 @@ def insert_data_from_csv(csv_file, table_name):
         manager_id = manager_id[0]
         manager_score = cursor.execute('''
             SELECT SUM(total_points) FROM player_daily_performance 
-            WHERE player_id IN (SELECT player_id FROM open_game_roster WHERE manager_id = ? and is_active = True) AND date = ?
+            WHERE player_id IN (SELECT player_id FROM teams WHERE manager_id = ? and is_active = True) AND date = ?
         ''', (manager_id, date)).fetchone()[0]
         cursor.execute('''
             INSERT INTO manager_daily_scores 

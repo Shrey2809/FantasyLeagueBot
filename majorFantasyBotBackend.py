@@ -895,7 +895,8 @@ class fantasyBotBackend(commands.AutoShardedBot):
                 # Get the manager id of the manager being traded with
                 query = cursor.execute(f"""SELECT cgt.manager_id, m.manager_name, m.discord_user_id
                                             FROM teams cgt, managers m
-                                            WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id""")
+                                            WHERE player_id = '{requestedplayerid}' and is_active = TRUE AND cgt.manager_id = m.manager_id 
+                                            AND cgt.manager_id in (SELECT manager_id FROM managers WHERE in_closed = TRUE)""")
                 data = query.fetchone()
                 if data is not None:
                     await message.channel.send(f"Player already on a team, swap not possible")
